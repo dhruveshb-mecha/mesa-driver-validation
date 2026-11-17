@@ -1,0 +1,1 @@
+** (org.localsend.localsend_app:423120): WARNING **: 18:18:39.230: Failed to create OpenGL context: Unable to create a GL context

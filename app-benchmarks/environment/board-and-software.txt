@@ -1,0 +1,34 @@
+## uname
+Linux 7.1.5-0.mecha.202608260642.fc44.aarch64 aarch64
+Fedora release 44 (Forty Four)
+## mesa packages
+mesa-demos-9.0.0-11.fc44.aarch64
+mesa-dri-drivers-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64
+mesa-filesystem-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64
+mesa-libEGL-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64
+mesa-libGL-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64
+mesa-libGLU-9.0.3-8.fc44.aarch64
+mesa-libGLU-devel-9.0.3-8.fc44.aarch64
+mesa-libTeflon-26.2.5-1.fc44.aarch64
+mesa-libgbm-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64
+mesa-vulkan-drivers-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64
+## gtk / libadwaita / webkit / glib
+gtk4-4.22.5-2.fc44.aarch64
+gtk3-3.24.52-2.fc44.aarch64
+libadwaita-1.9.4-1.fc44.aarch64
+webkitgtk6.0-2.54.2-1.fc44.aarch64
+glib2-2.88.4-1.fc44.aarch64
+glibc-2.43-9.fc44.aarch64
+## apps (GTK4)
+nautilus-50.4-2.fc44.aarch64
+loupe-50.0-1.fc44.aarch64
+gnome-text-editor-50.1-1.fc44.aarch64
+papers-49.8-1.fc44.aarch64
+gnome-maps-50.5-1.fc44.aarch64
+epiphany-50.6-1.fc44.aarch64
+gnome-calculator-50.0-1.fc44.aarch64
+gnome-characters-50.0-1.fc44.aarch64
+gnome-clocks-50.0-1.fc44.aarch64
+gnome-font-viewer-50.0-1.fc44.aarch64
+## eglinfo
+## display

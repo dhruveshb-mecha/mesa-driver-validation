@@ -1,0 +1,68 @@
+{
+ "track": "flutter",
+ "app": "localsend",
+ "mode": "default",
+ "cmd": [
+  "/home/mecha/flutter-apps/localsend/localsend_app"
+ ],
+ "started": "2026-11-04 18:23:18",
+ "app_alive_at_end": true,
+ "exit_code": -15,
+ "gpu_hang_events": 0,
+ "kernel_gpu_lines": 0,
+ "software_renderer_seen": false,
+ "main_surface": "35",
+ "phases": [
+  {
+   "phase": "receive-screen-animated-radar",
+   "fps": 28.5,
+   "commits": 171,
+   "secs": 6.0,
+   "screenshot": "receive-screen-animated-radar.png",
+   "surfaces_commits": {
+    "35": 171
+   }
+  },
+  {
+   "phase": "tab-switch-send",
+   "fps": 31.0,
+   "commits": 124,
+   "secs": 4.0,
+   "screenshot": "tab-switch-send.png",
+   "surfaces_commits": {
+    "35": 124
+   }
+  },
+  {
+   "phase": "tab-switch-settings",
+   "fps": 4.7,
+   "commits": 19,
+   "secs": 4.0,
+   "screenshot": "tab-switch-settings.png",
+   "surfaces_commits": {
+    "35": 19
+   }
+  },
+  {
+   "phase": "settings-scroll",
+   "fps": 2.5,
+   "commits": 15,
+   "secs": 6.0,
+   "screenshot": "settings-scroll.png",
+   "surfaces_commits": {
+    "35": 15
+   }
+  },
+  {
+   "phase": "tab-switch-receive",
+   "fps": 30.7,
+   "commits": 123,
+   "secs": 4.0,
+   "screenshot": "tab-switch-receive.png",
+   "surfaces_commits": {
+    "35": 123
+   }
+  }
+ ],
+ "mesa": "mesa-dri-drivers-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64"
+}

@@ -1,0 +1,6 @@
+Nov 04 17:56:51 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 04 17:56:54 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 04 17:56:57 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 04 17:57:00 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 04 17:57:07 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 04 17:57:10 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!

@@ -1,0 +1,42 @@
+{
+ "track": "gtk4",
+ "app": "epiphany",
+ "mode": "gl",
+ "cmd": [
+  "/usr/bin/epiphany",
+  "--incognito-mode",
+  "file:///home/mecha/appbench-run-412551/page.html"
+ ],
+ "started": "2026-11-04 17:53:50",
+ "app_alive_at_end": true,
+ "exit_code": -9,
+ "gpu_hang_events": 0,
+ "kernel_gpu_lines": 0,
+ "software_renderer_seen": false,
+ "main_surface": "47",
+ "phases": [
+  {
+   "phase": "css-canvas-webgl-page",
+   "fps": 0.0,
+   "commits": 0,
+   "secs": 8.0,
+   "screenshot": "css-canvas-webgl-page.png",
+   "surfaces_commits": {
+    "47": 0,
+    "52": 0
+   }
+  },
+  {
+   "phase": "scroll-page",
+   "fps": 0.0,
+   "commits": 0,
+   "secs": 5.0,
+   "screenshot": "scroll-page.png",
+   "surfaces_commits": {
+    "47": 0,
+    "52": 0
+   }
+  }
+ ],
+ "mesa": "mesa-dri-drivers-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64"
+}

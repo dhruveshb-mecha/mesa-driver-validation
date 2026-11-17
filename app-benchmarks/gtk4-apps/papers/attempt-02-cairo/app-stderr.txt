@@ -1,0 +1,9 @@
+
+(papers:419379): Gdk-WARNING **: 18:07:59.941: Cannot get portal org.freedesktop.portal.Settings version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Settings”
+
+(papers:419379): Gdk-WARNING **: 18:07:59.963: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+Environment variable GSK_RENDERER=cairo set, trying GskCairoRenderer
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandToplevel'
+
+(papers:419379): Gtk-WARNING **: 18:08:01.125: Trying to measure GtkGridView 0xaaaade9b4180 for height of 476, but it needs at least 8046
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandPopup'

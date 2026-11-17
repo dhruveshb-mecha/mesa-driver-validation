@@ -1,0 +1,12 @@
+
+(gnome-calculator:421303): Gdk-WARNING **: 18:12:53.638: Cannot get portal org.freedesktop.portal.Settings version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Settings”
+
+(gnome-calculator:421303): Gdk-WARNING **: 18:12:53.661: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+
+(gnome-calculator:421303): Adwaita-WARNING **: 18:12:53.974: The resource style-dark.css is deprecated and shouldn't be used anymore. Use style.css with media queries instead.
+
+(gnome-calculator:421303): Adwaita-WARNING **: 18:12:53.975: The resource style-hc.css is deprecated and shouldn't be used anymore. Use style.css with media queries instead.
+Environment variable GSK_RENDERER=cairo set, trying GskCairoRenderer
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandToplevel'
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandPopup'
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandPopup'

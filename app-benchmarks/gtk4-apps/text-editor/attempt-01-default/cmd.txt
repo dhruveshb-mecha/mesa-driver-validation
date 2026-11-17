@@ -1,0 +1,2 @@
+GDK_BACKEND=wayland MESA_DEBUG=1 EGL_LOG_LEVEL=info LIBGL_DEBUG=verbose GSK_DEBUG=renderer GDK_DEBUG=opengl /usr/bin/gnome-text-editor /home/mecha/appbench-run-410063/long.txt
+# track=gtk4 app=text-editor mode=default

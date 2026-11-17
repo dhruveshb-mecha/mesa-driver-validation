@@ -1,0 +1,5 @@
+(gtk4-widget-factory:3605): Gdk-WARNING **: 22:46:01.934: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+(gtk4-widget-factory:3605): GLib-WARNING **: 22:46:02.854: GError set over the top of a previous GError or uninitialized memory.
+This indicates a bug in someone's code. You must ensure an error is NULL before it's set.
+The overwriting error message was: Unable to create a GL context
+rc=124

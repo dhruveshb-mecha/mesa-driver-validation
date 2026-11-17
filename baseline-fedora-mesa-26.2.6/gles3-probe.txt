@@ -1,0 +1,11 @@
+{
+ "checks": [
+  {
+   "name": "es3_context",
+   "status": "FAIL",
+   "detail": "no ES3 EGL config"
+  }
+ ],
+ "info": {},
+ "verdict": "FAIL"
+}

@@ -1,0 +1,12 @@
+ [ente_logging][INFO] [2026-11-04 18:19:57.316617] log file for today: File: '/home/mecha/.local/share/io.ente.auth/logs/2026-11-4.txt' with prefix 
+[ente_logging][INFO] [2026-11-04 18:19:57.316617] app version: '4.4.27+1007'
+[ente_logging][INFO] [2026-11-04 18:19:57.316617] 
+ [main][INFO] [2026-11-04 18:19:57.317209] Starting app in foreground
+ [Configuration][INFO] [2026-11-04 18:19:57.329066] Skipping temp folder clear
+ [Configuration][INFO] [2026-11-04 18:19:57.479345] User ID: null
+Building OnboardingPage
+ [UpdateService][INFO] [2026-11-04 18:19:58.290050] Debouncing notification
+Building OnboardingPage
+Building OnboardingPage
+Building OnboardingPage
+Building OnboardingPage

@@ -1,0 +1,10 @@
+
+(org.gnome.Characters:413876): Gdk-WARNING **: 17:57:24.814: Cannot get portal org.freedesktop.portal.Settings version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Settings”
+
+(org.gnome.Characters:413876): Gdk-WARNING **: 17:57:24.838: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+Gjs-Message: 17:57:25.135: JS LOG: Characters Application started
+Environment variable GSK_RENDERER=cairo set, trying GskCairoRenderer
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandToplevel'
+
+(org.gnome.Characters:413876): Adwaita-WARNING **: 17:57:25.321: AdwNavigationPage 0xaaaac409a5b0 is missing a title. To hide a header bar title, consider using AdwHeaderBar:show-title instead.
+Gjs-Message: 17:57:25.331: JS LOG: Characters Application activated

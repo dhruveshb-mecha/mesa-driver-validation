@@ -1,0 +1,2 @@
+PATH=/home/mecha/flutter-apps/shims:/usr/local/bin:/usr/bin GDK_BACKEND=wayland MESA_DEBUG=1 EGL_LOG_LEVEL=info LIBGL_DEBUG=verbose GDK_GL=gles /home/mecha/flutter-apps/firmware_updater/firmware-updater
+# track=flutter app=firmware-updater mode=gles

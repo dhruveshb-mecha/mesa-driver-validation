@@ -1,0 +1,104 @@
+
+(papers:411208): Gdk-WARNING **: 17:50:11.172: Cannot get portal org.freedesktop.portal.Settings version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Settings”
+
+(papers:411208): Gdk-WARNING **: 17:50:11.195: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+Environment variable GSK_RENDERER=gl set, trying GskGLRenderer
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+EGL API version 1.5 found
+ - Vendor: Mesa Project
+ - Version: 1.5
+ - Device: /dev/dri/renderD128, 226 128
+ - Client APIs: OpenGL OpenGL_ES 
+ - Extensions:
+	EGL_ANDROID_blob_cache
+	EGL_ANDROID_native_fence_sync
+	EGL_EXT_buffer_age
+	EGL_EXT_config_select_group
+	EGL_EXT_image_dma_buf_import
+	EGL_EXT_image_dma_buf_import_modifiers
+	EGL_EXT_pixel_format_float
+	EGL_EXT_present_opaque
+	EGL_EXT_surface_compression
+	EGL_EXT_swap_buffers_with_damage
+	EGL_KHR_cl_event2
+	EGL_KHR_config_attribs
+	EGL_KHR_context_flush_control
+	EGL_KHR_create_context
+	EGL_KHR_create_context_no_error
+	EGL_KHR_fence_sync
+	EGL_KHR_get_all_proc_addresses
+	EGL_KHR_gl_colorspace
+	EGL_KHR_gl_renderbuffer_image
+	EGL_KHR_gl_texture_2D_image
+	EGL_KHR_gl_texture_3D_image
+	EGL_KHR_gl_texture_cubemap_image
+	EGL_KHR_image_base
+	EGL_KHR_no_config_context
+	EGL_KHR_partial_update
+	EGL_KHR_reusable_sync
+	EGL_KHR_surfaceless_context
+	EGL_KHR_swap_buffers_with_damage
+	EGL_KHR_wait_sync
+	EGL_MESA_configless_context
+	EGL_MESA_gl_interop
+	EGL_MESA_image_dma_buf_export
+	EGL_MESA_query_driver
+	EGL_MESA_x11_native_visual_id
+ - Selected fbconfig: R8G8B8A8, depth 0, stencil 0
+          high depth: none
+Creating EGL context version 3.0 (debug:no, forward:no, legacy:no, es:yes)
+Using OpenGL backend EGL
+OpenGL ES version: 3.0 (core)
+GLSL version: OpenGL ES GLSL ES 3.00
+Max texture size: 8192
+Enabled features (use GDK_GL_DISABLE env var to disable):
+    debug: ✓
+    base-instance: ✗
+    buffer-storage: ✗
+    external-objects: ✗
+    external-objects-win32: ✗
+    blend-func-extended: ✗
+Creating EGL context version 3.0 (debug:no, forward:no, legacy:no, es:yes)
+OpenGL ES version: 3.0 (core)
+GLSL version: OpenGL ES GLSL ES 3.00
+Max texture size: 8192
+Enabled features (use GDK_GL_DISABLE env var to disable):
+    debug: ✓
+    base-instance: ✗
+    buffer-storage: ✗
+    external-objects: ✗
+    external-objects-win32: ✗
+    blend-func-extended: ✗
+Using renderer 'GskGLRenderer' for surface 'GdkWaylandToplevel'
+Resizing EGL window to 1180 1340
+Resizing EGL window to 1152 1216
+
+(papers:411208): Gtk-WARNING **: 17:50:14.484: Trying to measure GtkGridView 0xaaaadff04db0 for height of 476, but it needs at least 8046
+Creating EGL context version 3.0 (debug:no, forward:no, legacy:no, es:yes)
+OpenGL ES version: 3.0 (core)
+GLSL version: OpenGL ES GLSL ES 3.00
+Max texture size: 8192
+Enabled features (use GDK_GL_DISABLE env var to disable):
+    debug: ✓
+    base-instance: ✗
+    buffer-storage: ✗
+    external-objects: ✗
+    external-objects-win32: ✗
+    blend-func-extended: ✗
+Using renderer 'GskGLRenderer' for surface 'GdkWaylandPopup'
+Resizing EGL window to 172 66
+Destroying EGL context

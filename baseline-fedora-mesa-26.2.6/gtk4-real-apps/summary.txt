@@ -1,0 +1,12 @@
+gnome-text-editor-gl alive=yes
+gnome-text-editor-cairo alive=yes
+nautilus-gl alive=yes
+nautilus-cairo alive=yes
+loupe-gl alive=yes
+loupe-cairo alive=yes
+gnome-characters-gl alive=yes
+gnome-characters-cairo alive=yes
+gnome-clocks-gl alive=yes
+gnome-clocks-cairo alive=yes
+gnome-maps-gl alive=yes
+gnome-maps-cairo alive=yes

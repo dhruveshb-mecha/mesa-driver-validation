@@ -1,0 +1,8 @@
+
+(org.gnome.Maps:420020): Gdk-WARNING **: 18:09:50.408: Cannot get portal org.freedesktop.portal.Settings version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Settings”
+
+(org.gnome.Maps:420020): Gdk-WARNING **: 18:09:50.430: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+
+(org.gnome.Maps:420020): Adwaita-WARNING **: 18:09:50.726: The resource style-dark.css is deprecated and shouldn't be used anymore. Use style.css with media queries instead.
+Environment variable GSK_RENDERER=cairo set, trying GskCairoRenderer
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandToplevel'

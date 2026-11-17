@@ -1,0 +1,2 @@
+GDK_BACKEND=wayland MESA_DEBUG=1 EGL_LOG_LEVEL=info LIBGL_DEBUG=verbose LD_LIBRARY_PATH=/home/mecha/flutter-apps/ld-ayatana /home/mecha/flutter-apps/localsend/localsend_app
+# track=flutter app=localsend mode=default

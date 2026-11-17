@@ -1,0 +1,4 @@
+INFO firmware-updater: Logging to /home/mecha/.local/share/firmware-updater/firmware-updater.log
+INFO firmware-updater: Could not connect to @/snapd/snapd-snap.socket: SocketException: Connection failed (OS Error: Connection refused, errno = 111), address = @/snapd/snapd-snap.socket, port = 0. Using /run/snapd-snap.socket instead.
+ERROR config_service: Could not read config file /home/mecha/.config/firmware-updater/firmware-updater.yml: PathNotFoundException: Cannot open file, path = '/home/mecha/.config/firmware-updater/firmware-updater.yml' (OS Error: No such file or directory, errno = 2)
+ERROR fwupd_service: Could not read /etc/lsb-release: PathNotFoundException: Cannot open file, path = '/etc/lsb-release' (OS Error: No such file or directory, errno = 2)

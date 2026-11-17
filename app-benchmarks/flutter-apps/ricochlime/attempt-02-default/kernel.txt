@@ -1,0 +1,2 @@
+Nov 04 18:25:52 comet kernel: hdmi-audio-codec hdmi-audio-codec.1: HDMI: Unknown ELD version 0
+Nov 04 18:25:53 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!

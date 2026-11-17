@@ -1,0 +1,69 @@
+{
+ "track": "gtk4",
+ "app": "papers",
+ "mode": "default",
+ "cmd": [
+  "/usr/bin/papers",
+  "/home/mecha/appbench-run-418848/doc.pdf"
+ ],
+ "started": "2026-11-04 18:06:33",
+ "app_alive_at_end": true,
+ "exit_code": -15,
+ "gpu_hang_events": 0,
+ "kernel_gpu_lines": 0,
+ "software_renderer_seen": false,
+ "main_surface": "43",
+ "phases": [
+  {
+   "phase": "open-60-page-pdf-idle",
+   "fps": 10.3,
+   "commits": 31,
+   "secs": 3.0,
+   "screenshot": "open-60-page-pdf-idle.png",
+   "surfaces_commits": {
+    "43": 31
+   }
+  },
+  {
+   "phase": "page-down-keys",
+   "fps": 12.0,
+   "commits": 84,
+   "secs": 7.0,
+   "screenshot": "page-down-keys.png",
+   "surfaces_commits": {
+    "43": 84
+   }
+  },
+  {
+   "phase": "zoom-in-button",
+   "fps": 5.7,
+   "commits": 23,
+   "secs": 4.0,
+   "screenshot": "zoom-in-button.png",
+   "surfaces_commits": {
+    "43": 23
+   }
+  },
+  {
+   "phase": "scroll-zoomed-pages",
+   "fps": 18.1,
+   "commits": 127,
+   "secs": 7.0,
+   "screenshot": "scroll-zoomed-pages.png",
+   "surfaces_commits": {
+    "43": 127
+   }
+  },
+  {
+   "phase": "zoom-out-button",
+   "fps": 9.5,
+   "commits": 38,
+   "secs": 4.0,
+   "screenshot": "zoom-out-button.png",
+   "surfaces_commits": {
+    "43": 38
+   }
+  }
+ ],
+ "mesa": "mesa-dri-drivers-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64"
+}

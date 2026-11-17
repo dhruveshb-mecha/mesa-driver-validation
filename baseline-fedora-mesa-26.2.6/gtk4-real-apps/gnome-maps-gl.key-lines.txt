@@ -1,0 +1,5 @@
+(org.gnome.Maps:9359): Adwaita-WARNING **: 23:14:21.013: The resource style-dark.css is deprecated and shouldn't be used anymore. Use style.css with media queries instead.
+(org.gnome.Maps:9359): GLib-WARNING **: 23:14:22.503: GError set over the top of a previous GError or uninitialized memory.
+(org.gnome.Maps:9359): Gdk-WARNING **: 23:14:20.715: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+(org.gnome.Maps:9359): Gsk-WARNING **: 23:14:22.503: Failed to realize renderer 'GskGLRenderer' for surface 'GdkWaylandToplevel': No EGL configuration available
+The overwriting error message was: Unable to create a GL context

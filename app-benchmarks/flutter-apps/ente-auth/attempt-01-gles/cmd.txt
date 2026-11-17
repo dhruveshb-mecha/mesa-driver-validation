@@ -1,0 +1,2 @@
+GDK_BACKEND=wayland MESA_DEBUG=1 EGL_LOG_LEVEL=info LIBGL_DEBUG=verbose GDK_GL=gles LD_LIBRARY_PATH=/home/mecha/flutter-apps/ente_auth/lib /home/mecha/flutter-apps/ente_auth/enteauth
+# track=flutter app=ente-auth mode=gles

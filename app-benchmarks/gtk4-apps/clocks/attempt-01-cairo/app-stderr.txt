@@ -1,0 +1,10 @@
+
+(org.gnome.clocks:414327): Gdk-WARNING **: 17:58:55.674: Cannot get portal org.freedesktop.portal.Settings version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Settings”
+
+(org.gnome.clocks:414327): Gdk-WARNING **: 17:58:55.698: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+
+** (org.gnome.clocks:414327): WARNING **: 17:58:56.027: utils.vala:147: Failed to get clock format from portal, fallback to GSettings.
+Environment variable GSK_RENDERER=cairo set, trying GskCairoRenderer
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandToplevel'
+
+(org.gnome.clocks:414327): org.gnome.Clocks-WARNING **: 17:59:01.758: geocoding.vala:42: Failed to connect to GeoClue2 service: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Remote peer disconnected

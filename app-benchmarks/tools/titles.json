@@ -1,0 +1,17 @@
+{
+ "loupe": "Loupe (GNOME Image Viewer) - 6000x4000 JPEG zoom",
+ "nautilus": "Nautilus (GNOME Files) - thumbnail grid scrolling",
+ "text-editor": "GNOME Text Editor - 30000-line file scroll and typing",
+ "papers": "Papers (GNOME Document Viewer) - 60-page PDF scroll and zoom",
+ "maps": "GNOME Maps - tile map pan and zoom",
+ "epiphany": "Epiphany (GNOME Web, WebKitGTK 6) - CSS + canvas2D + WebGL2 page",
+ "calculator": "GNOME Calculator - widgets and popover",
+ "characters": "GNOME Characters - emoji grid scroll and search",
+ "clocks": "GNOME Clocks - tabs and stopwatch",
+ "font-viewer": "GNOME Font Viewer - list scroll and search",
+ "localsend": "LocalSend (Flutter) - animated radar, tabs, settings",
+ "ente-auth": "Ente Auth (Flutter) - onboarding carousel and routes",
+ "firmware-updater": "Canonical Firmware Updater (Flutter) - startup",
+ "ricochlime": "Ricochlime (Flutter + Flame game) - menu and gameplay",
+ "fladder": "Fladder (Flutter Jellyfin client) - login screen"
+}

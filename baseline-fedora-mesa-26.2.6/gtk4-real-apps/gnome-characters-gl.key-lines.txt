@@ -1,0 +1,5 @@
+(org.gnome.Characters:9103): Adwaita-WARNING **: 23:13:31.069: AdwNavigationPage 0xaaaae8bf2760 is missing a title. To hide a header bar title, consider using AdwHeaderBar:show-title instead.
+(org.gnome.Characters:9103): GLib-WARNING **: 23:13:30.781: GError set over the top of a previous GError or uninitialized memory.
+(org.gnome.Characters:9103): Gdk-WARNING **: 23:13:30.051: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+(org.gnome.Characters:9103): Gsk-WARNING **: 23:13:30.781: Failed to realize renderer 'GskGLRenderer' for surface 'GdkWaylandToplevel': No EGL configuration available
+The overwriting error message was: Unable to create a GL context

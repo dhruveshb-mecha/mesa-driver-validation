@@ -1,0 +1,1 @@
+Nov 04 18:21:13 comet kernel: hdmi-audio-codec hdmi-audio-codec.1: HDMI: Unknown ELD version 0

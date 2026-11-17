@@ -1,0 +1,10 @@
+[IMPORTANT:flutter/shell/platform/embedder/embedder_surface_gl_impeller.cc(126)] Using the Impeller rendering backend (OpenGLESSDF).
+Gdk-Message: 22:46:28.021: Unable to load  from the cursor theme
+No provider of glBlitFramebuffer found.  Requires one of:
+    Desktop OpenGL 3.0
+    GL_ARB_framebuffer_object
+    OpenGL ES 3.0
+    GL_EXT_framebuffer_blit
+    GL_NV_framebuffer_blit
+timeout: the monitored command dumped core
+rc=134

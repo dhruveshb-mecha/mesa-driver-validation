@@ -1,0 +1,21 @@
+# board state
+7.2.4-0.202610231332.fc44.aarch64
+IMAGE_VERSION="20261105-0909"
+BUILD_ID="7491ae9"
+mesa-demos-9.0.0-11.fc44.aarch64
+mesa-dri-drivers-26.2.6-1.fc44.aarch64
+mesa-dxil-devel-26.2.6-1.fc44.aarch64
+mesa-filesystem-26.2.6-1.fc44.aarch64
+mesa-libEGL-26.2.6-1.fc44.aarch64
+mesa-libEGL-devel-26.2.6-1.fc44.aarch64
+mesa-libGL-26.2.6-1.fc44.aarch64
+mesa-libGL-devel-26.2.6-1.fc44.aarch64
+mesa-libGLU-9.0.3-8.fc44.aarch64
+mesa-libGLU-devel-9.0.3-8.fc44.aarch64
+mesa-libOpenCL-26.2.6-1.fc44.aarch64
+mesa-libOpenCL-devel-26.2.6-1.fc44.aarch64
+mesa-libTeflon-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64
+mesa-libgbm-26.2.6-1.fc44.aarch64
+mesa-libgbm-devel-26.2.6-1.fc44.aarch64
+mesa-vulkan-drivers-26.2.6-1.fc44.aarch64
+

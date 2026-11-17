@@ -1,0 +1,5 @@
+(org.gnome.Nautilus:8843): GLib-WARNING **: 23:12:40.921: GError set over the top of a previous GError or uninitialized memory.
+(org.gnome.Nautilus:8843): Gdk-WARNING **: 23:12:40.024: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+(org.gnome.Nautilus:8843): Gsk-WARNING **: 23:12:40.921: Failed to realize renderer 'GskGLRenderer' for surface 'GdkWaylandToplevel': No EGL configuration available
+** (org.gnome.Nautilus:8843): WARNING **: 23:12:41.248: Unable to create connection for session-wide Tracker indexer: Could not activate remote peer 'org.freedesktop.Tracker3.Miner.Files': unit failed
+The overwriting error message was: Unable to create a GL context

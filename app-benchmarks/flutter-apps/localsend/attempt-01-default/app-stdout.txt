@@ -1,0 +1,10 @@
+dynamic_color: Accent color detected.
+2026-11-04 18:18:39.476210    [INFO] [PersistenceService] Existing version: 3
+2026-11-04 18:18:39.665118    [INFO] [TrayHelper] Using "assets/img/logo-32-white.png" as path of system tray icon
+2026-11-04 18:18:39.715879    [INFO] [ChildIsolateMain] Child isolate is ready: DiscoveryIsolate (logLevel: INFO)
+2026-11-04 18:18:39.722153    [INFO] [ChildIsolateMain] Child isolate is ready: HttpUploadIsolate (logLevel: INFO)
+2026-11-04 18:18:39.724408    [INFO] [ChildIsolateMain] Child isolate is ready: HttpServerIsolate (logLevel: INFO)
+2026-11-04 18:18:39.819559    [INFO] [Server] Starting server...
+2026-11-04 18:18:39.868640    [INFO] [Server] Server started. (Port: 53317, HTTPS only)
+2026-11-04 18:18:40.008488    [INFO] [NetworkInfo] Network state: [192.168.0.33]
+2026-11-04 18:18:40.099041    [INFO] [NetworkInfo] Network state: [192.168.0.33]

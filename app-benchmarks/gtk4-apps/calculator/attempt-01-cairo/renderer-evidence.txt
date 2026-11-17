@@ -1,0 +1,3 @@
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandToplevel'
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandPopup'
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandPopup'

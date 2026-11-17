@@ -1,0 +1,76 @@
+{
+ "track": "gtk4",
+ "app": "nautilus",
+ "mode": "default",
+ "cmd": [
+  "/usr/bin/nautilus",
+  "--new-window",
+  "/home/mecha/appbench-run-414975/files"
+ ],
+ "started": "2026-11-04 18:00:53",
+ "app_alive_at_end": true,
+ "exit_code": -15,
+ "gpu_hang_events": 0,
+ "kernel_gpu_lines": 0,
+ "software_renderer_seen": false,
+ "main_surface": "43",
+ "phases": [
+  {
+   "phase": "folder-grid-idle",
+   "fps": 0.0,
+   "commits": 0,
+   "secs": 3.0,
+   "screenshot": "folder-grid-idle.png",
+   "surfaces_commits": {
+    "43": 0,
+    "55": 0
+   }
+  },
+  {
+   "phase": "open-folder-with-image-thumbnails",
+   "fps": 20.2,
+   "commits": 121,
+   "secs": 6.0,
+   "screenshot": "open-folder-with-image-thumbnails.png",
+   "surfaces_commits": {
+    "43": 121,
+    "55": 1
+   }
+  },
+  {
+   "phase": "scroll-thumbnails-down",
+   "fps": 14.8,
+   "commits": 89,
+   "secs": 6.0,
+   "screenshot": "scroll-thumbnails-down.png",
+   "surfaces_commits": {
+    "43": 89,
+    "55": 0
+   }
+  },
+  {
+   "phase": "scroll-thumbnails-up",
+   "fps": 13.5,
+   "commits": 81,
+   "secs": 6.0,
+   "screenshot": "scroll-thumbnails-up.png",
+   "surfaces_commits": {
+    "43": 81,
+    "55": 0
+   }
+  },
+  {
+   "phase": "switch-to-list-view",
+   "fps": 20.7,
+   "commits": 83,
+   "secs": 4.0,
+   "screenshot": "switch-to-list-view.png",
+   "surfaces_commits": {
+    "43": 83,
+    "55": 0,
+    "59": 5
+   }
+  }
+ ],
+ "mesa": "mesa-dri-drivers-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64"
+}

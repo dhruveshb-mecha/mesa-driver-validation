@@ -1,0 +1,49 @@
+{
+ "track": "gtk4",
+ "app": "font-viewer",
+ "mode": "default",
+ "cmd": [
+  "/usr/bin/gnome-font-viewer"
+ ],
+ "started": "2026-11-04 18:16:28",
+ "app_alive_at_end": true,
+ "exit_code": -15,
+ "gpu_hang_events": 0,
+ "kernel_gpu_lines": 0,
+ "software_renderer_seen": false,
+ "main_surface": "43",
+ "phases": [
+  {
+   "phase": "font-list-idle",
+   "fps": 29.3,
+   "commits": 88,
+   "secs": 3.0,
+   "screenshot": "font-list-idle.png",
+   "surfaces_commits": {
+    "43": 88
+   }
+  },
+  {
+   "phase": "scroll-font-list",
+   "fps": 27.0,
+   "commits": 189,
+   "secs": 7.0,
+   "screenshot": "scroll-font-list.png",
+   "surfaces_commits": {
+    "43": 189
+   }
+  },
+  {
+   "phase": "search-sans",
+   "fps": 31.2,
+   "commits": 125,
+   "secs": 4.0,
+   "screenshot": "search-sans.png",
+   "surfaces_commits": {
+    "43": 125,
+    "34": 2
+   }
+  }
+ ],
+ "mesa": "mesa-dri-drivers-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64"
+}

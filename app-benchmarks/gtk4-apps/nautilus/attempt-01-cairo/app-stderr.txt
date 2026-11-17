@@ -1,0 +1,11 @@
+** Message: 17:45:12.180: Connecting to org.freedesktop.Tracker3.Miner.Files
+nautilus-application-Message: 17:45:12.188: Failed to initialize display server connection: Cannot invoke method; proxy is for the well-known name org.gnome.Mutter.ServiceChannel without an owner, and proxy was constructed with the G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START flag
+
+(org.gnome.Nautilus:408749): Gdk-WARNING **: 17:45:12.200: Cannot get portal org.freedesktop.portal.Settings version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Settings”
+
+(org.gnome.Nautilus:408749): Gdk-WARNING **: 17:45:12.220: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+Environment variable GSK_RENDERER=cairo set, trying GskCairoRenderer
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandToplevel'
+
+** (org.gnome.Nautilus:408749): WARNING **: 17:45:12.930: Unable to create connection for session-wide Tracker indexer: Could not activate remote peer 'org.freedesktop.Tracker3.Miner.Files': unit failed
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandPopup'

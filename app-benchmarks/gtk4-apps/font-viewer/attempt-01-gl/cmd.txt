@@ -1,0 +1,2 @@
+GDK_BACKEND=wayland MESA_DEBUG=1 EGL_LOG_LEVEL=info LIBGL_DEBUG=verbose GSK_DEBUG=renderer GDK_DEBUG=opengl GSK_RENDERER=gl /usr/bin/gnome-font-viewer
+# track=gtk4 app=font-viewer mode=gl

@@ -1,0 +1,1 @@
+** (io.ente.auth:424804): WARNING **: 18:24:36.552: Failed to create OpenGL context: Unable to create a GL context

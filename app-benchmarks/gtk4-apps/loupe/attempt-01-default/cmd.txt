@@ -1,0 +1,2 @@
+GDK_BACKEND=wayland MESA_DEBUG=1 EGL_LOG_LEVEL=info LIBGL_DEBUG=verbose GSK_DEBUG=renderer GDK_DEBUG=opengl /usr/bin/loupe /home/mecha/appbench-run-409551/images/photo1.jpg
+# track=gtk4 app=loupe mode=default

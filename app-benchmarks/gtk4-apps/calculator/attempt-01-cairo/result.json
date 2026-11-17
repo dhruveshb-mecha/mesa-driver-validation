@@ -1,0 +1,51 @@
+{
+ "track": "gtk4",
+ "app": "calculator",
+ "mode": "cairo",
+ "cmd": [
+  "/usr/bin/gnome-calculator"
+ ],
+ "started": "2026-11-04 17:55:47",
+ "app_alive_at_end": true,
+ "exit_code": -15,
+ "gpu_hang_events": 0,
+ "kernel_gpu_lines": 0,
+ "software_renderer_seen": false,
+ "main_surface": "43",
+ "phases": [
+  {
+   "phase": "startup-idle",
+   "fps": 28.3,
+   "commits": 85,
+   "secs": 3.0,
+   "screenshot": "startup-idle.png",
+   "surfaces_commits": {
+    "43": 85,
+    "49": 0
+   }
+  },
+  {
+   "phase": "type-expression",
+   "fps": 24.5,
+   "commits": 98,
+   "secs": 4.0,
+   "screenshot": "type-expression.png",
+   "surfaces_commits": {
+    "43": 98,
+    "49": 1
+   }
+  },
+  {
+   "phase": "open-mode-popover",
+   "fps": 2.3,
+   "commits": 7,
+   "secs": 3.0,
+   "screenshot": "open-mode-popover.png",
+   "surfaces_commits": {
+    "43": 7,
+    "49": 8
+   }
+  }
+ ],
+ "mesa": "mesa-dri-drivers-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64"
+}
