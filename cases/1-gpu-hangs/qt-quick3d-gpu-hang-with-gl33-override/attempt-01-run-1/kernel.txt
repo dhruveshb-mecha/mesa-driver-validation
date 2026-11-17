@@ -1,0 +1,29 @@
+Nov 02 15:09:04.976244 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:09:08.104550 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:09:11.204965 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:09:14.281286 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:09:17.378810 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:09:20.486797 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:09:23.955491 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:09:27.063654 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:09:33.956171 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:09:37.042181 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:09:47.962187 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:09:51.032258 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:10:07.956350 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:10:11.033391 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:10:36.955442 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:10:40.034453 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:11:19.955181 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:11:23.038180 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:11:57.421359 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 02 15:11:57.424636 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/usr/lib64/qt6/examples/quick3d/principledmaterial/bin/principledmaterial)
+Nov 02 15:12:23.966507 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:12:27.068310 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 02 15:13:04.112730 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 02 15:13:08.663540 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 02 15:13:08.667659 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/usr/lib64/qt6/examples/quick3d/reflectionprobes/bin/reflectionprobes)
+Nov 02 15:13:21.295633 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 02 15:13:21.301520 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/usr/lib64/qt6/examples/quick3d/cascadedshadowmaps/bin/cascadedshadowmaps)
+Nov 02 15:13:34.015732 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 02 15:13:34.019573 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/usr/lib64/qt6/examples/quick3d/sceneeffects/bin/sceneeffects)

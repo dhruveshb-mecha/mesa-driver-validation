@@ -1,0 +1,8 @@
+url=https://quenq.com/apps/vice-city/
+seconds_with_fps=211
+avg_fps=7.7
+min_fps=0.05
+max_fps=58.86
+p5_fps=0.11
+gpu_hangs=0
+chromium_exit=0

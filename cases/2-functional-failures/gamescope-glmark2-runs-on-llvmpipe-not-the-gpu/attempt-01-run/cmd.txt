@@ -1,0 +1,1 @@
+gamescope -W 1280 -H 720 -- glmark2-es2 --fullscreen -b build

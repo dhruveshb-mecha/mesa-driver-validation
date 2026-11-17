@@ -1,0 +1,22 @@
+$ ls -l /dev/dri/ /dev/video* /dev/media* 2>&1
+
+crw-rw----+ 1 root video 506, 0 Nov  3 01:42 /dev/media0
+crw-rw----+ 1 root video 506, 1 Nov  3 01:42 /dev/media1
+crw-rw----+ 1 root video 506, 2 Nov  3 01:42 /dev/media2
+crw-rw----+ 1 root video 506, 3 Nov  3 01:42 /dev/media3
+crw-rw----+ 1 root video 506, 4 Nov  3 01:42 /dev/media4
+crw-rw----+ 1 root video  81, 0 Nov  3 01:42 /dev/video0
+crw-rw----+ 1 root video  81, 1 Nov  3 01:42 /dev/video1
+crw-rw----+ 1 root video  81, 2 Nov  3 01:42 /dev/video2
+crw-rw----+ 1 root video  81, 3 Nov  3 01:42 /dev/video3
+crw-rw----+ 1 root video  81, 4 Nov  3 01:42 /dev/video4
+crw-rw----+ 1 root video  81, 5 Nov  3 01:42 /dev/video5
+crw-rw----+ 1 root video  81, 6 Nov  3 01:42 /dev/video6
+
+/dev/dri/:
+total 0
+drwxr-xr-x  2 root root        120 Nov  3 01:42 by-path
+crw-rw----+ 1 root video  226,   0 Nov  3 01:42 card0
+crw-rw----+ 1 root video  226,   1 Nov  3 01:42 card1
+crw-rw----+ 1 root video  226,   2 Nov  3 01:42 card2
+crw-rw-rw-  1 root render 226, 128 Nov  3 01:42 renderD128

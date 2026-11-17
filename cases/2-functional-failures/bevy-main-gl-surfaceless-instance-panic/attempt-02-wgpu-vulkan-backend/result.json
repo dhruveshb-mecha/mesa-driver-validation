@@ -1,0 +1,19 @@
+{
+ "id": "wgpu.bevy-main-vulkan",
+ "status": "RAN_FAIL",
+ "rc": 101,
+ "timed_out": false,
+ "duration_s": 0.4,
+ "expected": "not-mesa",
+ "temp_c_before": {
+  "bq27441-0": 49.0,
+  "soc-thermal": 80.0,
+  "cpu-thermal": 81.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 49.0,
+  "soc-thermal": 80.0,
+  "cpu-thermal": 82.0
+ },
+ "metrics": {}
+}

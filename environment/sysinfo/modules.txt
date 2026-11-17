@@ -1,0 +1,55 @@
+$ lsmod | grep -Ei 'etnaviv|gpu|drm|hantro|v4l2|imx'
+
+imx8mp_interconnect    16384  0
+imx_interconnect       20480  1 imx8mp_interconnect
+reset_imx8mp_audiomix    12288  0
+imx_pcm_dma            12288  1 snd_soc_fsl_sai
+snd_soc_imx_hdmi       12288  2
+snd_soc_core          425984  9 snd_soc_fsl_utils,imx_pcm_dma,snd_soc_fsl_aud2htx,snd_soc_hdmi_codec,snd_soc_max98090,snd_soc_simple_card_utils,snd_soc_simple_card,snd_soc_fsl_sai,snd_soc_imx_hdmi
+imx219                 20480  0
+v4l2_cci               12288  1 imx219
+hantro_vpu            446464  0
+v4l2_vp9               32768  1 hantro_vpu
+v4l2_h264              28672  1 hantro_vpu
+imx8mp_hdmi_tx         12288  0
+imx8mp_hdmi_pai        12288  0
+dw_hdmi                77824  3 imx8mp_hdmi_tx,dw_hdmi_gp_audio,imx8mp_hdmi_pai
+v4l2_isp               16384  1 rockchip_isp1
+imx_mipi_csis          32768  1
+v4l2_jpeg              16384  1 hantro_vpu
+imx8mp_hdmi_pvi        12288  0
+v4l2_mem2mem           53248  2 hantro_vpu,dw100
+drm_display_helper    311296  1 dw_hdmi
+v4l2_fwnode            40960  4 rockchip_isp1,imx219,imx_mipi_csis
+videobuf2_dma_contig    24576  3 rockchip_isp1,hantro_vpu,dw100
+cec                    90112  3 dw_hdmi_cec,drm_display_helper,dw_hdmi
+videobuf2_v4l2         45056  4 rockchip_isp1,hantro_vpu,v4l2_mem2mem,dw100
+v4l2_async             32768  4 v4l2_fwnode,rockchip_isp1,imx219,imx_mipi_csis
+imx_lcdif              28672  4
+videodev              397312  9 v4l2_async,v4l2_fwnode,rockchip_isp1,imx219,videobuf2_v4l2,hantro_vpu,imx_mipi_csis,v4l2_mem2mem,dw100
+drm_client_lib         16384  1 imx_lcdif
+drm_dma_helper         24576  1 imx_lcdif
+videobuf2_common       98304  8 rockchip_isp1,videobuf2_vmalloc,videobuf2_dma_contig,videobuf2_v4l2,hantro_vpu,v4l2_mem2mem,dw100,videobuf2_memops
+imx_bus                12288  0
+dwc3_imx8mp            20480  0
+mc                     90112  10 v4l2_async,videodev,rockchip_isp1,imx219,videobuf2_v4l2,hantro_vpu,videobuf2_common,imx_mipi_csis,v4l2_mem2mem,dw100
+fsl_imx8_ddr_perf      32768  0
+etnaviv               131072  4
+imx_aipstz             12288  0
+imx_sdma               40960  5
+phy_fsl_imx8mq_usb     16384  4
+gpu_sched              65536  1 etnaviv
+imx2_wdt               20480  0
+nvmem_imx_ocotp        16384  0
+imx8mm_thermal         12288  0
+sdhci_esdhc_imx        40960  0
+sdhci_pltfm            16384  1 sdhci_esdhc_imx
+sdhci                  98304  2 sdhci_pltfm,sdhci_esdhc_imx
+cqhci                  40960  1 sdhci_esdhc_imx
+pwm_imx27              12288  0
+imx_mailbox            40960  0
+mmc_core              270336  5 sdhci,cqhci,mmc_block,nxpwifi_sdio,sdhci_esdhc_imx
+drm_kms_helper        237568  8 drm_dma_helper,display_connector,drm_display_helper,imx_lcdif,dw_hdmi,imx8mp_hdmi_pvi,samsung_dsim,drm_client_lib
+i2c_imx                53248  0
+typec                 122880  4 phy_fsl_imx8mq_usb,extcon_usbc_tusb320,tps6598x,gpio_sbu_mux
+imx_cpufreq_dt         12288  0

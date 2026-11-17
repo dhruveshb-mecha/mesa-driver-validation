@@ -1,0 +1,1 @@
+python3 ~/gpu-test/scripts/gtk4_demo_sweep.py gl /tmp/gtk4-demo-repro-path_text-gl 7 '^path_text$'

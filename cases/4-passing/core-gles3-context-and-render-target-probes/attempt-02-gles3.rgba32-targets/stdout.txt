@@ -1,0 +1,4 @@
+PASS rt_RGBA32I fbo status 0x8cd5
+PASS rt_RGBA32UI fbo status 0x8cd5
+PASS rt_RGBA32F fbo status 0x8cd5
+PASS ext_color_buffer_float extension advertised?

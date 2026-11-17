@@ -1,0 +1,3 @@
+PASS transform_feedback_16_verts all outputs correct
+PASS transform_feedback_200_verts all outputs correct
+PASS transform_feedback_1000_verts all outputs correct

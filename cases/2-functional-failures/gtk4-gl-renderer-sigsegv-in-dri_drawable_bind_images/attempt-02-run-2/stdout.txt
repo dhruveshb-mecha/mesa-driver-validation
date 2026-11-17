@@ -1,0 +1,7 @@
+  run 1: SIGSEGV
+  run 2: SIGSEGV
+  run 3: SIGSEGV
+  run 4: SIGSEGV
+  run 5: SIGSEGV
+  run 6: SIGSEGV
+CRASHREPRO scene=text n=30 runs=6 segv=6 ok=0 other=0 median_fps=0 top_frame=#0  0x0000ffff70558c70 dri_drawable_bind_images (libgallium-27.0.0-devel.so + 0xb8c70)

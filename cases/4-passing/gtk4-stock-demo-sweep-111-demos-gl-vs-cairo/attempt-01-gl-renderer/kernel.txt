@@ -1,0 +1,54 @@
+Nov 03 16:37:41.744525 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:37:44.819213 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:38:24.780164 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:38:27.885223 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:39:28.791167 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:39:31.878292 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:41:03.812506 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:41:06.892359 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:43:04.787184 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:43:07.888613 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:43:11.006188 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:43:14.113164 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:43:17.208159 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:43:20.288169 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:43:23.743153 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:43:26.832433 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:43:33.747157 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:43:36.835856 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:43:47.750156 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:43:50.839173 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:44:05.612301 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 16:44:05.614417 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run shadertoy)
+Nov 03 16:44:07.750172 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:44:09.043602 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 16:44:09.045791 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run shadertoy)
+Nov 03 16:44:10.115964 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 16:44:10.117932 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run shadertoy)
+Nov 03 16:44:10.835225 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:44:11.211800 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 16:44:11.214690 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo ()
+Nov 03 16:44:36.753158 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:44:39.850216 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:45:19.748178 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:45:22.854185 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:46:23.799195 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:46:26.902163 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:46:40.043724 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 16:46:40.047165 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run path_text)
+Nov 03 16:46:41.083395 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 16:46:41.086624 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run path_text)
+Nov 03 16:47:58.746508 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:48:01.835268 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:49:59.767917 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:50:02.887511 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:50:06.002285 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:50:09.086638 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:50:12.188523 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:50:15.268489 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:50:18.744192 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:50:21.827488 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:50:28.747444 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:50:31.830226 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:50:42.751170 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 16:50:45.834171 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!

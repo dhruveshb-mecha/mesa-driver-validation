@@ -1,0 +1,1 @@
+WGPU_BACKEND=vulkan RUST_LOG=info ~/bin/eased-motion

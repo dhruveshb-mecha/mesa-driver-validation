@@ -1,0 +1,18 @@
+{
+ "egl_version": "1.5",
+ "egl_vendor": "Mesa Project",
+ "version": "OpenGL ES 3.0 Mesa 27.0.0-devel",
+ "renderer": "Vivante GC7000 rev 6204",
+ "vendor": "Mesa",
+ "glsl": "OpenGL ES GLSL ES 3.00",
+ "MAX_TEXTURE_SIZE": 8192,
+ "MAX_3D_TEXTURE_SIZE": 8192,
+ "MAX_ARRAY_TEXTURE_LAYERS": 8192,
+ "MAX_DRAW_BUFFERS": 4,
+ "MAX_COLOR_ATTACHMENTS": 4,
+ "MAX_SAMPLES": 4,
+ "MAX_TF_SEPARATE_ATTRIBS": 4,
+ "MAX_VERTEX_UNIFORM_VECTORS": 1024
+}
+PASS es3_context OpenGL ES 3.0 Mesa 27.0.0-devel
+PASS hardware_renderer Vivante GC7000 rev 6204

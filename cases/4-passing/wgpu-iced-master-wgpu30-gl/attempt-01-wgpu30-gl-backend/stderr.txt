@@ -1,0 +1,70 @@
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+[2026-11-03T09:06:56Z INFO  iced_wgpu::window::compositor] Settings {
+        present_mode: AutoVsync,
+        backends: Backends(
+            GL,
+        ),
+        power_preference: None,
+        antialiasing: Some(
+            MSAAx4,
+        ),
+    }
+[2026-11-03T09:06:56Z INFO  iced_wgpu::window::compositor] Available adapters: [
+        AdapterInfo {
+            name: "Vivante GC7000 rev 6204",
+            vendor: 65541,
+            device: 0,
+            device_type: Other,
+            device_pci_bus_id: "",
+            driver: "",
+            driver_info: "OpenGL ES 3.0 Mesa 27.0.0-devel",
+            backend: Gl,
+            subgroup_min_size: 4,
+            subgroup_max_size: 128,
+            transient_saves_memory: None,
+            limit_bucket: None,
+        },
+    ]
+[2026-11-03T09:06:56Z INFO  iced_wgpu::window::compositor] Selected: AdapterInfo {
+        name: "Vivante GC7000 rev 6204",
+        vendor: 65541,
+        device: 0,
+        device_type: Other,
+        device_pci_bus_id: "",
+        driver: "",
+        driver_info: "OpenGL ES 3.0 Mesa 27.0.0-devel",
+        backend: Gl,
+        subgroup_min_size: 4,
+        subgroup_max_size: 128,
+        transient_saves_memory: None,
+        limit_bucket: None,
+    }
+[2026-11-03T09:06:56Z INFO  iced_wgpu::window::compositor] Available formats: Copied {
+        it: Iter(
+            [
+                Rgba8UnormSrgb,
+                Bgra8UnormSrgb,
+                Rgba8Unorm,
+                Bgra8Unorm,
+                Rgba16Float,
+            ],
+        ),
+    }
+[2026-11-03T09:06:56Z INFO  iced_wgpu::window::compositor] Available alpha modes: [
+        Opaque,
+    ]
+[2026-11-03T09:06:56Z INFO  iced_wgpu::window::compositor] Selected format: Rgba8Unorm with alpha mode: Auto

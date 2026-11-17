@@ -1,0 +1,72 @@
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+1793695992388	Marionette	INFO	Listening on port 2828
+JavaScript warning: file:///home/mecha/gpu-test/assets/webgl2-probe.html, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: Drawing to a destination rect smaller than the viewport rect. (This warning will only be given once)
+JavaScript warning: , line 0: WebGL warning: getBufferSubData: Reading from a buffer without checking for previous command completion likely causes pipeline stalls. Please use FenceSync.
+1793696010311	Marionette	INFO	Stopped listening on port 2828
+console.error: RSLoader: 
+  Failed to retrieve recipes from Remote Settings
+  Message: Error: Shutdown started
+  Stack:
+    ShutdownStartedError@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:1573:5
+listener@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:743:35
+@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:306:31
+trigger@resource://gre/modules/AsyncShutdown.sys.mjs:773:23
+trigger@resource://gre/modules/AsyncShutdown.sys.mjs:811:11
+_wait@resource://gre/modules/AsyncShutdown.sys.mjs:941:15
+wait@resource://gre/modules/AsyncShutdown.sys.mjs:922:34
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:573:10
+quit@chrome://remote/content/shared/Browser.sys.mjs:102:22
+quit@chrome://remote/content/marionette/driver.sys.mjs:3079:44
+dispatch@chrome://remote/content/marionette/server.sys.mjs:317:49
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:493:20
+
+console.error: ExperimentAPI: 
+  Failed to enable RemoteSettingsExperimentLoader:
+  Message: Error: Shutdown started
+  Stack:
+    ShutdownStartedError@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:1573:5
+listener@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:743:35
+@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:306:31
+trigger@resource://gre/modules/AsyncShutdown.sys.mjs:773:23
+trigger@resource://gre/modules/AsyncShutdown.sys.mjs:811:11
+_wait@resource://gre/modules/AsyncShutdown.sys.mjs:941:15
+wait@resource://gre/modules/AsyncShutdown.sys.mjs:922:34
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:573:10
+quit@chrome://remote/content/shared/Browser.sys.mjs:102:22
+quit@chrome://remote/content/marionette/driver.sys.mjs:3079:44
+dispatch@chrome://remote/content/marionette/server.sys.mjs:317:49
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:493:20
+

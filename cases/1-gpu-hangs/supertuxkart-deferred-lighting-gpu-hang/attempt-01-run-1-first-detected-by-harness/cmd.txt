@@ -1,0 +1,1 @@
+supertuxkart --no-start-screen --track=lighthouse --numkarts=4 --profile-time=40

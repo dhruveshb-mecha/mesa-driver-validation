@@ -1,0 +1,19 @@
+{
+ "id": "wgpu.bevy-main-gl",
+ "status": "RAN_FAIL",
+ "rc": 0,
+ "timed_out": false,
+ "duration_s": 1.2,
+ "expected": "not-mesa",
+ "temp_c_before": {
+  "bq27441-0": 49.0,
+  "soc-thermal": 81.0,
+  "cpu-thermal": 83.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 49.0,
+  "soc-thermal": 82.0,
+  "cpu-thermal": 84.0
+ },
+ "metrics": {}
+}

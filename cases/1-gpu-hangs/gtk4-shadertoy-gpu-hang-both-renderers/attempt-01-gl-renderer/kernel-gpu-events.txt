@@ -1,0 +1,12 @@
+Nov 03 17:09:27.923378 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 17:09:27.927010 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run shadertoy)
+Nov 03 17:09:31.387802 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 17:09:31.389826 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run shadertoy)
+Nov 03 17:09:32.459780 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 17:09:32.461823 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run shadertoy)
+Nov 03 17:09:33.515944 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 17:09:33.517954 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run shadertoy)
+Nov 03 17:09:34.571795 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 17:09:34.573869 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run shadertoy)
+Nov 03 17:09:35.667510 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 17:09:35.669750 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo ()

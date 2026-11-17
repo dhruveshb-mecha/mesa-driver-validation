@@ -1,0 +1,128 @@
+[
+ {
+  "sample": "AnimatedContainer",
+  "fps": 0.0,
+  "commits": 0,
+  "secs": 4.9,
+  "alive": true
+ },
+ {
+  "sample": "PageRouteBuilder",
+  "fps": 4.1,
+  "commits": 20,
+  "secs": 4.9,
+  "alive": true
+ },
+ {
+  "sample": "AnimationController",
+  "fps": 0.4,
+  "commits": 2,
+  "secs": 4.9,
+  "alive": true
+ },
+ {
+  "sample": "Tweens",
+  "fps": 0.4,
+  "commits": 2,
+  "secs": 4.9,
+  "alive": true
+ },
+ {
+  "sample": "AnimatedBuilder",
+  "fps": 27.6,
+  "commits": 137,
+  "secs": 5.0,
+  "alive": true
+ },
+ {
+  "sample": "CustomTween",
+  "fps": 8.3,
+  "commits": 41,
+  "secs": 4.9,
+  "alive": true
+ },
+ {
+  "sample": "TweenSequences",
+  "fps": 0.0,
+  "commits": 0,
+  "secs": 4.9,
+  "alive": true
+ },
+ {
+  "sample": "FadeTransition",
+  "fps": 8.7,
+  "commits": 43,
+  "secs": 5.0,
+  "alive": true
+ },
+ {
+  "sample": "FocusImage",
+  "fps": 0.8,
+  "commits": 4,
+  "secs": 4.9,
+  "alive": true
+ },
+ {
+  "sample": "CardSwipe",
+  "fps": 10.6,
+  "commits": 53,
+  "secs": 5.0,
+  "alive": true
+ },
+ {
+  "sample": "FlutterAnimate",
+  "fps": 35.9,
+  "commits": 180,
+  "secs": 5.0,
+  "alive": true
+ },
+ {
+  "sample": "RepeatingAnimation",
+  "fps": 36.4,
+  "commits": 180,
+  "secs": 5.0,
+  "alive": true
+ },
+ {
+  "sample": "SpringPhysics",
+  "fps": 39.4,
+  "commits": 195,
+  "secs": 5.0,
+  "alive": true
+ },
+ {
+  "sample": "AnimatedList",
+  "fps": 0.0,
+  "commits": 0,
+  "secs": 4.9,
+  "alive": true
+ },
+ {
+  "sample": "AnimatedPositioned",
+  "fps": 0.0,
+  "commits": 0,
+  "secs": 4.9,
+  "alive": true
+ },
+ {
+  "sample": "AnimatedSwitcher",
+  "fps": 8.7,
+  "commits": 43,
+  "secs": 4.9,
+  "alive": true
+ },
+ {
+  "sample": "HeroAnimation",
+  "fps": 0.0,
+  "commits": 0,
+  "secs": 4.9,
+  "alive": true
+ },
+ {
+  "sample": "CurvedAnimation",
+  "fps": 0.0,
+  "commits": 0,
+  "secs": 4.9,
+  "alive": true
+ }
+]

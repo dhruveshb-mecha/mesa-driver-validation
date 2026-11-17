@@ -1,0 +1,38 @@
+[2026-11-03T09:05:46.145Z INFO  wgpu_examples::framework] Entering event loop...
+[2026-11-03T09:05:46.163Z INFO  wgpu_examples::framework] Initializing wgpu...
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+[2026-11-03T09:05:46.292Z INFO  wgpu_examples::framework] Selected adapter: Vivante GC7000 rev 6204 (Gl)
+[2026-11-03T09:05:46.293Z INFO  wgpu_examples::framework] Surface resume PhysicalSize { width: 800, height: 600 }
+[2026-11-03T09:05:48.434Z INFO  wgpu_examples::framework] Surface resize PhysicalSize { width: 1072, height: 1136 }
+[2026-11-03T09:05:48.439Z INFO  wgpu_examples::framework] Frame time 1146.94ms (0.9 FPS)
+[2026-11-03T09:05:49.457Z INFO  wgpu_examples::framework] Frame time 19.96ms (50.1 FPS)
+[2026-11-03T09:05:50.466Z INFO  wgpu_examples::framework] Frame time 19.79ms (50.5 FPS)
+[2026-11-03T09:05:51.475Z INFO  wgpu_examples::framework] Frame time 19.78ms (50.6 FPS)
+[2026-11-03T09:05:52.485Z INFO  wgpu_examples::framework] Frame time 19.80ms (50.5 FPS)
+[2026-11-03T09:05:53.494Z INFO  wgpu_examples::framework] Frame time 19.78ms (50.5 FPS)
+[2026-11-03T09:05:54.503Z INFO  wgpu_examples::framework] Frame time 19.78ms (50.5 FPS)
+[2026-11-03T09:05:55.513Z INFO  wgpu_examples::framework] Frame time 19.80ms (50.5 FPS)
+[2026-11-03T09:05:56.523Z INFO  wgpu_examples::framework] Frame time 19.81ms (50.5 FPS)
+[2026-11-03T09:05:57.532Z INFO  wgpu_examples::framework] Frame time 19.79ms (50.5 FPS)
+[2026-11-03T09:05:58.542Z INFO  wgpu_examples::framework] Frame time 20.61ms (48.5 FPS)
+[2026-11-03T09:05:59.552Z INFO  wgpu_examples::framework] Frame time 20.20ms (49.5 FPS)
+[2026-11-03T09:06:00.582Z INFO  wgpu_examples::framework] Frame time 26.42ms (37.9 FPS)
+[2026-11-03T09:06:01.612Z INFO  wgpu_examples::framework] Frame time 29.42ms (34.0 FPS)
+[2026-11-03T09:06:02.621Z INFO  wgpu_examples::framework] Frame time 29.70ms (33.7 FPS)
+[2026-11-03T09:06:03.650Z INFO  wgpu_examples::framework] Frame time 26.39ms (37.9 FPS)
+[2026-11-03T09:06:04.680Z INFO  wgpu_examples::framework] Frame time 26.39ms (37.9 FPS)
+[2026-11-03T09:06:05.690Z INFO  wgpu_examples::framework] Frame time 25.90ms (38.6 FPS)

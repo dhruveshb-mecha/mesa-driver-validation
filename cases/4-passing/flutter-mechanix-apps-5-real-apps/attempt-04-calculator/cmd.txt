@@ -1,0 +1,1 @@
+mechanix_calculator -s 1

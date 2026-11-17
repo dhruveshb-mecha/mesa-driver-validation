@@ -1,0 +1,1 @@
+rm -rf /tmp/ffprof; mkdir -p /tmp/ffprof; MOZ_ENABLE_WAYLAND=1 firefox --new-instance --profile /tmp/ffprof --no-remote file://$HOME/gpu-test/assets/webgl2-probe.html

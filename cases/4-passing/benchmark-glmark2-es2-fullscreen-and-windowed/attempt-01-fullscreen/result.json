@@ -1,0 +1,19 @@
+{
+ "id": "benchmark.glmark2-es2-fullscreen",
+ "status": "RAN_OK",
+ "rc": 0,
+ "timed_out": false,
+ "duration_s": 336.8,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 49.0,
+  "soc-thermal": 76.0,
+  "cpu-thermal": 78.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 50.4,
+  "soc-thermal": 82.0,
+  "cpu-thermal": 84.0
+ },
+ "metrics": {}
+}

@@ -1,0 +1,5 @@
+$ for d in /sys/class/devfreq/*; do echo $d; cat $d/cur_freq 2>&1; cat $d/available_frequencies 2>&1; done
+
+/sys/class/devfreq/32700000.interconnect
+1000000000
+200000000 800000000 1000000000

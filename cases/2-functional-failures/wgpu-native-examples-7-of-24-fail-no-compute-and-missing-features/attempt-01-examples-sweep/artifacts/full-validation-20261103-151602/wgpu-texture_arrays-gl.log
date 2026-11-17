@@ -1,0 +1,21 @@
+[2026-11-03T09:47:27.649Z INFO  wgpu_examples::framework] Entering event loop...
+[2026-11-03T09:47:27.660Z INFO  wgpu_examples::framework] Initializing wgpu...
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+
+thread 'main' (165167) panicked at examples/features/src/utils.rs:226:24:
+No suitable GPU adapters found on the system!
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

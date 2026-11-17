@@ -1,0 +1,1 @@
+python3 ~/gpu-test/scripts/gtk4_bench_matrix.py /tmp/gtk4-bench

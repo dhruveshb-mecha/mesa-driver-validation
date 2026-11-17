@@ -1,0 +1,19 @@
+{
+ "id": "core.gles3.context",
+ "status": "RAN_OK",
+ "rc": 0,
+ "timed_out": false,
+ "duration_s": 0.6,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 51.0,
+  "soc-thermal": 80.0,
+  "cpu-thermal": 82.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 51.0,
+  "soc-thermal": 81.0,
+  "cpu-thermal": 83.0
+ },
+ "metrics": {}
+}

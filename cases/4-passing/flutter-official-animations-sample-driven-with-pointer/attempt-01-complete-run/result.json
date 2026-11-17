@@ -1,0 +1,19 @@
+{
+ "id": "toolkit.flutter-demo.animations-drive",
+ "status": "RAN_OK",
+ "rc": 0,
+ "timed_out": false,
+ "duration_s": 194.9,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 46.3,
+  "soc-thermal": 75.0,
+  "cpu-thermal": 76.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 46.5,
+  "soc-thermal": 74.0,
+  "cpu-thermal": 76.0
+ },
+ "metrics": {}
+}

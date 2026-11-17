@@ -1,0 +1,1 @@
+python3 ~/gpu-test/scripts/flutter_bench_matrix.py /tmp/flutter-bench

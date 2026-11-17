@@ -1,0 +1,19 @@
+{
+ "id": "game.supertuxkart.autoplay-no-dynamic-lights",
+ "status": "RAN_OK",
+ "rc": 0,
+ "timed_out": false,
+ "duration_s": 81.9,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 51.7,
+  "soc-thermal": 80.0,
+  "cpu-thermal": 81.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 51.5,
+  "soc-thermal": 83.0,
+  "cpu-thermal": 84.0
+ },
+ "metrics": {}
+}

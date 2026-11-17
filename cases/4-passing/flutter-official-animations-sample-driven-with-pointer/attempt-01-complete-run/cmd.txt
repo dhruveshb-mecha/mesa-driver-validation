@@ -1,0 +1,1 @@
+python3 ~/gpu-test/scripts/flutter_anim_drive.py /tmp/flutter-anim-drive 6

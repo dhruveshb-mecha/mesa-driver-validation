@@ -1,0 +1,44 @@
+[2026-11-03T09:06:33.115Z INFO  wgpu_examples::framework] Entering event loop...
+[2026-11-03T09:06:33.126Z INFO  wgpu_examples::framework] Initializing wgpu...
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+[2026-11-03T09:06:33.297Z INFO  wgpu_examples::framework] Selected adapter: llvmpipe (LLVM 22.1.8, 128 bits) (Vulkan)
+[2026-11-03T09:06:33.618Z INFO  wgpu_examples::framework] Surface resume PhysicalSize { width: 800, height: 600 }
+[2026-11-03T09:06:34.536Z INFO  wgpu_examples::framework] Surface resize PhysicalSize { width: 1072, height: 1136 }
+[2026-11-03T09:06:34.547Z INFO  wgpu_examples::framework] Frame time 715.85ms (1.4 FPS)
+[2026-11-03T09:06:35.698Z INFO  wgpu_examples::framework] Frame time 164.55ms (6.1 FPS)
+[2026-11-03T09:06:36.723Z INFO  wgpu_examples::framework] Frame time 128.07ms (7.8 FPS)
+[2026-11-03T09:06:37.838Z INFO  wgpu_examples::framework] Frame time 111.53ms (9.0 FPS)
+[2026-11-03T09:06:38.974Z INFO  wgpu_examples::framework] Frame time 141.93ms (7.0 FPS)
+[2026-11-03T09:06:39.998Z INFO  wgpu_examples::framework] Frame time 113.77ms (8.8 FPS)
+[2026-11-03T09:06:41.083Z INFO  wgpu_examples::framework] Frame time 108.55ms (9.2 FPS)
+[2026-11-03T09:06:42.153Z INFO  wgpu_examples::framework] Frame time 97.25ms (10.3 FPS)
+[2026-11-03T09:06:43.187Z INFO  wgpu_examples::framework] Frame time 93.98ms (10.6 FPS)
+[2026-11-03T09:06:44.191Z INFO  wgpu_examples::framework] Frame time 100.46ms (10.0 FPS)
+[2026-11-03T09:06:45.215Z INFO  wgpu_examples::framework] Frame time 102.34ms (9.8 FPS)
+[2026-11-03T09:06:46.294Z INFO  wgpu_examples::framework] Frame time 98.08ms (10.2 FPS)
+[2026-11-03T09:06:47.358Z INFO  wgpu_examples::framework] Frame time 88.73ms (11.3 FPS)
+[2026-11-03T09:06:48.398Z INFO  wgpu_examples::framework] Frame time 94.52ms (10.6 FPS)
+[2026-11-03T09:06:49.434Z INFO  wgpu_examples::framework] Frame time 86.33ms (11.6 FPS)
+[2026-11-03T09:06:50.449Z INFO  wgpu_examples::framework] Frame time 92.32ms (10.8 FPS)
+[2026-11-03T09:06:51.524Z INFO  wgpu_examples::framework] Frame time 89.54ms (11.2 FPS)
+[2026-11-03T09:06:52.537Z INFO  wgpu_examples::framework] Frame time 84.39ms (11.9 FPS)

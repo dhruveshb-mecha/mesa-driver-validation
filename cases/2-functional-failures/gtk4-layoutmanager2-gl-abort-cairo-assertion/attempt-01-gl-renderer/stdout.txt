@@ -1,0 +1,2 @@
+{"demo": "layoutmanager2", "renderer_requested": "gl", "alive_at_screenshot": false, "early_rc": -6, "crashed": true, "warnings": 2, "gtk_renderer": "GskGLRenderer", "blank": null}
+GTK4DEMOSWEEP renderer=gl demos=1 ok=0 crashed=1 blank=0

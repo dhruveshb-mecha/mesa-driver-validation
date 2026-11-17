@@ -1,0 +1,7 @@
+Nov 03 07:39:52.098238 comet kernel: hdmi-audio-codec hdmi-audio-codec.1: HDMI: Unknown ELD version 0
+Nov 03 07:40:00.947499 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 07:40:00.949521 comet kernel: etnaviv-gpu 38000000.gpu: offending task: supertuxkart (supertuxkart --no-start-screen --track=lighthouse --numkarts=4 --profile-time=40)
+Nov 03 07:40:03.747465 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 07:40:06.833231 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 07:41:38.750313 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 07:41:41.855250 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!

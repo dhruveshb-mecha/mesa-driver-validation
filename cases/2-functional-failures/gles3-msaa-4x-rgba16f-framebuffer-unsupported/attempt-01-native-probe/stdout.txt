@@ -1,0 +1,8 @@
+PASS rt_RGBA8 fbo status 0x8cd5
+PASS rt_SRGB8_ALPHA8 fbo status 0x8cd5
+PASS rt_RGBA16F fbo status 0x8cd5
+PASS msaa_4x_renderbuffer status 0x8cd5 err 0x0
+PASS msaa_4x_resolve_content inside px (255, 0, 0) (want 255,0,0), outside px (0, 255, 0) (want 0,255,0), edge-blended px 64, glerr 0x0
+PASS msaa_4x_resolve_content_with_depth inside px (255, 0, 0) (want 255,0,0), outside px (0, 255, 0) (want 0,255,0), edge-blended px 64, glerr 0x0
+FAIL msaa_4x_resolve_content_rgba16f msaa fbo incomplete: status 0x8cdd (0x8cd6=INCOMPLETE_ATTACHMENT 0x8cd5=complete 0x8d56=INCOMPLETE_MULTISAMPLE 0x8cdd=UNSUPPORTED) glerr-after-storage 0x0
+FAIL msaa_4x_resolve_content_rgba16f_with_depth msaa fbo incomplete: status 0x8cdd (0x8cd6=INCOMPLETE_ATTACHMENT 0x8cd5=complete 0x8d56=INCOMPLETE_MULTISAMPLE 0x8cdd=UNSUPPORTED) glerr-after-storage 0x0

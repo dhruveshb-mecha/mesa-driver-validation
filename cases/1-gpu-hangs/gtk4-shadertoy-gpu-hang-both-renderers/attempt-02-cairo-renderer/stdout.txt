@@ -1,0 +1,2 @@
+{"demo": "shadertoy", "renderer_requested": "cairo", "alive_at_screenshot": true, "early_rc": null, "crashed": false, "warnings": 4, "gtk_renderer": "GskCairoRenderer", "blank": null}
+GTK4DEMOSWEEP renderer=cairo demos=1 ok=1 crashed=0 blank=0

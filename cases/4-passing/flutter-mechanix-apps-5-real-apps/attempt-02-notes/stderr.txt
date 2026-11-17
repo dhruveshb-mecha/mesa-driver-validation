@@ -1,0 +1,103 @@
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method dismissMenu on channel native_adaptive_toolbox/menu)
+#0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:364)
+<asynchronous suspension>
+#1      NativeToolboxMenuPlatform.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_platform_interface.dart:36)
+<asynchronous suspension>
+#2      NativeToolboxMenu.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_menu.dart:91)
+<asynchronous suspension>
+
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method dismissMenu on channel native_adaptive_toolbox/menu)
+#0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:364)
+<asynchronous suspension>
+#1      NativeToolboxMenuPlatform.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_platform_interface.dart:36)
+<asynchronous suspension>
+#2      NativeToolboxMenu.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_menu.dart:91)
+<asynchronous suspension>
+
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method dismissMenu on channel native_adaptive_toolbox/menu)
+#0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:364)
+<asynchronous suspension>
+#1      NativeToolboxMenuPlatform.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_platform_interface.dart:36)
+<asynchronous suspension>
+#2      NativeToolboxMenu.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_menu.dart:91)
+<asynchronous suspension>
+
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method dismissMenu on channel native_adaptive_toolbox/menu)
+#0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:364)
+<asynchronous suspension>
+#1      NativeToolboxMenuPlatform.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_platform_interface.dart:36)
+<asynchronous suspension>
+#2      NativeToolboxMenu.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_menu.dart:91)
+<asynchronous suspension>
+
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method dismissMenu on channel native_adaptive_toolbox/menu)
+#0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:364)
+<asynchronous suspension>
+#1      NativeToolboxMenuPlatform.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_platform_interface.dart:36)
+<asynchronous suspension>
+#2      NativeToolboxMenu.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_menu.dart:91)
+<asynchronous suspension>
+
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method dismissMenu on channel native_adaptive_toolbox/menu)
+#0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:364)
+<asynchronous suspension>
+#1      NativeToolboxMenuPlatform.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_platform_interface.dart:36)
+<asynchronous suspension>
+#2      NativeToolboxMenu.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_menu.dart:91)
+<asynchronous suspension>
+
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method dismissMenu on channel native_adaptive_toolbox/menu)
+#0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:364)
+<asynchronous suspension>
+#1      NativeToolboxMenuPlatform.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_platform_interface.dart:36)
+<asynchronous suspension>
+#2      NativeToolboxMenu.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_menu.dart:91)
+<asynchronous suspension>
+
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method dismissMenu on channel native_adaptive_toolbox/menu)
+#0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:364)
+<asynchronous suspension>
+#1      NativeToolboxMenuPlatform.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_platform_interface.dart:36)
+<asynchronous suspension>
+#2      NativeToolboxMenu.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_menu.dart:91)
+<asynchronous suspension>
+
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method dismissMenu on channel native_adaptive_toolbox/menu)
+#0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:364)
+<asynchronous suspension>
+#1      NativeToolboxMenuPlatform.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_platform_interface.dart:36)
+<asynchronous suspension>
+#2      NativeToolboxMenu.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_menu.dart:91)
+<asynchronous suspension>
+
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method dismissMenu on channel native_adaptive_toolbox/menu)
+#0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:364)
+<asynchronous suspension>
+#1      NativeToolboxMenuPlatform.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_platform_interface.dart:36)
+<asynchronous suspension>
+#2      NativeToolboxMenu.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_menu.dart:91)
+<asynchronous suspension>
+
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method dismissMenu on channel native_adaptive_toolbox/menu)
+#0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:364)
+<asynchronous suspension>
+#1      NativeToolboxMenuPlatform.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_platform_interface.dart:36)
+<asynchronous suspension>
+#2      NativeToolboxMenu.dismissMenu (package:native_adaptive_toolbox/src/native_toolbox_menu.dart:91)
+<asynchronous suspension>
+

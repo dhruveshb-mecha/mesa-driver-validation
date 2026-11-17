@@ -1,0 +1,1 @@
+GSK_RENDERER=gl GSK_DEBUG=renderer gtk4-widget-factory

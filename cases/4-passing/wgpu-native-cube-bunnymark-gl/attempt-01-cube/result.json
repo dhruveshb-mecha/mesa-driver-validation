@@ -1,0 +1,19 @@
+{
+ "id": "wgpu.cube-gl",
+ "status": "RAN_OK",
+ "rc": -15,
+ "timed_out": true,
+ "duration_s": 15.0,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 49.2,
+  "soc-thermal": 78.0,
+  "cpu-thermal": 80.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 49.1,
+  "soc-thermal": 81.0,
+  "cpu-thermal": 84.0
+ },
+ "metrics": {}
+}

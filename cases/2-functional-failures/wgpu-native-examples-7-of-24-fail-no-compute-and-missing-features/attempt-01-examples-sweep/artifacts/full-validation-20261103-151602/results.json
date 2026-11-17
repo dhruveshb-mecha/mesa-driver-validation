@@ -1,0 +1,275 @@
+{
+ "native": {
+  "rows": [
+   {
+    "example": "hello_triangle",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": null,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "cube",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": 50.6,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "boids",
+    "backend": "gl",
+    "rc": 101,
+    "ok": false,
+    "fps": null,
+    "note": "thread 'main' (164968) panicked at examples/features/src/framework.rs:305:14:",
+    "warns": 0
+   },
+   {
+    "example": "shadow",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": 15.4,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "skybox",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": 45.4,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "water",
+    "backend": "gl",
+    "rc": 101,
+    "ok": false,
+    "fps": null,
+    "note": "[2026-11-03T09:46:50.754Z ERROR wgpu_core::error] Handling wgpu errors as fatal by default",
+    "warns": 0
+   },
+   {
+    "example": "msaa_line",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": 47.9,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "mipmap",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": 35.6,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "render_to_texture",
+    "backend": "gl",
+    "rc": 0,
+    "ok": true,
+    "fps": null,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "multiple_render_targets",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": 32.4,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "texture_arrays",
+    "backend": "gl",
+    "rc": 101,
+    "ok": false,
+    "fps": null,
+    "note": "thread 'main' (165167) panicked at examples/features/src/utils.rs:226:24:",
+    "warns": 0
+   },
+   {
+    "example": "storage_texture",
+    "backend": "gl",
+    "rc": 0,
+    "ok": true,
+    "fps": null,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "stencil_triangles",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": 50.5,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "srgb_blend",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": 50.5,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "uniform_values",
+    "backend": "gl",
+    "rc": 101,
+    "ok": false,
+    "fps": null,
+    "note": "thread 'main' (165252) panicked at examples/features/src/uniform_values/mod.rs:141:14:",
+    "warns": 0
+   },
+   {
+    "example": "render_with_compute",
+    "backend": "gl",
+    "rc": 101,
+    "ok": false,
+    "fps": null,
+    "note": "thread 'main' (165258) panicked at examples/features/src/framework.rs:305:14:",
+    "warns": 0
+   },
+   {
+    "example": "conservative_raster",
+    "backend": "gl",
+    "rc": 101,
+    "ok": false,
+    "fps": null,
+    "note": "thread 'main' (165262) panicked at examples/features/src/utils.rs:226:24:",
+    "warns": 0
+   },
+   {
+    "example": "hello_workgroups",
+    "backend": "gl",
+    "rc": 0,
+    "ok": true,
+    "fps": null,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "hello_synchronization",
+    "backend": "gl",
+    "rc": 0,
+    "ok": true,
+    "fps": null,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "repeated_compute",
+    "backend": "gl",
+    "rc": 0,
+    "ok": true,
+    "fps": null,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "big_compute_buffers",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": null,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "ray_aabb_compute",
+    "backend": "gl",
+    "rc": 101,
+    "ok": false,
+    "fps": null,
+    "note": "thread 'main' (165352) panicked at examples/features/src/utils.rs:226:24:",
+    "warns": 0
+   },
+   {
+    "example": "timestamp_queries",
+    "backend": "gl",
+    "rc": 0,
+    "ok": true,
+    "fps": null,
+    "note": "",
+    "warns": 0
+   },
+   {
+    "example": "error_scope",
+    "backend": "gl",
+    "rc": 0,
+    "ok": true,
+    "fps": null,
+    "note": "",
+    "warns": 0
+   }
+  ],
+  "sweep": [
+   {
+    "example": "bunnymark",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": 43.8,
+    "note": "",
+    "warns": 0,
+    "bunnies": 100
+   },
+   {
+    "example": "bunnymark",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": 22.7,
+    "note": "",
+    "warns": 0,
+    "bunnies": 500
+   },
+   {
+    "example": "bunnymark",
+    "backend": "gl",
+    "rc": 124,
+    "ok": true,
+    "fps": 8.4,
+    "note": "",
+    "warns": 0,
+    "bunnies": 2000
+   },
+   {
+    "example": "bunnymark",
+    "backend": "vulkan",
+    "rc": 124,
+    "ok": true,
+    "fps": 31.7,
+    "note": "",
+    "warns": 0,
+    "bunnies": 100
+   },
+   {
+    "example": "bunnymark",
+    "backend": "vulkan",
+    "rc": 124,
+    "ok": true,
+    "fps": 9.6,
+    "note": "",
+    "warns": 0,
+    "bunnies": 500
+   }
+  ],
+  "adapter": []
+ }
+}

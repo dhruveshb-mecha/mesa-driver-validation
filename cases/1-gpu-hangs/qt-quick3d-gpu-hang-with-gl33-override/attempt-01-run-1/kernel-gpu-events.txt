@@ -1,0 +1,9 @@
+Nov 02 15:11:57.421359 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 02 15:11:57.424636 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/usr/lib64/qt6/examples/quick3d/principledmaterial/bin/principledmaterial)
+Nov 02 15:13:04.112730 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 02 15:13:08.663540 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 02 15:13:08.667659 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/usr/lib64/qt6/examples/quick3d/reflectionprobes/bin/reflectionprobes)
+Nov 02 15:13:21.295633 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 02 15:13:21.301520 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/usr/lib64/qt6/examples/quick3d/cascadedshadowmaps/bin/cascadedshadowmaps)
+Nov 02 15:13:34.015732 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 02 15:13:34.019573 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/usr/lib64/qt6/examples/quick3d/sceneeffects/bin/sceneeffects)

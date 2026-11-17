@@ -1,0 +1,11 @@
+{
+ "id": "wgpu.iced-manual",
+ "status": "PENDING_MANUAL",
+ "rc": null,
+ "timed_out": null,
+ "duration_s": 0,
+ "expected": "pass",
+ "temp_c_before": null,
+ "temp_c_after": null,
+ "metrics": null
+}

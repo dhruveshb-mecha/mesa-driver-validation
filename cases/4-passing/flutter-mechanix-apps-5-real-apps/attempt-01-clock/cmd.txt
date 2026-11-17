@@ -1,0 +1,1 @@
+mechanix_clock -b /usr/share/mechanix/mechanix-clock/ -s 1

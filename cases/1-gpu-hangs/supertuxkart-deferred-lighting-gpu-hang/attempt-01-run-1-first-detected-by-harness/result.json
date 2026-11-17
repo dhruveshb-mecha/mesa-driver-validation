@@ -1,0 +1,17 @@
+{
+ "id": "game.supertuxkart.autoplay",
+ "status": "GPU_HANG",
+ "rc": 0,
+ "timed_out": true,
+ "duration_s": 120.8,
+ "expected": "pass",
+ "temp_c_before": {
+  "soc-thermal": 77.0,
+  "cpu-thermal": 78.0
+ },
+ "temp_c_after": {
+  "soc-thermal": 81.0,
+  "cpu-thermal": 83.0
+ },
+ "metrics": {}
+}

@@ -1,0 +1,18 @@
+{
+ "host": "comet",
+ "kernel": "7.1.5-0.mecha.202608260642.fc44.aarch64",
+ "mesa_rpm": "27.0.0~devel-0.1.20261026git7b4b394.fc44",
+ "gl_version": "OpenGL ES 3.0 Mesa 27.0.0-devel",
+ "gl_renderer": "Vivante GC7000 rev 6204",
+ "os": "Fedora Linux 44 (Forty Four)",
+ "chromium": "Chromium 156.0.8078.47 Built from source for Fedora release 44 (Forty Four)",
+ "gtk4": "4.22.5",
+ "qt6": "6.11.2",
+ "gstreamer": "gst-launch-1.0 version 1.26.0",
+ "display": "DSI-1 1080x1240@60Hz scale=2.0",
+ "software_rendering": false,
+ "tester": "mecha",
+ "started": "2026-11-03T13:54:04.379419",
+ "es3_override": false,
+ "finished": "2026-11-03T15:19:33.623621"
+}

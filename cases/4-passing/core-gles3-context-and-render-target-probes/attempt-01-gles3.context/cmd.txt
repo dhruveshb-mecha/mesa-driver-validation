@@ -1,0 +1,1 @@
+python3 scripts/gles3_probe.py --only 'es3_context|hardware_renderer' | python3 -c "import json,sys; d=json.load(sys.stdin); print(json.dumps(d['info'],indent=1)); [print(c['status'],c['name'],c['detail']) for c in d['checks']]; sys.exit(d['verdict']!='PASS')"

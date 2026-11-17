@@ -1,0 +1,1 @@
+python3 ~/gpu-test/scripts/gtk4_demo_sweep.py gl /tmp/gtk4-demo-repro-shadertoy-gl 7 '^shadertoy$'

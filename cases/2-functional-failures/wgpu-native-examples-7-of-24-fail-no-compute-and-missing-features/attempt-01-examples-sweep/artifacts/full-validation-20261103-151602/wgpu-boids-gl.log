@@ -1,0 +1,22 @@
+[2026-11-03T09:46:26.158Z INFO  wgpu_examples::framework] Entering event loop...
+[2026-11-03T09:46:26.166Z INFO  wgpu_examples::framework] Initializing wgpu...
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+[2026-11-03T09:46:26.288Z INFO  wgpu_examples::framework] Selected adapter: Vivante GC7000 rev 6204 (Gl)
+
+thread 'main' (164968) panicked at examples/features/src/framework.rs:305:14:
+Unable to find a suitable GPU adapter!: RequestDeviceError { inner: Core(LimitsExceeded(FailedLimit { name: "max_compute_workgroups_per_dimension", requested: 65535, allowed: 0 })) }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,0 +1,3 @@
+scripts/firefox_validate.py OUT pages (shadowmap, instancing, bloom, gpgpu_water, multisampled_renderbuffers, points_sprites).
+
+PASS CRITERIA: All scenes render correctly; compare with Chromium.

@@ -1,0 +1,2 @@
+end=$((SECONDS+600)); n=0
+while [ $SECONDS -lt $end ]; do n=$((n+1)); echo "--- iteration $n"; glmark2-es2-wayland --fullscreen || exit 1; done

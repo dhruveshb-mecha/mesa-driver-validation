@@ -1,0 +1,1 @@
+python3 ~/gpu-test/scripts/firefox_validate.py /tmp/ff-conformance conformance

@@ -1,0 +1,1 @@
+(GDK_GL=gles ~/flutter-apps/demo_counter/flutter_counter_demo 2>&1 | grep -E "Impeller|rror|Failed") & sleep 7; grim /tmp/flutter-counter-gles.png; sleep 1; pkill -x flutter_counter; wait

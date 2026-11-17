@@ -1,0 +1,6 @@
+Mesa 27.0.0~devel (custom, native ES 3.0)
+BENCH webgl2 vendor=Google Inc. (Mesa) renderer=ANGLE (Mesa, Vivante GC7000 rev 6204, OpenGL ES 3.0) version=WebGL 2.0 (OpenGL ES 3.0 Chromium)
+BENCH webgl vendor=Google Inc. (Mesa) renderer=ANGLE (Mesa, Vivante GC7000 rev 6204, OpenGL ES 3.0) version=WebGL 1.0 (OpenGL ES 2.0 Chromium)
+BENCH RESULT canvas=500x205 draws_per_frame=200 fps=48.0 avg_ms=20.1 p95_ms=20.2
+BENCH DONE
+saved: /home/mecha/benchmarks/results/chromium-webgl-200-27.0.0~devel-20261103-140917.txt

@@ -1,0 +1,72 @@
+Mesa 27.0.0~devel (custom, native ES 3.0)
+== Qt validation, Mesa 27.0.0~devel-0.1.20261026git7b4b394.fc44, report dir /home/mecha/benchmarks/reports/qt-27.0.0~devel-0.1.20261026git7b4b394.fc44-20261102-150839
+-- Quick 2D (animated gradient rects) 500 opengl (desktop GL 2.1)
+-- Quick 2D (animated gradient rects) 500 software renderer
+-- Quick 2D (animated gradient rects) 2000 opengl (desktop GL 2.1)
+-- Quick 2D (animated gradient rects) 2000 software renderer
+-- Quick 3D (PBR spheres) 16 opengl, default Mesa
+-- Quick 3D (PBR spheres) 16 opengl + Mesa GL 3.3 override
+-- Quick 3D (PBR spheres) 16 vulkan (llvmpipe)
+-- Quick 3D (PBR spheres) 64 opengl + Mesa GL 3.3 override
+-- Quick 3D (PBR spheres) 64 vulkan (llvmpipe)
+-- example hellocube
+-- example helloqtquick3d
+-- example intro
+-- example lights
+-- example principledmaterial
+-- example instancing
+-- example particles3d
+-- example picking
+-- example antialiasing
+-- example custommaterial
+-- example reflectionprobes
+-- example cascadedshadowmaps
+-- example sceneeffects
+# Qt 6 GPU validation report
+
+- Mesa: `mesa-dri-drivers-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64`; Qt `qt6-qtquick3d-6.11.2-1.fc44.aarch64`; kernel 7.1.5-0.mecha.202608260642.fc44.aarch64
+- Date: 2026-11-02 15:13 (board clock); platform plugin: wayland (sway)
+
+## 1. Qt Quick FPS: GPU (OpenGL ES via etnaviv) vs CPU
+
+`opengl` = GPU. `software` = Qt software renderer (CPU, 2D only). `vulkan` = llvmpipe (CPU). Fedora Qt is built for desktop OpenGL only, and etnaviv offers desktop GL 2.1, which is enough for Quick 2D but not Quick 3D. The 3D GPU rows use `MESA_GL_VERSION_OVERRIDE=3.3` (experimental: Mesa reports GL 3.3 on this ES 3.0 GPU). Frame rates are animation ticks and are capped at 60 by Qt. Window size is whatever sway gives it (shown).
+
+| Scene | Items | Backend | Processor | FPS | min FPS | size | shader/pipeline errors |
+|---|---|---|---|---|---|---|---|
+| Quick 2D (animated gradient rects) | 500 | opengl (desktop GL 2.1) | GPU | 19.9 | 17 | 536x568 | 0 |
+| Quick 2D (animated gradient rects) | 500 | software renderer | CPU | 20.4 | 14 | 536x568 | 0 |
+| Quick 2D (animated gradient rects) | 2000 | opengl (desktop GL 2.1) | GPU | 4.8 | 1 | 536x568 | 0 |
+| Quick 2D (animated gradient rects) | 2000 | software renderer | CPU | 4.2 | 2 | 536x568 | 0 |
+| Quick 3D (PBR spheres) | 16 | opengl, default Mesa | GPU (expected to fail) | 60.0 | 60 | 536x568 | 46144 |
+| Quick 3D (PBR spheres) | 16 | opengl + Mesa GL 3.3 override | GPU | 22.3 | 16 | 536x568 | 0 |
+| Quick 3D (PBR spheres) | 16 | vulkan (llvmpipe) | CPU | 5.9 | 5 | 536x568 | 0 |
+| Quick 3D (PBR spheres) | 64 | opengl + Mesa GL 3.3 override | GPU | 6.7 | 3 | 536x568 | 0 |
+| Quick 3D (PBR spheres) | 64 | vulkan (llvmpipe) | CPU | 2.2 | 1 | 536x568 | 0 |
+
+Renderer reported by Qt (`QSG_INFO`):
+
+- opengl (desktop GL 2.1): ` | `
+
+## 2. Stock Qt Quick 3D examples (smoke test, OpenGL backend + Mesa GL 3.3 override, 12 s each)
+
+Without the override every example aborts at start (`Failed to create context: 3009`, EGL_BAD_MATCH).
+
+| Example | Result | Notes |
+|---|---|---|
+| hellocube | WARN | QEGLPlatformContext: Failed to create context: 3009; QQuickItem: Cannot set FocusScope once item has children and is in a window. |
+| helloqtquick3d | WARN | QEGLPlatformContext: Failed to create context: 3009; QEGLPlatformContext: Failed to create context: 3009 |
+| intro | WARN | QEGLPlatformContext: Failed to create context: 3009; QEGLPlatformContext: Failed to create context: 3009 |
+| lights | WARN | QEGLPlatformContext: Failed to create context: 3009 |
+| principledmaterial | WARN | QEGLPlatformContext: Failed to create context: 3009 |
+| instancing | WARN | QEGLPlatformContext: Failed to create context: 3009; QEGLPlatformContext: Failed to create context: 3009 |
+| particles3d | WARN | QEGLPlatformContext: Failed to create context: 3009 |
+| picking | WARN | QEGLPlatformContext: Failed to create context: 3009 |
+| antialiasing | WARN | QEGLPlatformContext: Failed to create context: 3009 |
+| custommaterial | WARN | QEGLPlatformContext: Failed to create context: 3009; QEGLPlatformContext: Failed to create context: 3009 |
+| reflectionprobes | WARN | QEGLPlatformContext: Failed to create context: 3009 |
+| cascadedshadowmaps | WARN | QEGLPlatformContext: Failed to create context: 3009; QEGLPlatformContext: Failed to create context: 3009 |
+| orderindependenttransparency | MISSING | no prebuilt binary |
+| sceneeffects | PASS |  |
+
+PASS = ran 12 s without crash or error text in the log. Screenshots (`ex-*.png`) and raw logs are in `/home/mecha/benchmarks/reports/qt-27.0.0~devel-0.1.20261026git7b4b394.fc44-20261102-150839/`.
+saved /home/mecha/benchmarks/reports/qt-27.0.0~devel-0.1.20261026git7b4b394.fc44-20261102-150839/report.md

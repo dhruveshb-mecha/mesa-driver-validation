@@ -1,0 +1,11 @@
+{
+ "id": "toolkit.qt.validate-quick2d-3d",
+ "status": "GPU_HANG",
+ "rc": 0,
+ "timed_out": false,
+ "duration_s": 302.2,
+ "expected": "pass",
+ "temp_c_before": null,
+ "temp_c_after": null,
+ "metrics": {}
+}

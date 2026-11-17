@@ -1,0 +1,19 @@
+{
+ "id": "wgpu.bunnymark-vulkan-500",
+ "status": "RAN_OK",
+ "rc": -15,
+ "timed_out": true,
+ "duration_s": 20.3,
+ "expected": "cpu-only",
+ "temp_c_before": {
+  "bq27441-0": 49.1,
+  "soc-thermal": 80.0,
+  "cpu-thermal": 81.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 49.0,
+  "soc-thermal": 84.0,
+  "cpu-thermal": 86.0
+ },
+ "metrics": {}
+}

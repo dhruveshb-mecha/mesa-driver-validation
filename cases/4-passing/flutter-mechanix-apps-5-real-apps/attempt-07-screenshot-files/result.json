@@ -1,0 +1,17 @@
+{
+ "id": "toolkit.flutter.mechanix-files",
+ "status": "RAN_OK",
+ "rc": -15,
+ "timed_out": true,
+ "duration_s": 25.1,
+ "expected": "pass",
+ "temp_c_before": {
+  "soc-thermal": 73.0,
+  "cpu-thermal": 74.0
+ },
+ "temp_c_after": {
+  "soc-thermal": 73.0,
+  "cpu-thermal": 74.0
+ },
+ "metrics": {}
+}

@@ -1,0 +1,1 @@
+(~/flutter-apps/demo_counter/flutter_counter_demo > /tmp/fc-default.log 2>&1 &) ; sleep 7; grim /tmp/flutter-counter-default.png; pkill -x flutter_counter; if grep -q "Failed to create OpenGL context" /tmp/fc-default.log; then echo "GLCONTEXT=FAIL (GTK3 cannot create a GL context with default settings)"; else echo "GLCONTEXT=OK"; fi

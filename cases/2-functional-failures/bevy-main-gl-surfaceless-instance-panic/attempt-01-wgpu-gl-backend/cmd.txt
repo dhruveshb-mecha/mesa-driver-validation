@@ -1,0 +1,1 @@
+WGPU_BACKEND=gl RUST_LOG=wgpu_hal=debug,bevy_render=info,warn ~/wgpu-apps/bevy-gl-test 20 12

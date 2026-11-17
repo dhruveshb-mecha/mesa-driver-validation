@@ -1,0 +1,7 @@
+$ free -h; df -h /
+
+total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.5Gi       345Mi       512Mi       2.6Gi       2.3Gi
+Swap:             0B          0B          0B
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk2p2   58G   14G   45G  24% /

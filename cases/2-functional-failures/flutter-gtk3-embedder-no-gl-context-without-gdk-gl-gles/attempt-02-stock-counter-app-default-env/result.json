@@ -1,0 +1,19 @@
+{
+ "id": "toolkit.flutter-demo.counter-default",
+ "status": "RAN_FAIL",
+ "rc": 0,
+ "timed_out": false,
+ "duration_s": 8.1,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 45.3,
+  "soc-thermal": 72.0,
+  "cpu-thermal": 73.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 45.3,
+  "soc-thermal": 73.0,
+  "cpu-thermal": 76.0
+ },
+ "metrics": {}
+}

@@ -1,0 +1,4 @@
+Nov 03 17:09:58.340416 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 17:09:58.346311 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run path_text)
+Nov 03 17:09:59.364180 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 17:09:59.369207 comet kernel: etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run path_text)

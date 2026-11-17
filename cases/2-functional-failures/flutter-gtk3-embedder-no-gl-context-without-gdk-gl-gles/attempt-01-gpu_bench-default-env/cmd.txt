@@ -1,0 +1,1 @@
+out=$(GDK_BACKEND=wayland ~/flutter-apps/gpu_bench/gpu_bench circles 10 4 2>&1); if echo "$out" | grep -q "Failed to create OpenGL context"; then echo "GLCONTEXT=FAIL (GTK3 cannot create a GL context with default settings)"; else echo "GLCONTEXT=OK"; fi

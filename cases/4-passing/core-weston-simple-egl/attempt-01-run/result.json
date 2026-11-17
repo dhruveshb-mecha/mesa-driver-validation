@@ -1,0 +1,19 @@
+{
+ "id": "core.weston-simple-egl",
+ "status": "RAN_OK",
+ "rc": -15,
+ "timed_out": true,
+ "duration_s": 12.0,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 51.0,
+  "soc-thermal": 78.0,
+  "cpu-thermal": 80.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 50.9,
+  "soc-thermal": 80.0,
+  "cpu-thermal": 82.0
+ },
+ "metrics": {}
+}

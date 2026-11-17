@@ -1,0 +1,13 @@
+  run 1: ok 27.9 fps size 817x620
+  run 2: ok 24.3 fps size 863x620
+  run 3: ok 24.6 fps size 821x620
+  run 4: ok 25.2 fps size 833x620
+  run 5: ok 24.3 fps size 840x620
+  run 6: ok 24.5 fps size 849x620
+  run 7: ok 24.0 fps size 920x620
+  run 8: ok 24.5 fps size 855x620
+  run 9: ok 24.5 fps size 862x620
+  run 10: ok 25.0 fps size 879x620
+  run 11: ok 24.9 fps size 838x620
+  run 12: ok 24.9 fps size 839x620
+CRASHREPRO scene=text n=10 runs=12 segv=0 ok=12 other=0 median_fps=24.55 top_frame=#0  0x0000ffff95578c70 dri_drawable_bind_images (libgallium-27.0.0-devel.so + 0xb8c70)

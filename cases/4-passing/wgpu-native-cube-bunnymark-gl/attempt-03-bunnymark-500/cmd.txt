@@ -1,0 +1,1 @@
+BUNNIES=500 WGPU_BACKEND=gl RUST_LOG=info ~/wgpu/target/release/wgpu-examples bunnymark

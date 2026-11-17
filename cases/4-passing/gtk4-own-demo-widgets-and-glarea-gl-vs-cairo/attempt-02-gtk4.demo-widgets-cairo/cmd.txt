@@ -1,0 +1,1 @@
+(GSK_RENDERER=cairo ~/gtk4-demo/gtk4_demo widgets 8 2>&1 | grep GTK4DEMO) & sleep 5; grim /tmp/gtk4demo-widgets-cairo.png; wait

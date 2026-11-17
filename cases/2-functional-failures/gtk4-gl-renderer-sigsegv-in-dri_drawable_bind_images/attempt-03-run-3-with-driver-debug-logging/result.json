@@ -1,0 +1,19 @@
+{
+ "id": "toolkit.gtk4.gl-segv-repro",
+ "status": "RAN_FAIL",
+ "rc": 0,
+ "timed_out": false,
+ "duration_s": 50.6,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 48.4,
+  "soc-thermal": 79.0,
+  "cpu-thermal": 81.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 48.4,
+  "soc-thermal": 81.0,
+  "cpu-thermal": 83.0
+ },
+ "metrics": {}
+}

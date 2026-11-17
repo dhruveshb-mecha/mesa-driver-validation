@@ -1,0 +1,344 @@
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+[204599:204599:1103/181501.983132:WARNING:ui/ozone/platform/wayland/common/drm_render_node_path_finder.cc:178] Preferred drm_render_node not found, picking etnaviv
+[204599:204599:1103/181502.162280:WARNING:ui/ozone/platform/wayland/common/wayland_object.cc:120] Binding to wl_shm version 1 but version 2 is available.
+[204599:204599:1103/181502.162650:WARNING:ui/ozone/platform/wayland/common/wayland_object.cc:120] Binding to ext_idle_notifier_v1 version 1 but version 2 is available.
+[204599:204599:1103/181502.163342:WARNING:ui/ozone/platform/wayland/common/wayland_object.cc:120] Binding to zwp_pointer_gestures_v1 version 1 but version 3 is available.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+[204599:204599:1103/181503.910692:WARNING:chrome/browser/signin/account_consistency_mode_manager.cc:74] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+
+DevTools listening on ws://127.0.0.1:9333/devtools/browser/9db4fbf5-87f7-419c-8a8a-1945c83066be
+[204599:204599:1103/181504.175008:WARNING:ui/ozone/platform/wayland/host/wayland_surface.cc:170] Server doesn't support zcr_alpha_compositing_v1.
+[204599:204599:1103/181504.175334:WARNING:ui/ozone/platform/wayland/host/wayland_surface.cc:185] Server doesn't support overlay_prioritizer.
+[204599:204599:1103/181504.175436:WARNING:ui/ozone/platform/wayland/host/wayland_surface.cc:214] Server doesn't support wp_color_management_surface_v1.
+[204599:204599:1103/181505.343034:WARNING:ui/base/idle/idle_linux.cc:111] None of the known D-Bus ScreenSaver services could be used.
+[204599:204599:1103/181505.429917:WARNING:components/dbus/xdg/portal.cc:126] Failed to register with org.freedesktop.host.portal.Registry
+[204599:204599:1103/181505.454722:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.FileChooser”
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+[204656:204656:1103/181506.089222:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+[204599:204599:1103/181509.744039:INFO:CONSOLE:158] "Unrecognized feature: 'bluetooth'.", source: https://quenq.com/apps/vice-city/ (158)
+[204599:204599:1103/181509.746801:INFO:CONSOLE:158] "Unrecognized feature: 'web-share'.", source: https://quenq.com/apps/vice-city/ (158)
+[204599:204599:1103/181509.747901:INFO:CONSOLE:158] "Allow attribute will take precedence over 'allowfullscreen'.", source: https://quenq.com/apps/vice-city/ (158)
+[204599:204599:1103/181510.722586:INFO:CONSOLE:15] "VCFPS {"fps":3.02,"p99_ms":699,"frames":4}", source:  (15)
+[204599:204599:1103/181512.038423:INFO:CONSOLE:53] "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.", source: https://quenq-com.disqus.com/embed.js (53)
+[204599:204599:1103/181512.088884:INFO:CONSOLE:53] "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.", source: https://quenq-com.disqus.com/embed.js (53)
+[204599:204599:1103/181512.122825:INFO:CONSOLE:15] "VCFPS {"fps":1.87,"p99_ms":666.6,"frames":2}", source:  (15)
+[204599:204599:1103/181512.779741:INFO:CONSOLE:15] "VCFPS {"fps":5.97,"p99_ms":479,"frames":6}", source:  (15)
+[204599:204599:1103/181513.799951:INFO:CONSOLE:15] "VCFPS {"fps":21.51,"p99_ms":179,"frames":22}", source:  (15)
+[204599:204599:1103/181515.067695:INFO:CONSOLE:18] "Uncaught (in promise) NotSupportedError: Failed to execute 'browsingTopics' on 'Document': document.browsingTopics() is deprecated and has been removed.", source: https://c.disquscdn.com/next/embed/lounge.bundle.6ef281c28388501791d06d7bf7bea025.js (18)
+[204599:204599:1103/181515.070465:INFO:CONSOLE:15] "VCFPS {"fps":3.87,"p99_ms":808.1,"frames":4}", source:  (15)
+[204599:204599:1103/181515.188338:INFO:CONSOLE:4] "[dqads] bundle loaded [object Object]", source: https://s.disquscdn.com/tfe/ads.BiCa4R4w.min.js (4)
+[204599:204599:1103/181515.346335:INFO:CONSOLE:4] "[dqads] bundle loaded [object Object]", source: https://s.disquscdn.com/tfe/ads.BiCa4R4w.min.js (4)
+[204599:204599:1103/181516.237304:INFO:CONSOLE:15] "VCFPS {"fps":3.39,"p99_ms":494.6,"frames":4}", source:  (15)
+[204694:204694:1103/181516.435557:WARNING:media/renderers/video_renderer_impl.cc:315] PipelineStatus::DECODER_ERROR_NOT_SUPPORTED
+[204599:204599:1103/181517.261841:INFO:CONSOLE:15] "VCFPS {"fps":3.69,"p99_ms":491.5,"frames":4}", source:  (15)
+[204599:204599:1103/181518.413779:INFO:CONSOLE:15] "VCFPS {"fps":2.9,"p99_ms":596.8,"frames":3}", source:  (15)
+[204694:204694:1103/181518.732918:WARNING:media/renderers/video_renderer_impl.cc:315] PipelineStatus::DECODER_ERROR_NOT_SUPPORTED
+[204599:204599:1103/181519.278833:INFO:CONSOLE:15] "VCFPS {"fps":5.72,"p99_ms":287,"frames":6}", source:  (15)
+[204599:204599:1103/181521.123182:INFO:CONSOLE:15] "VCFPS {"fps":12.33,"p99_ms":633.2,"frames":20}", source:  (15)
+[204599:204599:1103/181521.688057:INFO:CONSOLE:4] "Uncaught (in promise) Error: Failed to load script: https://securepubads.g.doubleclick.net/tag/js/gpt.js", source: https://s.disquscdn.com/tfe/ads.BiCa4R4w.min.js (4)
+[204599:204599:1103/181521.818303:INFO:CONSOLE:15] "VCFPS {"fps":9.91,"p99_ms":307.3,"frames":10}", source:  (15)
+[204599:204599:1103/181522.844991:INFO:CONSOLE:15] "VCFPS {"fps":44.59,"p99_ms":85.4,"frames":45}", source:  (15)
+[204599:204599:1103/181523.130070:INFO:CONSOLE:41] "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.", source: https://quenq-com.disqus.com/polls.js (41)
+[204599:204599:1103/181523.974382:INFO:CONSOLE:0] "Loading the script 'https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.IdpIFrameHttp.en_US.X07TDQ2tfo0.2018.O/am=AACAAQ/d=1/rs=AOaEmlEyLaDf79gGcHkAVw12msl_inn4-g/m=base' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval' blob: data:". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken.", source: https://accounts.google.com/o/oauth2/iframe#origin=https%3A%2F%2Fdisqus.com&rpcToken=782003778.4025123&clearCache=1&supportBlocked3PCookies=1 (0)
+[204599:204599:1103/181524.138634:INFO:CONSOLE:4] "[dqads] bundle loaded [object Object]", source: https://s.disquscdn.com/tfe/ads.BiCa4R4w.min.js (4)
+[204599:204599:1103/181524.386679:INFO:CONSOLE:15] "VCFPS {"fps":7.62,"p99_ms":501,"frames":10}", source:  (15)
+[204694:204694:1103/181524.661897:WARNING:media/renderers/video_renderer_impl.cc:315] PipelineStatus::DECODER_ERROR_NOT_SUPPORTED
+[204599:204599:1103/181525.091453:INFO:CONSOLE:7] "Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information.", source: https://c.disquscdn.com/next/embed/common.bundle.6d44a10ef7a5b4dbda406b420b93b210.js (7)
+[204599:204599:1103/181525.190007:INFO:CONSOLE:4] "Uncaught (in promise) Error: Failed to load script: https://securepubads.g.doubleclick.net/tag/js/gpt.js", source: https://s.disquscdn.com/tfe/ads.BiCa4R4w.min.js (4)
+[204599:204599:1103/181525.223884:INFO:CONSOLE:15] "VCFPS {"fps":5.75,"p99_ms":355.3,"frames":6}", source:  (15)
+[204599:204599:1103/181526.182855:INFO:CONSOLE:15] "VCFPS {"fps":46.69,"p99_ms":56.3,"frames":47}", source:  (15)
+[204599:204599:1103/181527.244977:INFO:CONSOLE:15] "VCFPS {"fps":51.35,"p99_ms":39.6,"frames":52}", source:  (15)
+[204599:204599:1103/181528.397366:INFO:CONSOLE:15] "VCFPS {"fps":6.18,"p99_ms":300,"frames":7}", source:  (15)
+[204599:204599:1103/181528.737601:INFO:CONSOLE:4] "Uncaught (in promise) Error: Failed to load script: https://securepubads.g.doubleclick.net/tag/js/gpt.js", source: https://s.disquscdn.com/tfe/ads.BiCa4R4w.min.js (4)
+[204599:204599:1103/181529.346285:INFO:CONSOLE:15] "VCFPS {"fps":16.99,"p99_ms":172.9,"frames":17}", source:  (15)
+[204599:204599:1103/181529.885379:INFO:CONSOLE:2] "[Mod Manager DB] Fetching all installed mods from IndexedDB...", source: https://vc.quenq.com/assets/index-DXYOUMLJ.js (2)
+[204599:204599:1103/181530.031326:INFO:CONSOLE:2] "[Mod Manager DB] Fetched 0 mods.", source: https://vc.quenq.com/assets/index-DXYOUMLJ.js (2)
+[204599:204599:1103/181530.036572:INFO:CONSOLE:2] "[Mod Manager] Loaded 0 mods into memory queue.", source: https://vc.quenq.com/assets/index-DXYOUMLJ.js (2)
+[204599:204599:1103/181530.352459:INFO:CONSOLE:15] "VCFPS {"fps":35.44,"p99_ms":150.1,"frames":36}", source:  (15)
+[204599:204599:1103/181531.400739:INFO:CONSOLE:15] "VCFPS {"fps":43.88,"p99_ms":73,"frames":45}", source:  (15)
+[204599:204599:1103/181532.733758:INFO:CONSOLE:15] "VCFPS {"fps":19.37,"p99_ms":239.6,"frames":20}", source:  (15)
+[204599:204599:1103/181533.029933:INFO:CONSOLE:0] "Failed to execute 'requestFullscreen' on 'Element': API can only be initiated by a user gesture.", source: https://quenq.com/apps/vice-city/ (0)
+[204599:204599:1103/181533.602008:INFO:CONSOLE:15] "VCFPS {"fps":2.74,"p99_ms":438.8,"frames":3}", source:  (15)
+[204599:204599:1103/181534.520299:INFO:CONSOLE:15] "VCFPS {"fps":9.94,"p99_ms":466.6,"frames":10}", source:  (15)
+[204599:204599:1103/181535.858474:INFO:CONSOLE:15] "VCFPS {"fps":30.07,"p99_ms":291.8,"frames":34}", source:  (15)
+[204599:204599:1103/181536.644400:INFO:CONSOLE:15] "VCFPS {"fps":19.94,"p99_ms":227.3,"frames":20}", source:  (15)
+[204599:204599:1103/181537.691934:INFO:CONSOLE:15] "VCFPS {"fps":39.15,"p99_ms":76.1,"frames":40}", source:  (15)
+[204599:204599:1103/181538.471889:INFO:CONSOLE:4] "[dqads] bundle loaded [object Object]", source: https://s.disquscdn.com/tfe/ads.BiCa4R4w.min.js (4)
+[204599:204599:1103/181538.691599:INFO:CONSOLE:15] "VCFPS {"fps":32.8,"p99_ms":96.2,"frames":33}", source:  (15)
+[204599:204599:1103/181539.684665:INFO:CONSOLE:15] "VCFPS {"fps":38.91,"p99_ms":53.1,"frames":39}", source:  (15)
+[204599:204599:1103/181540.803580:INFO:CONSOLE:15] "VCFPS {"fps":40.85,"p99_ms":176.1,"frames":44}", source:  (15)
+[204715:204715:1103/181541.367944:WARNING:media/renderers/video_renderer_impl.cc:315] PipelineStatus::DECODER_ERROR_NOT_SUPPORTED
+[204599:204599:1103/181541.837795:INFO:CONSOLE:15] "VCFPS {"fps":12.15,"p99_ms":248.2,"frames":13}", source:  (15)
+[204599:204599:1103/181541.982827:INFO:CONSOLE:4] "Uncaught (in promise) Error: Failed to load script: https://securepubads.g.doubleclick.net/tag/js/gpt.js", source: https://s.disquscdn.com/tfe/ads.BiCa4R4w.min.js (4)
+[204599:204599:1103/181542.772303:INFO:CONSOLE:1] "DEBUG - (ATS-ENVELOPE-MODULE) ats-set-additional-data event set up.", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181542.779589:INFO:CONSOLE:1] "DEBUG - (ATS-ENVELOPE-MODULE) There is no google_ssp envelope in storage.", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181542.785332:INFO:CONSOLE:1] "DEBUG - (ATS-ENVELOPE-MODULE) There is no liveramp envelope in storage.", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181542.826194:INFO:CONSOLE:15] "VCFPS {"fps":38.88,"p99_ms":99,"frames":39}", source:  (15)
+[204599:204599:1103/181542.847142:INFO:CONSOLE:1] "INFO - (ATS-ENVELOPE-MODULE) (Geo location) consent check not passed", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181542.848070:INFO:CONSOLE:1] "INFO - (ATS-ENVELOPE-MODULE) (Geo location) persisted cached location data", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181542.850271:INFO:CONSOLE:1] "DEBUG - (ATS-ENVELOPE-MODULE) Consent is given, module will start!", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181542.851784:INFO:CONSOLE:1] "INFO - (ATS-ENVELOPE-MODULE) (Geo location) persisted cached location data", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181542.853965:INFO:CONSOLE:1] "DEBUG - (ATS-ENVELOPE-MODULE) LIVERAMP envelope not found in storage! New envelope will be acquired.", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181542.855526:INFO:CONSOLE:1] "DEBUG - (ATS-ENVELOPE-MODULE) Envelope module is in direct mode. Stoping the flow until identifier is passed.", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181542.857613:INFO:CONSOLE:1] "INFO - (ATS-ENVELOPE-MODULE) Envelope-module is configured.", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181543.856438:INFO:CONSOLE:1] "INFO - (ATS-ENVELOPE-MODULE) We have dispatched envelopeModuleReady event again!", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181543.857550:INFO:CONSOLE:1] "INFO - (ATS-ENVELOPE-MODULE) How many times we have dispatched event envelopeModuleReady:  2", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181543.865358:INFO:CONSOLE:15] "VCFPS {"fps":42.58,"p99_ms":53.1,"frames":44}", source:  (15)
+[204599:204599:1103/181544.853868:INFO:CONSOLE:1] "INFO - (ATS-ENVELOPE-MODULE) We have dispatched envelopeModuleReady event again!", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181544.854551:INFO:CONSOLE:1] "INFO - (ATS-ENVELOPE-MODULE) How many times we have dispatched event envelopeModuleReady:  3", source: https://ats-wrapper.privacymanager.io/ats-modules/4368de8c-8137-47b9-9e3f-42e90dd3c206/ats.js (1)
+[204599:204599:1103/181544.887874:INFO:CONSOLE:15] "VCFPS {"fps":32.03,"p99_ms":185.5,"frames":33}", source:  (15)
+[204599:204599:1103/181545.921908:INFO:CONSOLE:15] "VCFPS {"fps":47.02,"p99_ms":76.1,"frames":48}", source:  (15)
+[204599:204599:1103/181546.925411:INFO:CONSOLE:15] "VCFPS {"fps":45,"p99_ms":50,"frames":45}", source:  (15)
+[204599:204599:1103/181547.904854:INFO:CONSOLE:15] "VCFPS {"fps":46.91,"p99_ms":53.1,"frames":47}", source:  (15)
+[204599:204599:1103/181548.950631:INFO:CONSOLE:15] "VCFPS {"fps":51.03,"p99_ms":39.6,"frames":52}", source:  (15)
+[204599:204599:1103/181549.964473:INFO:CONSOLE:15] "VCFPS {"fps":50.31,"p99_ms":39.6,"frames":52}", source:  (15)
+[204599:204599:1103/181550.986071:INFO:CONSOLE:15] "VCFPS {"fps":26.69,"p99_ms":145.9,"frames":27}", source:  (15)
+[204599:204599:1103/181552.010625:INFO:CONSOLE:15] "VCFPS {"fps":44.69,"p99_ms":40,"frames":45}", source:  (15)
+[204599:204599:1103/181553.002627:INFO:CONSOLE:15] "VCFPS {"fps":40.46,"p99_ms":65.3,"frames":41}", source:  (15)
+[204599:204599:1103/181554.062514:INFO:CONSOLE:15] "VCFPS {"fps":47.64,"p99_ms":45.9,"frames":48}", source:  (15)
+[204599:204599:1103/181555.026570:INFO:CONSOLE:15] "VCFPS {"fps":45.37,"p99_ms":79.3,"frames":46}", source:  (15)
+[204599:204599:1103/181556.120871:INFO:CONSOLE:15] "VCFPS {"fps":21.41,"p99_ms":225.2,"frames":23}", source:  (15)
+[204599:204599:1103/181557.093369:INFO:CONSOLE:15] "VCFPS {"fps":40.73,"p99_ms":50,"frames":41}", source:  (15)
+[204599:204599:1103/181558.109748:INFO:CONSOLE:15] "VCFPS {"fps":36.72,"p99_ms":76.1,"frames":37}", source:  (15)
+[204599:204599:1103/181559.125733:INFO:CONSOLE:15] "VCFPS {"fps":47.35,"p99_ms":45.9,"frames":48}", source:  (15)
+[204599:204599:1103/181600.139019:INFO:CONSOLE:15] "VCFPS {"fps":51.94,"p99_ms":33.3,"frames":52}", source:  (15)
+[204599:204599:1103/181601.130316:INFO:CONSOLE:15] "VCFPS {"fps":40.99,"p99_ms":62.6,"frames":41}", source:  (15)
+[204599:204599:1103/181602.201750:INFO:CONSOLE:15] "VCFPS {"fps":23.23,"p99_ms":203.2,"frames":24}", source:  (15)
+[204599:204599:1103/181603.167577:INFO:CONSOLE:15] "VCFPS {"fps":32.74,"p99_ms":85.6,"frames":33}", source:  (15)
+[204599:204599:1103/181604.246930:INFO:CONSOLE:15] "VCFPS {"fps":17.96,"p99_ms":332.5,"frames":19}", source:  (15)
+[204599:204599:1103/181605.737820:INFO:CONSOLE:15] "VCFPS {"fps":12.3,"p99_ms":313.6,"frames":14}", source:  (15)
+[204599:204599:1103/181606.621932:INFO:CONSOLE:15] "VCFPS {"fps":2.49,"p99_ms":519.5,"frames":3}", source:  (15)
+[204599:204599:1103/181607.557910:INFO:CONSOLE:15] "VCFPS {"fps":35.94,"p99_ms":329.6,"frames":36}", source:  (15)
+[204599:204599:1103/181608.567770:INFO:CONSOLE:15] "VCFPS {"fps":48.5,"p99_ms":39.5,"frames":49}", source:  (15)
+[204599:204599:1103/181609.576395:INFO:CONSOLE:15] "VCFPS {"fps":50.47,"p99_ms":39.6,"frames":51}", source:  (15)
+[204599:204599:1103/181610.585840:INFO:CONSOLE:15] "VCFPS {"fps":53.53,"p99_ms":43.1,"frames":54}", source:  (15)
+[204599:204599:1103/181610.982853:INFO:CONSOLE:1105] "Initializing dependencies...", source: https://vc.quenq.com/assets/modules/runtime.js?v=1.1.4 (1105)
+[204599:204599:1103/181610.983994:INFO:CONSOLE:1108] "Initializing FS...", source: https://vc.quenq.com/assets/modules/runtime.js?v=1.1.4 (1108)
+[204599:204599:1103/181611.608014:INFO:CONSOLE:15] "VCFPS {"fps":48.32,"p99_ms":83.3,"frames":49}", source:  (15)
+[204599:204599:1103/181626.317462:INFO:CONSOLE:15] "VCFPS {"fps":1.78,"p99_ms":13842.7,"frames":26}", source:  (15)
+[204599:204599:1103/181627.348308:INFO:CONSOLE:15] "VCFPS {"fps":3.97,"p99_ms":390.4,"frames":4}", source:  (15)
+[204599:204599:1103/181630.179302:INFO:CONSOLE:15] "VCFPS {"fps":3.9,"p99_ms":2111.6,"frames":11}", source:  (15)
+[204599:204599:1103/181631.220898:INFO:CONSOLE:15] "VCFPS {"fps":6.04,"p99_ms":422.5,"frames":7}", source:  (15)
+[204599:204599:1103/181632.330858:INFO:CONSOLE:15] "VCFPS {"fps":5.4,"p99_ms":373.9,"frames":6}", source:  (15)
+[204599:204599:1103/181633.425289:INFO:CONSOLE:15] "VCFPS {"fps":7.3,"p99_ms":205.4,"frames":8}", source:  (15)
+[204599:204599:1103/181634.515572:INFO:CONSOLE:15] "VCFPS {"fps":13.86,"p99_ms":165.7,"frames":15}", source:  (15)
+[204599:204599:1103/181635.565257:INFO:CONSOLE:15] "VCFPS {"fps":16.94,"p99_ms":139.1,"frames":18}", source:  (15)
+[204599:204599:1103/181636.679755:INFO:CONSOLE:15] "VCFPS {"fps":19.36,"p99_ms":93.1,"frames":20}", source:  (15)
+[204599:204599:1103/181637.636175:INFO:CONSOLE:15] "VCFPS {"fps":14.52,"p99_ms":159.5,"frames":15}", source:  (15)
+[204599:204599:1103/181638.667595:INFO:CONSOLE:15] "VCFPS {"fps":15.42,"p99_ms":162.4,"frames":16}", source:  (15)
+[204599:204599:1103/181639.760838:INFO:CONSOLE:15] "VCFPS {"fps":12,"p99_ms":166.6,"frames":13}", source:  (15)
+[204599:204599:1103/181640.810582:INFO:CONSOLE:15] "VCFPS {"fps":16,"p99_ms":126.1,"frames":17}", source:  (15)
+[204599:204599:1103/181641.859236:INFO:CONSOLE:15] "VCFPS {"fps":16.25,"p99_ms":172.9,"frames":17}", source:  (15)
+[204599:204599:1103/181644.371192:INFO:CONSOLE:15] "VCFPS {"fps":6.39,"p99_ms":1608.2,"frames":16}", source:  (15)
+[204599:204599:1103/181647.104314:INFO:CONSOLE:15] "VCFPS {"fps":1.1,"p99_ms":2416.5,"frames":3}", source:  (15)
+[204599:204599:1103/181648.110593:INFO:CONSOLE:15] "VCFPS {"fps":3.97,"p99_ms":873.8,"frames":4}", source:  (15)
+[204599:204599:1103/181649.138692:INFO:CONSOLE:15] "VCFPS {"fps":21.39,"p99_ms":118.8,"frames":22}", source:  (15)
+[204599:204599:1103/181650.156842:INFO:CONSOLE:15] "VCFPS {"fps":20.73,"p99_ms":99,"frames":21}", source:  (15)
+[204599:204599:1103/181652.129558:INFO:CONSOLE:15] "VCFPS {"fps":7.06,"p99_ms":1033.1,"frames":14}", source:  (15)
+[204599:204599:1103/181654.245690:INFO:CONSOLE:15] "VCFPS {"fps":1.43,"p99_ms":1871.2,"frames":3}", source:  (15)
+[204599:204599:1103/181655.250674:INFO:CONSOLE:15] "VCFPS {"fps":13.7,"p99_ms":485.2,"frames":14}", source:  (15)
+[204599:204599:1103/181656.265145:INFO:CONSOLE:15] "VCFPS {"fps":24.79,"p99_ms":95.8,"frames":25}", source:  (15)
+[204599:204599:1103/181657.337019:INFO:CONSOLE:15] "VCFPS {"fps":18.76,"p99_ms":184.4,"frames":20}", source:  (15)
+[204599:204599:1103/181658.376771:INFO:CONSOLE:15] "VCFPS {"fps":6.77,"p99_ms":333.5,"frames":7}", source:  (15)
+[204599:204599:1103/181659.516289:INFO:CONSOLE:15] "VCFPS {"fps":7.93,"p99_ms":312.9,"frames":9}", source:  (15)
+[204599:204599:1103/181700.629591:INFO:CONSOLE:15] "VCFPS {"fps":4.48,"p99_ms":560.1,"frames":5}", source:  (15)
+[204599:204599:1103/181702.412205:INFO:CONSOLE:15] "VCFPS {"fps":1.68,"p99_ms":1221.8,"frames":3}", source:  (15)
+[204599:204599:1103/181703.775928:INFO:CONSOLE:15] "VCFPS {"fps":2.18,"p99_ms":810.9,"frames":3}", source:  (15)
+[204599:204599:1103/181705.281268:INFO:CONSOLE:15] "VCFPS {"fps":1.33,"p99_ms":951.2,"frames":2}", source:  (15)
+[204599:204599:1103/181706.317921:INFO:CONSOLE:15] "VCFPS {"fps":2.87,"p99_ms":554.7,"frames":3}", source:  (15)
+[204599:204599:1103/181707.655454:INFO:CONSOLE:15] "VCFPS {"fps":1.5,"p99_ms":837.5,"frames":2}", source:  (15)
+[204599:204599:1103/181709.101007:INFO:CONSOLE:15] "VCFPS {"fps":2.78,"p99_ms":500,"frames":4}", source:  (15)
+[204599:204599:1103/181710.526480:INFO:CONSOLE:15] "VCFPS {"fps":2.1,"p99_ms":854.2,"frames":3}", source:  (15)
+[204599:204599:1103/181711.576961:INFO:CONSOLE:15] "VCFPS {"fps":1.91,"p99_ms":801.4,"frames":2}", source:  (15)
+[204599:204599:1103/181712.923910:INFO:CONSOLE:15] "VCFPS {"fps":4.45,"p99_ms":434.4,"frames":6}", source:  (15)
+[204599:204599:1103/181714.090247:INFO:CONSOLE:15] "VCFPS {"fps":3.45,"p99_ms":701.3,"frames":4}", source:  (15)
+[204599:204599:1103/181715.437453:INFO:CONSOLE:15] "VCFPS {"fps":2.94,"p99_ms":483.2,"frames":4}", source:  (15)
+[204599:204599:1103/181716.624754:INFO:CONSOLE:15] "VCFPS {"fps":1.68,"p99_ms":764.9,"frames":2}", source:  (15)
+[204599:204599:1103/181717.753523:INFO:CONSOLE:15] "VCFPS {"fps":1.77,"p99_ms":615.4,"frames":2}", source:  (15)
+[204599:204599:1103/181719.237962:INFO:CONSOLE:15] "VCFPS {"fps":2.71,"p99_ms":547.9,"frames":4}", source:  (15)
+[204599:204599:1103/181720.486038:INFO:CONSOLE:15] "VCFPS {"fps":2.41,"p99_ms":704.3,"frames":3}", source:  (15)
+[204599:204599:1103/181721.612176:INFO:CONSOLE:15] "VCFPS {"fps":1.78,"p99_ms":755.4,"frames":2}", source:  (15)
+[204599:204599:1103/181722.940606:INFO:CONSOLE:15] "VCFPS {"fps":2.99,"p99_ms":433.2,"frames":4}", source:  (15)
+[204599:204599:1103/181724.028778:INFO:CONSOLE:15] "VCFPS {"fps":5.52,"p99_ms":234.8,"frames":6}", source:  (15)
+[204599:204599:1103/181725.376385:INFO:CONSOLE:15] "VCFPS {"fps":2.97,"p99_ms":483.2,"frames":4}", source:  (15)
+[204599:204599:1103/181726.856274:INFO:CONSOLE:15] "VCFPS {"fps":2.03,"p99_ms":801.7,"frames":3}", source:  (15)
+[204599:204599:1103/181727.862668:INFO:CONSOLE:15] "VCFPS {"fps":17.83,"p99_ms":118.8,"frames":18}", source:  (15)
+[204599:204599:1103/181729.005603:INFO:CONSOLE:15] "VCFPS {"fps":13.01,"p99_ms":274.1,"frames":14}", source:  (15)
+[204599:204599:1103/181729.952480:INFO:CONSOLE:15] "VCFPS {"fps":10.82,"p99_ms":426.3,"frames":11}", source:  (15)
+[204599:204599:1103/181730.978226:INFO:CONSOLE:15] "VCFPS {"fps":17.71,"p99_ms":99.3,"frames":18}", source:  (15)
+[204599:204599:1103/181732.181610:INFO:CONSOLE:15] "VCFPS {"fps":16.78,"p99_ms":221.7,"frames":20}", source:  (15)
+[204599:204599:1103/181733.439441:INFO:CONSOLE:15] "VCFPS {"fps":3.92,"p99_ms":342,"frames":5}", source:  (15)
+[204599:204599:1103/181734.688573:INFO:CONSOLE:15] "VCFPS {"fps":2.41,"p99_ms":639,"frames":3}", source:  (15)
+[204599:204599:1103/181735.910742:INFO:CONSOLE:15] "VCFPS {"fps":3.28,"p99_ms":678.4,"frames":4}", source:  (15)
+[204599:204599:1103/181736.999488:INFO:CONSOLE:15] "VCFPS {"fps":1.83,"p99_ms":743.3,"frames":2}", source:  (15)
+[204599:204599:1103/181738.225710:INFO:CONSOLE:15] "VCFPS {"fps":3.28,"p99_ms":470.9,"frames":4}", source:  (15)
+[204599:204599:1103/181739.413146:INFO:CONSOLE:15] "VCFPS {"fps":3.37,"p99_ms":446.9,"frames":4}", source:  (15)
+[204599:204599:1103/181740.582780:INFO:CONSOLE:15] "VCFPS {"fps":4.22,"p99_ms":419.1,"frames":5}", source:  (15)
+[204599:204599:1103/181741.808985:INFO:CONSOLE:15] "VCFPS {"fps":4.07,"p99_ms":347.9,"frames":5}", source:  (15)
+[204599:204599:1103/181742.880702:INFO:CONSOLE:15] "VCFPS {"fps":3.78,"p99_ms":430.4,"frames":4}", source:  (15)
+[204599:204599:1103/181744.006636:INFO:CONSOLE:15] "VCFPS {"fps":4.4,"p99_ms":317.3,"frames":5}", source:  (15)
+[204599:204599:1103/181745.153901:INFO:CONSOLE:15] "VCFPS {"fps":5.23,"p99_ms":264.9,"frames":6}", source:  (15)
+[204599:204599:1103/181746.184293:INFO:CONSOLE:15] "VCFPS {"fps":3.88,"p99_ms":415,"frames":4}", source:  (15)
+[204599:204599:1103/181747.214264:INFO:CONSOLE:15] "VCFPS {"fps":3.89,"p99_ms":314.6,"frames":4}", source:  (15)
+[204599:204599:1103/181748.222493:INFO:CONSOLE:15] "VCFPS {"fps":3.97,"p99_ms":281.6,"frames":4}", source:  (15)
+[204599:204599:1103/181749.273889:INFO:CONSOLE:15] "VCFPS {"fps":4.75,"p99_ms":298.9,"frames":5}", source:  (15)
+[204599:204599:1103/181750.380730:INFO:CONSOLE:15] "VCFPS {"fps":4.52,"p99_ms":310.4,"frames":5}", source:  (15)
+[204599:204599:1103/181751.390778:INFO:CONSOLE:15] "VCFPS {"fps":3.96,"p99_ms":381.4,"frames":4}", source:  (15)
+[204599:204599:1103/181752.419630:INFO:CONSOLE:15] "VCFPS {"fps":2.91,"p99_ms":517.3,"frames":3}", source:  (15)
+[204599:204599:1103/181753.587221:INFO:CONSOLE:15] "VCFPS {"fps":5.14,"p99_ms":281,"frames":6}", source:  (15)
+[204599:204599:1103/181754.794180:INFO:CONSOLE:15] "VCFPS {"fps":4.18,"p99_ms":414.6,"frames":5}", source:  (15)
+[204599:204599:1103/181755.862752:INFO:CONSOLE:15] "VCFPS {"fps":4.64,"p99_ms":277,"frames":5}", source:  (15)
+[204599:204599:1103/181757.069448:INFO:CONSOLE:15] "VCFPS {"fps":4.18,"p99_ms":385.3,"frames":5}", source:  (15)
+[204599:204599:1103/181758.277711:INFO:CONSOLE:15] "VCFPS {"fps":4.1,"p99_ms":315.6,"frames":5}", source:  (15)
+[204599:204599:1103/181759.346285:INFO:CONSOLE:15] "VCFPS {"fps":4.73,"p99_ms":266.5,"frames":5}", source:  (15)
+[204599:204599:1103/181800.356659:INFO:CONSOLE:15] "VCFPS {"fps":4.9,"p99_ms":302.2,"frames":5}", source:  (15)
+[204599:204599:1103/181801.505414:INFO:CONSOLE:15] "VCFPS {"fps":4.36,"p99_ms":307.4,"frames":5}", source:  (15)
+[204599:204599:1103/181802.652977:INFO:CONSOLE:15] "VCFPS {"fps":3.51,"p99_ms":418.1,"frames":4}", source:  (15)
+[204599:204599:1103/181803.782424:INFO:CONSOLE:15] "VCFPS {"fps":4.42,"p99_ms":275.8,"frames":5}", source:  (15)
+[204599:204599:1103/181805.028964:INFO:CONSOLE:15] "VCFPS {"fps":3.21,"p99_ms":474.1,"frames":4}", source:  (15)
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+Warning: ../src/panfrost/vulkan/panvk_physical_device.c:82: failed to open device '' (VK_ERROR_INCOMPATIBLE_DRIVER)
+Warning: ../src/panfrost/vulkan/panvk_physical_device.c:82: failed to open device '' (VK_ERROR_INCOMPATIBLE_DRIVER)
+Warning: maxDynamicUniformBuffersPerPipelineLayout artificially reduced from 507904 to 16 to fit dynamic offset allocation limit.
+Warning: maxDynamicStorageBuffersPerPipelineLayout artificially reduced from 507904 to 16 to fit dynamic offset allocation limit.
+[204599:204599:1103/181805.835375:ERROR:services/on_device_model/public/cpp/service_client.cc:37] Unexpected on_device_model service disconnect; reason: 1, description: Error loading backend.
+[204599:204599:1103/181806.078574:INFO:CONSOLE:15] "VCFPS {"fps":2.83,"p99_ms":576.2,"frames":3}", source:  (15)
+[204599:204599:1103/181807.114949:INFO:CONSOLE:15] "VCFPS {"fps":3.88,"p99_ms":485.4,"frames":4}", source:  (15)
+[204599:204599:1103/181808.354581:INFO:CONSOLE:15] "VCFPS {"fps":4.06,"p99_ms":370.9,"frames":5}", source:  (15)
+[204599:204599:1103/181809.484493:INFO:CONSOLE:15] "VCFPS {"fps":4.37,"p99_ms":313.6,"frames":5}", source:  (15)
+[204599:204599:1103/181810.494151:INFO:CONSOLE:15] "VCFPS {"fps":4.95,"p99_ms":298.3,"frames":5}", source:  (15)
+[204599:204599:1103/181811.641187:INFO:CONSOLE:15] "VCFPS {"fps":4.36,"p99_ms":313.6,"frames":5}", source:  (15)
+[204599:204599:1103/181812.650521:INFO:CONSOLE:15] "VCFPS {"fps":3.95,"p99_ms":366.9,"frames":4}", source:  (15)
+[204599:204599:1103/181813.960035:INFO:CONSOLE:15] "VCFPS {"fps":4.6,"p99_ms":314.8,"frames":6}", source:  (15)
+[204599:204599:1103/181815.187540:INFO:CONSOLE:15] "VCFPS {"fps":4.07,"p99_ms":316,"frames":5}", source:  (15)
+[204599:204599:1103/181816.237406:INFO:CONSOLE:15] "VCFPS {"fps":3.81,"p99_ms":333.5,"frames":4}", source:  (15)
+[204599:204599:1103/181817.424386:INFO:CONSOLE:15] "VCFPS {"fps":4.2,"p99_ms":315.7,"frames":5}", source:  (15)
+[204599:204599:1103/181818.611429:INFO:CONSOLE:15] "VCFPS {"fps":4.24,"p99_ms":381.3,"frames":5}", source:  (15)
+[204599:204599:1103/181819.622805:INFO:CONSOLE:15] "VCFPS {"fps":3.97,"p99_ms":390.3,"frames":4}", source:  (15)
+[204599:204599:1103/181820.631614:INFO:CONSOLE:15] "VCFPS {"fps":3.94,"p99_ms":380.2,"frames":4}", source:  (15)
+[204599:204599:1103/181821.799449:INFO:CONSOLE:15] "VCFPS {"fps":4.25,"p99_ms":297.6,"frames":5}", source:  (15)
+[204599:204599:1103/181823.006416:INFO:CONSOLE:15] "VCFPS {"fps":4.15,"p99_ms":330.3,"frames":5}", source:  (15)
+[204599:204599:1103/181824.134398:INFO:CONSOLE:15] "VCFPS {"fps":3.56,"p99_ms":400.8,"frames":4}", source:  (15)
+[204599:204599:1103/181825.380800:INFO:CONSOLE:15] "VCFPS {"fps":4.84,"p99_ms":295,"frames":6}", source:  (15)
+[204599:204599:1103/181826.687465:INFO:CONSOLE:15] "VCFPS {"fps":3.79,"p99_ms":427.1,"frames":5}", source:  (15)
+[204599:204599:1103/181828.054981:INFO:CONSOLE:15] "VCFPS {"fps":3.68,"p99_ms":581.3,"frames":5}", source:  (15)
+[204599:204599:1103/181829.220733:INFO:CONSOLE:15] "VCFPS {"fps":4.25,"p99_ms":355.6,"frames":5}", source:  (15)
+[204599:204599:1103/181830.310424:INFO:CONSOLE:15] "VCFPS {"fps":4.6,"p99_ms":280.6,"frames":5}", source:  (15)
+[204599:204599:1103/181831.441591:INFO:CONSOLE:15] "VCFPS {"fps":4.47,"p99_ms":328,"frames":5}", source:  (15)
+[204599:204599:1103/181832.685051:INFO:CONSOLE:15] "VCFPS {"fps":4.01,"p99_ms":457.2,"frames":5}", source:  (15)
+[204599:204599:1103/181833.754165:INFO:CONSOLE:15] "VCFPS {"fps":4.7,"p99_ms":274,"frames":5}", source:  (15)
+[204599:204599:1103/181834.882830:INFO:CONSOLE:15] "VCFPS {"fps":3.5,"p99_ms":443.8,"frames":4}", source:  (15)
+[204599:204599:1103/181835.931938:INFO:CONSOLE:15] "VCFPS {"fps":9.54,"p99_ms":115.8,"frames":10}", source:  (15)
+[204599:204599:1103/181836.982425:INFO:CONSOLE:15] "VCFPS {"fps":9.52,"p99_ms":135.6,"frames":10}", source:  (15)
+[204599:204599:1103/181838.074173:INFO:CONSOLE:15] "VCFPS {"fps":7.33,"p99_ms":211.9,"frames":8}", source:  (15)
+[204599:204599:1103/181839.322435:INFO:CONSOLE:15] "VCFPS {"fps":4.81,"p99_ms":328.1,"frames":6}", source:  (15)
+[204599:204599:1103/181840.333926:INFO:CONSOLE:15] "VCFPS {"fps":4,"p99_ms":374,"frames":4}", source:  (15)
+[204599:204599:1103/181841.402954:INFO:CONSOLE:15] "VCFPS {"fps":4.62,"p99_ms":311.6,"frames":5}", source:  (15)
+[204599:204599:1103/181842.551212:INFO:CONSOLE:15] "VCFPS {"fps":4.4,"p99_ms":428.5,"frames":5}", source:  (15)
+[204599:204599:1103/181843.641335:INFO:CONSOLE:15] "VCFPS {"fps":4.53,"p99_ms":297.9,"frames":5}", source:  (15)
+[204599:204599:1103/181844.828922:INFO:CONSOLE:15] "VCFPS {"fps":4.21,"p99_ms":381.5,"frames":5}", source:  (15)
+[204599:204599:1103/181845.840308:INFO:CONSOLE:15] "VCFPS {"fps":5,"p99_ms":261.5,"frames":5}", source:  (15)
+[204599:204599:1103/181847.027526:INFO:CONSOLE:15] "VCFPS {"fps":5.01,"p99_ms":270.8,"frames":6}", source:  (15)
+[204599:204599:1103/181848.078543:INFO:CONSOLE:15] "VCFPS {"fps":4.82,"p99_ms":264.8,"frames":5}", source:  (15)
+[204599:204599:1103/181849.146497:INFO:CONSOLE:15] "VCFPS {"fps":4.66,"p99_ms":264.4,"frames":5}", source:  (15)
+[204599:204599:1103/181850.216537:INFO:CONSOLE:15] "VCFPS {"fps":4.65,"p99_ms":269.1,"frames":5}", source:  (15)
+[204599:204599:1103/181851.287518:INFO:CONSOLE:15] "VCFPS {"fps":4.66,"p99_ms":315.7,"frames":5}", source:  (15)
+[204599:204599:1103/181852.439253:INFO:CONSOLE:15] "VCFPS {"fps":5.24,"p99_ms":278.2,"frames":6}", source:  (15)
+[204599:204599:1103/181853.542477:INFO:CONSOLE:15] "VCFPS {"fps":4.53,"p99_ms":367.6,"frames":5}", source:  (15)
+[204599:204599:1103/181854.652322:INFO:CONSOLE:15] "VCFPS {"fps":4.53,"p99_ms":324.1,"frames":5}", source:  (15)
+[204599:204599:1103/181855.780475:INFO:CONSOLE:15] "VCFPS {"fps":3.54,"p99_ms":395.2,"frames":4}", source:  (15)
+[204599:204599:1103/181856.792387:INFO:CONSOLE:15] "VCFPS {"fps":3.92,"p99_ms":376.9,"frames":4}", source:  (15)
+[204599:204599:1103/181857.959742:INFO:CONSOLE:15] "VCFPS {"fps":4.32,"p99_ms":328.2,"frames":5}", source:  (15)
+[204599:204599:1103/181859.029388:INFO:CONSOLE:15] "VCFPS {"fps":4.68,"p99_ms":302.1,"frames":5}", source:  (15)
+[204599:204599:1103/181900.215359:INFO:CONSOLE:15] "VCFPS {"fps":4.16,"p99_ms":427.8,"frames":5}", source:  (15)
+[204599:204599:1103/181901.404048:INFO:CONSOLE:15] "VCFPS {"fps":4.21,"p99_ms":381,"frames":5}", source:  (15)
+[204599:204599:1103/181902.551959:INFO:CONSOLE:15] "VCFPS {"fps":4.4,"p99_ms":264.9,"frames":5}", source:  (15)
+[204599:204599:1103/181903.899514:INFO:CONSOLE:15] "VCFPS {"fps":3.7,"p99_ms":443.5,"frames":5}", source:  (15)
+[204599:204599:1103/181904.948836:INFO:CONSOLE:15] "VCFPS {"fps":4.79,"p99_ms":273,"frames":5}", source:  (15)
+[204599:204599:1103/181906.077896:INFO:CONSOLE:15] "VCFPS {"fps":4.42,"p99_ms":327.8,"frames":5}", source:  (15)
+[204599:204599:1103/181907.163944:INFO:CONSOLE:15] "VCFPS {"fps":7.29,"p99_ms":424.3,"frames":8}", source:  (15)
+[204599:204599:1103/181908.193517:INFO:CONSOLE:15] "VCFPS {"fps":9.7,"p99_ms":116.2,"frames":10}", source:  (15)
+[204599:204599:1103/181909.404880:INFO:CONSOLE:15] "VCFPS {"fps":5.82,"p99_ms":269,"frames":7}", source:  (15)
+[204599:204599:1103/181910.454165:INFO:CONSOLE:15] "VCFPS {"fps":4.73,"p99_ms":282,"frames":5}", source:  (15)
+[204599:204599:1103/181911.503190:INFO:CONSOLE:15] "VCFPS {"fps":4.82,"p99_ms":298.4,"frames":5}", source:  (15)
+[204599:204599:1103/181912.674732:INFO:CONSOLE:15] "VCFPS {"fps":3.41,"p99_ms":348,"frames":4}", source:  (15)
+[204599:204599:1103/181913.879612:INFO:CONSOLE:15] "VCFPS {"fps":3.31,"p99_ms":473.1,"frames":4}", source:  (15)
+[204599:204599:1103/181914.929486:INFO:CONSOLE:15] "VCFPS {"fps":4.79,"p99_ms":273.2,"frames":5}", source:  (15)
+[204599:204599:1103/181916.059328:INFO:CONSOLE:15] "VCFPS {"fps":4.41,"p99_ms":298,"frames":5}", source:  (15)
+[204599:204599:1103/181917.167781:INFO:CONSOLE:15] "VCFPS {"fps":4.53,"p99_ms":340.9,"frames":5}", source:  (15)
+[204599:204599:1103/181918.177683:INFO:CONSOLE:15] "VCFPS {"fps":3.96,"p99_ms":428.4,"frames":4}", source:  (15)
+[204599:204599:1103/181919.325029:INFO:CONSOLE:15] "VCFPS {"fps":5.18,"p99_ms":214.7,"frames":6}", source:  (15)
+[204599:204599:1103/181920.356031:INFO:CONSOLE:15] "VCFPS {"fps":4.84,"p99_ms":351.3,"frames":5}", source:  (15)
+[204599:204599:1103/181921.406239:INFO:CONSOLE:15] "VCFPS {"fps":4.81,"p99_ms":278.1,"frames":5}", source:  (15)
+[204599:204599:1103/181922.652334:INFO:CONSOLE:15] "VCFPS {"fps":4.83,"p99_ms":284.5,"frames":6}", source:  (15)
+[204599:204599:1103/181923.641654:INFO:CONSOLE:15] "VCFPS {"fps":3.98,"p99_ms":363.6,"frames":4}", source:  (15)
+[204599:204599:1103/181924.808278:INFO:CONSOLE:15] "VCFPS {"fps":4.33,"p99_ms":328.5,"frames":5}", source:  (15)
+[204599:204599:1103/181926.096987:INFO:CONSOLE:15] "VCFPS {"fps":3.87,"p99_ms":428.2,"frames":5}", source:  (15)
+[204599:204599:1103/181927.291283:INFO:CONSOLE:15] "VCFPS {"fps":6.72,"p99_ms":373,"frames":8}", source:  (15)
+[204599:204599:1103/181928.315161:INFO:CONSOLE:15] "VCFPS {"fps":8.74,"p99_ms":135.7,"frames":9}", source:  (15)
+[204599:204599:1103/181929.506048:INFO:CONSOLE:15] "VCFPS {"fps":6.7,"p99_ms":544.4,"frames":8}", source:  (15)
+[204599:204599:1103/181930.556578:INFO:CONSOLE:15] "VCFPS {"fps":4.74,"p99_ms":298.2,"frames":5}", source:  (15)
+[204599:204599:1103/181931.567337:INFO:CONSOLE:15] "VCFPS {"fps":3.96,"p99_ms":330.3,"frames":4}", source:  (15)
+[204599:204599:1103/181932.855328:INFO:CONSOLE:15] "VCFPS {"fps":3.88,"p99_ms":391.2,"frames":5}", source:  (15)
+[204599:204599:1103/181934.062178:INFO:CONSOLE:15] "VCFPS {"fps":5.02,"p99_ms":278,"frames":6}", source:  (15)
+[204599:204599:1103/181935.150534:INFO:CONSOLE:15] "VCFPS {"fps":4.6,"p99_ms":327.2,"frames":5}", source:  (15)
+[204599:204599:1103/181936.220249:INFO:CONSOLE:15] "VCFPS {"fps":4.61,"p99_ms":280.1,"frames":5}", source:  (15)
+[204599:204599:1103/181937.329978:INFO:CONSOLE:15] "VCFPS {"fps":3.64,"p99_ms":363.7,"frames":4}", source:  (15)
+[204599:204599:1103/181938.517792:INFO:CONSOLE:15] "VCFPS {"fps":4.18,"p99_ms":328.2,"frames":5}", source:  (15)
+[204599:204599:1103/181939.605335:INFO:CONSOLE:15] "VCFPS {"fps":4.59,"p99_ms":267.1,"frames":5}", source:  (15)
+[204599:204599:1103/181940.873354:INFO:CONSOLE:15] "VCFPS {"fps":3.93,"p99_ms":350.8,"frames":5}", source:  (15)
+[204599:204599:1103/181941.902769:INFO:CONSOLE:15] "VCFPS {"fps":3.9,"p99_ms":356.4,"frames":4}", source:  (15)
+[204599:204599:1103/181942.994368:INFO:CONSOLE:15] "VCFPS {"fps":4.62,"p99_ms":267.7,"frames":5}", source:  (15)

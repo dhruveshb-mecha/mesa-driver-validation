@@ -1,0 +1,19 @@
+{
+ "id": "browser.chromium.webgl-load-200",
+ "status": "RAN_OK",
+ "rc": 0,
+ "timed_out": false,
+ "duration_s": 60.5,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 51.1,
+  "soc-thermal": 80.0,
+  "cpu-thermal": 81.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 51.0,
+  "soc-thermal": 78.0,
+  "cpu-thermal": 79.0
+ },
+ "metrics": {}
+}

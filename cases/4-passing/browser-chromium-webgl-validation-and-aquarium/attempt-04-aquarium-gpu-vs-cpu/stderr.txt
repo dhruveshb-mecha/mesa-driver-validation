@@ -1,0 +1,13 @@
+Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<Chrome._read() done, defined at /home/mecha/benchmarks/validate_full.py:62> exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/home/mecha/benchmarks/validate_full.py", line 63, in _read
+    async for m in self.ws:
+    ...<2 lines>...
+        if f and not f.done(): f.set_result(m)
+  File "/usr/lib64/python3.14/site-packages/websockets/asyncio/connection.py", line 242, in __aiter__
+    yield await self.recv()
+          ^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/site-packages/websockets/asyncio/connection.py", line 322, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent

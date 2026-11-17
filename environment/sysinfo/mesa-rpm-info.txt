@@ -1,0 +1,18 @@
+$ rpm -qi mesa-dri-drivers
+
+Name        : mesa-dri-drivers
+Version     : 27.0.0~devel
+Release     : 0.1.20261026git7b4b394.fc44
+Architecture: aarch64
+Install Date: Tue Nov  3 10:18:31 2026
+Group       : Unspecified
+Size        : 44285954
+License     : MIT AND BSD-3-Clause AND SGI-B-2.0
+Signature   : (none)
+Source RPM  : mesa-27.0.0~devel-0.1.20261026git7b4b394.fc44.src.rpm
+Build Date  : Mon Oct 26 16:21:32 2026
+Build Host  : fedora-16gb-hel1-2
+URL         : https://mesa3d.org
+Summary     : Mesa-based DRI drivers
+Description :
+Mesa-based DRI drivers.

@@ -1,0 +1,102 @@
+{"scene": "widgets", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 47.0, "p50_ms": 19.4, "p95_ms": 32.4, "max_ms": 36.0, "frames": 283, "req": "cairo", "small": false}
+{"scene": "widgets", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 26.0, "p50_ms": 37.1, "p95_ms": 48.1, "max_ms": 66.5, "frames": 122, "req": "gl", "small": false}
+{"scene": "widgets", "n": 40, "renderer": "CairoRenderer", "size": "540x620", "fps": 27.1, "p50_ms": 36.4, "p95_ms": 47.0, "max_ms": 48.7, "frames": 163, "req": "cairo", "small": false}
+{"scene": "widgets", "n": 40, "renderer": "GLRenderer", "size": "540x620", "fps": 6.8, "p50_ms": 146.7, "p95_ms": 165.5, "max_ms": 165.6, "frames": 33, "req": "gl", "small": false}
+{"scene": "text", "n": 10, "renderer": "CairoRenderer", "size": "820x620", "fps": 18.1, "p50_ms": 37.1, "p95_ms": 132.2, "max_ms": 248.0, "frames": 110, "req": "cairo", "small": false}
+{"scene": "text", "n": 10, "renderer": "gl", "error": ":97477): Gdk-WARNING **: 09:44:45.568: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface \u201corg.freedesktop.portal.Inhibit\u201d\n", "req": "gl", "small": false}
+{"scene": "text", "n": 40, "renderer": "CairoRenderer", "size": "3392x620", "fps": 6.0, "p50_ms": 153.2, "p95_ms": 300.1, "max_ms": 403.2, "frames": 37, "req": "cairo", "small": false}
+{"scene": "text", "n": 40, "renderer": "gl", "error": ":97570): Gdk-WARNING **: 09:45:03.943: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface \u201corg.freedesktop.portal.Inhibit\u201d\n", "req": "gl", "small": false}
+{"scene": "shadows", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 11.6, "p50_ms": 83.9, "p95_ms": 98.1, "max_ms": 100.0, "frames": 71, "req": "cairo", "small": false}
+{"scene": "shadows", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 6.9, "p50_ms": 117.6, "p95_ms": 146.5, "max_ms": 1133.1, "frames": 42, "req": "gl", "small": false}
+{"scene": "shadows", "n": 40, "renderer": "CairoRenderer", "size": "540x620", "fps": 3.5, "p50_ms": 283.3, "p95_ms": 300.1, "max_ms": 316.3, "frames": 22, "req": "cairo", "small": false}
+{"scene": "shadows", "n": 40, "renderer": "GLRenderer", "size": "540x620", "fps": 2.0, "p50_ms": 481.1, "p95_ms": 1150.4, "max_ms": 1150.4, "frames": 13, "req": "gl", "small": false}
+{"scene": "gradients", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 11.6, "p50_ms": 83.2, "p95_ms": 101.7, "max_ms": 115.0, "frames": 71, "req": "cairo", "small": false}
+{"scene": "gradients", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 5.2, "p50_ms": 182.9, "p95_ms": 200.3, "max_ms": 464.9, "frames": 32, "req": "gl", "small": false}
+{"scene": "gradients", "n": 40, "renderer": "CairoRenderer", "size": "603x643", "fps": 3.3, "p50_ms": 299.4, "p95_ms": 330.8, "max_ms": 330.8, "frames": 21, "req": "cairo", "small": false}
+{"scene": "gradients", "n": 40, "renderer": "GLRenderer", "size": "558x620", "fps": 1.5, "p50_ms": 733.4, "p95_ms": 750.6, "max_ms": 750.6, "frames": 9, "req": "gl", "small": false}
+{"scene": "rounded", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 25.7, "p50_ms": 33.0, "p95_ms": 68.0, "max_ms": 118.2, "frames": 156, "req": "cairo", "small": false}
+{"scene": "rounded", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 17.0, "p50_ms": 63.0, "p95_ms": 66.2, "max_ms": 83.3, "frames": 100, "req": "gl", "small": false}
+{"scene": "rounded", "n": 40, "renderer": "CairoRenderer", "size": "1088x802", "fps": 8.2, "p50_ms": 101.1, "p95_ms": 216.5, "max_ms": 282.0, "frames": 51, "req": "cairo", "small": false}
+{"scene": "rounded", "n": 40, "renderer": "GLRenderer", "size": "859x725", "fps": 4.7, "p50_ms": 216.5, "p95_ms": 217.2, "max_ms": 217.5, "frames": 29, "req": "gl", "small": false}
+{"scene": "textures", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 24.4, "p50_ms": 32.9, "p95_ms": 79.6, "max_ms": 131.1, "frames": 146, "req": "cairo", "small": false}
+{"scene": "textures", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 23.7, "p50_ms": 33.4, "p95_ms": 50.5, "max_ms": 1116.8, "frames": 143, "req": "gl", "small": false}
+{"scene": "textures", "n": 40, "renderer": "CairoRenderer", "size": "806x854", "fps": 6.8, "p50_ms": 136.9, "p95_ms": 233.5, "max_ms": 283.3, "frames": 42, "req": "cairo", "small": false}
+{"scene": "textures", "n": 40, "renderer": "GLRenderer", "size": "1008x1015", "fps": 11.9, "p50_ms": 83.3, "p95_ms": 100.5, "max_ms": 102.2, "frames": 72, "req": "gl", "small": false}
+{"scene": "blur", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 19.9, "p50_ms": 49.6, "p95_ms": 66.7, "max_ms": 98.4, "frames": 120, "req": "cairo", "small": false}
+{"scene": "blur", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 3.1, "p50_ms": 237.4, "p95_ms": 1166.6, "max_ms": 1166.6, "frames": 20, "req": "gl", "small": false}
+{"scene": "blur", "n": 40, "renderer": "CairoRenderer", "size": "577x635", "fps": 6.9, "p50_ms": 137.5, "p95_ms": 168.0, "max_ms": 216.6, "frames": 42, "req": "cairo", "small": false}
+{"scene": "blur", "n": 40, "renderer": "GLRenderer", "size": "548x622", "fps": 1.2, "p50_ms": 930.9, "p95_ms": 934.1, "max_ms": 934.1, "frames": 8, "req": "gl", "small": false}
+{"scene": "widgets", "n": 40, "renderer": "CairoRenderer", "size": "536x541", "fps": 24.8, "p50_ms": 36.6, "p95_ms": 49.5, "max_ms": 63.7, "frames": 150, "req": "cairo", "small": true}
+{"scene": "widgets", "n": 40, "renderer": "GLRenderer", "size": "536x568", "fps": 6.8, "p50_ms": 136.1, "p95_ms": 165.7, "max_ms": 165.8, "frames": 32, "req": "gl", "small": true}
+{"scene": "shadows", "n": 40, "renderer": "CairoRenderer", "size": "536x564", "fps": 3.5, "p50_ms": 283.6, "p95_ms": 300.1, "max_ms": 300.5, "frames": 22, "req": "cairo", "small": true}
+{"scene": "shadows", "n": 40, "renderer": "GLRenderer", "size": "536x544", "fps": 2.1, "p50_ms": 467.9, "p95_ms": 486.6, "max_ms": 486.6, "frames": 14, "req": "gl", "small": true}
+{"scene": "rounded", "n": 40, "renderer": "CairoRenderer", "size": "1445x1033", "fps": 6.2, "p50_ms": 166.6, "p95_ms": 280.9, "max_ms": 282.6, "frames": 39, "req": "cairo", "small": true}
+{"scene": "rounded", "n": 40, "renderer": "GLRenderer", "size": "1261x1053", "fps": 4.5, "p50_ms": 217.4, "p95_ms": 250.0, "max_ms": 367.7, "frames": 27, "req": "gl", "small": true}
+{"scene": "widgets", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 50.3, "p50_ms": 19.4, "p95_ms": 29.8, "max_ms": 33.3, "frames": 303, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "widgets", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 26.0, "p50_ms": 37.2, "p95_ms": 48.0, "max_ms": 64.4, "frames": 122, "attempt": 1, "req": "gl", "small": false}
+{"scene": "widgets", "n": 40, "renderer": "CairoRenderer", "size": "540x620", "fps": 26.1, "p50_ms": 36.4, "p95_ms": 50.0, "max_ms": 50.6, "frames": 158, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "widgets", "n": 40, "renderer": "GLRenderer", "size": "540x620", "fps": 6.8, "p50_ms": 135.8, "p95_ms": 166.7, "max_ms": 166.7, "frames": 33, "attempt": 1, "req": "gl", "small": false}
+{"scene": "text", "n": 10, "renderer": "CairoRenderer", "size": "808x620", "fps": 18.3, "p50_ms": 37.2, "p95_ms": 131.9, "max_ms": 282.3, "frames": 110, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "text", "n": 10, "renderer": "GLRenderer", "size": "674x620", "fps": 25.3, "p50_ms": 30.5, "p95_ms": 85.8, "max_ms": 1163.1, "frames": 159, "attempt": 1, "req": "gl", "small": false}
+{"scene": "text", "n": 40, "renderer": "CairoRenderer", "size": "3494x620", "fps": 5.5, "p50_ms": 169.0, "p95_ms": 363.0, "max_ms": 450.0, "frames": 35, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "text", "n": 40, "renderer": "gl", "error": "rc=-11 \n", "attempt": 2, "req": "gl", "small": false}
+{"scene": "shadows", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 10.4, "p50_ms": 99.0, "p95_ms": 100.2, "max_ms": 102.8, "frames": 63, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "shadows", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 6.9, "p50_ms": 118.5, "p95_ms": 146.4, "max_ms": 1133.3, "frames": 42, "attempt": 1, "req": "gl", "small": false}
+{"scene": "shadows", "n": 40, "renderer": "CairoRenderer", "size": "540x620", "fps": 3.5, "p50_ms": 283.6, "p95_ms": 299.3, "max_ms": 300.6, "frames": 22, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "shadows", "n": 40, "renderer": "GLRenderer", "size": "540x620", "fps": 2.0, "p50_ms": 480.4, "p95_ms": 1151.0, "max_ms": 1151.0, "frames": 12, "attempt": 1, "req": "gl", "small": false}
+{"scene": "gradients", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 11.4, "p50_ms": 84.5, "p95_ms": 103.7, "max_ms": 117.0, "frames": 70, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "gradients", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 5.7, "p50_ms": 181.6, "p95_ms": 200.3, "max_ms": 200.3, "frames": 35, "attempt": 1, "req": "gl", "small": false}
+{"scene": "gradients", "n": 40, "renderer": "CairoRenderer", "size": "602x641", "fps": 3.3, "p50_ms": 299.1, "p95_ms": 317.4, "max_ms": 317.4, "frames": 21, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "gradients", "n": 40, "renderer": "GLRenderer", "size": "558x620", "fps": 1.5, "p50_ms": 733.7, "p95_ms": 750.3, "max_ms": 750.3, "frames": 9, "attempt": 1, "req": "gl", "small": false}
+{"scene": "rounded", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 25.2, "p50_ms": 32.9, "p95_ms": 66.7, "max_ms": 98.3, "frames": 152, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "rounded", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 15.9, "p50_ms": 65.4, "p95_ms": 100.1, "max_ms": 117.6, "frames": 93, "attempt": 1, "req": "gl", "small": false}
+{"scene": "rounded", "n": 40, "renderer": "CairoRenderer", "size": "1036x771", "fps": 7.5, "p50_ms": 115.6, "p95_ms": 253.3, "max_ms": 333.7, "frames": 46, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "rounded", "n": 40, "renderer": "GLRenderer", "size": "855x725", "fps": 4.6, "p50_ms": 216.9, "p95_ms": 218.7, "max_ms": 496.0, "frames": 28, "attempt": 1, "req": "gl", "small": false}
+{"scene": "textures", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 22.3, "p50_ms": 33.3, "p95_ms": 81.9, "max_ms": 130.3, "frames": 134, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "textures", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 17.3, "p50_ms": 47.4, "p95_ms": 81.9, "max_ms": 1215.6, "frames": 105, "attempt": 1, "req": "gl", "small": false}
+{"scene": "textures", "n": 40, "renderer": "CairoRenderer", "size": "803x872", "fps": 6.6, "p50_ms": 136.8, "p95_ms": 264.6, "max_ms": 335.1, "frames": 41, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "textures", "n": 40, "renderer": "GLRenderer", "size": "787x913", "fps": 10.2, "p50_ms": 83.5, "p95_ms": 153.5, "max_ms": 166.7, "frames": 62, "attempt": 1, "req": "gl", "small": false}
+{"scene": "blur", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 18.3, "p50_ms": 51.6, "p95_ms": 80.8, "max_ms": 83.7, "frames": 111, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "blur", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 3.1, "p50_ms": 246.3, "p95_ms": 1150.0, "max_ms": 1150.0, "frames": 20, "attempt": 1, "req": "gl", "small": false}
+{"scene": "blur", "n": 40, "renderer": "CairoRenderer", "size": "581x632", "fps": 6.5, "p50_ms": 151.8, "p95_ms": 199.4, "max_ms": 200.1, "frames": 40, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "blur", "n": 40, "renderer": "GLRenderer", "size": "543x629", "fps": 1.2, "p50_ms": 930.4, "p95_ms": 933.3, "max_ms": 933.3, "frames": 8, "attempt": 1, "req": "gl", "small": false}
+{"scene": "widgets", "n": 40, "renderer": "CairoRenderer", "size": "536x541", "fps": 24.2, "p50_ms": 37.2, "p95_ms": 50.1, "max_ms": 54.1, "frames": 147, "attempt": 1, "req": "cairo", "small": true}
+{"scene": "widgets", "n": 40, "renderer": "GLRenderer", "size": "536x568", "fps": 6.8, "p50_ms": 146.2, "p95_ms": 166.7, "max_ms": 166.7, "frames": 32, "attempt": 1, "req": "gl", "small": true}
+{"scene": "shadows", "n": 40, "renderer": "CairoRenderer", "size": "536x563", "fps": 3.4, "p50_ms": 286.2, "p95_ms": 332.7, "max_ms": 332.7, "frames": 21, "attempt": 1, "req": "cairo", "small": true}
+{"scene": "shadows", "n": 40, "renderer": "GLRenderer", "size": "536x474", "fps": 2.1, "p50_ms": 479.4, "p95_ms": 482.3, "max_ms": 482.3, "frames": 13, "attempt": 1, "req": "gl", "small": true}
+{"scene": "rounded", "n": 40, "renderer": "CairoRenderer", "size": "1432x1248", "fps": 5.9, "p50_ms": 182.8, "p95_ms": 297.9, "max_ms": 415.8, "frames": 37, "attempt": 1, "req": "cairo", "small": true}
+{"scene": "rounded", "n": 40, "renderer": "GLRenderer", "size": "1268x1012", "fps": 4.4, "p50_ms": 217.0, "p95_ms": 366.0, "max_ms": 368.6, "frames": 26, "attempt": 1, "req": "gl", "small": true}
+{"scene": "widgets", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 49.6, "p50_ms": 19.6, "p95_ms": 30.3, "max_ms": 34.5, "frames": 299, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "widgets", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 25.9, "p50_ms": 37.1, "p95_ms": 48.3, "max_ms": 66.5, "frames": 121, "attempt": 1, "req": "gl", "small": false}
+{"scene": "widgets", "n": 40, "renderer": "CairoRenderer", "size": "540x620", "fps": 26.7, "p50_ms": 36.3, "p95_ms": 47.7, "max_ms": 51.2, "frames": 162, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "widgets", "n": 40, "renderer": "GLRenderer", "size": "540x620", "fps": 6.7, "p50_ms": 148.4, "p95_ms": 165.9, "max_ms": 167.1, "frames": 31, "attempt": 1, "req": "gl", "small": false}
+{"scene": "text", "n": 10, "renderer": "CairoRenderer", "size": "808x620", "fps": 16.5, "p50_ms": 47.7, "p95_ms": 151.4, "max_ms": 233.2, "frames": 100, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "text", "n": 10, "renderer": "GLRenderer", "size": "830x620", "fps": 30.3, "p50_ms": 31.7, "p95_ms": 67.0, "max_ms": 130.0, "frames": 183, "attempt": 1, "req": "gl", "small": false}
+{"scene": "text", "n": 40, "renderer": "CairoRenderer", "size": "3480x620", "fps": 5.0, "p50_ms": 181.1, "p95_ms": 381.9, "max_ms": 436.1, "frames": 32, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "text", "n": 40, "renderer": "gl", "error": "rc=-11 such file or directory.\nlibGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.\nlibGL: Can't open configuration file /etc/drirc: No such file or directory.\nlibGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.", "attempt": 2, "req": "gl", "small": false}
+{"scene": "shadows", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 11.6, "p50_ms": 83.5, "p95_ms": 98.4, "max_ms": 100.0, "frames": 71, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "shadows", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 6.5, "p50_ms": 118.5, "p95_ms": 217.7, "max_ms": 1182.6, "frames": 40, "attempt": 1, "req": "gl", "small": false}
+{"scene": "shadows", "n": 40, "renderer": "CairoRenderer", "size": "540x620", "fps": 3.5, "p50_ms": 283.3, "p95_ms": 300.2, "max_ms": 300.7, "frames": 22, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "shadows", "n": 40, "renderer": "GLRenderer", "size": "540x620", "fps": 2.0, "p50_ms": 468.5, "p95_ms": 1149.4, "max_ms": 1149.4, "frames": 13, "attempt": 1, "req": "gl", "small": false}
+{"scene": "gradients", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 10.6, "p50_ms": 96.2, "p95_ms": 116.6, "max_ms": 119.0, "frames": 64, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "gradients", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 5.5, "p50_ms": 183.2, "p95_ms": 200.3, "max_ms": 200.3, "frames": 34, "attempt": 1, "req": "gl", "small": false}
+{"scene": "gradients", "n": 40, "renderer": "CairoRenderer", "size": "603x646", "fps": 3.3, "p50_ms": 300.0, "p95_ms": 332.3, "max_ms": 332.3, "frames": 21, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "gradients", "n": 40, "renderer": "GLRenderer", "size": "558x620", "fps": 1.5, "p50_ms": 732.7, "p95_ms": 749.9, "max_ms": 749.9, "frames": 9, "attempt": 1, "req": "gl", "small": false}
+{"scene": "rounded", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 20.7, "p50_ms": 37.1, "p95_ms": 82.0, "max_ms": 116.6, "frames": 125, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "rounded", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 17.1, "p50_ms": 54.1, "p95_ms": 66.7, "max_ms": 82.8, "frames": 101, "attempt": 1, "req": "gl", "small": false}
+{"scene": "rounded", "n": 40, "renderer": "CairoRenderer", "size": "999x788", "fps": 7.4, "p50_ms": 114.5, "p95_ms": 268.7, "max_ms": 335.4, "frames": 46, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "rounded", "n": 40, "renderer": "GLRenderer", "size": "857x725", "fps": 4.7, "p50_ms": 216.8, "p95_ms": 217.9, "max_ms": 218.4, "frames": 29, "attempt": 1, "req": "gl", "small": false}
+{"scene": "textures", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 20.5, "p50_ms": 33.4, "p95_ms": 85.9, "max_ms": 165.0, "frames": 123, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "textures", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 23.0, "p50_ms": 33.6, "p95_ms": 52.1, "max_ms": 1150.0, "frames": 140, "attempt": 1, "req": "gl", "small": false}
+{"scene": "textures", "n": 40, "renderer": "CairoRenderer", "size": "803x825", "fps": 6.3, "p50_ms": 150.0, "p95_ms": 299.5, "max_ms": 333.3, "frames": 39, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "textures", "n": 40, "renderer": "GLRenderer", "size": "787x909", "fps": 10.1, "p50_ms": 83.4, "p95_ms": 151.6, "max_ms": 162.7, "frames": 61, "attempt": 1, "req": "gl", "small": false}
+{"scene": "blur", "n": 10, "renderer": "CairoRenderer", "size": "540x620", "fps": 21.8, "p50_ms": 46.8, "p95_ms": 65.5, "max_ms": 79.8, "frames": 131, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "blur", "n": 10, "renderer": "GLRenderer", "size": "540x620", "fps": 3.2, "p50_ms": 237.0, "p95_ms": 1150.8, "max_ms": 1150.8, "frames": 20, "attempt": 1, "req": "gl", "small": false}
+{"scene": "blur", "n": 40, "renderer": "CairoRenderer", "size": "579x635", "fps": 6.5, "p50_ms": 151.6, "p95_ms": 169.4, "max_ms": 181.2, "frames": 40, "attempt": 1, "req": "cairo", "small": false}
+{"scene": "blur", "n": 40, "renderer": "GLRenderer", "size": "541x629", "fps": 1.2, "p50_ms": 930.3, "p95_ms": 931.0, "max_ms": 931.0, "frames": 8, "attempt": 1, "req": "gl", "small": false}
+{"scene": "widgets", "n": 40, "renderer": "CairoRenderer", "size": "536x541", "fps": 24.6, "p50_ms": 36.8, "p95_ms": 49.2, "max_ms": 53.3, "frames": 148, "attempt": 1, "req": "cairo", "small": true}
+{"scene": "widgets", "n": 40, "renderer": "GLRenderer", "size": "536x568", "fps": 6.9, "p50_ms": 137.5, "p95_ms": 165.8, "max_ms": 166.7, "frames": 33, "attempt": 1, "req": "gl", "small": true}
+{"scene": "shadows", "n": 40, "renderer": "CairoRenderer", "size": "536x564", "fps": 3.2, "p50_ms": 316.3, "p95_ms": 380.8, "max_ms": 380.8, "frames": 20, "attempt": 1, "req": "cairo", "small": true}
+{"scene": "shadows", "n": 40, "renderer": "GLRenderer", "size": "536x543", "fps": 2.1, "p50_ms": 469.6, "p95_ms": 499.9, "max_ms": 499.9, "frames": 14, "attempt": 1, "req": "gl", "small": true}
+{"scene": "rounded", "n": 40, "renderer": "CairoRenderer", "size": "1475x1008", "fps": 6.5, "p50_ms": 150.5, "p95_ms": 250.4, "max_ms": 283.3, "frames": 41, "attempt": 1, "req": "cairo", "small": true}
+{"scene": "rounded", "n": 40, "renderer": "GLRenderer", "size": "1221x807", "fps": 4.5, "p50_ms": 217.4, "p95_ms": 233.3, "max_ms": 384.1, "frames": 27, "attempt": 1, "req": "gl", "small": true}

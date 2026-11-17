@@ -1,0 +1,8 @@
+
+(process:185225): Gdk-WARNING **: 16:59:59.032: Cannot get portal org.freedesktop.portal.Settings version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Settings”
+
+(gtk4-demo:185225): Gdk-WARNING **: 16:59:59.056: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+Environment variable GSK_RENDERER=cairo set, trying GskCairoRenderer
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandToplevel'
+** Message: 16:59:59.330: For syntax highlighting, install the “highlight” program
+Using renderer 'GskCairoRenderer' for surface 'GdkWaylandToplevel'

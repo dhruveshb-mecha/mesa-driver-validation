@@ -1,0 +1,19 @@
+{
+ "id": "toolkit.flutter.mechanix-settings",
+ "status": "RAN_OK",
+ "rc": -15,
+ "timed_out": true,
+ "duration_s": 25.1,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 49.4,
+  "soc-thermal": 78.0,
+  "cpu-thermal": 79.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 49.3,
+  "soc-thermal": 78.0,
+  "cpu-thermal": 80.0
+ },
+ "metrics": {}
+}

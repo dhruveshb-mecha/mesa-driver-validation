@@ -1,0 +1,94 @@
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+[155722:155722:1103/143743.501333:WARNING:ui/ozone/platform/wayland/common/drm_render_node_path_finder.cc:178] Preferred drm_render_node not found, picking etnaviv
+[155722:155722:1103/143743.589173:WARNING:ui/ozone/platform/wayland/common/wayland_object.cc:120] Binding to wl_shm version 1 but version 2 is available.
+[155722:155722:1103/143743.589481:WARNING:ui/ozone/platform/wayland/common/wayland_object.cc:120] Binding to ext_idle_notifier_v1 version 1 but version 2 is available.
+[155722:155722:1103/143743.590075:WARNING:ui/ozone/platform/wayland/common/wayland_object.cc:120] Binding to zwp_pointer_gestures_v1 version 1 but version 3 is available.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+[155722:155722:1103/143745.116170:WARNING:chrome/browser/signin/account_consistency_mode_manager.cc:74] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+
+DevTools listening on ws://127.0.0.1:9333/devtools/browser/5f72c492-b3f6-473d-b818-5b757a6bf7b7
+[155722:155722:1103/143745.387500:WARNING:ui/ozone/platform/wayland/host/wayland_surface.cc:170] Server doesn't support zcr_alpha_compositing_v1.
+[155722:155722:1103/143745.387857:WARNING:ui/ozone/platform/wayland/host/wayland_surface.cc:185] Server doesn't support overlay_prioritizer.
+[155722:155722:1103/143745.388038:WARNING:ui/ozone/platform/wayland/host/wayland_surface.cc:214] Server doesn't support wp_color_management_surface_v1.
+[155722:155722:1103/143746.545583:WARNING:ui/base/idle/idle_linux.cc:111] None of the known D-Bus ScreenSaver services could be used.
+[155722:155722:1103/143746.571961:WARNING:components/dbus/xdg/portal.cc:126] Failed to register with org.freedesktop.host.portal.Registry
+[155722:155722:1103/143746.577481:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.FileChooser”
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+[155779:155779:1103/143747.870915:WARNING:sandbox/policy/linux/sandbox_linux.cc:405] InitializeSandbox() called with multiple threads in process gpu-process.
+[155722:155722:1103/143753.452757:INFO:CONSOLE:55] "--Setup Laser----------------------------------------", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143753.858154:INFO:CONSOLE:55] "--Draw Fish---------------------------------------", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143754.154816:INFO:CONSOLE:55] "assets/MediumFishA.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143754.296735:INFO:CONSOLE:55] "assets/MediumFishB.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143754.371806:INFO:CONSOLE:55] "assets/SmallFishA.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143754.422664:INFO:CONSOLE:55] "assets/BigFishB.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143754.454075:INFO:CONSOLE:55] "assets/BigFishA.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143754.632067:INFO:CONSOLE:55] "assets/Arch.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143754.722512:INFO:CONSOLE:55] "assets/CoralStoneA.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143754.746140:INFO:CONSOLE:55] "assets/Coral.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143754.778564:INFO:CONSOLE:55] "assets/CoralStoneB.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143754.863622:INFO:CONSOLE:55] "assets/FloorBase_Baked.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.085707:INFO:CONSOLE:55] "assets/EnvironmentBox.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.088344:INFO:CONSOLE:55] "assets/EnvironmentBox.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.089548:INFO:CONSOLE:55] "assets/EnvironmentBox.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.103213:INFO:CONSOLE:55] "assets/EnvironmentBox.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.109595:INFO:CONSOLE:55] "assets/EnvironmentBox.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.132799:INFO:CONSOLE:55] "assets/EnvironmentBox.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.340542:INFO:CONSOLE:55] "assets/FloorCenter.js: diffuse", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.499918:INFO:CONSOLE:55] "assets/GlobeInner.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.565660:INFO:CONSOLE:55] "assets/RockA.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.581420:INFO:CONSOLE:55] "assets/Stone.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.648818:INFO:CONSOLE:55] "assets/GlobeOuter.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.728837:INFO:CONSOLE:55] "assets/Stones.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.738221:INFO:CONSOLE:55] "assets/RuinColumn.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.780832:INFO:CONSOLE:55] "assets/SunknSub.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.786792:INFO:CONSOLE:55] "assets/SunknSub.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.891790:INFO:CONSOLE:55] "assets/RockC.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.907615:INFO:CONSOLE:55] "assets/GlobeBase.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.918218:INFO:CONSOLE:55] "assets/RockB.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.937895:INFO:CONSOLE:55] "assets/SunknShip.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.940242:INFO:CONSOLE:55] "assets/SunknShip.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.941676:INFO:CONSOLE:55] "assets/SunknShip.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.970499:INFO:CONSOLE:55] "assets/SupportBeams.js: diffuse", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143755.983849:INFO:CONSOLE:55] "assets/Skybox.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143756.101459:INFO:CONSOLE:55] "assets/SeaweedB.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143756.198947:INFO:CONSOLE:55] "assets/SeaweedA.js: custom", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143756.207190:INFO:CONSOLE:55] "assets/TreasureChest.js: normalMap", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143756.504944:INFO:CONSOLE:55] "loaded image: assets/GlobeOuter_EM_negative_z.jpg", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143756.506608:INFO:CONSOLE:55] "loaded image: assets/GlobeOuter_EM_positive_x.jpg", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143756.507854:INFO:CONSOLE:55] "loaded image: assets/GlobeOuter_EM_positive_z.jpg", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143756.510207:INFO:CONSOLE:55] "loaded image: assets/GlobeOuter_EM_negative_y.jpg", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143757.140878:INFO:CONSOLE:55] "loaded image: assets/GlobeOuter_EM_positive_y.jpg", source: https://webglsamples.org/tdl/log.js (55)
+[155722:155722:1103/143757.231022:INFO:CONSOLE:55] "loaded image: assets/GlobeOuter_EM_negative_x.jpg", source: https://webglsamples.org/tdl/log.js (55)

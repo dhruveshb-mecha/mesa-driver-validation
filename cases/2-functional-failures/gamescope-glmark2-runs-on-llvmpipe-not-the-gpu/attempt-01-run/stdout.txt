@@ -1,0 +1,14 @@
+=======================================================
+    glmark2 2023.01
+=======================================================
+    OpenGL Information
+    GL_VENDOR:      Mesa
+    GL_RENDERER:    llvmpipe (LLVM 22.1.8, 128 bits)
+    GL_VERSION:     OpenGL ES 3.2 Mesa 27.0.0-devel
+    Surface Config: buf=32 r=8 g=8 b=8 a=8 depth=32 stencil=0 samples=0
+    Surface Size:   1280x720 fullscreen
+=======================================================
+[build] <default>: FPS: 32 FrameTime: 31.890 ms
+=======================================================
+                                  glmark2 Score: 31 
+=======================================================

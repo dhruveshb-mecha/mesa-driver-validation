@@ -1,0 +1,1 @@
+F=$HOME/.config/supertuxkart/config-0.10/config.xml; cp -n $F $F.orig; sed -i 's/enable_dynamic_lights="true"/enable_dynamic_lights="false"/' $F; supertuxkart --no-start-screen --track=lighthouse --numkarts=4 --profile-time=40; cp $F.orig $F

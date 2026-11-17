@@ -1,0 +1,138 @@
+Mesa 27.0.0~devel (custom, native ES 3.0)
+== extended validation, Mesa 27.0.0~devel-0.1.20261026git7b4b394.fc44, phases ['conformance'], dir /home/mecha/benchmarks/reports/full-validation-27.0.0~devel-0.1.20261026git7b4b394.fc44-20261103-141125
+-- conformance sample: 113 tests
+  [1/113] PASS          conformance/attribs/gl-bindAttribLocation-aliasing.html
+  [2/113] PASS          conformance/attribs/gl-disabled-vertex-attrib-update.html
+  [3/113] PASS          conformance/attribs/gl-vertexattribpointer.html
+  [4/113] PASS          conformance/buffers/buffer-bind-test.html
+  [5/113] PASS          conformance/buffers/buffer-uninitialized.html
+  [6/113] PASS          conformance/buffers/index-validation-large-buffer.html
+  [7/113] PASS          conformance/canvas/buffer-offscreen-test.html
+  [8/113] PASS          conformance/canvas/drawingbuffer-test.html
+  [9/113] PASS          conformance/canvas/render-after-resize-test.html
+  [10/113] PASS          conformance/context/constants-and-properties.html
+  [11/113] PASS          conformance/context/context-creation.html
+  [12/113] PASS          conformance/context/context-type-test.html
+  [13/113] PASS          conformance/extensions/angle-instanced-arrays.html
+  [14/113] FAIL          conformance/extensions/khr-parallel-shader-compile.html
+  [15/113] PASS          conformance/extensions/oes-fbo-render-mipmap.html
+  [16/113] PASS          conformance/glsl/bugs/angle-ambiguous-function-call.html
+  [17/113] PASS          conformance/glsl/implicit/add_int_vec4.vert.html
+  [18/113] PASS          conformance/glsl/misc/shader-with-dfdx.frag.html
+  [19/113] PASS          conformance/limits/gl-line-width.html
+  [20/113] PASS          conformance/limits/gl-min-attribs.html
+  [21/113] PASS          conformance/limits/gl-max-texture-dimensions.html
+  [22/113] PASS          conformance/misc/bad-arguments-test.html
+  [23/113] PASS          conformance/misc/functions-returning-strings.html
+  [24/113] PASS          conformance/misc/null-object-behaviour.html
+  [25/113] PASS          conformance/ogles/GL/abs/abs_001_to_006.html
+  [26/113] PASS          conformance/ogles/GL/equal/equal_009_to_012.html
+  [27/113] PASS          conformance/ogles/GL/mod/mod_001_to_008.html
+  [28/113] PASS          conformance/offscreencanvas/context-attribute-preserve-drawing-buffer.html
+  [29/113] PASS          conformance/offscreencanvas/context-lost-worker.html
+  [30/113] PASS          conformance/offscreencanvas/methods-worker.html
+  [31/113] PASS          conformance/programs/get-active-test.html
+  [32/113] PASS          conformance/programs/gl-get-active-uniform.html
+  [33/113] PASS          conformance/programs/program-handling.html
+  [34/113] PASS          conformance/reading/fbo-remains-unchanged-after-read-pixels.html
+  [35/113] PASS          conformance/reading/read-pixels-pack-alignment.html
+  [36/113] PASS          conformance/reading/read-pixels-test.html
+  [37/113] PASS          conformance/renderbuffers/feedback-loop.html
+  [38/113] PASS          conformance/renderbuffers/framebuffer-state-restoration.html
+  [39/113] PASS          conformance/renderbuffers/renderbuffer-initialization.html
+  [40/113] PASS          conformance/rendering/bind-framebuffer-flush-bug.html
+  [41/113] PASS          conformance/rendering/framebuffer-texture-switch.html
+  [42/113] PASS          conformance/rendering/out-of-bounds-index-buffers.html
+  [43/113] PASS          conformance/state/fb-attach-implicit-target-assignment.html
+  [44/113] PASS          conformance/state/gl-get-calls.html
+  [45/113] PASS          conformance/state/gl-initial-state.html
+  [46/113] PASS          conformance/textures/misc/canvas-teximage-after-multiple-drawimages.html
+  [47/113] PASS          conformance/textures/misc/texture-upload-size.html
+  [48/113] PASS          conformance/textures/webgl_canvas/tex-2d-rgb-rgb-unsigned_byte.html
+  [49/113] PASS          conformance/typedarrays/array-buffer-crash.html
+  [50/113] PASS          conformance/typedarrays/array-unit-tests.html
+  [51/113] PASS          conformance/typedarrays/data-view-test.html
+  [52/113] PASS          conformance/uniforms/gl-uniform-arrays.html
+  [53/113] PASS          conformance/uniforms/no-over-optimization-on-uniform-array-04.html
+  [54/113] PASS          conformance/uniforms/no-over-optimization-on-uniform-array-14.html
+  [55/113] PASS          conformance2/attribs/gl-bindAttribLocation-aliasing-inactive.html
+  [56/113] PASS          conformance2/attribs/gl-vertex-attrib-i-render.html
+  [57/113] PASS          conformance2/attribs/gl-vertexattribipointer.html
+  [58/113] PASS          conformance2/buffers/bound-buffer-size-change-test.html
+  [59/113] PASS          conformance2/buffers/buffer-type-restrictions.html
+  [60/113] PASS          conformance2/buffers/get-buffer-sub-data-validity.html
+  [61/113] PASS          conformance2/canvas/drawingbuffer-storage-test.html
+  [62/113] PASS          conformance2/canvas/to-data-url-with-pack-params.html
+  [63/113] PASS          conformance2/context/constants-and-properties-2.html
+  [64/113] PASS          conformance2/context/context-sharing-texture2darray-texture3d-data-bug.html
+  [65/113] PASS          conformance2/context/incorrect-context-object-behaviour.html
+  [66/113] FAIL          conformance2/extensions/ext-color-buffer-float.html
+  [67/113] PASS          conformance2/extensions/oes-draw-buffers-indexed.html
+  [68/113] PASS          conformance2/extensions/ovr_multiview2_timer_query.html
+  [69/113] PASS          conformance2/glsl3/array-as-return-value.html
+  [70/113] PASS          conformance2/glsl3/gradient-in-discontinuous-loop.html
+  [71/113] PASS          conformance2/glsl3/shader-with-mis-matching-uniform-block.html
+  [72/113] PASS          conformance2/misc/blend-integer.html
+  [73/113] PASS          conformance2/misc/getextension-while-pbo-bound-stability.html
+  [74/113] PASS          conformance2/misc/null-object-behaviour-2.html
+  [75/113] PASS          conformance2/offscreencanvas/context-creation.html
+  [76/113] PASS          conformance2/offscreencanvas/methods-2.html
+  [77/113] PASS          conformance2/offscreencanvas/offscreencanvas-query.html
+  [78/113] PASS          conformance2/programs/active-built-in-attribs.html
+  [79/113] PASS          conformance2/programs/get-uniform-indices.html
+  [80/113] PASS          conformance2/programs/gl-get-frag-data-location.html
+  [81/113] PASS          conformance2/query/occlusion-query.html
+  [82/113] PASS          conformance2/query/occlusion-query-scissor.html
+  [83/113] PASS          conformance2/query/query.html
+  [84/113] PASS          conformance2/reading/format-r11f-g11f-b10f.html
+  [85/113] FAIL          conformance2/reading/read-pixels-from-fbo-test.html
+  [86/113] PASS          conformance2/reading/read-pixels-from-rgb8-into-pbo-bug.html
+  [87/113] PASS          conformance2/renderbuffers/framebuffer-object-attachment.html
+  [88/113] PASS          conformance2/renderbuffers/invalidate-framebuffer.html
+  [89/113] PASS          conformance2/renderbuffers/multisampled-stencil-renderbuffer-initialization.html
+  [90/113] PASS          conformance2/rendering/attrib-type-match.html
+  [91/113] PASS          conformance2/rendering/clear-func-buffer-type-match.html
+  [92/113] PASS          conformance2/rendering/framebuffer-texture-level1.html
+  [93/113] PASS          conformance2/samplers/multi-context-sampler-test.html
+  [94/113] PASS          conformance2/samplers/samplers.html
+  [95/113] PASS          conformance2/samplers/sampler-drawing-test.html
+  [96/113] PASS          conformance2/state/gl-enum-tests.html
+  [97/113] PASS          conformance2/state/gl-get-calls.html
+  [98/113] PASS          conformance2/state/gl-getstring.html
+  [99/113] TIMEOUT/NO-RESULT conformance2/sync/sync-webgl-specific.html
+  [100/113] PASS          conformance2/textures/misc/active-3d-texture-bug.html
+  [101/113] PASS          conformance2/textures/image_data/tex-3d-rgba4-rgba-unsigned_byte.html
+  [102/113] PASS          conformance2/textures/image_bitmap_from_image/tex-2d-rgba16f-rgba-half_float.html
+  [103/113] PASS          conformance2/transform_feedback/non-existent-varying.html
+  [104/113] PASS          conformance2/transform_feedback/two-unreferenced-varyings.html
+  [105/113] PASS          conformance2/transform_feedback/same-buffer-two-binding-points.html
+  [106/113] PASS          conformance2/uniforms/draw-with-uniform-blocks.html
+  [107/113] PASS          conformance2/uniforms/uniform-block-idents-as-expr.html
+  [108/113] PASS          conformance2/uniforms/dependent-buffer-change.html
+  [109/113] PASS          conformance2/vertex_arrays/vertex-array-object.html
+  [110/113] PASS          conformance2/vertex_arrays/vertex-array-object-and-disabled-attributes.html
+  [111/113] PASS          conformance2/wasm/bufferdata-2gb-in-4gb-wasm-memory.html
+  [112/113] PASS          conformance2/wasm/getbuffersubdata-2gb-in-4gb-wasm-memory.html
+  [113/113] PASS          conformance2/wasm/readpixels-16gb-wasm-memory.html
+# Extended GPU validation report
+
+- Mesa: `mesa-dri-drivers-27.0.0~devel-0.1.20261026git7b4b394.fc44.aarch64`; kernel 7.1.5-0.mecha.202608260642.fc44.aarch64; Chromium 156.0.8078.47 Built from source for Fedora release 44 (Forty Four)
+- Date: 2026-11-03 14:18 (board clock, no RTC); phases: conformance
+
+## 2. Khronos WebGL conformance (sample, 113 of ~700 tests, ≤3 per directory, WebGL1 + WebGL2)
+
+Status counts: **FAIL** 3, **PASS** 109, **TIMEOUT/NO-RESULT** 1
+
+Not PASS:
+
+| Test | Status | pass/fail | first failures |
+|---|---|---|---|
+| conformance/extensions/khr-parallel-shader-compile.html | FAIL | 4/2 | FAIL Querying shader status should not wait for compilation. Took 874.7999999970198 ms; FAIL Program should have taken many more than 6 frames to compile. Actual value: 0 frames, duration 890.60000000 |
+| conformance2/extensions/ext-color-buffer-float.html | FAIL | 181/4 | FAIL floating-point RGBA16F render target not supported; FAIL floating-point R32F render target not supported; FAIL floating-point RG32F render target not supported |
+| conformance2/reading/read-pixels-from-fbo-test.html | FAIL | 187/7 | FAIL getError expected: NO_ERROR. Was INVALID_OPERATION : readPixels should generate no error; FAIL Expected color = 127.5,255,0,0, was = 0,0,0; FAIL getError expected: NO_ERROR. Was INVALID_OPERATION |
+| conformance2/sync/sync-webgl-specific.html | TIMEOUT/NO-RESULT | 0/0 |  |
+
+Full list in `results.json`.
+
+Raw logs, screenshots (`shot-*.png`) and `results.json` are in `/home/mecha/benchmarks/reports/full-validation-27.0.0~devel-0.1.20261026git7b4b394.fc44-20261103-141125/`.
+saved /home/mecha/benchmarks/reports/full-validation-27.0.0~devel-0.1.20261026git7b4b394.fc44-20261103-141125/report.md

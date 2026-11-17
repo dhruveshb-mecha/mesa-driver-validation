@@ -1,0 +1,1 @@
+GTK4DEMO {"mode":"widgets","renderer":"GskCairoRenderer","gl":"n/a","frames":302,"fps":31.8,"size":"536x568"}

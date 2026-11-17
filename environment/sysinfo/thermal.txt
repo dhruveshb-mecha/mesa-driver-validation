@@ -1,0 +1,5 @@
+$ for z in /sys/class/thermal/thermal_zone*; do echo $z $(cat $z/type) $(cat $z/temp); done
+
+/sys/class/thermal/thermal_zone0 soc-thermal 76000
+/sys/class/thermal/thermal_zone1 cpu-thermal 78000
+/sys/class/thermal/thermal_zone2 bq27441-0 49000

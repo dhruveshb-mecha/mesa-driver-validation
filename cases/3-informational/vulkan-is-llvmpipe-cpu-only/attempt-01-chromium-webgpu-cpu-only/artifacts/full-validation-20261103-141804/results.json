@@ -1,0 +1,91 @@
+{
+ "webgpu_adapter": "{\"vendor\":\"google\",\"arch\":\"swiftshader\",\"device\":\"\",\"desc\":\"\"}",
+ "webgpu": {
+  "rows": [
+   {
+    "kind": "webgpu-samples",
+    "url": "https://webgpu.github.io/webgpu-samples/sample/helloTriangle/",
+    "fps": 15.7,
+    "text": ""
+   },
+   {
+    "kind": "webgpu-samples",
+    "url": "https://webgpu.github.io/webgpu-samples/sample/rotatingCube/",
+    "fps": 13.4,
+    "text": ""
+   },
+   {
+    "kind": "webgpu-samples",
+    "url": "https://webgpu.github.io/webgpu-samples/sample/instancedCube/",
+    "fps": 13.5,
+    "text": ""
+   },
+   {
+    "kind": "webgpu-samples",
+    "url": "https://webgpu.github.io/webgpu-samples/sample/cubemap/",
+    "fps": 8.9,
+    "text": ""
+   },
+   {
+    "kind": "webgpu-samples",
+    "url": "https://webgpu.github.io/webgpu-samples/sample/shadowMapping/",
+    "fps": 3.8,
+    "text": ""
+   },
+   {
+    "kind": "webgpu-samples",
+    "url": "https://webgpu.github.io/webgpu-samples/sample/particles/",
+    "fps": 0.5,
+    "text": "simulate deltaTime HDR settings \u26a0\ufe0f Display isn't compatible toneMappingMode standard extended brightnessFactor Close Controls"
+   },
+   {
+    "kind": "webgpu-samples",
+    "url": "https://webgpu.github.io/webgpu-samples/sample/computeBoids/",
+    "fps": 6.0,
+    "text": "deltaT rule1Distance rule2Distance rule3Distance rule1Scale rule2Scale rule3Scale Close Controls"
+   },
+   {
+    "kind": "webgpu-samples",
+    "url": "https://webgpu.github.io/webgpu-samples/sample/gameOfLife/",
+    "fps": 5.5,
+    "text": "timestep width height workgroupSize 4 8 16 Close Controls"
+   },
+   {
+    "kind": "wgpu.rs",
+    "url": "https://wgpu.rs/examples/?example=cube",
+    "fps": null,
+    "text": "Back to home page  WebGL2  WebGPU"
+   },
+   {
+    "kind": "wgpu.rs",
+    "url": "https://wgpu.rs/examples/?example=boids",
+    "fps": null,
+    "text": "Back to home page  WebGL2  WebGPU"
+   },
+   {
+    "kind": "wgpu.rs",
+    "url": "https://wgpu.rs/examples/?example=shadow",
+    "fps": null,
+    "text": "Back to home page  WebGL2  WebGPU"
+   },
+   {
+    "kind": "wgpu.rs",
+    "url": "https://wgpu.rs/examples/?example=skybox",
+    "fps": null,
+    "text": "Back to home page  WebGL2  WebGPU"
+   },
+   {
+    "kind": "wgpu.rs",
+    "url": "https://wgpu.rs/examples/?example=water",
+    "fps": null,
+    "text": "Back to home page  WebGL2  WebGPU"
+   },
+   {
+    "kind": "wgpu.rs",
+    "url": "https://wgpu.rs/examples/?example=bunnymark",
+    "fps": null,
+    "text": "Back to home page  WebGL2  WebGPU"
+   }
+  ]
+ }
+}

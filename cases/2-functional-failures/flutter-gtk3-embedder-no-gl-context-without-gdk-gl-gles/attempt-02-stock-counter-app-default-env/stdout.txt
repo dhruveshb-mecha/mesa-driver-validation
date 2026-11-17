@@ -1,0 +1,1 @@
+GLCONTEXT=FAIL (GTK3 cannot create a GL context with default settings)

@@ -1,0 +1,1 @@
+python3 scripts/gles3_probe.py --only 'depth_' | python3 -c "import json,sys; d=json.load(sys.stdin); [print(c['status'],c['name'],c['detail']) for c in d['checks']]; sys.exit(d['verdict']!='PASS')"

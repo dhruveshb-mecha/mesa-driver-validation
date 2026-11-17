@@ -1,0 +1,2 @@
+Nov 03 07:40:00.947499 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 03 07:40:00.949521 comet kernel: etnaviv-gpu 38000000.gpu: offending task: supertuxkart (supertuxkart --no-start-screen --track=lighthouse --numkarts=4 --profile-time=40)

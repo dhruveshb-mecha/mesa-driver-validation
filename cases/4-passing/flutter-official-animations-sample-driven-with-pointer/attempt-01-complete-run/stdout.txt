@@ -1,0 +1,19 @@
+FLUTTERANIM {"sample": "AnimatedContainer", "fps": 0.0, "commits": 0, "secs": 4.9, "alive": true}
+FLUTTERANIM {"sample": "PageRouteBuilder", "fps": 4.1, "commits": 20, "secs": 4.9, "alive": true}
+FLUTTERANIM {"sample": "AnimationController", "fps": 0.4, "commits": 2, "secs": 4.9, "alive": true}
+FLUTTERANIM {"sample": "Tweens", "fps": 0.4, "commits": 2, "secs": 4.9, "alive": true}
+FLUTTERANIM {"sample": "AnimatedBuilder", "fps": 27.6, "commits": 137, "secs": 5.0, "alive": true}
+FLUTTERANIM {"sample": "CustomTween", "fps": 8.3, "commits": 41, "secs": 4.9, "alive": true}
+FLUTTERANIM {"sample": "TweenSequences", "fps": 0.0, "commits": 0, "secs": 4.9, "alive": true}
+FLUTTERANIM {"sample": "FadeTransition", "fps": 8.7, "commits": 43, "secs": 5.0, "alive": true}
+FLUTTERANIM {"sample": "FocusImage", "fps": 0.8, "commits": 4, "secs": 4.9, "alive": true}
+FLUTTERANIM {"sample": "CardSwipe", "fps": 10.6, "commits": 53, "secs": 5.0, "alive": true}
+FLUTTERANIM {"sample": "FlutterAnimate", "fps": 35.9, "commits": 180, "secs": 5.0, "alive": true}
+FLUTTERANIM {"sample": "RepeatingAnimation", "fps": 36.4, "commits": 180, "secs": 5.0, "alive": true}
+FLUTTERANIM {"sample": "SpringPhysics", "fps": 39.4, "commits": 195, "secs": 5.0, "alive": true}
+FLUTTERANIM {"sample": "AnimatedList", "fps": 0.0, "commits": 0, "secs": 4.9, "alive": true}
+FLUTTERANIM {"sample": "AnimatedPositioned", "fps": 0.0, "commits": 0, "secs": 4.9, "alive": true}
+FLUTTERANIM {"sample": "AnimatedSwitcher", "fps": 8.7, "commits": 43, "secs": 4.9, "alive": true}
+FLUTTERANIM {"sample": "HeroAnimation", "fps": 0.0, "commits": 0, "secs": 4.9, "alive": true}
+FLUTTERANIM {"sample": "CurvedAnimation", "fps": 0.0, "commits": 0, "secs": 4.9, "alive": true}
+FLUTTERANIMSUMMARY samples=18 ok=18 min_fps=0.0 max_fps=39.4 app_died=0

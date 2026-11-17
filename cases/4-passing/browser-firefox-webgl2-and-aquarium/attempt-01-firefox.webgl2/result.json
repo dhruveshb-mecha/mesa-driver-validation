@@ -1,0 +1,19 @@
+{
+ "id": "browser.firefox.webgl2",
+ "status": "RAN_OK",
+ "rc": -15,
+ "timed_out": true,
+ "duration_s": 40.4,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 51.8,
+  "soc-thermal": 82.0,
+  "cpu-thermal": 83.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 51.8,
+  "soc-thermal": 85.0,
+  "cpu-thermal": 87.0
+ },
+ "metrics": {}
+}

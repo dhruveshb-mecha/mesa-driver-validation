@@ -1,0 +1,1 @@
+GTK4DEMO {"mode":"glarea","renderer":"GskGLRenderer","gl":"Vivante GC7000 rev 6204 | OpenGL ES 3.0 Mesa 27.0.0-devel","frames":374,"fps":39.4,"size":"536x568"}

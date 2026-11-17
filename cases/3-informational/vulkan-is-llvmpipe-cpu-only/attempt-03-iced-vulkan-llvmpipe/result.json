@@ -1,0 +1,19 @@
+{
+ "id": "wgpu.iced-wgpu30-vulkan",
+ "status": "RAN_OK",
+ "rc": -15,
+ "timed_out": true,
+ "duration_s": 15.1,
+ "expected": "cpu-only",
+ "temp_c_before": {
+  "bq27441-0": 49.0,
+  "soc-thermal": 80.0,
+  "cpu-thermal": 81.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 49.0,
+  "soc-thermal": 85.0,
+  "cpu-thermal": 87.0
+ },
+ "metrics": {}
+}

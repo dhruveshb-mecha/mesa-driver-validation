@@ -1,0 +1,19 @@
+{
+ "id": "toolkit.qt.validate-quick2d-3d",
+ "status": "GPU_HANG",
+ "rc": 0,
+ "timed_out": false,
+ "duration_s": 310.3,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 51.2,
+  "soc-thermal": 81.0,
+  "cpu-thermal": 82.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 50.4,
+  "soc-thermal": 80.0,
+  "cpu-thermal": 81.0
+ },
+ "metrics": {}
+}

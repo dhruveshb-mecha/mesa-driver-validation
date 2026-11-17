@@ -1,0 +1,1 @@
+WGPU_BACKEND=vulkan RUST_LOG=bevy_render=info,warn ~/wgpu-apps/bevy-gl-test 20 12

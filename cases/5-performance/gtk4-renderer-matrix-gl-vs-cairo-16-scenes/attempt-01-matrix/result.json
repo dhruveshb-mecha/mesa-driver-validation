@@ -1,0 +1,19 @@
+{
+ "id": "toolkit.gtk4.renderer-matrix",
+ "status": "RAN_OK",
+ "rc": 0,
+ "timed_out": false,
+ "duration_s": 313.5,
+ "expected": "pass",
+ "temp_c_before": {
+  "bq27441-0": 48.4,
+  "soc-thermal": 78.0,
+  "cpu-thermal": 79.0
+ },
+ "temp_c_after": {
+  "bq27441-0": 48.4,
+  "soc-thermal": 82.0,
+  "cpu-thermal": 84.0
+ },
+ "metrics": {}
+}

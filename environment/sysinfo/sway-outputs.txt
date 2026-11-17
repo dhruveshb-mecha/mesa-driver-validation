@@ -1,0 +1,21 @@
+$ swaymsg -t get_outputs 2>&1 | grep -E 'name|current_mode|width|height|refresh|scale' | head -20
+
+"current_border_width": 0,
+      "width": 540,
+      "height": 620
+      "width": 0,
+      "height": 0
+      "width": 0,
+      "height": 0
+      "width": 0,
+      "height": 0
+    "name": "DSI-1",
+        "width": 1080,
+        "height": 1240,
+        "refresh": 60000,
+    "scale": 2.0,
+    "scale_filter": "nearest",
+    "current_mode": {
+      "width": 1080,
+      "height": 1240,
+      "refresh": 60000,

@@ -1,0 +1,1 @@
+python3 scripts/gles3_probe.py --only 'msaa|rt_SRGB|rt_RGBA16F|rt_RGBA8' | python3 -c "import json,sys; d=json.load(sys.stdin); [print(c['status'],c['name'],c['detail']) for c in d['checks']]; sys.exit(d['verdict']!='PASS')"

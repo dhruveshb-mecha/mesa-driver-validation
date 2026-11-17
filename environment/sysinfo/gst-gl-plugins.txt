@@ -1,0 +1,42 @@
+$ gst-inspect-1.0 2>/dev/null | grep -Ei 'opengl:|v4l2codecs|libcamera|gtkwayland' | head -40
+
+gtkwayland:  gtkwaylandsink: Gtk Wayland Video Sink
+libcamera:  libcameraprovider (GstDeviceProviderFactory)
+libcamera:  libcamerasrc: libcamera Source
+opengl:  glalpha: OpenGL Alpha Filter
+opengl:  glcolorbalance: Video balance
+opengl:  glcolorconvert: OpenGL color converter
+opengl:  glcolorscale: OpenGL color scale
+opengl:  gldeinterlace: OpenGL deinterlacing filter
+opengl:  gldownload: OpenGL downloader
+opengl:  gleffects: Gstreamer OpenGL Effects
+opengl:  gleffects_blur: Blur with 9x9 separable convolution Effect
+opengl:  gleffects_bulge: Bulge Effect
+opengl:  gleffects_fisheye: FishEye Effect
+opengl:  gleffects_glow: Glow Lighting Effect
+opengl:  gleffects_heat: Heat Signature Effect
+opengl:  gleffects_identity: Do nothing Effect
+opengl:  gleffects_laplacian: Laplacian Convolution Demo Effect
+opengl:  gleffects_lumaxpro: Luma Cross Processing Effect
+opengl:  gleffects_mirror: Mirror Effect
+opengl:  gleffects_sepia: Sepia Toning Effect
+opengl:  gleffects_sin: All Grey but Red Effect
+opengl:  gleffects_sobel: Sobel edge detection Effect
+opengl:  gleffects_square: Square Effect
+opengl:  gleffects_squeeze: Squeeze Effect
+opengl:  gleffects_stretch: Stretch Effect
+opengl:  gleffects_tunnel: Light Tunnel Effect
+opengl:  gleffects_twirl: Twirl Effect
+opengl:  gleffects_xpro: Cross Processing Effect
+opengl:  gleffects_xray: Glowing negative effect
+opengl:  glfilterapp: OpenGL application filter
+opengl:  glfilterbin: GL Filter Bin
+opengl:  glfiltercube: OpenGL cube filter
+opengl:  glfilterglass: OpenGL glass filter
+opengl:  glimagesink: GL Sink Bin
+opengl:  glimagesinkelement: OpenGL video sink
+opengl:  glmixerbin: OpenGL video_mixer empty bin
+opengl:  glmosaic: OpenGL mosaic
+opengl:  gloverlaycompositor: OpenGL overlaying filter
+opengl:  glshader: OpenGL fragment shader filter
+opengl:  glsinkbin: GL Sink Bin

@@ -1,0 +1,31 @@
+[2026-11-03T09:46:50.526Z INFO  wgpu_examples::framework] Entering event loop...
+[2026-11-03T09:46:50.535Z INFO  wgpu_examples::framework] Initializing wgpu...
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+libGL: Warning in /usr/share/drirc.d/00-msm-defaults.conf line -1, column -1: unknown device attribute: device_name.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/mecha/.drirc: No such file or directory.
+[2026-11-03T09:46:50.671Z INFO  wgpu_examples::framework] Selected adapter: Vivante GC7000 rev 6204 (Gl)
+[2026-11-03T09:46:50.673Z INFO  wgpu_examples::framework] Surface resume PhysicalSize { width: 800, height: 600 }
+[2026-11-03T09:46:50.754Z ERROR wgpu_core::error] Handling wgpu errors as fatal by default
+
+thread 'main' (165058) panicked at wgpu-core/src/command/mod.rs:1385:18:
+wgpu error: Validation Error
+
+Caused by:
+  In CommandEncoder::finish, label = 'Main Command Encoder'
+    In a pass parameter
+      Attempted to use Texture with 'Depth Buffer' label (mips 0..1 layers 0..1) with conflicting usages. Current usage TextureUses(RESOURCE | DEPTH_SAMPLED) and new usage TextureUses(DEPTH_WRITE | STENCIL_WRITE). TextureUses(0x0) is an exclusive usage and cannot be used with any other usages within the usage scope (renderpass or compute dispatch).
+
+
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

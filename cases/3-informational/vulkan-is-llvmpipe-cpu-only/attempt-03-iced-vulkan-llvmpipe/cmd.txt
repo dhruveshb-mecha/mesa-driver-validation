@@ -1,0 +1,1 @@
+WGPU_BACKEND=vulkan RUST_LOG=iced_wgpu=info,warn ~/wgpu-apps/iced-wgpu30-test

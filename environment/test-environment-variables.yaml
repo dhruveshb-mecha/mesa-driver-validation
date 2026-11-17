@@ -1,0 +1,11 @@
+# Environment applied to every test (board-specific: sway session of user 'mecha').
+set:
+  XDG_RUNTIME_DIR: /run/user/1000
+  WAYLAND_DISPLAY: wayland-1
+  GDK_BACKEND: wayland
+  DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/1000/bus
+  # driver-level logging (goes to each test's stderr.txt). Not enabled in the earlier attempts.
+  MESA_DEBUG: "1"            # Mesa GL error/warning messages
+  EGL_LOG_LEVEL: info        # EGL warnings/info
+  LIBGL_DEBUG: verbose       # loader / driver selection
+unset: [LD_LIBRARY_PATH, GST_PLUGIN_PATH, PKG_CONFIG_PATH]

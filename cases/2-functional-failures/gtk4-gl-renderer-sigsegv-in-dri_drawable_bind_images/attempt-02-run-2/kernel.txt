@@ -1,0 +1,2 @@
+Nov 03 10:03:27.745203 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!
+Nov 03 10:03:30.843345 comet kernel: nxpwifi_sdio mmc0:0001:1: bgscan already stopped!

@@ -1,0 +1,3 @@
+Open https://threejs.org/examples/ and try webgl_shadow_*, webgl_instancing_*, webgl_postprocessing_*, webgl_gpgpu_*/webgl_points_* (transform feedback/float RTs).
+
+PASS CRITERIA: Scenes render correctly (no missing vertices, no black/garbled output, no lost alpha). Note FPS.
