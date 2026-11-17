@@ -1,0 +1,1 @@
+800-row page with a CSS animation and a canvas requestAnimationFrame loop. Process-tree RSS grows from about 0.6 GB to 2.5 GB when scrolling starts and the kernel OOM killer kills Epiphany (a 4000-row version behaved the same). Which animation is responsible was not isolated. fps are not meaningful because the process died.

@@ -1,0 +1,14 @@
+before_launch: screen_cleared=yes windows_left=0 cpu_idle_pct=98
+windows_before_launch:
+top_cpu_before_launch:
+    PID %CPU COMMAND
+ 630787  300 ps
+ 630221  1.5 evolution-calen
+ 630207  1.3 evolution-sourc
+ 625630  0.7 gtk4_apps_fps.s
+ 630240  0.6 evolution-addre
+after_launch_windows (1):
+630793 org.gnome.Console mecha@comet:~/gtk4-apps
+cpu_idle_check_note: app is running; see metrics.csv
+final_windows (1):
+630793 org.gnome.Console mecha@comet:~/gtk4-apps

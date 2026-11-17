@@ -1,0 +1,1 @@
+No Matrix account; the scripted Tab presses walk into the login flow (Homeserver Discovery dialog). Measures Fractal's login UI.

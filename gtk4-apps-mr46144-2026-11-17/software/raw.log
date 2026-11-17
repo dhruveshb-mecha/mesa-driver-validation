@@ -1,0 +1,399 @@
+00:46:24:279 Gdk Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+00:46:33:139 Gdk Vulkan: ../src/panfrost/vulkan/panvk_physical_device.c:82: failed to open device '' (VK_ERROR_INCOMPATIBLE_DRIVER)
+00:46:33:139 Gdk Vulkan: ../src/panfrost/vulkan/panvk_physical_device.c:82: failed to open device '' (VK_ERROR_INCOMPATIBLE_DRIVER)
+Not using Vulkan: device is CPU
+EGL API version 1.5 found
+ - Vendor: Mesa Project
+ - Version: 1.5
+ - Device: /dev/dri/renderD128, 226 128
+ - Client APIs: OpenGL OpenGL_ES 
+ - Extensions:
+	EGL_ANDROID_blob_cache
+	EGL_ANDROID_native_fence_sync
+	EGL_EXT_buffer_age
+	EGL_EXT_config_select_group
+	EGL_EXT_image_dma_buf_import
+	EGL_EXT_image_dma_buf_import_modifiers
+	EGL_EXT_pixel_format_float
+	EGL_EXT_present_opaque
+	EGL_EXT_surface_compression
+	EGL_EXT_swap_buffers_with_damage
+	EGL_KHR_cl_event2
+	EGL_KHR_config_attribs
+	EGL_KHR_context_flush_control
+	EGL_KHR_create_context
+	EGL_KHR_create_context_no_error
+	EGL_KHR_fence_sync
+	EGL_KHR_get_all_proc_addresses
+	EGL_KHR_gl_colorspace
+	EGL_KHR_gl_renderbuffer_image
+	EGL_KHR_gl_texture_2D_image
+	EGL_KHR_gl_texture_3D_image
+	EGL_KHR_gl_texture_cubemap_image
+	EGL_KHR_image_base
+	EGL_KHR_no_config_context
+	EGL_KHR_partial_update
+	EGL_KHR_reusable_sync
+	EGL_KHR_surfaceless_context
+	EGL_KHR_swap_buffers_with_damage
+	EGL_KHR_wait_sync
+	EGL_MESA_configless_context
+	EGL_MESA_gl_interop
+	EGL_MESA_image_dma_buf_export
+	EGL_MESA_query_driver
+	EGL_MESA_x11_native_visual_id
+ - Selected fbconfig: R8G8B8A8, depth 0, stencil 0
+          high depth: none
+Creating EGL context version 3.0 (debug:no, forward:no, legacy:no, es:yes)
+Using OpenGL backend EGL
+OpenGL ES version: 3.0 (core)
+GLSL version: OpenGL ES GLSL ES 3.00
+Max texture size: 8192
+Enabled features (use GDK_GL_DISABLE env var to disable):
+    debug: ✓
+    base-instance: ✗
+    buffer-storage: ✗
+    external-objects: ✗
+    external-objects-win32: ✗
+    blend-func-extended: ✗
+Creating EGL context version 3.0 (debug:no, forward:no, legacy:no, es:yes)
+OpenGL ES version: 3.0 (core)
+GLSL version: OpenGL ES GLSL ES 3.00
+Max texture size: 8192
+Enabled features (use GDK_GL_DISABLE env var to disable):
+    debug: ✓
+    base-instance: ✗
+    buffer-storage: ✗
+    external-objects: ✗
+    external-objects-win32: ✗
+    blend-func-extended: ✗
+Using renderer 'GskGLRenderer' for surface 'GdkWaylandToplevel'
+Resizing EGL window to 1180 1340
+00:46:33:950 Gdk     0: layout_start=27.0 paint_start=120.9 frame_end=538.5 present=556.9 predicted=25.0 refresh_interval=16.7
+Resizing EGL window to 1152 1216
+00:46:34:170 Gdk     1: interval=557.2         smoothed= 0.0 / 557.2 layout_start=172.6 paint_start=174.4 frame_end=211.8 present=231.0 predicted=33.0 refresh_interval=16.7
+00:46:34:249 Gdk     2: interval=215.7         smoothed= 0.0 / 215.7 layout_start=0.2  paint_start=0.2  frame_end=49.0 present=93.1 predicted=32.0 refresh_interval=16.7
+00:46:34:557 Gdk     5: interval=86.6 (sleep) smoothed=-0.4 / 83.3 layout_start=0.0  paint_start=0.1  frame_end=11.8 present=36.2 predicted=25.0 refresh_interval=16.7
+Resizing EGL window to 1080 1240
+00:46:35:337 Gdk     6: interval=531.6 (sleep) smoothed= 1.4 / 533.3 layout_start=246.8 paint_start=247.6 frame_end=268.7 present=284.7 predicted=25.0 refresh_interval=16.7
+00:46:38:082 Gdk     9: interval=2710.7 (sleep) smoothed= 5.9 / 2716.7 layout_start=0.0  paint_start=0.1  frame_end=10.9 present=29.4 predicted=25.0 refresh_interval=16.7
+00:46:39:195 Gdk    10: interval=1121.8 (sleep) smoothed= 0.8 / 1116.7 layout_start=0.0  paint_start=0.2  frame_end=2.0  present=20.8 predicted=25.0 refresh_interval=16.7
+00:46:56:332 Gs  Only 0 apps for recent list, hiding
+00:47:02:626 Gdk    18: interval=51.8         smoothed= 0.0 / 51.8 layout_start=28.0 paint_start=110.3 frame_end=363.8 present=379.8 predicted=25.0 refresh_interval=16.7
+00:47:02:880 Gdk    21: interval=11.1         smoothed= 0.0 / 4.1  layout_start=28.4 paint_start=66.5 frame_end=146.6 present=162.5 predicted=25.6 refresh_interval=16.7
+00:47:03:132 Gdk    22: interval=147.2         smoothed= 2.8 / 150.0 paint_start=0.2  frame_end=234.3 present=267.4 predicted=32.0 refresh_interval=16.7
+00:47:03:349 Gdk    23: interval=253.3         smoothed= 0.2 / 250.6 paint_start=0.1  frame_end=209.7 present=232.3 predicted=30.8 refresh_interval=16.7
+00:47:03:369 Gdk    24: interval=216.1         smoothed= 1.0 / 216.9 paint_start=0.2  frame_end=4.5  present=35.5 predicted=32.9 refresh_interval=16.7
+00:47:03:389 Gdk    25: interval=20.3         smoothed=-0.9 / 18.4 paint_start=0.2  frame_end=3.9  present=35.8 predicted=31.9 refresh_interval=16.7
+00:47:03:409 Gdk    26: interval=19.7         smoothed=-1.2 / 19.3 paint_start=0.3  frame_end=3.8  present=36.3 predicted=32.8 refresh_interval=16.7
+00:47:03:428 Gdk    27: interval=20.1         smoothed=-1.3 / 20.0 paint_start=0.2  frame_end=4.1  present=34.7 predicted=32.8 refresh_interval=16.7
+00:47:03:449 Gdk    28: interval=19.5         smoothed=-1.2 / 19.5 paint_start=0.3  frame_end=3.9  present=36.8 predicted=31.9 refresh_interval=16.7
+00:47:03:469 Gdk    29: interval=20.6         smoothed=-1.4 / 20.5 paint_start=0.3  frame_end=4.1  present=34.7 predicted=32.8 refresh_interval=16.7
+00:47:03:488 Gdk    30: interval=19.5         smoothed=-1.3 / 19.6 paint_start=0.3  frame_end=5.6  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:03:508 Gdk    31: interval=19.7         smoothed=-1.3 / 19.7 paint_start=0.3  frame_end=4.7  present=34.7 predicted=31.8 refresh_interval=16.7
+00:47:03:528 Gdk    32: interval=19.7         smoothed=-1.3 / 19.7 paint_start=0.3  frame_end=4.8  present=35.0 predicted=31.7 refresh_interval=16.7
+00:47:03:547 Gdk    33: interval=20.1         smoothed=-1.3 / 20.0 paint_start=0.3  frame_end=4.5  present=34.4 predicted=31.6 refresh_interval=16.7
+00:47:03:567 Gdk    35: interval=13.4 (sleep) smoothed= 2.0 / 16.7 paint_start=0.2  frame_end=2.7  present=22.6 predicted=18.5 refresh_interval=16.7
+00:47:03:617 Gdk    39: interval=16.3 (sleep) smoothed= 2.7 / 16.7 paint_start=0.1  frame_end=3.2  present=20.1 predicted=21.3 refresh_interval=16.7
+00:47:04:873 Gdk    49: interval=17.6 (sleep) smoothed=-0.9 / 16.7 paint_start=0.2  frame_end=7.8  present=25.0 predicted=25.0 refresh_interval=16.7
+00:47:04:892 Gdk    50: interval=9.8          smoothed= 5.9 / 16.7 paint_start=0.4  frame_end=3.0  present=34.3 predicted=31.9 refresh_interval=16.7
+00:47:04:912 Gdk    51: interval=19.0         smoothed= 3.9 / 17.0 paint_start=0.3  frame_end=3.3  present=35.3 predicted=31.9 refresh_interval=16.7
+00:47:04:931 Gdk    52: interval=20.0         smoothed= 2.3 / 18.4 paint_start=0.3  frame_end=3.2  present=35.1 predicted=31.9 refresh_interval=16.7
+00:47:04:951 Gdk    53: interval=19.8         smoothed= 1.9 / 19.4 paint_start=0.2  frame_end=3.2  present=35.7 predicted=31.9 refresh_interval=16.7
+00:47:04:971 Gdk    54: interval=19.5         smoothed= 1.9 / 19.5 paint_start=0.2  frame_end=3.4  present=35.2 predicted=32.9 refresh_interval=16.7
+00:47:04:991 Gdk    55: interval=20.0         smoothed= 1.8 / 19.9 paint_start=0.2  frame_end=2.9  present=35.0 predicted=31.8 refresh_interval=16.7
+00:47:05:011 Gdk    56: interval=19.9         smoothed= 1.8 / 19.9 paint_start=0.2  frame_end=3.1  present=35.1 predicted=31.8 refresh_interval=16.7
+00:47:05:030 Gdk    57: interval=19.9         smoothed= 1.8 / 19.9 paint_start=0.3  frame_end=3.1  present=34.8 predicted=31.9 refresh_interval=16.7
+00:47:05:050 Gdk    58: interval=19.6         smoothed= 1.9 / 19.6 paint_start=0.2  frame_end=3.3  present=34.5 predicted=31.9 refresh_interval=16.7
+00:47:05:070 Gdk    59: interval=19.3         smoothed= 1.9 / 19.4 paint_start=0.3  frame_end=3.3  present=36.0 predicted=31.9 refresh_interval=16.7
+00:47:05:089 Gdk    60: interval=20.7         smoothed= 1.8 / 20.6 paint_start=0.2  frame_end=3.3  present=34.3 predicted=31.9 refresh_interval=16.7
+00:47:05:151 Gdk    61: interval=19.1         smoothed= 2.0 / 19.2 paint_start=0.2  frame_end=59.0 present=77.8 predicted=31.9 refresh_interval=16.7
+00:47:05:385 Gdk    62: interval=61.3         smoothed= 7.2 / 66.6 paint_start=0.2  frame_end=224.1 present=249.9 predicted=33.1 refresh_interval=16.7
+00:47:05:623 Gdk    63: interval=234.6         smoothed= 6.0 / 233.3 layout_start=2.1  paint_start=2.2  frame_end=223.6 present=253.9 predicted=32.0 refresh_interval=16.7
+00:47:05:643 Gdk    64: interval=237.6         smoothed= 2.8 / 234.4 paint_start=0.2  frame_end=3.7  present=35.1 predicted=32.9 refresh_interval=16.7
+00:47:05:663 Gdk    65: interval=20.0         smoothed= 2.0 / 19.2 paint_start=0.2  frame_end=3.0  present=35.2 predicted=31.8 refresh_interval=16.7
+00:47:05:682 Gdk    67: interval=12.7 (sleep) smoothed= 5.8 / 16.7 paint_start=0.1  frame_end=2.3  present=22.5 predicted=19.2 refresh_interval=16.7
+00:47:05:732 Gdk    71: interval=16.6 (sleep) smoothed= 5.4 / 16.7 paint_start=0.1  frame_end=1.8  present=19.2 predicted=21.2 refresh_interval=16.7
+00:47:06:962 Gdk    80: interval=948.7 (sleep) smoothed= 0.0 / 943.5 layout_start=25.1 paint_start=34.1 frame_end=164.0 present=181.9 predicted=25.0 refresh_interval=16.7
+00:47:07:001 Gdk    83: interval=17.1 (sleep) smoothed=-0.4 / 16.7 paint_start=0.1  frame_end=3.2  present=21.1 predicted=21.2 refresh_interval=16.7
+00:47:07:027 Gdk    84: interval=4.6          smoothed=11.6 / 16.7 paint_start=0.1  frame_end=3.4  present=41.0 predicted=33.1 refresh_interval=16.7
+00:47:07:046 Gdk    85: interval=25.9         smoothed=15.8 / 30.0 paint_start=0.3  frame_end=3.0  present=35.0 predicted=31.7 refresh_interval=16.7
+00:47:07:066 Gdk    86: interval=18.9         smoothed=13.3 / 16.4 paint_start=0.2  frame_end=3.6  present=35.4 predicted=32.7 refresh_interval=16.7
+00:47:07:086 Gdk    87: interval=20.3         smoothed= 9.9 / 16.9 paint_start=0.2  frame_end=3.5  present=34.2 predicted=31.9 refresh_interval=16.7
+00:47:07:106 Gdk    88: interval=19.9         smoothed= 8.2 / 18.1 paint_start=0.2  frame_end=2.9  present=34.6 predicted=30.9 refresh_interval=16.7
+00:47:07:125 Gdk    89: interval=19.4         smoothed= 7.7 / 19.0 paint_start=0.3  frame_end=3.8  present=34.3 predicted=31.9 refresh_interval=16.7
+00:47:07:145 Gdk    90: interval=19.2         smoothed= 7.7 / 19.1 paint_start=0.2  frame_end=3.3  present=36.3 predicted=31.8 refresh_interval=16.7
+00:47:07:165 Gdk    91: interval=20.2         smoothed= 7.5 / 20.0 paint_start=0.2  frame_end=3.1  present=35.2 predicted=32.8 refresh_interval=16.7
+00:47:07:185 Gdk    92: interval=20.0         smoothed= 7.5 / 20.0 paint_start=0.2  frame_end=2.8  present=34.8 predicted=31.9 refresh_interval=16.7
+00:47:07:204 Gdk    93: interval=19.5         smoothed= 7.6 / 19.6 paint_start=0.3  frame_end=3.1  present=35.1 predicted=31.9 refresh_interval=16.7
+00:47:07:224 Gdk    94: interval=19.9         smoothed= 7.5 / 19.8 paint_start=0.2  frame_end=2.8  present=34.8 predicted=31.9 refresh_interval=16.7
+00:47:07:244 Gdk    95: interval=19.6         smoothed= 7.6 / 19.6 paint_start=0.2  frame_end=3.0  present=35.1 predicted=31.8 refresh_interval=16.7
+00:47:07:264 Gdk    96: interval=20.0         smoothed= 7.5 / 20.0 paint_start=0.2  frame_end=3.2  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:07:283 Gdk    97: interval=19.8         smoothed= 7.5 / 19.8 paint_start=0.2  frame_end=3.2  present=34.7 predicted=31.8 refresh_interval=16.7
+00:47:07:303 Gdk    98: interval=19.5         smoothed= 7.6 / 19.5 paint_start=0.2  frame_end=2.7  present=34.7 predicted=31.9 refresh_interval=16.7
+00:47:07:323 Gdk    99: interval=19.5         smoothed= 7.6 / 19.5 paint_start=0.2  frame_end=3.0  present=35.2 predicted=31.8 refresh_interval=16.7
+00:47:07:343 Gdk   100: interval=20.0         smoothed= 7.5 / 19.9 paint_start=0.2  frame_end=3.0  present=35.0 predicted=31.9 refresh_interval=16.7
+00:47:07:362 Gdk   101: interval=19.7         smoothed= 7.6 / 19.8 paint_start=0.3  frame_end=3.0  present=35.8 predicted=31.9 refresh_interval=16.7
+00:47:07:382 Gdk   102: interval=19.7         smoothed= 7.6 / 19.7 paint_start=0.2  frame_end=3.8  present=35.5 predicted=32.8 refresh_interval=16.7
+00:47:07:402 Gdk   103: interval=20.3         smoothed= 7.5 / 20.2 paint_start=0.3  frame_end=3.4  present=34.3 predicted=31.9 refresh_interval=16.7
+00:47:07:421 Gdk   104: interval=19.3         smoothed= 7.6 / 19.5 paint_start=0.2  frame_end=3.2  present=35.1 predicted=31.7 refresh_interval=16.7
+00:47:07:442 Gdk   105: interval=19.1         smoothed= 7.7 / 19.1 paint_start=0.3  frame_end=3.9  present=35.9 predicted=32.7 refresh_interval=16.7
+00:47:07:461 Gdk   106: interval=20.6         smoothed= 7.5 / 20.4 paint_start=0.4  frame_end=3.1  present=35.6 predicted=31.9 refresh_interval=16.7
+00:47:07:649 Gdk   107: interval=19.5         smoothed= 7.6 / 19.6 paint_start=0.3  frame_end=3.3  present=36.3 predicted=32.8 refresh_interval=16.7
+00:47:07:747 Gdk   108: interval=187.9         smoothed=15.8 / 196.1 layout_start=86.4 paint_start=86.4 frame_end=88.4 present=105.6 predicted=25.0 refresh_interval=16.7
+00:47:07:766 Gdk   109: interval=98.1         smoothed=15.5 / 97.8 layout_start=15.4 paint_start=15.5 frame_end=17.5 present=34.7 predicted=24.1 refresh_interval=16.7
+00:47:07:777 Gdk   110: interval=19.2         smoothed=12.8 / 16.6 paint_start=0.1  frame_end=3.6  present=25.5 predicted=32.1 refresh_interval=16.7
+00:47:07:803 Gdk   112: interval=21.3 (sleep) smoothed=11.2 / 16.7 paint_start=0.1  frame_end=4.2  present=21.1 predicted=30.0 refresh_interval=16.7
+00:47:07:853 Gdk   116: interval=16.2 (sleep) smoothed=11.6 / 16.7 paint_start=0.1  frame_end=3.2  present=20.1 predicted=31.8 refresh_interval=16.7
+00:47:09:177 Gdk   127: interval=17.5 (sleep) smoothed=-0.8 / 16.7 paint_start=0.1  frame_end=6.2  present=24.3 predicted=25.0 refresh_interval=16.7
+00:47:09:200 Gdk   128: interval=9.3          smoothed= 6.6 / 16.7 paint_start=0.2  frame_end=3.1  present=38.2 predicted=31.7 refresh_interval=16.7
+00:47:09:218 Gdk   129: interval=23.1         smoothed= 2.6 / 19.1 paint_start=0.2  frame_end=3.1  present=33.6 predicted=31.8 refresh_interval=16.7
+00:47:09:239 Gdk   130: interval=18.4         smoothed= 2.8 / 18.6 paint_start=0.2  frame_end=3.5  present=35.7 predicted=31.8 refresh_interval=16.7
+00:47:09:258 Gdk   131: interval=20.6         smoothed= 2.4 / 20.2 paint_start=0.2  frame_end=3.1  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:09:279 Gdk   132: interval=18.8         smoothed= 2.7 / 19.0 paint_start=0.2  frame_end=3.4  present=36.1 predicted=32.8 refresh_interval=16.7
+00:47:09:298 Gdk   133: interval=20.9         smoothed= 2.4 / 20.6 paint_start=0.3  frame_end=3.3  present=34.3 predicted=31.9 refresh_interval=16.7
+00:47:09:318 Gdk   134: interval=19.2         smoothed= 2.6 / 19.4 paint_start=0.2  frame_end=3.3  present=35.1 predicted=31.8 refresh_interval=16.7
+00:47:09:337 Gdk   135: interval=20.0         smoothed= 2.5 / 19.9 paint_start=0.2  frame_end=3.3  present=34.6 predicted=31.8 refresh_interval=16.7
+00:47:09:357 Gdk   136: interval=19.4         smoothed= 2.5 / 19.5 paint_start=0.2  frame_end=3.3  present=35.1 predicted=31.9 refresh_interval=16.7
+00:47:09:377 Gdk   137: interval=20.0         smoothed= 2.5 / 19.9 paint_start=0.2  frame_end=3.2  present=34.6 predicted=31.8 refresh_interval=16.7
+00:47:09:397 Gdk   138: interval=19.4         smoothed= 2.5 / 19.5 paint_start=0.3  frame_end=3.4  present=35.4 predicted=31.9 refresh_interval=16.7
+00:47:09:416 Gdk   139: interval=20.2         smoothed= 2.4 / 20.1 paint_start=0.2  frame_end=3.4  present=34.8 predicted=31.8 refresh_interval=16.7
+00:47:09:436 Gdk   140: interval=19.6         smoothed= 2.5 / 19.7 paint_start=0.3  frame_end=3.4  present=34.3 predicted=31.9 refresh_interval=16.7
+00:47:09:456 Gdk   141: interval=19.1         smoothed= 2.6 / 19.2 paint_start=0.3  frame_end=3.3  present=35.5 predicted=31.9 refresh_interval=16.7
+00:47:09:475 Gdk   142: interval=20.4         smoothed= 2.4 / 20.2 paint_start=0.2  frame_end=3.3  present=35.2 predicted=31.8 refresh_interval=16.7
+00:47:09:495 Gdk   143: interval=19.0         smoothed= 2.6 / 19.2 paint_start=0.3  frame_end=3.5  present=35.6 predicted=32.8 refresh_interval=16.7
+00:47:09:515 Gdk   144: interval=20.4         smoothed= 2.4 / 20.3 paint_start=0.3  frame_end=3.3  present=34.3 predicted=31.9 refresh_interval=16.7
+00:47:09:535 Gdk   145: interval=19.3         smoothed= 2.6 / 19.4 paint_start=0.2  frame_end=3.2  present=35.0 predicted=31.6 refresh_interval=16.7
+00:47:09:555 Gdk   146: interval=19.8         smoothed= 2.5 / 19.7 paint_start=0.4  frame_end=3.4  present=35.5 predicted=31.9 refresh_interval=16.7
+00:47:09:574 Gdk   147: interval=20.4         smoothed= 2.4 / 20.4 paint_start=0.2  frame_end=3.0  present=35.0 predicted=31.8 refresh_interval=16.7
+00:47:09:595 Gdk   148: interval=18.9         smoothed= 2.6 / 19.1 paint_start=0.2  frame_end=3.5  present=36.1 predicted=32.8 refresh_interval=16.7
+00:47:09:614 Gdk   149: interval=21.1         smoothed=10.7 / 29.2 paint_start=0.3  frame_end=3.4  present=34.3 predicted=31.7 refresh_interval=16.7
+00:47:09:634 Gdk   150: interval=19.1         smoothed= 8.1 / 16.5 paint_start=0.2  frame_end=3.2  present=34.8 predicted=31.8 refresh_interval=16.7
+00:47:09:653 Gdk   151: interval=19.5         smoothed= 5.4 / 16.8 paint_start=0.3  frame_end=3.4  present=34.6 predicted=31.9 refresh_interval=16.7
+00:47:09:673 Gdk   152: interval=19.5         smoothed= 3.5 / 17.6 paint_start=0.2  frame_end=3.5  present=35.1 predicted=31.8 refresh_interval=16.7
+00:47:09:692 Gdk   153: interval=19.9         smoothed= 2.7 / 19.1 paint_start=0.2  frame_end=3.3  present=35.1 predicted=31.8 refresh_interval=16.7
+00:47:09:713 Gdk   154: interval=18.9         smoothed= 2.7 / 19.0 paint_start=0.3  frame_end=3.5  present=35.8 predicted=32.8 refresh_interval=16.7
+00:47:09:731 Gdk   155: interval=20.6         smoothed= 2.4 / 20.3 paint_start=0.3  frame_end=3.4  present=34.0 predicted=31.9 refresh_interval=16.7
+00:47:09:752 Gdk   156: interval=18.8         smoothed= 2.7 / 19.1 paint_start=0.2  frame_end=3.6  present=35.7 predicted=31.9 refresh_interval=16.7
+00:47:09:772 Gdk   157: interval=20.7         smoothed= 2.4 / 20.4 paint_start=0.3  frame_end=3.5  present=34.4 predicted=31.7 refresh_interval=16.7
+00:47:09:792 Gdk   158: interval=20.2         smoothed= 2.4 / 20.2 paint_start=0.2  frame_end=3.3  present=34.5 predicted=30.9 refresh_interval=16.7
+00:47:09:811 Gdk   159: interval=19.3         smoothed= 2.5 / 19.4 paint_start=0.3  frame_end=3.7  present=35.1 predicted=31.9 refresh_interval=16.7
+00:47:09:831 Gdk   160: interval=19.9         smoothed= 2.5 / 19.8 paint_start=0.3  frame_end=3.3  present=34.3 predicted=31.9 refresh_interval=16.7
+00:47:09:851 Gdk   161: interval=19.1         smoothed= 2.6 / 19.2 paint_start=0.3  frame_end=3.4  present=35.5 predicted=31.9 refresh_interval=16.7
+00:47:09:870 Gdk   162: interval=20.4         smoothed= 2.4 / 20.3 paint_start=0.2  frame_end=3.1  present=33.5 predicted=31.7 refresh_interval=16.7
+00:47:09:890 Gdk   163: interval=19.3         smoothed= 2.6 / 19.4 paint_start=0.2  frame_end=3.2  present=34.7 predicted=30.9 refresh_interval=16.7
+00:47:09:909 Gdk   164: interval=19.6         smoothed= 2.5 / 19.6 paint_start=0.3  frame_end=3.3  present=34.8 predicted=31.7 refresh_interval=16.7
+00:47:09:930 Gdk   165: interval=19.6         smoothed= 2.5 / 19.6 paint_start=0.4  frame_end=3.6  present=35.5 predicted=31.9 refresh_interval=16.7
+00:47:09:949 Gdk   167: interval=12.6 (sleep) smoothed= 6.5 / 16.7 paint_start=0.1  frame_end=2.6  present=22.6 predicted=19.2 refresh_interval=16.7
+00:47:09:984 Gdk   170: interval=16.5 (sleep) smoothed= 6.1 / 16.7 paint_start=0.1  frame_end=2.6  present=21.1 predicted=21.1 refresh_interval=16.7
+00:47:10:035 Gdk   174: interval=16.5 (sleep) smoothed= 6.3 / 16.7 paint_start=0.1  frame_end=2.1  present=20.3 predicted=25.7 refresh_interval=16.7
+00:47:17:565 Gdk   184: interval=24.7 (sleep) smoothed=-0.8 / 16.7 layout_start=0.2  paint_start=0.3  frame_end=7.2  present=24.5 predicted=25.0 refresh_interval=16.7
+00:47:17:634 Gdk   185: interval=9.2          smoothed= 6.6 / 16.7 layout_start=0.2  paint_start=0.4  frame_end=55.2 present=84.3 predicted=32.0 refresh_interval=16.7
+00:47:17:700 Gdk   186: interval=70.1         smoothed= 3.9 / 67.4 layout_start=0.1  paint_start=0.2  frame_end=62.9 present=80.2 predicted=30.8 refresh_interval=16.7
+00:47:17:773 Gdk   187: interval=66.1         smoothed= 4.8 / 66.9 layout_start=0.2  paint_start=0.3  frame_end=50.2 present=87.8 predicted=30.8 refresh_interval=16.7
+00:47:17:832 Gdk   188: interval=72.6         smoothed= 2.5 / 70.3 layout_start=0.2  paint_start=0.3  frame_end=36.0 present=74.3 predicted=31.8 refresh_interval=16.7
+00:47:17:891 Gdk   189: interval=59.1         smoothed= 9.3 / 66.0 layout_start=0.2  paint_start=0.3  frame_end=34.3 present=73.9 predicted=31.8 refresh_interval=16.7
+00:47:17:950 Gdk   190: interval=58.8         smoothed= 2.8 / 52.2 paint_start=0.1  frame_end=33.8 present=73.6 predicted=31.8 refresh_interval=16.7
+00:47:18:009 Gdk   191: interval=58.2         smoothed=10.0 / 65.4 paint_start=0.1  frame_end=33.7 present=74.6 predicted=32.1 refresh_interval=16.7
+00:47:18:029 Gdk   192: interval=59.3         smoothed= 2.8 / 52.2 paint_start=0.2  frame_end=3.8  present=34.7 predicted=32.0 refresh_interval=16.7
+00:47:18:049 Gdk   193: interval=19.6         smoothed= 2.6 / 19.4 paint_start=0.2  frame_end=3.5  present=35.2 predicted=31.8 refresh_interval=16.7
+00:47:18:069 Gdk   194: interval=20.1         smoothed= 2.5 / 20.0 paint_start=0.3  frame_end=3.1  present=34.8 predicted=31.8 refresh_interval=16.7
+00:47:18:088 Gdk   195: interval=19.6         smoothed= 2.6 / 19.7 paint_start=0.4  frame_end=3.3  present=34.5 predicted=31.9 refresh_interval=16.7
+00:47:18:108 Gdk   196: interval=19.5         smoothed= 2.6 / 19.5 paint_start=0.3  frame_end=3.2  present=34.4 predicted=31.7 refresh_interval=16.7
+00:47:18:127 Gdk   197: interval=20.3         smoothed= 2.5 / 20.2 paint_start=0.3  frame_end=3.9  present=34.2 predicted=30.8 refresh_interval=16.7
+00:47:18:148 Gdk   198: interval=19.1         smoothed= 2.7 / 19.2 paint_start=0.3  frame_end=4.3  present=35.6 predicted=31.7 refresh_interval=16.7
+00:47:18:167 Gdk   199: interval=20.8         smoothed= 2.5 / 20.6 paint_start=0.5  frame_end=3.3  present=33.9 predicted=31.5 refresh_interval=16.7
+00:47:18:187 Gdk   200: interval=18.9         smoothed= 2.7 / 19.1 paint_start=0.2  frame_end=3.3  present=35.1 predicted=31.7 refresh_interval=16.7
+00:47:18:207 Gdk   201: interval=19.9         smoothed= 2.5 / 19.8 paint_start=0.2  frame_end=3.3  present=34.8 predicted=31.8 refresh_interval=16.7
+00:47:18:226 Gdk   202: interval=19.6         smoothed= 2.6 / 19.6 paint_start=0.3  frame_end=3.3  present=34.7 predicted=31.9 refresh_interval=16.7
+00:47:18:246 Gdk   203: interval=19.6         smoothed= 2.6 / 19.6 paint_start=0.2  frame_end=3.2  present=34.8 predicted=31.8 refresh_interval=16.7
+00:47:18:265 Gdk   204: interval=19.7         smoothed= 2.6 / 19.7 paint_start=0.2  frame_end=3.1  present=34.5 predicted=31.8 refresh_interval=16.7
+00:47:18:284 Gdk   205: interval=19.3         smoothed= 2.6 / 19.4 paint_start=0.2  frame_end=3.2  present=34.5 predicted=31.9 refresh_interval=16.7
+00:47:18:305 Gdk   206: interval=19.3         smoothed= 2.6 / 19.3 paint_start=0.3  frame_end=3.4  present=35.6 predicted=31.8 refresh_interval=16.7
+00:47:18:325 Gdk   207: interval=20.6         smoothed= 2.5 / 20.4 paint_start=0.2  frame_end=3.3  present=34.9 predicted=31.7 refresh_interval=16.7
+00:47:18:345 Gdk   208: interval=19.9         smoothed= 2.5 / 19.9 paint_start=0.3  frame_end=3.0  present=34.9 predicted=31.7 refresh_interval=16.7
+00:47:18:364 Gdk   209: interval=19.7         smoothed= 2.6 / 19.7 paint_start=0.4  frame_end=3.1  present=34.2 predicted=31.9 refresh_interval=16.7
+00:47:18:383 Gdk   210: interval=19.0         smoothed= 2.7 / 19.1 paint_start=0.3  frame_end=3.2  present=34.9 predicted=31.9 refresh_interval=16.7
+00:47:18:403 Gdk   211: interval=19.7         smoothed= 2.6 / 19.6 paint_start=0.2  frame_end=3.4  present=34.7 predicted=31.9 refresh_interval=16.7
+00:47:18:423 Gdk   212: interval=19.6         smoothed= 2.6 / 19.6 paint_start=0.2  frame_end=3.2  present=35.5 predicted=31.8 refresh_interval=16.7
+00:47:18:443 Gdk   213: interval=20.3         smoothed= 2.5 / 20.3 paint_start=0.2  frame_end=2.9  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:18:462 Gdk   215: interval=12.6 (sleep) smoothed= 6.6 / 16.7 paint_start=0.1  frame_end=2.5  present=22.4 predicted=19.0 refresh_interval=16.7
+00:47:18:514 Gdk   219: interval=16.5 (sleep) smoothed= 6.1 / 16.7 paint_start=0.1  frame_end=2.2  present=20.2 predicted=21.1 refresh_interval=16.7
+00:47:19:663 Gdk   230: interval=17.3 (sleep) smoothed=-0.6 / 16.7 paint_start=0.2  frame_end=6.9  present=24.2 predicted=25.0 refresh_interval=16.7
+00:47:19:683 Gdk   231: interval=9.0          smoothed= 7.1 / 16.7 paint_start=0.2  frame_end=3.2  present=35.2 predicted=31.9 refresh_interval=16.7
+00:47:19:704 Gdk   232: interval=20.0         smoothed= 4.4 / 17.3 paint_start=0.2  frame_end=3.5  present=35.4 predicted=31.8 refresh_interval=16.7
+00:47:19:723 Gdk   233: interval=20.2         smoothed= 3.2 / 19.0 paint_start=0.3  frame_end=3.3  present=34.6 predicted=31.9 refresh_interval=16.7
+00:47:19:743 Gdk   234: interval=19.5         smoothed= 3.0 / 19.4 paint_start=0.2  frame_end=3.0  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:19:763 Gdk   235: interval=19.7         smoothed= 3.0 / 19.7 paint_start=0.2  frame_end=3.3  present=35.1 predicted=31.8 refresh_interval=16.7
+00:47:19:782 Gdk   236: interval=20.0         smoothed= 2.9 / 20.0 paint_start=0.2  frame_end=3.1  present=35.4 predicted=31.8 refresh_interval=16.7
+00:47:19:802 Gdk   237: interval=19.3         smoothed= 3.0 / 19.4 paint_start=0.2  frame_end=3.3  present=34.8 predicted=32.8 refresh_interval=16.7
+00:47:19:822 Gdk   238: interval=19.6         smoothed= 3.0 / 19.5 paint_start=0.3  frame_end=3.3  present=35.3 predicted=31.9 refresh_interval=16.7
+00:47:19:841 Gdk   239: interval=20.2         smoothed= 2.9 / 20.1 paint_start=0.3  frame_end=3.0  present=34.7 predicted=31.8 refresh_interval=16.7
+00:47:19:861 Gdk   240: interval=19.5         smoothed= 3.0 / 19.6 paint_start=0.2  frame_end=3.2  present=34.5 predicted=31.9 refresh_interval=16.7
+00:47:19:881 Gdk   241: interval=19.3         smoothed= 3.1 / 19.3 paint_start=0.3  frame_end=3.3  present=35.3 predicted=31.9 refresh_interval=16.7
+00:47:19:900 Gdk   242: interval=20.2         smoothed= 2.9 / 20.1 paint_start=0.2  frame_end=3.4  present=34.8 predicted=31.7 refresh_interval=16.7
+00:47:19:920 Gdk   243: interval=19.6         smoothed= 3.0 / 19.7 paint_start=0.3  frame_end=3.4  present=34.7 predicted=31.8 refresh_interval=16.7
+00:47:19:940 Gdk   244: interval=19.6         smoothed= 3.0 / 19.6 paint_start=0.2  frame_end=3.3  present=34.8 predicted=31.8 refresh_interval=16.7
+00:47:19:959 Gdk   245: interval=19.6         smoothed= 3.0 / 19.6 paint_start=0.3  frame_end=3.1  present=34.6 predicted=31.9 refresh_interval=16.7
+00:47:19:979 Gdk   246: interval=19.5         smoothed= 3.0 / 19.5 paint_start=0.2  frame_end=3.2  present=36.0 predicted=31.8 refresh_interval=16.7
+00:47:19:999 Gdk   247: interval=19.9         smoothed= 3.0 / 19.8 paint_start=0.2  frame_end=3.3  present=34.9 predicted=32.8 refresh_interval=16.7
+00:47:20:018 Gdk   248: interval=19.8         smoothed= 3.0 / 19.8 paint_start=0.3  frame_end=3.1  present=35.5 predicted=31.7 refresh_interval=16.7
+00:47:20:038 Gdk   249: interval=19.4         smoothed= 3.0 / 19.4 paint_start=0.2  frame_end=3.4  present=35.4 predicted=32.8 refresh_interval=16.7
+00:47:20:058 Gdk   250: interval=20.2         smoothed= 2.9 / 20.1 paint_start=0.3  frame_end=3.2  present=34.4 predicted=31.8 refresh_interval=16.7
+00:47:20:078 Gdk   251: interval=19.1         smoothed= 3.1 / 19.3 paint_start=0.3  frame_end=3.3  present=35.6 predicted=31.9 refresh_interval=16.7
+00:47:20:097 Gdk   252: interval=20.5         smoothed= 2.9 / 20.3 paint_start=0.2  frame_end=3.0  present=33.4 predicted=31.8 refresh_interval=16.7
+00:47:20:118 Gdk   253: interval=19.2         smoothed= 3.1 / 19.3 paint_start=0.2  frame_end=3.2  present=35.6 predicted=30.9 refresh_interval=16.7
+00:47:20:136 Gdk   254: interval=20.4         smoothed= 2.9 / 20.3 paint_start=0.3  frame_end=3.0  present=33.9 predicted=31.9 refresh_interval=16.7
+00:47:20:157 Gdk   255: interval=18.8         smoothed= 3.1 / 19.0 paint_start=0.2  frame_end=3.2  present=35.5 predicted=31.8 refresh_interval=16.7
+00:47:20:176 Gdk   256: interval=20.5         smoothed= 2.9 / 20.3 paint_start=0.2  frame_end=2.9  present=34.8 predicted=31.6 refresh_interval=16.7
+00:47:20:196 Gdk   257: interval=19.5         smoothed= 3.0 / 19.6 paint_start=0.3  frame_end=2.9  present=34.4 predicted=31.9 refresh_interval=16.7
+00:47:20:215 Gdk   258: interval=19.2         smoothed= 3.1 / 19.3 paint_start=0.4  frame_end=3.7  present=35.6 predicted=31.9 refresh_interval=16.7
+00:47:20:235 Gdk   259: interval=19.5         smoothed= 3.0 / 19.5 paint_start=0.3  frame_end=3.6  present=35.3 predicted=32.7 refresh_interval=16.7
+00:47:20:255 Gdk   260: interval=20.1         smoothed= 2.9 / 20.0 paint_start=0.2  frame_end=3.0  present=35.0 predicted=31.9 refresh_interval=16.7
+00:47:20:275 Gdk   261: interval=19.9         smoothed= 2.9 / 19.9 paint_start=0.3  frame_end=3.0  present=34.6 predicted=31.8 refresh_interval=16.7
+00:47:20:294 Gdk   262: interval=19.4         smoothed= 3.0 / 19.5 paint_start=0.3  frame_end=3.3  present=34.9 predicted=31.9 refresh_interval=16.7
+00:47:20:314 Gdk   263: interval=19.7         smoothed= 3.0 / 19.7 paint_start=0.2  frame_end=3.2  present=34.7 predicted=31.9 refresh_interval=16.7
+00:47:20:334 Gdk   264: interval=19.6         smoothed= 3.0 / 19.6 paint_start=0.2  frame_end=3.1  present=35.1 predicted=31.8 refresh_interval=16.7
+00:47:20:352 Gdk   265: interval=20.0         smoothed= 2.9 / 20.0 paint_start=0.2  frame_end=3.2  present=33.8 predicted=31.8 refresh_interval=16.7
+00:47:20:373 Gdk   266: interval=18.6         smoothed= 3.2 / 18.9 paint_start=0.3  frame_end=3.5  present=36.2 predicted=31.9 refresh_interval=16.7
+00:47:20:393 Gdk   267: interval=21.0         smoothed= 2.9 / 20.7 paint_start=0.3  frame_end=3.0  present=34.4 predicted=31.9 refresh_interval=16.7
+00:47:20:412 Gdk   268: interval=19.2         smoothed= 3.1 / 19.3 paint_start=0.3  frame_end=3.2  present=35.0 predicted=31.9 refresh_interval=16.7
+00:47:20:432 Gdk   269: interval=19.8         smoothed= 3.0 / 19.7 paint_start=0.3  frame_end=3.2  present=35.1 predicted=31.9 refresh_interval=16.7
+00:47:20:452 Gdk   270: interval=19.9         smoothed= 2.9 / 19.9 paint_start=0.2  frame_end=3.2  present=34.6 predicted=31.9 refresh_interval=16.7
+00:47:20:471 Gdk   272: interval=12.6 (sleep) smoothed= 7.1 / 16.7 paint_start=0.1  frame_end=2.5  present=22.3 predicted=19.2 refresh_interval=16.7
+00:47:20:522 Gdk   276: interval=16.5 (sleep) smoothed= 6.5 / 16.7 paint_start=0.1  frame_end=2.0  present=20.7 predicted=21.3 refresh_interval=16.7
+00:47:26:617 Gdk   286: interval=20.4         smoothed= 0.0 / 20.4 layout_start=0.6  paint_start=0.6  frame_end=10.5 present=28.7 predicted=25.0 refresh_interval=16.7
+00:47:26:869 Gdk   287: interval=12.3         smoothed= 0.0 / 12.3 layout_start=0.9  paint_start=0.9  frame_end=226.1 present=267.0 predicted=33.0 refresh_interval=16.7
+00:47:27:088 Gdk   288: interval=251.6         smoothed= 0.0 / 251.6 layout_start=0.9  paint_start=1.0  frame_end=207.5 present=232.3 predicted=32.1 refresh_interval=16.7
+00:47:27:322 Gdk   290: interval=23.3         smoothed= 0.0 / 23.3 layout_start=0.9  paint_start=0.9  frame_end=196.2 present=225.3 predicted=22.5 refresh_interval=16.7
+00:47:27:341 Gdk   291: interval=210.0         smoothed= 0.0 / 210.0 layout_start=1.6  paint_start=1.7  frame_end=5.1  present=34.7 predicted=32.0 refresh_interval=16.7
+00:47:27:459 Gdk   294: interval=21.1         smoothed= 0.0 / 21.1 layout_start=0.8  paint_start=0.8  frame_end=3.2  present=20.8 predicted=21.1 refresh_interval=16.7
+00:47:27:479 Gdk   295: interval=5.4          smoothed= 0.0 / 5.4  layout_start=1.0  paint_start=1.1  frame_end=4.9  present=34.6 predicted=32.1 refresh_interval=16.7
+00:47:27:499 Gdk   296: interval=19.5         smoothed= 0.0 / 19.5 layout_start=1.5  paint_start=1.5  frame_end=4.2  present=35.3 predicted=31.8 refresh_interval=16.7
+00:47:27:518 Gdk   297: interval=20.2         smoothed= 0.0 / 20.2 layout_start=1.4  paint_start=1.5  frame_end=4.1  present=34.7 predicted=31.8 refresh_interval=16.7
+00:47:27:537 Gdk   298: interval=19.7         smoothed= 0.0 / 19.7 layout_start=1.7  paint_start=1.7  frame_end=4.8  present=34.0 predicted=31.6 refresh_interval=16.7
+00:47:27:558 Gdk   299: interval=18.9         smoothed= 0.0 / 18.9 layout_start=1.8  paint_start=1.9  frame_end=5.7  present=36.6 predicted=31.8 refresh_interval=16.7
+00:47:27:577 Gdk   300: interval=20.5         smoothed= 0.0 / 20.5 layout_start=1.8  paint_start=1.9  frame_end=5.4  present=35.2 predicted=32.7 refresh_interval=16.7
+00:47:27:598 Gdk   301: interval=19.1         smoothed= 0.0 / 19.1 layout_start=1.4  paint_start=1.5  frame_end=4.2  present=35.8 predicted=32.8 refresh_interval=16.7
+00:47:27:617 Gdk   302: interval=20.7         smoothed= 0.0 / 20.7 layout_start=1.3  paint_start=1.3  frame_end=4.0  present=34.5 predicted=31.8 refresh_interval=16.7
+00:47:27:637 Gdk   303: interval=19.3         smoothed= 0.0 / 19.3 layout_start=1.4  paint_start=1.5  frame_end=4.2  present=34.8 predicted=31.8 refresh_interval=16.7
+00:47:27:656 Gdk   304: interval=19.6         smoothed= 0.0 / 19.6 layout_start=1.4  paint_start=1.4  frame_end=3.8  present=35.0 predicted=31.8 refresh_interval=16.7
+00:47:27:885 Gdk   306: interval=205.7 (sleep) smoothed= 0.0 / 208.2 layout_start=17.0 paint_start=17.1 frame_end=19.9 present=37.9 predicted=25.0 refresh_interval=16.7
+00:47:27:892 Gdk   307: interval=22.8         smoothed=10.6 / 33.3 layout_start=2.1  paint_start=2.1  frame_end=4.8  present=23.3 predicted=31.8 refresh_interval=16.7
+00:47:27:912 Gdk   308: interval=7.2          smoothed= 6.5 / 3.1  layout_start=2.2  paint_start=2.2  frame_end=4.9  present=34.4 predicted=32.8 refresh_interval=16.7
+00:47:27:932 Gdk   309: interval=20.2         smoothed= 6.4 / 20.1 layout_start=1.9  paint_start=2.0  frame_end=4.7  present=34.2 predicted=30.9 refresh_interval=16.7
+00:47:27:952 Gdk   310: interval=19.9         smoothed= 6.4 / 20.0 layout_start=2.0  paint_start=2.0  frame_end=4.7  present=34.9 predicted=30.9 refresh_interval=16.7
+00:47:27:971 Gdk   311: interval=19.8         smoothed= 6.5 / 19.8 layout_start=2.0  paint_start=2.0  frame_end=4.7  present=35.2 predicted=31.8 refresh_interval=16.7
+00:47:27:991 Gdk   312: interval=19.1         smoothed= 6.6 / 19.2 layout_start=2.1  paint_start=2.1  frame_end=4.9  present=35.0 predicted=32.8 refresh_interval=16.7
+00:47:28:011 Gdk   313: interval=19.9         smoothed= 6.5 / 19.8 layout_start=2.1  paint_start=2.1  frame_end=4.8  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:28:030 Gdk   314: interval=19.8         smoothed= 6.5 / 19.8 layout_start=2.1  paint_start=2.1  frame_end=4.8  present=34.4 predicted=31.8 refresh_interval=16.7
+00:47:28:050 Gdk   315: interval=19.3         smoothed= 6.6 / 19.3 layout_start=2.1  paint_start=2.1  frame_end=5.0  present=35.4 predicted=31.8 refresh_interval=16.7
+00:47:28:070 Gdk   316: interval=20.2         smoothed= 6.4 / 20.1 layout_start=2.0  paint_start=2.1  frame_end=4.7  present=34.7 predicted=31.9 refresh_interval=16.7
+00:47:28:311 Gdk   319: interval=200.1 (sleep) smoothed= 0.0 / 200.9 layout_start=18.4 paint_start=18.4 frame_end=21.4 present=38.9 predicted=25.0 refresh_interval=16.7
+00:47:28:326 Gdk   320: interval=23.5         smoothed= 9.8 / 33.3 layout_start=1.4  paint_start=1.4  frame_end=5.1  present=29.8 predicted=32.1 refresh_interval=16.7
+00:47:28:346 Gdk   321: interval=14.6         smoothed=11.6 / 16.4 layout_start=1.7  paint_start=1.8  frame_end=4.3  present=35.1 predicted=31.9 refresh_interval=16.7
+00:47:28:365 Gdk   322: interval=19.9         smoothed= 8.5 / 16.8 layout_start=2.0  paint_start=2.0  frame_end=4.4  present=34.5 predicted=31.9 refresh_interval=16.7
+00:47:28:385 Gdk   323: interval=19.4         smoothed= 6.8 / 17.6 layout_start=1.9  paint_start=2.0  frame_end=4.3  present=35.3 predicted=31.8 refresh_interval=16.7
+00:47:28:405 Gdk   324: interval=20.2         smoothed= 5.8 / 19.3 layout_start=1.6  paint_start=1.7  frame_end=4.3  present=34.8 predicted=31.8 refresh_interval=16.7
+00:47:28:425 Gdk   325: interval=19.6         smoothed= 5.7 / 19.6 layout_start=1.6  paint_start=1.7  frame_end=4.2  present=35.0 predicted=31.8 refresh_interval=16.7
+00:47:28:444 Gdk   326: interval=19.9         smoothed= 5.7 / 19.8 layout_start=1.7  paint_start=1.7  frame_end=4.2  present=34.8 predicted=31.7 refresh_interval=16.7
+00:47:28:464 Gdk   327: interval=19.6         smoothed= 5.7 / 19.7 layout_start=1.6  paint_start=1.7  frame_end=4.2  present=34.7 predicted=31.9 refresh_interval=16.7
+00:47:28:484 Gdk   328: interval=19.6         smoothed= 5.7 / 19.6 layout_start=1.6  paint_start=1.7  frame_end=4.3  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:28:503 Gdk   329: interval=19.7         smoothed= 5.7 / 19.7 layout_start=1.6  paint_start=1.7  frame_end=4.1  present=34.6 predicted=31.9 refresh_interval=16.7
+00:47:28:737 Gdk   331: interval=210.1 (sleep) smoothed= 0.0 / 204.3 layout_start=18.9 paint_start=18.9 frame_end=22.0 present=39.6 predicted=25.0 refresh_interval=16.7
+00:47:28:778 Gdk   332: interval=24.1         smoothed= 9.2 / 33.3 layout_start=2.3  paint_start=2.3  frame_end=26.0 present=55.6 predicted=32.1 refresh_interval=16.7
+00:47:28:818 Gdk   333: interval=40.2         smoothed= 5.1 / 36.2 layout_start=2.2  paint_start=2.2  frame_end=15.0 present=55.8 predicted=32.1 refresh_interval=16.7
+00:47:28:837 Gdk   334: interval=40.5         smoothed=12.8 / 48.2 layout_start=2.1  paint_start=2.2  frame_end=6.5  present=35.1 predicted=32.0 refresh_interval=16.7
+00:47:28:857 Gdk   335: interval=18.8         smoothed=10.5 / 16.5 layout_start=2.2  paint_start=2.2  frame_end=14.6 present=35.0 predicted=33.0 refresh_interval=16.7
+00:47:28:896 Gdk   336: interval=19.6         smoothed= 7.7 / 16.8 layout_start=2.0  paint_start=2.0  frame_end=28.5 present=55.8 predicted=32.1 refresh_interval=16.7
+00:47:28:936 Gdk   337: interval=39.5         smoothed= 5.0 / 36.8 layout_start=2.1  paint_start=2.2  frame_end=16.0 present=56.2 predicted=33.0 refresh_interval=16.7
+00:47:28:955 Gdk   338: interval=39.9         smoothed=13.0 / 47.9 layout_start=2.1  paint_start=2.1  frame_end=6.4  present=34.6 predicted=33.0 refresh_interval=16.7
+00:47:29:174 Gdk   341: interval=19.4 (sleep) smoothed= 0.0 / 16.7 layout_start=2.0  paint_start=2.1  frame_end=6.2  present=24.8 predicted=25.0 refresh_interval=16.7
+00:47:29:231 Gdk   342: interval=8.5          smoothed= 8.2 / 16.7 layout_start=2.0  paint_start=2.0  frame_end=49.0 present=73.2 predicted=33.0 refresh_interval=16.7
+00:47:29:290 Gdk   343: interval=56.8         smoothed= 4.2 / 52.7 layout_start=2.0  paint_start=2.1  frame_end=46.9 present=75.3 predicted=33.1 refresh_interval=16.7
+00:47:29:349 Gdk   344: interval=58.9         smoothed=11.1 / 65.8 layout_start=2.1  paint_start=2.1  frame_end=43.0 present=75.2 predicted=33.1 refresh_interval=16.7
+00:47:29:409 Gdk   345: interval=59.8         smoothed= 4.2 / 52.9 layout_start=2.0  paint_start=2.0  frame_end=38.7 present=74.4 predicted=32.1 refresh_interval=16.7
+00:47:33:429 Gdk   348: interval=19.7 (sleep) smoothed=-0.4 / 16.7 layout_start=1.4  paint_start=1.4  frame_end=7.5  present=24.8 predicted=25.0 refresh_interval=16.7
+00:47:33:505 Gdk   349: interval=9.4          smoothed= 6.9 / 16.7 layout_start=1.2  paint_start=1.3  frame_end=68.2 present=90.9 predicted=32.1 refresh_interval=16.7
+00:47:33:564 Gdk   350: interval=75.5         smoothed=11.1 / 79.7 layout_start=1.4  paint_start=1.5  frame_end=41.8 present=74.9 predicted=32.1 refresh_interval=16.7
+00:47:33:603 Gdk   351: interval=59.5         smoothed= 3.3 / 51.7 layout_start=1.3  paint_start=1.5  frame_end=34.1 present=54.5 predicted=32.1 refresh_interval=16.7
+00:47:33:739 Gdk   352: interval=39.0         smoothed=11.0 / 46.8 layout_start=1.3  paint_start=1.4  frame_end=134.2 present=151.4 predicted=32.1 refresh_interval=16.7
+00:47:33:860 Gdk   353: interval=137.0         smoothed= 7.4 / 133.3 layout_start=0.1  paint_start=0.2  frame_end=96.1 present=136.1 predicted=31.1 refresh_interval=16.7
+00:47:33:958 Gdk   354: interval=120.6         smoothed= 4.1 / 117.4 layout_start=0.2  paint_start=0.3  frame_end=72.5 present=114.1 predicted=32.1 refresh_interval=16.7
+00:47:33:997 Gdk   355: interval=98.6         smoothed= 5.6 / 100.1 paint_start=0.1  frame_end=31.7 present=54.5 predicted=32.1 refresh_interval=16.7
+00:47:34:057 Gdk   356: interval=38.0         smoothed= 3.1 / 35.5 paint_start=0.1  frame_end=51.9 present=75.1 predicted=33.1 refresh_interval=16.7
+00:47:34:077 Gdk   357: interval=59.8         smoothed= 9.4 / 66.1 paint_start=0.2  frame_end=3.8  present=36.1 predicted=32.0 refresh_interval=16.7
+00:47:34:097 Gdk   358: interval=19.9         smoothed= 6.2 / 16.7 paint_start=0.2  frame_end=3.2  present=36.3 predicted=32.8 refresh_interval=16.7
+00:47:34:117 Gdk   359: interval=20.1         smoothed= 3.8 / 17.7 paint_start=0.2  frame_end=3.0  present=34.9 predicted=32.8 refresh_interval=16.7
+00:47:34:136 Gdk   360: interval=19.7         smoothed= 3.0 / 19.0 paint_start=0.2  frame_end=3.1  present=35.2 predicted=31.8 refresh_interval=16.7
+00:47:34:156 Gdk   361: interval=19.1         smoothed= 3.0 / 19.0 paint_start=0.2  frame_end=3.3  present=35.1 predicted=32.8 refresh_interval=16.7
+00:47:34:176 Gdk   362: interval=20.0         smoothed= 2.8 / 19.8 paint_start=0.2  frame_end=3.1  present=35.2 predicted=31.8 refresh_interval=16.7
+00:47:34:196 Gdk   363: interval=20.1         smoothed= 2.8 / 20.1 paint_start=0.2  frame_end=3.3  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:34:215 Gdk   364: interval=19.7         smoothed= 2.8 / 19.7 paint_start=0.2  frame_end=3.1  present=34.8 predicted=31.8 refresh_interval=16.7
+00:47:34:235 Gdk   365: interval=19.5         smoothed= 2.9 / 19.5 paint_start=0.2  frame_end=3.2  present=34.7 predicted=31.9 refresh_interval=16.7
+00:47:34:255 Gdk   366: interval=19.5         smoothed= 2.9 / 19.5 paint_start=0.2  frame_end=3.2  present=35.2 predicted=31.8 refresh_interval=16.7
+00:47:34:274 Gdk   367: interval=20.1         smoothed= 2.8 / 20.0 paint_start=0.2  frame_end=3.1  present=35.2 predicted=31.7 refresh_interval=16.7
+00:47:34:294 Gdk   368: interval=19.0         smoothed= 3.0 / 19.2 paint_start=0.2  frame_end=3.3  present=35.6 predicted=32.8 refresh_interval=16.7
+00:47:34:314 Gdk   369: interval=20.3         smoothed= 2.8 / 20.1 paint_start=0.2  frame_end=3.3  present=34.9 predicted=31.9 refresh_interval=16.7
+00:47:34:333 Gdk   370: interval=19.8         smoothed= 2.8 / 19.8 paint_start=0.2  frame_end=3.1  present=34.6 predicted=31.8 refresh_interval=16.7
+00:47:34:354 Gdk   371: interval=19.3         smoothed= 2.9 / 19.4 paint_start=0.2  frame_end=3.1  present=35.4 predicted=31.9 refresh_interval=16.7
+00:47:34:373 Gdk   372: interval=20.2         smoothed= 2.8 / 20.0 paint_start=0.3  frame_end=3.1  present=35.6 predicted=31.9 refresh_interval=16.7
+00:47:34:393 Gdk   373: interval=19.5         smoothed= 2.9 / 19.5 paint_start=0.2  frame_end=3.3  present=35.1 predicted=32.8 refresh_interval=16.7
+00:47:34:413 Gdk   374: interval=19.9         smoothed= 2.8 / 19.9 paint_start=0.2  frame_end=3.2  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:34:432 Gdk   375: interval=19.7         smoothed= 2.8 / 19.7 paint_start=0.3  frame_end=3.2  present=34.4 predicted=31.9 refresh_interval=16.7
+00:47:34:452 Gdk   376: interval=19.3         smoothed= 2.9 / 19.3 paint_start=0.2  frame_end=3.4  present=35.1 predicted=31.8 refresh_interval=16.7
+00:47:34:471 Gdk   377: interval=20.1         smoothed= 2.8 / 20.0 paint_start=0.2  frame_end=3.8  present=35.4 predicted=31.7 refresh_interval=16.7
+00:47:34:492 Gdk   378: interval=19.2         smoothed= 2.9 / 19.3 paint_start=0.2  frame_end=3.1  present=35.7 predicted=32.9 refresh_interval=16.7
+00:47:34:511 Gdk   379: interval=20.5         smoothed= 2.8 / 20.3 paint_start=0.3  frame_end=3.2  present=34.5 predicted=31.9 refresh_interval=16.7
+00:47:34:531 Gdk   380: interval=19.4         smoothed= 2.9 / 19.5 paint_start=0.2  frame_end=3.2  present=35.2 predicted=31.8 refresh_interval=16.7
+00:47:34:551 Gdk   381: interval=20.1         smoothed= 2.8 / 20.0 paint_start=0.2  frame_end=3.2  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:34:570 Gdk   383: interval=12.6 (sleep) smoothed= 6.9 / 16.7 paint_start=0.1  frame_end=2.3  present=22.7 predicted=19.2 refresh_interval=16.7
+00:47:34:621 Gdk   387: interval=16.7 (sleep) smoothed= 6.2 / 16.7 paint_start=0.1  frame_end=3.2  present=19.1 predicted=20.9 refresh_interval=16.7
+00:47:35:767 Gdk   398: interval=17.6 (sleep) smoothed=-1.0 / 16.7 paint_start=0.1  frame_end=5.3  present=23.2 predicted=25.0 refresh_interval=16.7
+00:47:35:772 Gdk   399: interval=7.1          smoothed= 8.6 / 16.7 paint_start=0.2  frame_end=3.4  present=20.4 predicted=32.8 refresh_interval=16.7
+00:47:35:793 Gdk   400: interval=5.0          smoothed= 5.1 / 1.5  paint_start=0.2  frame_end=4.1  present=37.0 predicted=32.1 refresh_interval=16.7
+00:47:35:813 Gdk   401: interval=20.9         smoothed= 4.5 / 20.3 paint_start=0.2  frame_end=3.2  present=36.3 predicted=32.8 refresh_interval=16.7
+00:47:35:833 Gdk   402: interval=20.2         smoothed= 4.5 / 20.2 paint_start=0.2  frame_end=3.1  present=34.9 predicted=32.8 refresh_interval=16.7
+00:47:35:852 Gdk   403: interval=19.8         smoothed= 4.5 / 19.8 paint_start=0.2  frame_end=3.3  present=35.0 predicted=31.8 refresh_interval=16.7
+00:47:35:872 Gdk   404: interval=18.9         smoothed= 4.7 / 19.0 paint_start=0.2  frame_end=3.0  present=35.3 predicted=32.8 refresh_interval=16.7
+00:47:35:892 Gdk   405: interval=20.2         smoothed= 4.5 / 20.0 paint_start=0.2  frame_end=3.3  present=35.2 predicted=31.8 refresh_interval=16.7
+00:47:35:912 Gdk   406: interval=20.0         smoothed= 4.5 / 20.0 paint_start=0.2  frame_end=3.2  present=34.8 predicted=31.8 refresh_interval=16.7
+00:47:35:931 Gdk   407: interval=19.6         smoothed= 4.5 / 19.6 paint_start=0.3  frame_end=3.7  present=34.5 predicted=31.9 refresh_interval=16.7
+00:47:35:951 Gdk   408: interval=19.4         smoothed= 4.6 / 19.5 paint_start=0.2  frame_end=3.6  present=35.5 predicted=31.7 refresh_interval=16.7
+00:47:35:971 Gdk   409: interval=20.3         smoothed= 4.5 / 20.2 paint_start=0.2  frame_end=3.1  present=34.8 predicted=31.9 refresh_interval=16.7
+00:47:35:991 Gdk   410: interval=19.7         smoothed= 4.5 / 19.7 paint_start=0.2  frame_end=3.0  present=35.1 predicted=31.8 refresh_interval=16.7
+00:47:36:010 Gdk   411: interval=20.0         smoothed= 4.5 / 19.9 paint_start=0.2  frame_end=2.9  present=33.9 predicted=31.8 refresh_interval=16.7
+00:47:36:029 Gdk   412: interval=18.7         smoothed= 4.7 / 18.9 paint_start=0.4  frame_end=3.5  present=35.7 predicted=31.9 refresh_interval=16.7
+00:47:36:049 Gdk   413: interval=19.4         smoothed= 4.6 / 19.3 paint_start=0.1  frame_end=4.5  present=36.2 predicted=33.0 refresh_interval=16.7
+00:47:36:070 Gdk   414: interval=20.1         smoothed= 4.5 / 20.0 paint_start=0.2  frame_end=3.4  present=35.9 predicted=32.8 refresh_interval=16.7
+00:47:36:089 Gdk   415: interval=20.8         smoothed= 4.4 / 20.8 paint_start=0.2  frame_end=2.9  present=35.1 predicted=31.8 refresh_interval=16.7
+00:47:36:109 Gdk   416: interval=19.0         smoothed= 4.6 / 19.2 paint_start=0.2  frame_end=3.3  present=35.2 predicted=32.8 refresh_interval=16.7
+00:47:36:128 Gdk   417: interval=20.1         smoothed= 4.5 / 20.0 paint_start=0.2  frame_end=3.1  present=35.2 predicted=31.8 refresh_interval=16.7
+00:47:36:149 Gdk   418: interval=19.1         smoothed= 4.6 / 19.2 paint_start=0.2  frame_end=3.7  present=35.8 predicted=32.8 refresh_interval=16.7
+00:47:36:169 Gdk   419: interval=20.6         smoothed= 4.4 / 20.5 paint_start=0.2  frame_end=3.1  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:36:188 Gdk   420: interval=19.7         smoothed= 4.5 / 19.8 paint_start=0.3  frame_end=2.9  present=34.7 predicted=31.9 refresh_interval=16.7
+00:47:36:208 Gdk   421: interval=19.6         smoothed= 4.5 / 19.6 paint_start=0.2  frame_end=2.9  present=34.7 predicted=31.8 refresh_interval=16.7
+00:47:36:227 Gdk   422: interval=19.5         smoothed= 4.6 / 19.5 paint_start=0.3  frame_end=3.2  present=35.1 predicted=31.9 refresh_interval=16.7
+00:47:36:247 Gdk   423: interval=19.9         smoothed= 4.5 / 19.8 paint_start=0.2  frame_end=3.1  present=35.7 predicted=31.9 refresh_interval=16.7
+00:47:36:267 Gdk   424: interval=19.7         smoothed= 4.5 / 19.8 paint_start=0.2  frame_end=3.1  present=34.9 predicted=32.7 refresh_interval=16.7
+00:47:36:287 Gdk   425: interval=19.7         smoothed= 4.5 / 19.7 paint_start=0.2  frame_end=3.1  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:36:306 Gdk   426: interval=19.7         smoothed= 4.5 / 19.7 paint_start=0.4  frame_end=3.0  present=35.5 predicted=31.9 refresh_interval=16.7
+00:47:36:326 Gdk   427: interval=19.4         smoothed= 4.6 / 19.4 paint_start=0.2  frame_end=3.3  present=35.1 predicted=32.8 refresh_interval=16.7
+00:47:36:346 Gdk   428: interval=20.0         smoothed= 4.5 / 19.9 paint_start=0.2  frame_end=3.1  present=35.1 predicted=31.8 refresh_interval=16.7
+00:47:36:365 Gdk   429: interval=19.9         smoothed= 4.5 / 19.9 paint_start=0.2  frame_end=2.7  present=34.8 predicted=31.8 refresh_interval=16.7
+00:47:36:385 Gdk   430: interval=19.5         smoothed= 4.5 / 19.6 paint_start=0.2  frame_end=3.0  present=34.9 predicted=31.9 refresh_interval=16.7
+00:47:36:405 Gdk   431: interval=19.7         smoothed= 4.5 / 19.7 paint_start=0.2  frame_end=2.8  present=34.9 predicted=31.8 refresh_interval=16.7
+00:47:36:425 Gdk   432: interval=19.8         smoothed= 4.5 / 19.8 paint_start=0.2  frame_end=3.0  present=35.1 predicted=31.8 refresh_interval=16.7
+00:47:36:444 Gdk   433: interval=20.0         smoothed= 4.5 / 20.0 paint_start=0.2  frame_end=2.7  present=34.6 predicted=31.8 refresh_interval=16.7
+00:47:36:464 Gdk   434: interval=19.4         smoothed= 4.6 / 19.5 paint_start=0.2  frame_end=3.0  present=34.9 predicted=31.9 refresh_interval=16.7
+00:47:36:484 Gdk   435: interval=19.7         smoothed= 4.5 / 19.7 paint_start=0.2  frame_end=3.0  present=35.0 predicted=31.8 refresh_interval=16.7
+00:47:36:504 Gdk   436: interval=19.8         smoothed= 4.5 / 19.8 paint_start=0.2  frame_end=3.0  present=35.2 predicted=31.8 refresh_interval=16.7
+00:47:36:523 Gdk   437: interval=20.0         smoothed= 4.5 / 20.0 paint_start=0.3  frame_end=3.0  present=34.8 predicted=31.8 refresh_interval=16.7
+00:47:36:542 Gdk   439: interval=12.8 (sleep) smoothed= 8.4 / 16.7 paint_start=0.2  frame_end=3.2  present=21.5 predicted=19.1 refresh_interval=16.7
+00:47:36:583 Gdk   441: interval=20.3 (sleep) smoothed= 1.0 / 16.7 layout_start=16.2 paint_start=16.3 frame_end=18.5 present=36.4 predicted=30.4 refresh_interval=16.7
+00:47:36:602 Gdk   442: interval=20.0         smoothed=12.4 / 31.3 layout_start=2.6  paint_start=2.7  frame_end=7.2  present=34.6 predicted=33.0 refresh_interval=16.7
+00:47:36:641 Gdk   443: interval=19.1         smoothed= 9.8 / 16.6 layout_start=1.6  paint_start=1.7  frame_end=32.7 present=54.4 predicted=32.1 refresh_interval=16.7
+00:47:36:701 Gdk   444: interval=39.0         smoothed= 5.3 / 34.5 layout_start=1.6  paint_start=1.7  frame_end=38.4 present=75.0 predicted=32.1 refresh_interval=16.7
+00:47:36:740 Gdk   445: interval=59.6         smoothed=11.6 / 65.8 layout_start=1.7  paint_start=1.7  frame_end=26.7 present=55.0 predicted=32.1 refresh_interval=16.7
+00:47:36:799 Gdk   446: interval=39.6         smoothed= 6.0 / 34.0 layout_start=1.7  paint_start=1.7  frame_end=34.8 present=74.6 predicted=32.1 refresh_interval=16.7
+00:47:36:839 Gdk   447: interval=59.2         smoothed=12.0 / 65.3 layout_start=1.6  paint_start=1.6  frame_end=21.3 present=55.6 predicted=32.1 refresh_interval=16.7

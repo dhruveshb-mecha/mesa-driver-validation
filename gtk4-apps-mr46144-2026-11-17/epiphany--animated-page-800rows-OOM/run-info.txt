@@ -1,0 +1,10 @@
+date=2026-11-17T06:40:59+05:30
+kernel=7.2.4-0.202610231332.fc44.aarch64
+mesa=mesa-dri-drivers-27.0.0~devel-0.1.20261113git8838d84.mr46144.fc44.aarch64
+gtk4=gtk4-4.22.5-2.fc44.aarch64
+libadwaita=libadwaita-1.9.4-1.fc44.aarch64
+GL_RENDERER=Vivante GC7000 rev 6204
+GL_VERSION=OpenGL ES 3.0 Mesa 27.0.0-devel
+extra_env= gdk_debug=frames:opengl
+output=DSI-1 {'width': 1080, 'height': 1240, 'refresh': 60000, 'picture_aspect_ratio': 'none'} 2.0
+pkg_epiphany=epiphany-50.6-6.fc44.aarch64

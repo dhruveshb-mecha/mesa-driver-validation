@@ -1,0 +1,679 @@
+EGL API version 1.5 found
+ - Vendor: Mesa Project
+ - Version: 1.5
+ - Device: /dev/dri/renderD128, 226 128
+ - Client APIs: OpenGL OpenGL_ES 
+ - Extensions:
+	EGL_ANDROID_blob_cache
+	EGL_ANDROID_native_fence_sync
+	EGL_EXT_buffer_age
+	EGL_EXT_config_select_group
+	EGL_EXT_image_dma_buf_import
+	EGL_EXT_image_dma_buf_import_modifiers
+	EGL_EXT_pixel_format_float
+	EGL_EXT_present_opaque
+	EGL_EXT_surface_compression
+	EGL_EXT_swap_buffers_with_damage
+	EGL_KHR_cl_event2
+	EGL_KHR_config_attribs
+	EGL_KHR_context_flush_control
+	EGL_KHR_create_context
+	EGL_KHR_create_context_no_error
+	EGL_KHR_fence_sync
+	EGL_KHR_get_all_proc_addresses
+	EGL_KHR_gl_colorspace
+	EGL_KHR_gl_renderbuffer_image
+	EGL_KHR_gl_texture_2D_image
+	EGL_KHR_gl_texture_3D_image
+	EGL_KHR_gl_texture_cubemap_image
+	EGL_KHR_image_base
+	EGL_KHR_no_config_context
+	EGL_KHR_partial_update
+	EGL_KHR_reusable_sync
+	EGL_KHR_surfaceless_context
+	EGL_KHR_swap_buffers_with_damage
+	EGL_KHR_wait_sync
+	EGL_MESA_configless_context
+	EGL_MESA_gl_interop
+	EGL_MESA_image_dma_buf_export
+	EGL_MESA_query_driver
+	EGL_MESA_x11_native_visual_id
+ - Selected fbconfig: R8G8B8A8, depth 0, stencil 0
+          high depth: none
+Creating EGL context version 3.0 (debug:no, forward:no, legacy:no, es:yes)
+Using OpenGL backend EGL
+
+(epiphany:653462): Gdk-WARNING **: 06:44:50.540: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+
+(epiphany:653462): Gdk-WARNING **: 06:44:51.677: Vulkan: ../src/panfrost/vulkan/panvk_physical_device.c:82: failed to open device '' (VK_ERROR_INCOMPATIBLE_DRIVER)
+
+(epiphany:653462): Gdk-WARNING **: 06:44:51.677: Vulkan: ../src/panfrost/vulkan/panvk_physical_device.c:82: failed to open device '' (VK_ERROR_INCOMPATIBLE_DRIVER)
+Not using Vulkan: device is CPU
+OpenGL ES version: 3.0 (core)
+GLSL version: OpenGL ES GLSL ES 3.00
+Max texture size: 8192
+Enabled features (use GDK_GL_DISABLE env var to disable):
+    debug: ✓
+    base-instance: ✗
+    buffer-storage: ✗
+    external-objects: ✗
+    external-objects-win32: ✗
+    blend-func-extended: ✗
+Creating EGL context version 3.0 (debug:no, forward:no, legacy:no, es:yes)
+OpenGL ES version: 3.0 (core)
+GLSL version: OpenGL ES GLSL ES 3.00
+Max texture size: 8192
+Enabled features (use GDK_GL_DISABLE env var to disable):
+    debug: ✓
+    base-instance: ✗
+    buffer-storage: ✗
+    external-objects: ✗
+    external-objects-win32: ✗
+    blend-func-extended: ✗
+Using renderer 'GskGLRenderer' for surface 'GdkWaylandToplevel'
+Creating EGL context version 3.0 (debug:no, forward:no, legacy:no, es:yes)
+OpenGL ES version: 3.0 (core)
+GLSL version: OpenGL ES GLSL ES 3.00
+Max texture size: 8192
+Enabled features (use GDK_GL_DISABLE env var to disable):
+    debug: ✓
+    base-instance: ✗
+    buffer-storage: ✗
+    external-objects: ✗
+    external-objects-win32: ✗
+    blend-func-extended: ✗
+Resizing EGL window to 868 1284
+Gdk-Message: 06:44:52.592:     0: layout_start=51.8 paint_start=139.7 frame_end=491.0 present=507.3 predicted=25.0 refresh_interval=16.7
+Resizing EGL window to 1152 1216
+Not using Vulkan: device is CPU
+Creating EGL context version 3.0 (debug:no, forward:no, legacy:no, es:yes)
+OpenGL ES version: 3.0 (core)
+GLSL version: OpenGL ES GLSL ES 3.00
+Max texture size: 8192
+Enabled features (use GDK_GL_DISABLE env var to disable):
+    debug: ✓
+    base-instance: ✗
+    buffer-storage: ✗
+    external-objects: ✗
+    external-objects-win32: ✗
+    blend-func-extended: ✗
+Using renderer 'GskGLRenderer' for surface 'GdkWaylandToplevel'
+Gdk-Message: 06:44:52.873:     1: interval=494.9         smoothed= 5.1 / 500.0 layout_start=38.9 paint_start=42.3 frame_end=76.2 present=99.9 predicted=29.1 refresh_interval=16.7
+Resizing EGL window to 868 1284
+Gdk-Message: 06:44:53.082:     2: interval=286.9         smoothed= 2.4 / 284.1 layout_start=0.3  paint_start=1.0  frame_end=32.8 present=51.9 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:44:53.099:     0: layout_start=15.9 paint_start=95.5 frame_end=166.1 present=183.6 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:44:53.107:     3: interval=200.8         smoothed= 2.3 / 200.8 paint_start=0.2  frame_end=15.5 present=38.1 predicted=20.6 refresh_interval=16.7
+Resizing EGL window to 800 1216
+Resizing EGL window to 800 1216
+Gdk-Message: 06:44:53.252:     4: interval=124.3         smoothed= 0.0 / 122.0 layout_start=8.9  paint_start=10.3 frame_end=21.5 present=50.9 predicted=30.5 refresh_interval=16.7
+Gdk-Message: 06:44:53.252:     1: interval=192.1         smoothed= 7.9 / 200.0 layout_start=62.2 paint_start=66.2 frame_end=100.2 present=150.5 predicted=24.9 refresh_interval=16.7
+Gdk-Message: 06:44:53.286:     5: interval=47.0         smoothed= 0.0 / 47.0 layout_start=3.0  paint_start=3.8  frame_end=17.3 present=47.4 predicted=32.0 refresh_interval=16.7
+Gdk-Message: 06:44:53.316:     6: interval=32.2         smoothed= 0.0 / 32.2 layout_start=2.6  paint_start=2.7  frame_end=11.4 present=44.3 predicted=31.9 refresh_interval=16.7
+Gdk-Message: 06:44:53.316:     2: interval=164.5         smoothed= 9.8 / 166.4 layout_start=0.8  paint_start=1.7  frame_end=11.8 present=58.9 predicted=31.3 refresh_interval=16.7
+Gdk-Message: 06:44:53.370:     7: interval=29.9         smoothed= 0.0 / 29.9 layout_start=3.9  paint_start=4.0  frame_end=8.5  present=33.8 predicted=31.1 refresh_interval=16.7
+Gdk-Message: 06:44:53.370:     3: interval=53.3         smoothed= 6.7 / 50.1 layout_start=0.9  paint_start=1.1  frame_end=44.2 present=60.8 predicted=22.3 refresh_interval=16.7
+Gdk-Message: 06:44:53.400:     8: interval=53.9         smoothed= 0.0 / 53.9 layout_start=4.2  paint_start=4.3  frame_end=9.0  present=38.1 predicted=31.4 refresh_interval=16.7
+Gdk-Message: 06:44:53.413:     9: interval=29.8         smoothed= 0.0 / 29.8 layout_start=2.1  paint_start=2.2  frame_end=8.1  present=28.3 predicted=24.9 refresh_interval=16.7
+Gdk-Message: 06:44:53.414:     4: interval=54.4         smoothed= 4.2 / 51.9 paint_start=0.1  frame_end=20.0 present=49.7 predicted=23.0 refresh_interval=16.7
+Gdk-Message: 06:44:53.433:    10: interval=13.7         smoothed= 0.0 / 13.7 layout_start=3.8  paint_start=4.0  frame_end=7.7  present=34.8 predicted=31.3 refresh_interval=16.7
+Gdk-Message: 06:44:53.434:     5: interval=42.3         smoothed=11.0 / 49.0 paint_start=0.2  frame_end=7.2  present=27.4 predicted=24.1 refresh_interval=16.7
+Gdk-Message: 06:44:53.453:     6: interval=12.3         smoothed=12.1 / 13.4 paint_start=0.1  frame_end=9.2  present=35.2 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:44:53.473:     7: interval=19.0         smoothed= 9.5 / 16.5 paint_start=0.2  frame_end=8.0  present=35.1 predicted=32.9 refresh_interval=16.7
+Gdk-Message: 06:44:53.492:     8: interval=20.2         smoothed= 6.2 / 16.9 paint_start=0.2  frame_end=7.3  present=35.1 predicted=31.5 refresh_interval=16.7
+Gdk-Message: 06:44:53.512:     9: interval=18.9         smoothed= 4.9 / 17.6 paint_start=0.4  frame_end=7.9  present=36.2 predicted=32.8 refresh_interval=16.7
+Gdk-Message: 06:44:54.823:    12: interval=1355.7 (sleep) smoothed= 0.0 / 1358.3 layout_start=0.9  paint_start=4.9  frame_end=32.5 present=48.6 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:44:54.859:    14: interval=18.4 (sleep) smoothed= 0.0 / 18.4 layout_start=0.1  paint_start=4.1  frame_end=16.7 present=32.7 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:44:54.906:    16: interval=34.0 (sleep) smoothed=-1.5 / 33.3 paint_start=0.0  frame_end=12.1 present=27.5 predicted=29.7 refresh_interval=16.7
+Gdk-Message: 06:44:55.021:    19: interval=71.4 (sleep) smoothed=-5.0 / 66.7 layout_start=0.0  paint_start=2.1  frame_end=5.3  present=24.0 predicted=32.3 refresh_interval=16.7
+Gdk-Message: 06:44:55.270:    20: interval=245.3 (sleep) smoothed= 0.0 / 250.3 layout_start=0.1  paint_start=0.5  frame_end=7.7  present=26.3 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:44:55.355:    22: interval=80.0 (sleep) smoothed= 6.8 / 83.3 paint_start=0.0  frame_end=2.1  present=20.8 predicted=20.9 refresh_interval=16.7
+Gdk-Message: 06:44:55.738:    10: interval=2232.9 (sleep) smoothed= 5.2 / 2233.2 paint_start=0.0  frame_end=8.0  present=28.6 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:44:55.771:    11: interval=41.6 (sleep) smoothed=13.6 / 50.0 paint_start=0.0  frame_end=1.5  present=20.5 predicted=29.1 refresh_interval=16.7
+Resizing EGL window to 1152 1216
+Destroying EGL context
+Gdk-Message: 06:45:01.153:    12: interval=5336.5 (sleep) smoothed=10.2 / 5333.1 layout_start=0.0  paint_start=3.3  frame_end=35.8 present=64.5 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:01.179:    13: interval=53.0         smoothed= 7.2 / 50.0 layout_start=0.1  paint_start=1.4  frame_end=18.5 present=37.8 predicted=28.1 refresh_interval=16.7
+Resizing EGL window to 1080 1240
+Gdk-Message: 06:45:02.089:    15: interval=829.6 (sleep) smoothed= 7.6 / 833.3 layout_start=37.4 paint_start=40.5 frame_end=70.9 present=95.2 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:02.138:    17: interval=16.6 (sleep) smoothed= 0.1 / 16.7 paint_start=0.1  frame_end=14.2 present=39.9 predicted=24.6 refresh_interval=16.7
+Gdk-Message: 06:45:07.532:    18: interval=5414.6 (sleep) smoothed= 0.0 / 5414.6 layout_start=0.1  paint_start=0.4  frame_end=4.0  present=21.0 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:09.803:    20: interval=2263.7 (sleep) smoothed= 0.0 / 2267.1 layout_start=0.6  paint_start=2.0  frame_end=6.4  present=23.5 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:09.867:    23: interval=28.3 (sleep) smoothed= 0.0 / 29.0 layout_start=0.1  paint_start=1.7  frame_end=15.6 present=33.8 predicted=31.1 refresh_interval=16.7
+Gdk-Message: 06:45:10.385:    27: interval=146.4 (sleep) smoothed= 3.2 / 150.0 paint_start=0.0  frame_end=1.6  present=20.0 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:10.404:    28: interval=20.4 (sleep) smoothed=-0.5 / 16.7 paint_start=0.1  frame_end=1.2  present=19.8 predicted=32.9 refresh_interval=16.7
+Gdk-Message: 06:45:10.424:    29: interval=4.6          smoothed=-5.1 / 0.0  paint_start=0.0  frame_end=1.8  present=36.0 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:10.444:    30: interval=20.5         smoothed= 7.7 / 33.3 paint_start=0.0  frame_end=2.5  present=35.1 predicted=32.1 refresh_interval=16.7
+Gdk-Message: 06:45:10.464:    31: interval=18.9         smoothed= 5.5 / 16.7 paint_start=0.1  frame_end=1.7  present=35.4 predicted=32.9 refresh_interval=16.7
+Gdk-Message: 06:45:10.484:    32: interval=20.5         smoothed= 0.0 / 15.0 layout_start=0.2  paint_start=0.8  frame_end=5.0  present=34.9 predicted=31.6 refresh_interval=16.7
+Gdk-Message: 06:45:10.504:    33: interval=19.9         smoothed=-2.6 / 17.3 paint_start=0.1  frame_end=2.2  present=34.7 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:10.523:    34: interval=20.4         smoothed=-6.3 / 16.7 paint_start=0.0  frame_end=2.1  present=34.2 predicted=31.0 refresh_interval=16.7
+Gdk-Message: 06:45:19.129:    36: interval=17.3 (sleep) smoothed=-0.6 / 16.7 paint_start=0.0  frame_end=1.8  present=19.7 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:19.147:    37: interval=13.4 (sleep) smoothed= 2.7 / 16.7 paint_start=0.0  frame_end=1.1  present=24.7 predicted=23.0 refresh_interval=16.7
+Gdk-Message: 06:45:19.167:    38: interval=8.6          smoothed=-5.9 / 0.0  paint_start=0.0  frame_end=1.6  present=36.2 predicted=32.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.187:    39: interval=31.4 (sleep) smoothed=-4.0 / 33.3 paint_start=0.0  frame_end=1.1  present=24.7 predicted=21.5 refresh_interval=16.7
+Gdk-Message: 06:45:19.206:    40: interval=8.6          smoothed= 4.1 / 16.7 paint_start=0.0  frame_end=1.7  present=34.9 predicted=32.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.229:    41: interval=19.7         smoothed= 1.0 / 16.7 paint_start=0.0  frame_end=2.3  present=38.4 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.246:    42: interval=23.9         smoothed=-6.2 / 16.7 paint_start=0.0  frame_end=2.5  present=30.6 predicted=31.2 refresh_interval=16.7
+Gdk-Message: 06:45:19.266:    43: interval=15.6         smoothed=-5.0 / 16.7 paint_start=0.0  frame_end=2.0  present=36.2 predicted=31.7 refresh_interval=16.7
+Gdk-Message: 06:45:19.285:    44: interval=31.0 (sleep) smoothed=-2.7 / 33.3 paint_start=0.0  frame_end=1.0  present=24.2 predicted=21.9 refresh_interval=16.7
+Gdk-Message: 06:45:19.305:    45: interval=8.2          smoothed= 5.8 / 16.7 paint_start=0.0  frame_end=2.0  present=36.1 predicted=32.7 refresh_interval=16.7
+Gdk-Message: 06:45:19.325:    46: interval=20.1         smoothed= 2.4 / 16.7 paint_start=0.0  frame_end=3.2  present=34.7 predicted=32.7 refresh_interval=16.7
+Gdk-Message: 06:45:19.344:    47: interval=19.8         smoothed=-0.7 / 16.7 paint_start=0.0  frame_end=2.5  present=34.7 predicted=31.6 refresh_interval=16.7
+Gdk-Message: 06:45:19.364:    48: interval=19.6         smoothed=-3.6 / 16.7 paint_start=0.0  frame_end=2.9  present=35.2 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.384:    49: interval=23.8         smoothed= 5.9 / 33.3 paint_start=0.0  frame_end=2.9  present=31.8 predicted=28.0 refresh_interval=16.7
+Gdk-Message: 06:45:19.404:    50: interval=15.6         smoothed= 7.0 / 16.7 paint_start=0.0  frame_end=2.3  present=36.4 predicted=32.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.424:    51: interval=20.5         smoothed= 3.1 / 16.7 paint_start=0.0  frame_end=2.5  present=34.4 predicted=32.6 refresh_interval=16.7
+Gdk-Message: 06:45:19.443:    52: interval=19.4         smoothed= 0.4 / 16.7 paint_start=0.0  frame_end=2.8  present=35.4 predicted=31.7 refresh_interval=16.7
+Gdk-Message: 06:45:19.463:    53: interval=20.3         smoothed=-3.2 / 16.7 paint_start=0.0  frame_end=2.5  present=34.9 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.482:    54: interval=18.8         smoothed=-5.3 / 16.7 paint_start=0.0  frame_end=1.7  present=34.8 predicted=32.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.502:    55: interval=19.6         smoothed=-8.3 / 16.7 paint_start=0.0  frame_end=2.1  present=35.5 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.521:    56: interval=20.5         smoothed= 4.5 / 33.3 paint_start=0.0  frame_end=3.3  present=33.7 predicted=31.6 refresh_interval=16.7
+Gdk-Message: 06:45:19.542:    57: interval=18.4         smoothed= 2.8 / 16.7 paint_start=0.0  frame_end=1.8  present=35.3 predicted=31.9 refresh_interval=16.7
+Gdk-Message: 06:45:19.562:    58: interval=20.0         smoothed=-0.6 / 16.7 paint_start=0.0  frame_end=1.4  present=36.8 predicted=31.9 refresh_interval=16.7
+Gdk-Message: 06:45:19.582:    59: interval=20.6         smoothed=-4.5 / 16.7 paint_start=0.0  frame_end=2.4  present=34.9 predicted=32.9 refresh_interval=16.7
+Gdk-Message: 06:45:19.601:    60: interval=19.7         smoothed=-7.6 / 16.7 paint_start=0.0  frame_end=2.6  present=35.0 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.620:    61: interval=18.8         smoothed= 7.0 / 33.3 paint_start=0.0  frame_end=1.6  present=35.1 predicted=32.9 refresh_interval=16.7
+Gdk-Message: 06:45:19.640:    62: interval=19.9         smoothed= 3.8 / 16.7 paint_start=0.0  frame_end=1.7  present=35.1 predicted=31.9 refresh_interval=16.7
+Gdk-Message: 06:45:19.660:    63: interval=20.0         smoothed= 0.4 / 16.7 paint_start=0.0  frame_end=2.2  present=35.1 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.680:    64: interval=19.9         smoothed=-2.8 / 16.7 paint_start=0.0  frame_end=3.9  present=35.6 predicted=31.9 refresh_interval=16.7
+Gdk-Message: 06:45:19.699:    65: interval=19.4         smoothed=-5.5 / 16.7 paint_start=0.0  frame_end=1.9  present=34.9 predicted=32.9 refresh_interval=16.7
+Gdk-Message: 06:45:19.720:    66: interval=19.8         smoothed= 8.0 / 33.3 paint_start=0.0  frame_end=1.6  present=35.2 predicted=31.9 refresh_interval=16.7
+Gdk-Message: 06:45:19.740:    67: interval=20.1         smoothed= 4.6 / 16.7 paint_start=0.0  frame_end=2.6  present=35.3 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.759:    68: interval=20.1         smoothed= 1.2 / 16.7 paint_start=0.1  frame_end=2.4  present=35.1 predicted=31.9 refresh_interval=16.7
+Gdk-Message: 06:45:19.780:    69: interval=19.0         smoothed=-1.1 / 16.7 paint_start=0.0  frame_end=12.6 present=35.0 predicted=32.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.798:    70: interval=21.5         smoothed=-5.9 / 16.7 paint_start=0.0  frame_end=2.9  present=34.1 predicted=30.2 refresh_interval=16.7
+Gdk-Message: 06:45:19.819:    71: interval=18.0         smoothed=-7.2 / 16.7 paint_start=0.0  frame_end=2.8  present=35.7 predicted=32.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.838:    72: interval=20.7         smoothed= 5.4 / 33.3 paint_start=0.0  frame_end=3.4  present=35.4 predicted=31.6 refresh_interval=16.7
+Gdk-Message: 06:45:19.858:    73: interval=19.2         smoothed= 2.8 / 16.7 paint_start=0.0  frame_end=1.8  present=35.0 predicted=32.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.878:    74: interval=20.2         smoothed=-0.7 / 16.7 paint_start=0.0  frame_end=3.4  present=34.7 predicted=31.5 refresh_interval=16.7
+Gdk-Message: 06:45:19.903:    75: interval=19.6         smoothed=-3.6 / 16.7 paint_start=0.0  frame_end=2.3  present=41.1 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.917:    76: interval=26.5         smoothed= 3.2 / 33.3 paint_start=0.0  frame_end=2.8  present=28.1 predicted=31.2 refresh_interval=16.7
+Gdk-Message: 06:45:19.937:    77: interval=12.9         smoothed= 7.0 / 16.7 paint_start=0.0  frame_end=1.4  present=34.9 predicted=31.9 refresh_interval=16.7
+Gdk-Message: 06:45:19.957:    78: interval=19.8         smoothed= 3.9 / 16.7 paint_start=0.0  frame_end=2.4  present=36.2 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:19.976:    79: interval=20.6         smoothed= 0.0 / 16.7 paint_start=0.0  frame_end=3.0  present=34.1 predicted=32.4 refresh_interval=16.7
+Gdk-Message: 06:45:19.996:    80: interval=18.9         smoothed=-2.2 / 16.7 paint_start=0.0  frame_end=1.9  present=35.6 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:20.016:    81: interval=19.6         smoothed=-5.1 / 16.7 paint_start=0.0  frame_end=1.9  present=36.2 predicted=32.7 refresh_interval=16.7
+Gdk-Message: 06:45:20.039:    82: interval=20.0         smoothed= 8.2 / 33.3 paint_start=0.0  frame_end=1.8  present=38.8 predicted=32.9 refresh_interval=16.7
+Gdk-Message: 06:45:20.055:    83: interval=24.9         smoothed=-0.0 / 16.7 paint_start=0.0  frame_end=2.6  present=30.3 predicted=30.6 refresh_interval=16.7
+Gdk-Message: 06:45:20.075:    84: interval=14.3         smoothed= 2.4 / 16.7 paint_start=0.0  frame_end=2.2  present=36.0 predicted=32.7 refresh_interval=16.7
+Gdk-Message: 06:45:20.095:    85: interval=19.9         smoothed=-0.9 / 16.7 paint_start=0.0  frame_end=2.4  present=35.5 predicted=32.7 refresh_interval=16.7
+Gdk-Message: 06:45:20.114:    86: interval=20.5         smoothed=-4.7 / 16.7 paint_start=0.0  frame_end=2.8  present=34.2 predicted=31.7 refresh_interval=16.7
+Gdk-Message: 06:45:20.134:    87: interval=19.1         smoothed=-7.1 / 16.7 paint_start=0.0  frame_end=1.7  present=35.0 predicted=31.7 refresh_interval=16.7
+Gdk-Message: 06:45:20.154:    88: interval=19.8         smoothed= 6.4 / 33.3 paint_start=0.0  frame_end=2.2  present=35.8 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:20.175:    89: interval=19.7         smoothed= 3.3 / 16.7 paint_start=0.0  frame_end=2.2  present=34.3 predicted=32.7 refresh_interval=16.7
+Gdk-Message: 06:45:20.193:    90: interval=22.8         smoothed=-2.8 / 16.7 paint_start=0.0  frame_end=5.2  present=32.3 predicted=28.2 refresh_interval=16.7
+Gdk-Message: 06:45:20.213:    91: interval=16.2         smoothed=-2.3 / 16.7 paint_start=0.0  frame_end=2.0  present=35.3 predicted=32.8 refresh_interval=16.7
+Gdk-Message: 06:45:20.233:    92: interval=20.1         smoothed=-5.8 / 16.7 paint_start=0.0  frame_end=1.8  present=36.0 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:20.253:    93: interval=19.9         smoothed= 7.7 / 33.3 paint_start=0.0  frame_end=2.8  present=35.8 predicted=32.7 refresh_interval=16.7
+Gdk-Message: 06:45:20.273:    94: interval=19.9         smoothed= 4.5 / 16.7 paint_start=0.0  frame_end=2.2  present=34.8 predicted=32.6 refresh_interval=16.7
+Gdk-Message: 06:45:20.293:    95: interval=19.7         smoothed= 1.4 / 16.7 paint_start=0.0  frame_end=2.6  present=35.0 predicted=31.8 refresh_interval=16.7
+Gdk-Message: 06:45:20.320:    96: interval=43.6 (sleep) smoothed= 7.8 / 50.0 paint_start=0.0  frame_end=1.0  present=19.0 predicted=26.5 refresh_interval=16.7
+Gdk-Message: 06:45:20.340:    97: interval=20.2 (sleep) smoothed= 4.3 / 16.7 paint_start=0.0  frame_end=1.4  present=19.7 predicted=26.1 refresh_interval=16.7
+Gdk-Message: 06:45:20.360:    98: interval=19.6 (sleep) smoothed= 1.3 / 16.7 paint_start=0.0  frame_end=1.1  present=18.7 predicted=26.2 refresh_interval=16.7
+Gdk-Message: 06:45:20.384:    99: interval=23.5 (sleep) smoothed=-5.5 / 16.7 paint_start=0.0  frame_end=1.7  present=19.8 predicted=22.4 refresh_interval=16.7
+Gdk-Message: 06:45:20.458:   100: interval=75.5 (sleep) smoothed= 2.3 / 83.3 paint_start=0.0  frame_end=0.9  present=18.2 predicted=19.8 refresh_interval=16.7
+Gdk-Message: 06:45:20.480:   101: interval=20.0 (sleep) smoothed=-1.0 / 16.7 paint_start=0.0  frame_end=1.5  present=19.6 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:20.503:   102: interval=24.7 (sleep) smoothed= 7.6 / 33.3 paint_start=0.0  frame_end=1.1  present=18.8 predicted=20.8 refresh_interval=16.7
+Gdk-Message: 06:45:20.529:   103: interval=16.7 (sleep) smoothed= 7.6 / 16.7 paint_start=0.0  frame_end=1.2  present=28.1 predicted=18.8 refresh_interval=16.7
+Gdk-Message: 06:45:20.576:   104: interval=56.7 (sleep) smoothed= 0.8 / 50.0 paint_start=0.0  frame_end=0.9  present=19.0 predicted=23.2 refresh_interval=16.7
+Gdk-Message: 06:45:20.597:   105: interval=19.9 (sleep) smoothed=-2.4 / 16.7 paint_start=0.0  frame_end=1.6  present=20.1 predicted=26.5 refresh_interval=16.7
+Gdk-Message: 06:45:20.616:   106: interval=19.6 (sleep) smoothed=-5.2 / 16.7 paint_start=0.0  frame_end=1.3  present=19.5 predicted=26.4 refresh_interval=16.7
+Gdk-Message: 06:45:20.636:   107: interval=20.5 (sleep) smoothed= 7.6 / 33.3 paint_start=0.0  frame_end=1.1  present=18.4 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:20.696:   108: interval=58.8 (sleep) smoothed=-1.2 / 50.0 paint_start=0.0  frame_end=1.1  present=18.7 predicted=19.9 refresh_interval=16.7
+Gdk-Message: 06:45:20.717:   109: interval=20.8 (sleep) smoothed=-5.3 / 16.7 paint_start=0.0  frame_end=1.4  present=19.0 predicted=25.1 refresh_interval=16.7
+Gdk-Message: 06:45:20.736:   110: interval=19.4 (sleep) smoothed=-8.0 / 16.7 paint_start=0.0  frame_end=1.1  present=18.7 predicted=25.4 refresh_interval=16.7
+Gdk-Message: 06:45:20.756:   111: interval=19.5 (sleep) smoothed= 5.9 / 33.3 paint_start=0.0  frame_end=2.0  present=20.4 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:20.841:   112: interval=85.8 (sleep) smoothed= 3.4 / 83.3 paint_start=0.0  frame_end=1.1  present=19.7 predicted=26.3 refresh_interval=16.7
+Gdk-Message: 06:45:20.865:   113: interval=14.7 (sleep) smoothed= 5.4 / 16.7 paint_start=0.0  frame_end=1.1  present=29.0 predicted=21.7 refresh_interval=16.7
+Gdk-Message: 06:45:20.885:   114: interval=22.4 (sleep) smoothed=-0.3 / 16.7 paint_start=0.0  frame_end=1.8  present=25.6 predicted=23.3 refresh_interval=16.7
+Gdk-Message: 06:45:20.905:   115: interval=20.0 (sleep) smoothed=-3.7 / 16.7 paint_start=0.0  frame_end=1.6  present=25.1 predicted=22.3 refresh_interval=16.7
+Gdk-Message: 06:45:20.951:   116: interval=53.5 (sleep) smoothed=-7.1 / 50.0 paint_start=0.0  frame_end=1.0  present=19.2 predicted=23.8 refresh_interval=16.7
+Gdk-Message: 06:45:20.972:   117: interval=20.1 (sleep) smoothed= 6.1 / 33.3 paint_start=0.0  frame_end=1.0  present=18.8 predicted=26.9 refresh_interval=16.7
+Gdk-Message: 06:45:20.994:   118: interval=21.1 (sleep) smoothed= 1.6 / 16.7 paint_start=0.0  frame_end=1.9  present=19.6 predicted=25.5 refresh_interval=16.7
+Gdk-Message: 06:45:21.012:   119: interval=19.0 (sleep) smoothed=-0.7 / 16.7 paint_start=0.0  frame_end=1.7  present=19.5 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:21.075:   120: interval=64.0 (sleep) smoothed= 2.0 / 66.7 paint_start=0.0  frame_end=1.0  present=18.4 predicted=32.0 refresh_interval=16.7
+Gdk-Message: 06:45:21.102:   121: interval=15.9 (sleep) smoothed= 2.7 / 16.7 paint_start=0.0  frame_end=1.4  present=29.4 predicted=19.2 refresh_interval=16.7
+Gdk-Message: 06:45:21.121:   122: interval=23.6 (sleep) smoothed=-4.2 / 16.7 paint_start=0.0  frame_end=1.1  present=24.8 predicted=22.4 refresh_interval=16.7
+Gdk-Message: 06:45:21.142:   123: interval=19.0 (sleep) smoothed=-6.6 / 16.7 paint_start=0.0  frame_end=1.1  present=26.1 predicted=22.4 refresh_interval=16.7
+Gdk-Message: 06:45:21.189:   124: interval=54.9 (sleep) smoothed= 5.2 / 66.7 paint_start=0.0  frame_end=1.1  present=19.2 predicted=23.2 refresh_interval=16.7
+Gdk-Message: 06:45:21.208:   125: interval=19.2 (sleep) smoothed= 2.6 / 16.7 paint_start=0.0  frame_end=1.1  present=19.4 predicted=26.8 refresh_interval=16.7
+Gdk-Message: 06:45:21.229:   126: interval=20.3 (sleep) smoothed=-1.0 / 16.7 paint_start=0.0  frame_end=1.1  present=18.8 predicted=26.5 refresh_interval=16.7
+Gdk-Message: 06:45:21.249:   127: interval=19.9 (sleep) smoothed=-4.2 / 16.7 paint_start=0.0  frame_end=1.1  present=18.7 predicted=26.1 refresh_interval=16.7
+Gdk-Message: 06:45:21.331:   128: interval=82.1 (sleep) smoothed=-3.0 / 83.3 paint_start=0.0  frame_end=1.1  present=18.8 predicted=30.4 refresh_interval=16.7
+Gdk-Message: 06:45:21.359:   129: interval=17.5 (sleep) smoothed=-3.8 / 16.7 paint_start=0.0  frame_end=1.5  present=30.3 predicted=18.0 refresh_interval=16.7
+Gdk-Message: 06:45:21.379:   130: interval=23.5 (sleep) smoothed= 6.1 / 33.3 paint_start=0.0  frame_end=1.1  present=25.9 predicted=23.4 refresh_interval=16.7
+Gdk-Message: 06:45:21.398:   131: interval=20.4 (sleep) smoothed= 2.3 / 16.7 paint_start=0.0  frame_end=1.7  present=25.0 predicted=22.2 refresh_interval=16.7
+Gdk-Message: 06:45:21.445:   132: interval=53.0 (sleep) smoothed=-0.7 / 50.0 paint_start=0.0  frame_end=1.2  present=19.7 predicted=24.3 refresh_interval=16.7
+Gdk-Message: 06:45:21.466:   133: interval=21.2 (sleep) smoothed=-5.2 / 16.7 paint_start=0.0  frame_end=1.2  present=19.5 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:21.486:   134: interval=19.6 (sleep) smoothed=-8.2 / 16.7 paint_start=0.0  frame_end=1.7  present=19.2 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:21.507:   135: interval=21.1 (sleep) smoothed= 4.1 / 33.3 paint_start=0.0  frame_end=1.7  present=19.3 predicted=24.5 refresh_interval=16.7
+Gdk-Message: 06:45:21.565:   136: interval=57.9 (sleep) smoothed=-3.8 / 50.0 paint_start=0.0  frame_end=1.2  present=19.7 predicted=22.8 refresh_interval=16.7
+Gdk-Message: 06:45:21.591:   137: interval=25.3 (sleep) smoothed= 4.3 / 33.3 paint_start=0.0  frame_end=1.3  present=19.2 predicted=20.7 refresh_interval=16.7
+Gdk-Message: 06:45:21.615:   138: interval=17.1 (sleep) smoothed= 3.9 / 16.7 paint_start=0.0  frame_end=1.5  present=27.6 predicted=18.8 refresh_interval=16.7
+Gdk-Message: 06:45:21.635:   139: interval=21.6 (sleep) smoothed=-1.1 / 16.7 paint_start=0.0  frame_end=1.2  present=25.8 predicted=22.6 refresh_interval=16.7
+Gdk-Message: 06:45:21.702:   140: interval=73.7 (sleep) smoothed=-8.1 / 66.7 paint_start=0.0  frame_end=1.1  present=19.4 predicted=20.6 refresh_interval=16.7
+Gdk-Message: 06:45:21.723:   141: interval=20.3 (sleep) smoothed= 5.0 / 33.3 paint_start=0.0  frame_end=1.2  present=18.6 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:21.743:   142: interval=20.0 (sleep) smoothed= 1.7 / 16.7 paint_start=0.0  frame_end=1.1  present=18.7 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:21.763:   143: interval=19.9 (sleep) smoothed=-1.5 / 16.7 paint_start=0.0  frame_end=1.5  present=19.1 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:21.821:   144: interval=58.5 (sleep) smoothed= 6.7 / 66.7 paint_start=0.0  frame_end=1.1  present=18.3 predicted=20.6 refresh_interval=16.7
+Gdk-Message: 06:45:21.844:   145: interval=23.0 (sleep) smoothed= 0.4 / 16.7 paint_start=0.0  frame_end=1.5  present=19.1 predicted=23.2 refresh_interval=16.7
+Gdk-Message: 06:45:21.872:   146: interval=17.5 (sleep) smoothed=-0.5 / 16.7 paint_start=0.0  frame_end=1.1  present=29.6 predicted=18.2 refresh_interval=16.7
+Gdk-Message: 06:45:21.892:   147: interval=23.4 (sleep) smoothed=-7.2 / 16.7 paint_start=0.0  frame_end=1.9  present=26.7 predicted=22.9 refresh_interval=16.7
+Gdk-Message: 06:45:21.940:   148: interval=55.2 (sleep) smoothed= 4.3 / 66.7 paint_start=0.0  frame_end=1.0  present=18.3 predicted=22.8 refresh_interval=16.7
+Gdk-Message: 06:45:21.960:   149: interval=20.1 (sleep) smoothed= 0.9 / 16.7 paint_start=0.0  frame_end=1.2  present=19.7 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:21.979:   150: interval=19.5 (sleep) smoothed=-1.9 / 16.7 paint_start=0.0  frame_end=1.4  present=18.5 predicted=26.1 refresh_interval=16.7
+Gdk-Message: 06:45:22.000:   151: interval=20.3 (sleep) smoothed=-5.6 / 16.7 paint_start=0.0  frame_end=1.6  present=19.2 predicted=25.3 refresh_interval=16.7
+Gdk-Message: 06:45:22.079:   152: interval=78.8 (sleep) smoothed=-1.0 / 83.3 paint_start=0.0  frame_end=1.2  present=18.9 predicted=33.2 refresh_interval=16.7
+Gdk-Message: 06:45:22.100:   153: interval=21.9 (sleep) smoothed=-6.2 / 16.7 paint_start=0.0  frame_end=1.2  present=18.5 predicted=23.4 refresh_interval=16.7
+Gdk-Message: 06:45:22.129:   154: interval=18.9 (sleep) smoothed= 8.2 / 33.3 paint_start=0.0  frame_end=1.3  present=28.8 predicted=32.9 refresh_interval=16.7
+Gdk-Message: 06:45:22.149:   155: interval=22.9 (sleep) smoothed= 2.0 / 16.7 paint_start=0.0  frame_end=1.1  present=25.0 predicted=22.6 refresh_interval=16.7
+Gdk-Message: 06:45:22.196:   156: interval=53.6 (sleep) smoothed=-1.6 / 50.0 paint_start=0.0  frame_end=1.3  present=19.5 predicted=23.6 refresh_interval=16.7
+Gdk-Message: 06:45:22.217:   157: interval=20.7 (sleep) smoothed=-5.7 / 16.7 paint_start=0.0  frame_end=1.3  present=19.1 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:22.236:   158: interval=19.4 (sleep) smoothed= 8.2 / 33.3 paint_start=0.0  frame_end=1.5  present=19.0 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:22.257:   159: interval=20.6 (sleep) smoothed= 4.3 / 16.7 paint_start=0.0  frame_end=1.8  present=19.5 predicted=25.2 refresh_interval=16.7
+Gdk-Message: 06:45:22.315:   160: interval=58.6 (sleep) smoothed=-4.3 / 50.0 paint_start=0.0  frame_end=1.0  present=19.3 predicted=19.7 refresh_interval=16.7
+Gdk-Message: 06:45:22.334:   161: interval=19.4 (sleep) smoothed=-7.1 / 16.7 paint_start=0.0  frame_end=1.0  present=18.3 predicted=26.2 refresh_interval=16.7
+Gdk-Message: 06:45:22.357:   162: interval=22.1 (sleep) smoothed= 4.2 / 33.3 paint_start=0.0  frame_end=1.5  present=19.8 predicted=23.8 refresh_interval=16.7
+Gdk-Message: 06:45:22.386:   163: interval=18.9 (sleep) smoothed= 1.9 / 16.7 paint_start=0.0  frame_end=1.4  present=28.8 predicted=17.5 refresh_interval=16.7
+Gdk-Message: 06:45:22.453:   164: interval=77.6 (sleep) smoothed= 7.7 / 83.3 paint_start=0.0  frame_end=1.0  present=19.3 predicted=20.2 refresh_interval=16.7
+Gdk-Message: 06:45:22.474:   165: interval=20.5 (sleep) smoothed= 3.9 / 16.7 paint_start=0.0  frame_end=1.5  present=19.3 predicted=25.3 refresh_interval=16.7
+Gdk-Message: 06:45:22.495:   166: interval=20.6 (sleep) smoothed=-0.1 / 16.7 paint_start=0.0  frame_end=1.3  present=19.0 predicted=24.8 refresh_interval=16.7
+Gdk-Message: 06:45:22.513:   167: interval=18.4 (sleep) smoothed=-1.9 / 16.7 paint_start=0.0  frame_end=1.1  present=18.7 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:22.572:   168: interval=59.0 (sleep) smoothed= 5.8 / 66.7 paint_start=0.0  frame_end=1.3  present=20.0 predicted=19.8 refresh_interval=16.7
+Gdk-Message: 06:45:22.592:   169: interval=19.4 (sleep) smoothed= 3.1 / 16.7 paint_start=0.1  frame_end=1.5  present=19.1 predicted=26.4 refresh_interval=16.7
+Gdk-Message: 06:45:22.612:   170: interval=20.7 (sleep) smoothed=-1.0 / 16.7 paint_start=0.0  frame_end=1.5  present=19.2 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:22.635:   171: interval=23.1 (sleep) smoothed=-7.4 / 16.7 paint_start=0.0  frame_end=1.1  present=19.6 predicted=22.4 refresh_interval=16.7
+Gdk-Message: 06:45:22.689:   172: interval=55.0 (sleep) smoothed= 4.3 / 66.7 paint_start=0.0  frame_end=0.9  present=18.1 predicted=23.2 refresh_interval=16.7
+Gdk-Message: 06:45:22.711:   173: interval=20.4 (sleep) smoothed= 0.6 / 16.7 paint_start=0.0  frame_end=1.6  present=20.2 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:22.730:   174: interval=20.0 (sleep) smoothed=-2.8 / 16.7 paint_start=0.0  frame_end=1.1  present=19.3 predicted=25.4 refresh_interval=16.7
+Gdk-Message: 06:45:22.750:   175: interval=19.5 (sleep) smoothed=-5.7 / 16.7 paint_start=0.0  frame_end=1.1  present=19.7 predicted=25.6 refresh_interval=16.7
+Gdk-Message: 06:45:22.829:   176: interval=78.6 (sleep) smoothed=-1.0 / 83.3 paint_start=0.0  frame_end=1.4  present=19.0 predicted=16.7 refresh_interval=16.7
+Gdk-Message: 06:45:22.848:   177: interval=20.1 (sleep) smoothed=-4.4 / 16.7 paint_start=0.0  frame_end=1.2  present=18.5 predicted=25.6 refresh_interval=16.7
+Gdk-Message: 06:45:22.869:   178: interval=19.4 (sleep) smoothed=-7.1 / 16.7 paint_start=0.0  frame_end=1.4  present=19.2 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:22.888:   179: interval=19.9 (sleep) smoothed= 6.3 / 33.3 paint_start=0.0  frame_end=1.1  present=19.3 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:22.947:   180: interval=60.1 (sleep) smoothed=-3.8 / 50.0 paint_start=0.0  frame_end=0.9  present=18.0 predicted=18.8 refresh_interval=16.7
+Gdk-Message: 06:45:22.968:   181: interval=19.0 (sleep) smoothed=-6.2 / 16.7 paint_start=0.0  frame_end=1.4  present=19.2 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:22.987:   182: interval=19.0 (sleep) smoothed= 8.1 / 33.3 paint_start=0.0  frame_end=1.5  present=19.3 predicted=26.4 refresh_interval=16.7
+Gdk-Message: 06:45:23.006:   183: interval=19.3 (sleep) smoothed= 5.5 / 16.7 paint_start=0.0  frame_end=1.3  present=19.1 predicted=26.8 refresh_interval=16.7
+Gdk-Message: 06:45:23.065:   184: interval=59.7 (sleep) smoothed=-4.2 / 50.0 paint_start=0.0  frame_end=1.5  present=19.0 predicted=20.2 refresh_interval=16.7
+Gdk-Message: 06:45:23.086:   185: interval=20.2 (sleep) smoothed=-7.8 / 16.7 paint_start=0.0  frame_end=1.2  present=18.9 predicted=26.2 refresh_interval=16.7
+Gdk-Message: 06:45:23.105:   186: interval=19.9 (sleep) smoothed= 5.6 / 33.3 paint_start=0.0  frame_end=1.1  present=18.6 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:23.124:   187: interval=19.0 (sleep) smoothed= 3.3 / 16.7 paint_start=0.0  frame_end=1.2  present=18.7 predicted=26.5 refresh_interval=16.7
+Gdk-Message: 06:45:23.184:   188: interval=59.1 (sleep) smoothed=-5.7 / 50.0 paint_start=0.0  frame_end=1.6  present=19.1 predicted=20.5 refresh_interval=16.7
+Gdk-Message: 06:45:23.207:   189: interval=22.6 (sleep) smoothed= 5.0 / 33.3 paint_start=0.0  frame_end=1.8  present=19.4 predicted=23.8 refresh_interval=16.7
+Gdk-Message: 06:45:23.235:   190: interval=18.5 (sleep) smoothed= 3.1 / 16.7 paint_start=0.0  frame_end=2.0  present=29.1 predicted=17.6 refresh_interval=16.7
+Gdk-Message: 06:45:23.255:   191: interval=23.0 (sleep) smoothed=-3.2 / 16.7 paint_start=0.0  frame_end=1.3  present=25.9 predicted=22.8 refresh_interval=16.7
+Gdk-Message: 06:45:23.323:   192: interval=75.2 (sleep) smoothed= 4.9 / 83.3 paint_start=0.0  frame_end=1.1  present=18.6 predicted=19.7 refresh_interval=16.7
+Gdk-Message: 06:45:23.341:   193: interval=18.8 (sleep) smoothed= 2.7 / 16.7 paint_start=0.0  frame_end=1.1  present=18.7 predicted=26.5 refresh_interval=16.7
+Gdk-Message: 06:45:23.362:   194: interval=20.1 (sleep) smoothed=-0.7 / 16.7 paint_start=0.0  frame_end=1.1  present=18.6 predicted=26.2 refresh_interval=16.7
+Gdk-Message: 06:45:23.382:   195: interval=20.2 (sleep) smoothed=-4.2 / 16.7 paint_start=0.0  frame_end=1.0  present=18.6 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:23.439:   196: interval=57.9 (sleep) smoothed= 4.5 / 66.7 paint_start=0.0  frame_end=1.0  present=18.2 predicted=21.2 refresh_interval=16.7
+Gdk-Message: 06:45:23.463:   197: interval=23.2 (sleep) smoothed=-2.0 / 16.7 paint_start=0.0  frame_end=1.5  present=19.2 predicted=23.6 refresh_interval=16.7
+Gdk-Message: 06:45:23.492:   198: interval=17.1 (sleep) smoothed=-2.5 / 16.7 paint_start=0.0  frame_end=1.1  present=30.9 predicted=18.7 refresh_interval=16.7
+Gdk-Message: 06:45:23.511:   199: interval=25.6 (sleep) smoothed= 5.2 / 33.3 paint_start=0.0  frame_end=1.1  present=24.8 predicted=21.9 refresh_interval=16.7
+Gdk-Message: 06:45:23.559:   200: interval=53.1 (sleep) smoothed= 2.1 / 50.0 paint_start=0.0  frame_end=1.1  present=18.5 predicted=23.4 refresh_interval=16.7
+Gdk-Message: 06:45:23.579:   201: interval=20.0 (sleep) smoothed=-1.2 / 16.7 paint_start=0.0  frame_end=1.1  present=18.8 predicted=26.2 refresh_interval=16.7
+Gdk-Message: 06:45:23.598:   202: interval=19.5 (sleep) smoothed=-4.1 / 16.7 paint_start=0.0  frame_end=1.1  present=18.6 predicted=26.4 refresh_interval=16.7
+Gdk-Message: 06:45:23.619:   203: interval=19.9 (sleep) smoothed=-7.4 / 16.7 paint_start=0.0  frame_end=1.4  present=19.1 predicted=26.2 refresh_interval=16.7
+Gdk-Message: 06:45:23.702:   204: interval=83.7 (sleep) smoothed=-7.8 / 83.3 paint_start=0.0  frame_end=1.1  present=19.8 predicted=28.9 refresh_interval=16.7
+Gdk-Message: 06:45:23.728:   205: interval=17.1 (sleep) smoothed=-8.2 / 16.7 paint_start=0.0  frame_end=1.2  present=27.9 predicted=19.4 refresh_interval=16.7
+Gdk-Message: 06:45:23.748:   206: interval=22.0 (sleep) smoothed= 3.1 / 33.3 paint_start=0.0  frame_end=1.0  present=25.9 predicted=22.5 refresh_interval=16.7
+Gdk-Message: 06:45:23.768:   207: interval=20.2 (sleep) smoothed=-0.4 / 16.7 paint_start=0.0  frame_end=1.1  present=26.3 predicted=22.3 refresh_interval=16.7
+Gdk-Message: 06:45:23.817:   208: interval=54.9 (sleep) smoothed=-5.3 / 50.0 paint_start=0.0  frame_end=1.8  present=20.6 predicted=22.7 refresh_interval=16.7
+Gdk-Message: 06:45:23.836:   209: interval=19.7 (sleep) smoothed=-8.3 / 16.7 paint_start=0.0  frame_end=1.1  present=18.7 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:23.856:   210: interval=19.9 (sleep) smoothed= 5.1 / 33.3 paint_start=0.0  frame_end=1.1  present=18.7 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:23.876:   211: interval=19.4 (sleep) smoothed= 2.3 / 16.7 paint_start=0.0  frame_end=2.1  present=19.7 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:23.935:   212: interval=59.4 (sleep) smoothed=-7.1 / 50.0 paint_start=0.0  frame_end=1.2  present=19.9 predicted=19.7 refresh_interval=16.7
+Gdk-Message: 06:45:23.953:   213: interval=18.9 (sleep) smoothed= 7.4 / 33.3 paint_start=0.0  frame_end=1.0  present=18.4 predicted=26.7 refresh_interval=16.7
+Gdk-Message: 06:45:23.976:   214: interval=22.6 (sleep) smoothed= 1.4 / 16.7 paint_start=0.0  frame_end=1.1  present=18.9 predicted=23.9 refresh_interval=16.7
+Gdk-Message: 06:45:24.005:   215: interval=18.1 (sleep) smoothed= 0.0 / 16.7 paint_start=0.0  frame_end=1.6  present=30.3 predicted=17.4 refresh_interval=16.7
+Gdk-Message: 06:45:24.073:   216: interval=79.2 (sleep) smoothed= 4.1 / 83.3 paint_start=0.0  frame_end=1.1  present=18.6 predicted=19.5 refresh_interval=16.7
+Gdk-Message: 06:45:24.092:   217: interval=18.7 (sleep) smoothed= 2.1 / 16.7 paint_start=0.0  frame_end=1.0  present=19.5 predicted=26.4 refresh_interval=16.7
+Gdk-Message: 06:45:24.114:   218: interval=21.6 (sleep) smoothed=-2.8 / 16.7 paint_start=0.0  frame_end=1.1  present=18.7 predicted=24.6 refresh_interval=16.7
+Gdk-Message: 06:45:24.131:   219: interval=17.9 (sleep) smoothed=-4.1 / 16.7 paint_start=0.0  frame_end=1.0  present=18.4 predicted=26.4 refresh_interval=16.7
+Gdk-Message: 06:45:24.190:   220: interval=58.7 (sleep) smoothed= 3.9 / 66.7 paint_start=0.0  frame_end=0.9  present=19.2 predicted=21.1 refresh_interval=16.7
+Gdk-Message: 06:45:24.210:   221: interval=20.1 (sleep) smoothed= 0.5 / 16.7 paint_start=0.0  frame_end=1.0  present=18.5 predicted=26.6 refresh_interval=16.7
+Gdk-Message: 06:45:24.234:   222: interval=23.1 (sleep) smoothed=-6.0 / 16.7 paint_start=0.0  frame_end=1.1  present=18.8 predicted=23.3 refresh_interval=16.7
+Gdk-Message: 06:45:24.262:   223: interval=17.5 (sleep) smoothed=-6.8 / 16.7 paint_start=0.0  frame_end=1.4  present=30.5 predicted=18.0 refresh_interval=16.7
+Gdk-Message: 06:45:24.310:   224: interval=58.9 (sleep) smoothed= 1.0 / 66.7 paint_start=0.0  frame_end=1.4  present=19.2 predicted=22.8 refresh_interval=16.7
+Gdk-Message: 06:45:24.329:   225: interval=19.0 (sleep) smoothed=-1.2 / 16.7 paint_start=0.0  frame_end=1.2  present=19.8 predicted=26.7 refresh_interval=16.7
+Gdk-Message: 06:45:24.350:   226: interval=20.5 (sleep) smoothed=-5.1 / 16.7 paint_start=0.0  frame_end=1.5  present=19.1 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:24.369:   227: interval=20.2 (sleep) smoothed= 8.0 / 33.3 paint_start=0.0  frame_end=1.1  present=18.5 predicted=25.5 refresh_interval=16.7
+Gdk-Message: 06:45:24.429:   228: interval=59.7 (sleep) smoothed=-1.6 / 50.0 paint_start=0.0  frame_end=1.0  present=19.2 predicted=18.9 refresh_interval=16.7
+Gdk-Message: 06:45:24.448:   229: interval=18.6 (sleep) smoothed=-3.5 / 16.7 paint_start=0.0  frame_end=1.2  present=19.6 predicted=26.2 refresh_interval=16.7
+Gdk-Message: 06:45:24.468:   230: interval=20.0 (sleep) smoothed=-6.9 / 16.7 paint_start=0.0  frame_end=1.2  present=19.5 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:24.491:   231: interval=23.0 (sleep) smoothed= 3.4 / 33.3 paint_start=0.0  frame_end=1.2  present=20.0 predicted=22.7 refresh_interval=16.7
+Gdk-Message: 06:45:24.519:   232: interval=18.2 (sleep) smoothed= 1.8 / 16.7 paint_start=0.0  frame_end=1.4  present=29.5 predicted=18.4 refresh_interval=16.7
+Gdk-Message: 06:45:24.566:   233: interval=57.1 (sleep) smoothed=-5.3 / 50.0 paint_start=0.0  frame_end=1.1  present=19.4 predicted=23.4 refresh_interval=16.7
+Gdk-Message: 06:45:24.586:   234: interval=20.0 (sleep) smoothed= 8.0 / 33.3 paint_start=0.1  frame_end=1.0  present=19.3 predicted=26.1 refresh_interval=16.7
+Gdk-Message: 06:45:24.606:   235: interval=19.8 (sleep) smoothed= 4.9 / 16.7 paint_start=0.0  frame_end=1.0  present=19.4 predicted=26.1 refresh_interval=16.7
+Gdk-Message: 06:45:24.626:   236: interval=19.5 (sleep) smoothed= 2.1 / 16.7 paint_start=0.0  frame_end=1.4  present=19.2 predicted=26.6 refresh_interval=16.7
+Gdk-Message: 06:45:24.683:   237: interval=58.1 (sleep) smoothed=-6.0 / 50.0 paint_start=0.0  frame_end=1.0  present=19.2 predicted=21.6 refresh_interval=16.7
+Gdk-Message: 06:45:24.705:   238: interval=21.3 (sleep) smoothed= 6.0 / 33.3 paint_start=0.0  frame_end=1.0  present=19.5 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:24.725:   239: interval=19.7 (sleep) smoothed= 2.9 / 16.7 paint_start=0.0  frame_end=1.5  present=19.9 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:24.744:   240: interval=19.3 (sleep) smoothed= 0.3 / 16.7 paint_start=0.0  frame_end=1.1  present=19.8 predicted=26.4 refresh_interval=16.7
+Gdk-Message: 06:45:24.807:   241: interval=63.2 (sleep) smoothed= 3.7 / 66.7 paint_start=0.0  frame_end=1.0  present=19.3 predicted=32.9 refresh_interval=16.7
+Gdk-Message: 06:45:24.834:   242: interval=15.7 (sleep) smoothed= 4.7 / 16.7 paint_start=0.0  frame_end=0.9  present=30.2 predicted=20.3 refresh_interval=16.7
+Gdk-Message: 06:45:24.854:   243: interval=25.0 (sleep) smoothed=-3.6 / 16.7 paint_start=0.0  frame_end=1.5  present=25.8 predicted=21.9 refresh_interval=16.7
+Gdk-Message: 06:45:24.874:   244: interval=19.4 (sleep) smoothed=-6.3 / 16.7 paint_start=0.0  frame_end=1.1  present=26.5 predicted=23.1 refresh_interval=16.7
+Gdk-Message: 06:45:24.894:   245: interval=19.8 (sleep) smoothed= 7.2 / 33.3 paint_start=0.0  frame_end=1.4  present=26.1 predicted=23.3 refresh_interval=16.7
+Gdk-Message: 06:45:24.941:   246: interval=54.7 (sleep) smoothed= 2.5 / 50.0 paint_start=0.0  frame_end=1.0  present=18.4 predicted=23.3 refresh_interval=16.7
+Gdk-Message: 06:45:24.962:   247: interval=19.9 (sleep) smoothed=-0.8 / 16.7 paint_start=0.0  frame_end=2.1  present=19.5 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:24.980:   248: interval=18.8 (sleep) smoothed=-2.9 / 16.7 paint_start=0.0  frame_end=1.4  present=18.6 predicted=26.9 refresh_interval=16.7
+Gdk-Message: 06:45:25.001:   249: interval=20.7 (sleep) smoothed=-7.0 / 16.7 paint_start=0.0  frame_end=1.4  present=19.6 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:25.059:   250: interval=57.8 (sleep) smoothed= 1.9 / 66.7 paint_start=0.0  frame_end=1.1  present=19.3 predicted=21.1 refresh_interval=16.7
+Gdk-Message: 06:45:25.083:   251: interval=24.2 (sleep) smoothed=-5.6 / 16.7 paint_start=0.0  frame_end=1.4  present=19.1 predicted=22.9 refresh_interval=16.7
+Gdk-Message: 06:45:25.111:   252: interval=17.0 (sleep) smoothed=-6.0 / 16.7 paint_start=0.0  frame_end=1.2  present=30.5 predicted=18.7 refresh_interval=16.7
+Gdk-Message: 06:45:25.131:   253: interval=23.8 (sleep) smoothed= 3.6 / 33.3 paint_start=0.0  frame_end=1.5  present=25.4 predicted=23.4 refresh_interval=16.7
+Gdk-Message: 06:45:25.178:   254: interval=54.5 (sleep) smoothed=-1.0 / 50.0 paint_start=0.0  frame_end=1.0  present=19.3 predicted=23.5 refresh_interval=16.7
+Gdk-Message: 06:45:25.199:   255: interval=20.3 (sleep) smoothed=-4.6 / 16.7 paint_start=0.0  frame_end=1.9  present=19.5 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:25.219:   256: interval=20.0 (sleep) smoothed=-7.9 / 16.7 paint_start=0.0  frame_end=1.1  present=19.6 predicted=25.5 refresh_interval=16.7
+Gdk-Message: 06:45:25.239:   257: interval=19.6 (sleep) smoothed= 5.8 / 33.3 paint_start=0.0  frame_end=1.4  present=19.0 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:25.258:   258: interval=19.8 (sleep) smoothed= 2.7 / 16.7 paint_start=0.0  frame_end=1.1  present=18.9 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:25.320:   259: interval=62.3 (sleep) smoothed= 7.1 / 66.7 paint_start=0.0  frame_end=1.1  present=19.3 predicted=33.1 refresh_interval=16.7
+Gdk-Message: 06:45:25.348:   260: interval=17.4 (sleep) smoothed= 6.4 / 16.7 paint_start=0.0  frame_end=1.6  present=29.4 predicted=18.6 refresh_interval=16.7
+Gdk-Message: 06:45:25.368:   261: interval=23.1 (sleep) smoothed=-0.1 / 16.7 paint_start=0.0  frame_end=1.0  present=26.7 predicted=22.9 refresh_interval=16.7
+Gdk-Message: 06:45:25.387:   262: interval=20.3 (sleep) smoothed=-3.7 / 16.7 paint_start=0.0  frame_end=1.4  present=24.9 predicted=23.1 refresh_interval=16.7
+Gdk-Message: 06:45:25.434:   263: interval=53.7 (sleep) smoothed=-7.4 / 50.0 paint_start=0.0  frame_end=1.0  present=18.3 predicted=23.9 refresh_interval=16.7
+Gdk-Message: 06:45:25.454:   264: interval=19.7 (sleep) smoothed= 6.3 / 33.3 paint_start=0.0  frame_end=1.1  present=18.4 predicted=26.8 refresh_interval=16.7
+Gdk-Message: 06:45:25.475:   265: interval=20.9 (sleep) smoothed= 2.0 / 16.7 paint_start=0.0  frame_end=1.1  present=18.5 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:25.496:   266: interval=20.1 (sleep) smoothed=-1.5 / 16.7 paint_start=0.0  frame_end=1.1  present=18.6 predicted=25.5 refresh_interval=16.7
+Gdk-Message: 06:45:25.553:   267: interval=58.2 (sleep) smoothed= 7.0 / 66.7 paint_start=0.0  frame_end=1.0  present=18.3 predicted=20.1 refresh_interval=16.7
+Gdk-Message: 06:45:25.576:   268: interval=21.7 (sleep) smoothed= 2.0 / 16.7 paint_start=0.0  frame_end=1.4  present=18.9 predicted=24.4 refresh_interval=16.7
+Gdk-Message: 06:45:25.615:   269: interval=39.0 (sleep) smoothed=-3.7 / 33.3 paint_start=0.0  frame_end=1.2  present=18.8 predicted=25.2 refresh_interval=16.7
+Gdk-Message: 06:45:25.693:   270: interval=78.3 (sleep) smoothed= 1.4 / 83.3 paint_start=0.0  frame_end=1.3  present=19.9 predicted=33.0 refresh_interval=16.7
+Gdk-Message: 06:45:25.712:   271: interval=19.0 (sleep) smoothed=-1.0 / 16.7 paint_start=0.0  frame_end=1.1  present=18.7 predicted=26.3 refresh_interval=16.7
+Gdk-Message: 06:45:25.731:   272: interval=19.3 (sleep) smoothed=-3.6 / 16.7 paint_start=0.0  frame_end=1.2  present=18.9 predicted=27.1 refresh_interval=16.7
+Gdk-Message: 06:45:25.750:   273: interval=19.6 (sleep) smoothed=-6.6 / 16.7 paint_start=0.0  frame_end=1.2  present=18.4 predicted=26.9 refresh_interval=16.7
+Gdk-Message: 06:45:25.812:   274: interval=60.6 (sleep) smoothed=-0.5 / 66.7 paint_start=0.0  frame_end=1.4  present=20.5 predicted=19.4 refresh_interval=16.7
+Gdk-Message: 06:45:25.835:   275: interval=23.7 (sleep) smoothed=-7.5 / 16.7 paint_start=0.0  frame_end=1.0  present=19.4 predicted=21.6 refresh_interval=16.7
+Gdk-Message: 06:45:25.861:   276: interval=15.9 (sleep) smoothed=-6.8 / 16.7 paint_start=0.0  frame_end=1.0  present=29.3 predicted=20.2 refresh_interval=16.7
+Gdk-Message: 06:45:25.881:   277: interval=24.1 (sleep) smoothed= 2.5 / 33.3 paint_start=0.0  frame_end=1.1  present=25.1 predicted=21.9 refresh_interval=16.7
+Gdk-Message: 06:45:25.929:   278: interval=54.5 (sleep) smoothed=-2.0 / 50.0 paint_start=0.0  frame_end=1.0  present=19.2 predicted=23.1 refresh_interval=16.7
+Gdk-Message: 06:45:25.948:   279: interval=19.2 (sleep) smoothed=-4.5 / 16.7 paint_start=0.0  frame_end=1.1  present=18.4 predicted=26.5 refresh_interval=16.7
+Gdk-Message: 06:45:25.969:   280: interval=20.9 (sleep) smoothed= 7.9 / 33.3 paint_start=0.0  frame_end=1.1  present=18.5 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:25.986:   281: interval=17.7 (sleep) smoothed= 6.9 / 16.7 paint_start=0.0  frame_end=0.9  present=18.0 predicted=27.5 refresh_interval=16.7
+Gdk-Message: 06:45:26.009:   282: interval=22.2 (sleep) smoothed= 1.4 / 16.7 paint_start=0.0  frame_end=1.1  present=18.7 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:26.067:   283: interval=58.0 (sleep) smoothed=-6.6 / 50.0 paint_start=0.0  frame_end=1.0  present=19.3 predicted=20.1 refresh_interval=16.7
+Gdk-Message: 06:45:26.091:   284: interval=23.2 (sleep) smoothed= 3.5 / 33.3 paint_start=0.0  frame_end=1.1  present=18.7 predicted=22.8 refresh_interval=16.7
+Gdk-Message: 06:45:26.119:   285: interval=17.3 (sleep) smoothed= 2.9 / 16.7 paint_start=0.0  frame_end=1.2  present=30.6 predicted=18.1 refresh_interval=16.7
+Gdk-Message: 06:45:26.138:   286: interval=23.8 (sleep) smoothed=-4.2 / 16.7 paint_start=0.0  frame_end=1.1  present=26.1 predicted=23.5 refresh_interval=16.7
+Gdk-Message: 06:45:26.184:   287: interval=53.4 (sleep) smoothed=-7.6 / 50.0 paint_start=0.0  frame_end=1.0  present=18.1 predicted=24.0 refresh_interval=16.7
+Gdk-Message: 06:45:26.207:   288: interval=21.0 (sleep) smoothed= 4.8 / 33.3 paint_start=0.0  frame_end=1.5  present=19.3 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:26.225:   289: interval=18.8 (sleep) smoothed= 2.6 / 16.7 paint_start=0.0  frame_end=1.5  present=19.8 predicted=26.8 refresh_interval=16.7
+Gdk-Message: 06:45:26.245:   290: interval=19.8 (sleep) smoothed=-0.6 / 16.7 paint_start=0.0  frame_end=1.5  present=19.9 predicted=26.7 refresh_interval=16.7
+Gdk-Message: 06:45:26.305:   291: interval=60.0 (sleep) smoothed= 6.0 / 66.7 paint_start=0.0  frame_end=1.3  present=18.7 predicted=19.8 refresh_interval=16.7
+Gdk-Message: 06:45:26.324:   292: interval=19.3 (sleep) smoothed= 3.4 / 16.7 paint_start=0.0  frame_end=1.1  present=19.2 predicted=26.4 refresh_interval=16.7
+Gdk-Message: 06:45:26.346:   293: interval=22.0 (sleep) smoothed=-1.9 / 16.7 paint_start=0.0  frame_end=1.0  present=19.4 predicted=24.5 refresh_interval=16.7
+Gdk-Message: 06:45:26.363:   294: interval=17.1 (sleep) smoothed=-2.3 / 16.7 paint_start=0.0  frame_end=1.0  present=19.5 predicted=26.8 refresh_interval=16.7
+Gdk-Message: 06:45:26.442:   295: interval=79.3 (sleep) smoothed= 1.7 / 83.3 paint_start=0.0  frame_end=1.1  present=18.5 predicted=17.3 refresh_interval=16.7
+Gdk-Message: 06:45:26.462:   296: interval=19.1 (sleep) smoothed=-0.8 / 16.7 paint_start=0.0  frame_end=1.3  present=19.0 predicted=27.2 refresh_interval=16.7
+Gdk-Message: 06:45:26.486:   297: interval=24.3 (sleep) smoothed= 8.3 / 33.3 paint_start=0.0  frame_end=1.5  present=19.3 predicted=22.6 refresh_interval=16.7
+Gdk-Message: 06:45:26.513:   298: interval=19.4 (sleep) smoothed= 5.5 / 16.7 paint_start=0.0  frame_end=1.4  present=26.9 predicted=33.2 refresh_interval=16.7
+Gdk-Message: 06:45:26.533:   299: interval=21.4 (sleep) smoothed= 0.7 / 16.7 paint_start=0.0  frame_end=1.1  present=25.8 predicted=22.1 refresh_interval=16.7
+Gdk-Message: 06:45:26.553:   300: interval=19.7 (sleep) smoothed=-2.3 / 16.7 paint_start=0.0  frame_end=1.5  present=26.2 predicted=22.7 refresh_interval=16.7
+Gdk-Message: 06:45:26.572:   301: interval=21.4 (sleep) smoothed=-7.0 / 16.7 paint_start=0.0  frame_end=1.3  present=23.2 predicted=21.5 refresh_interval=16.7
+Gdk-Message: 06:45:26.593:   302: interval=18.0 (sleep) smoothed=-8.3 / 16.7 paint_start=0.0  frame_end=1.1  present=25.5 predicted=21.9 refresh_interval=16.7
+Gdk-Message: 06:45:26.613:   303: interval=19.6 (sleep) smoothed= 5.4 / 33.3 paint_start=0.0  frame_end=1.3  present=25.8 predicted=22.5 refresh_interval=16.7
+Gdk-Message: 06:45:26.632:   304: interval=19.9 (sleep) smoothed= 2.1 / 16.7 paint_start=0.0  frame_end=1.4  present=25.0 predicted=22.6 refresh_interval=16.7
+Gdk-Message: 06:45:26.957:   305: interval=332.3 (sleep) smoothed= 3.1 / 333.3 paint_start=0.0  frame_end=1.0  present=18.2 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:26.976:   306: interval=18.5 (sleep) smoothed= 1.3 / 16.7 paint_start=0.0  frame_end=1.0  present=19.5 predicted=26.1 refresh_interval=16.7
+Gdk-Message: 06:45:26.997:   307: interval=21.6 (sleep) smoothed=-3.6 / 16.7 paint_start=0.0  frame_end=1.0  present=18.5 predicted=24.3 refresh_interval=16.7
+Gdk-Message: 06:45:27.019:   308: interval=21.1 (sleep) smoothed=-8.1 / 16.7 paint_start=0.0  frame_end=1.1  present=18.6 predicted=22.9 refresh_interval=16.7
+Gdk-Message: 06:45:27.047:   309: interval=16.5 (sleep) smoothed=-7.9 / 16.7 paint_start=0.0  frame_end=1.2  present=30.0 predicted=18.8 refresh_interval=16.7
+Gdk-Message: 06:45:27.066:   310: interval=24.5 (sleep) smoothed= 0.9 / 33.3 paint_start=0.0  frame_end=1.2  present=26.0 predicted=22.2 refresh_interval=16.7
+Gdk-Message: 06:45:27.086:   311: interval=21.7 (sleep) smoothed=-4.1 / 16.7 paint_start=0.0  frame_end=1.0  present=24.2 predicted=20.9 refresh_interval=16.7
+Gdk-Message: 06:45:27.106:   312: interval=17.4 (sleep) smoothed=-4.9 / 16.7 paint_start=0.0  frame_end=1.2  present=26.1 predicted=23.4 refresh_interval=16.7
+Gdk-Message: 06:45:27.125:   313: interval=20.8 (sleep) smoothed= 7.6 / 33.3 paint_start=0.0  frame_end=1.1  present=24.3 predicted=21.9 refresh_interval=16.7
+Gdk-Message: 06:45:27.146:   314: interval=18.7 (sleep) smoothed= 5.6 / 16.7 paint_start=0.0  frame_end=1.6  present=26.0 predicted=22.3 refresh_interval=16.7
+Gdk-Message: 06:45:27.166:   315: interval=20.9 (sleep) smoothed= 1.4 / 16.7 paint_start=0.0  frame_end=1.7  present=24.9 predicted=21.8 refresh_interval=16.7
+Gdk-Message: 06:45:27.489:   316: interval=329.7 (sleep) smoothed= 5.0 / 333.3 paint_start=0.0  frame_end=1.4  present=19.0 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:27.513:   317: interval=23.5 (sleep) smoothed=-1.8 / 16.7 paint_start=0.0  frame_end=1.5  present=18.7 predicted=23.3 refresh_interval=16.7
+Gdk-Message: 06:45:27.541:   318: interval=18.0 (sleep) smoothed=-3.1 / 16.7 paint_start=0.0  frame_end=1.4  present=28.9 predicted=17.4 refresh_interval=16.7
+Gdk-Message: 06:45:27.560:   319: interval=25.6 (sleep) smoothed= 4.7 / 33.3 paint_start=0.0  frame_end=1.4  present=23.4 predicted=20.0 refresh_interval=16.7
+Gdk-Message: 06:45:27.580:   320: interval=16.8 (sleep) smoothed= 4.6 / 16.7 paint_start=0.0  frame_end=2.2  present=25.8 predicted=23.3 refresh_interval=16.7
+Gdk-Message: 06:45:27.599:   321: interval=21.7 (sleep) smoothed=-0.4 / 16.7 paint_start=0.0  frame_end=1.1  present=23.5 predicted=20.8 refresh_interval=16.7
+Gdk-Message: 06:45:27.619:   322: interval=18.2 (sleep) smoothed=-2.0 / 16.7 paint_start=0.0  frame_end=1.1  present=26.0 predicted=21.9 refresh_interval=16.7
+Gdk-Message: 06:45:27.639:   323: interval=19.8 (sleep) smoothed=-5.1 / 16.7 paint_start=0.0  frame_end=1.5  present=25.5 predicted=22.9 refresh_interval=16.7
+Gdk-Message: 06:45:27.659:   324: interval=19.7 (sleep) smoothed=-8.2 / 16.7 paint_start=0.0  frame_end=1.9  present=25.0 predicted=22.4 refresh_interval=16.7
+Gdk-Message: 06:45:27.679:   325: interval=19.6 (sleep) smoothed= 5.6 / 33.3 paint_start=0.0  frame_end=1.5  present=26.5 predicted=22.1 refresh_interval=16.7
+Gdk-Message: 06:45:27.698:   326: interval=20.2 (sleep) smoothed= 2.1 / 16.7 paint_start=0.0  frame_end=1.5  present=25.1 predicted=23.0 refresh_interval=16.7
+Gdk-Message: 06:45:28.023:   327: interval=330.3 (sleep) smoothed= 5.1 / 333.3 paint_start=0.0  frame_end=1.4  present=19.1 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:28.046:   328: interval=23.3 (sleep) smoothed=-1.6 / 16.7 paint_start=0.0  frame_end=1.7  present=19.3 predicted=22.9 refresh_interval=16.7
+Gdk-Message: 06:45:28.074:   329: interval=19.7 (sleep) smoothed=-4.7 / 16.7 paint_start=0.0  frame_end=1.5  present=27.1 predicted=32.9 refresh_interval=16.7
+Gdk-Message: 06:45:28.093:   330: interval=21.3 (sleep) smoothed= 7.4 / 33.3 paint_start=0.0  frame_end=1.3  present=26.1 predicted=22.4 refresh_interval=16.7
+Gdk-Message: 06:45:28.113:   331: interval=22.1 (sleep) smoothed= 1.9 / 16.7 paint_start=0.0  frame_end=1.9  present=22.8 predicted=20.7 refresh_interval=16.7
+Gdk-Message: 06:45:28.132:   332: interval=17.5 (sleep) smoothed= 1.1 / 16.7 paint_start=0.0  frame_end=1.7  present=24.8 predicted=22.0 refresh_interval=16.7
+Gdk-Message: 06:45:28.153:   333: interval=19.4 (sleep) smoothed=-1.6 / 16.7 paint_start=0.0  frame_end=1.5  present=25.8 predicted=22.1 refresh_interval=16.7
+Gdk-Message: 06:45:28.173:   334: interval=20.1 (sleep) smoothed=-5.1 / 16.7 paint_start=0.0  frame_end=1.4  present=25.4 predicted=22.4 refresh_interval=16.7
+Gdk-Message: 06:45:28.192:   335: interval=20.2 (sleep) smoothed= 8.0 / 33.3 paint_start=0.0  frame_end=1.1  present=24.9 predicted=21.8 refresh_interval=16.7
+Gdk-Message: 06:45:28.212:   336: interval=19.7 (sleep) smoothed= 5.0 / 16.7 paint_start=0.0  frame_end=1.1  present=25.8 predicted=21.9 refresh_interval=16.7
+Gdk-Message: 06:45:28.536:   337: interval=330.2 (sleep) smoothed= 8.1 / 333.3 paint_start=0.0  frame_end=1.0  present=19.7 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:28.560:   338: interval=23.9 (sleep) smoothed= 0.8 / 16.7 paint_start=0.0  frame_end=1.1  present=19.7 predicted=22.0 refresh_interval=16.7
+Gdk-Message: 06:45:28.587:   339: interval=20.1 (sleep) smoothed=-2.6 / 16.7 paint_start=0.0  frame_end=1.4  present=26.8 predicted=32.9 refresh_interval=16.7
+Gdk-Message: 06:45:28.606:   340: interval=20.5 (sleep) smoothed=-6.5 / 16.7 paint_start=0.0  frame_end=1.6  present=24.7 predicted=22.9 refresh_interval=16.7
+Gdk-Message: 06:45:28.627:   341: interval=21.5 (sleep) smoothed= 5.3 / 33.3 paint_start=0.0  frame_end=1.5  present=23.3 predicted=19.9 refresh_interval=16.7
+Gdk-Message: 06:45:28.646:   342: interval=17.7 (sleep) smoothed= 4.3 / 16.7 paint_start=0.0  frame_end=1.1  present=25.4 predicted=22.3 refresh_interval=16.7
+Gdk-Message: 06:45:28.666:   343: interval=19.8 (sleep) smoothed= 1.2 / 16.7 paint_start=0.0  frame_end=1.1  present=25.5 predicted=22.3 refresh_interval=16.7
+Gdk-Message: 06:45:28.685:   344: interval=20.6 (sleep) smoothed=-2.7 / 16.7 paint_start=0.0  frame_end=1.7  present=24.6 predicted=21.6 refresh_interval=16.7
+Gdk-Message: 06:45:28.705:   345: interval=20.9 (sleep) smoothed=-7.0 / 16.7 paint_start=0.0  frame_end=1.6  present=23.7 predicted=20.3 refresh_interval=16.7
+Gdk-Message: 06:45:28.725:   346: interval=16.9 (sleep) smoothed=-7.3 / 16.7 paint_start=0.0  frame_end=1.4  present=26.0 predicted=23.5 refresh_interval=16.7
+Gdk-Message: 06:45:28.745:   347: interval=20.5 (sleep) smoothed= 5.5 / 33.3 paint_start=0.0  frame_end=1.2  present=24.9 predicted=22.2 refresh_interval=16.7
+Gdk-Message: 06:45:29.068:   348: interval=329.8 (sleep) smoothed=-7.6 / 316.7 paint_start=0.0  frame_end=1.1  present=18.7 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:29.090:   349: interval=21.4 (sleep) smoothed= 4.4 / 33.3 paint_start=0.0  frame_end=1.1  present=18.8 predicted=25.6 refresh_interval=16.7
+Gdk-Message: 06:45:29.112:   350: interval=21.9 (sleep) smoothed=-0.9 / 16.7 paint_start=0.0  frame_end=1.2  present=19.0 predicted=23.3 refresh_interval=16.7
+Gdk-Message: 06:45:29.140:   351: interval=19.1 (sleep) smoothed=-3.3 / 16.7 paint_start=0.0  frame_end=1.0  present=27.6 predicted=33.2 refresh_interval=16.7
+Gdk-Message: 06:45:29.159:   352: interval=22.7 (sleep) smoothed= 7.3 / 33.3 paint_start=0.0  frame_end=1.1  present=24.7 predicted=21.6 refresh_interval=16.7
+Gdk-Message: 06:45:29.180:   353: interval=19.4 (sleep) smoothed= 4.6 / 16.7 paint_start=0.0  frame_end=1.1  present=25.8 predicted=22.0 refresh_interval=16.7
+Gdk-Message: 06:45:29.199:   354: interval=23.0 (sleep) smoothed=-1.8 / 16.7 paint_start=0.0  frame_end=1.1  present=21.6 predicted=19.4 refresh_interval=16.7
+Gdk-Message: 06:45:29.219:   355: interval=15.8 (sleep) smoothed=-0.9 / 16.7 paint_start=0.0  frame_end=1.9  present=26.1 predicted=22.4 refresh_interval=16.7
+Gdk-Message: 06:45:29.238:   356: interval=19.8 (sleep) smoothed=-4.0 / 16.7 paint_start=0.0  frame_end=1.4  present=26.5 predicted=23.0 refresh_interval=16.7
+Gdk-Message: 06:45:29.258:   357: interval=20.2 (sleep) smoothed=-7.5 / 16.7 paint_start=0.0  frame_end=1.4  present=25.9 predicted=23.0 refresh_interval=16.7
+Gdk-Message: 06:45:29.583:   358: interval=331.8 (sleep) smoothed=-5.9 / 333.3 paint_start=0.0  frame_end=1.0  present=19.2 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:29.603:   359: interval=19.0 (sleep) smoothed=-8.3 / 16.7 paint_start=0.0  frame_end=1.3  present=19.0 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:29.625:   360: interval=22.7 (sleep) smoothed= 2.3 / 33.3 paint_start=0.0  frame_end=1.1  present=19.8 predicted=23.0 refresh_interval=16.7
+Gdk-Message: 06:45:29.654:   361: interval=17.4 (sleep) smoothed= 1.6 / 16.7 paint_start=0.0  frame_end=1.4  present=29.9 predicted=19.1 refresh_interval=16.7
+Gdk-Message: 06:45:29.673:   362: interval=26.4 (sleep) smoothed=-8.2 / 16.7 paint_start=0.0  frame_end=1.5  present=22.5 predicted=20.2 refresh_interval=16.7
+Gdk-Message: 06:45:29.693:   363: interval=17.9 (sleep) smoothed= 7.2 / 33.3 paint_start=0.0  frame_end=1.5  present=24.7 predicted=21.2 refresh_interval=16.7
+Gdk-Message: 06:45:29.712:   364: interval=21.1 (sleep) smoothed= 2.8 / 16.7 paint_start=0.0  frame_end=1.2  present=23.6 predicted=20.2 refresh_interval=16.7
+Gdk-Message: 06:45:29.732:   365: interval=16.9 (sleep) smoothed= 2.5 / 16.7 paint_start=0.0  frame_end=1.6  present=26.6 predicted=23.4 refresh_interval=16.7
+Gdk-Message: 06:45:29.752:   366: interval=20.2 (sleep) smoothed=-1.0 / 16.7 paint_start=0.0  frame_end=1.1  present=26.1 predicted=23.1 refresh_interval=16.7
+Gdk-Message: 06:45:29.771:   367: interval=20.6 (sleep) smoothed=-5.0 / 16.7 paint_start=0.0  frame_end=1.4  present=24.5 predicted=22.1 refresh_interval=16.7
+Gdk-Message: 06:45:29.791:   368: interval=19.5 (sleep) smoothed=-7.8 / 16.7 paint_start=0.0  frame_end=1.6  present=25.0 predicted=21.7 refresh_interval=16.7
+Gdk-Message: 06:45:30.115:   369: interval=329.9 (sleep) smoothed=-4.4 / 333.3 paint_start=0.0  frame_end=1.4  present=19.2 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:30.138:   370: interval=22.2 (sleep) smoothed= 6.8 / 33.3 paint_start=0.0  frame_end=1.7  present=19.2 predicted=24.4 refresh_interval=16.7
+Gdk-Message: 06:45:30.167:   371: interval=18.3 (sleep) smoothed= 5.1 / 16.7 paint_start=0.0  frame_end=1.4  present=30.0 predicted=17.6 refresh_interval=16.7
+Gdk-Message: 06:45:30.186:   372: interval=27.0 (sleep) smoothed=-5.2 / 16.7 paint_start=0.0  frame_end=1.1  present=22.1 predicted=19.7 refresh_interval=16.7
+Gdk-Message: 06:45:30.205:   373: interval=16.1 (sleep) smoothed=-4.7 / 16.7 paint_start=0.0  frame_end=1.1  present=25.5 predicted=22.7 refresh_interval=16.7
+Gdk-Message: 06:45:30.225:   374: interval=21.9 (sleep) smoothed= 6.8 / 33.3 paint_start=0.0  frame_end=1.2  present=24.3 predicted=20.2 refresh_interval=16.7
+Gdk-Message: 06:45:30.245:   375: interval=17.9 (sleep) smoothed= 5.5 / 16.7 paint_start=0.0  frame_end=1.0  present=25.5 predicted=23.0 refresh_interval=16.7
+Gdk-Message: 06:45:30.264:   376: interval=20.1 (sleep) smoothed= 2.1 / 16.7 paint_start=0.0  frame_end=1.4  present=24.6 predicted=22.0 refresh_interval=16.7
+Gdk-Message: 06:45:30.285:   377: interval=19.7 (sleep) smoothed=-1.0 / 16.7 paint_start=0.0  frame_end=1.4  present=25.1 predicted=21.5 refresh_interval=16.7
+Gdk-Message: 06:45:30.304:   378: interval=19.6 (sleep) smoothed=-3.9 / 16.7 paint_start=0.0  frame_end=1.1  present=25.3 predicted=22.1 refresh_interval=16.7
+Gdk-Message: 06:45:30.324:   379: interval=19.1 (sleep) smoothed=-6.4 / 16.7 paint_start=0.0  frame_end=1.4  present=26.2 predicted=22.9 refresh_interval=16.7
+Gdk-Message: 06:45:30.648:   380: interval=331.1 (sleep) smoothed=-4.2 / 333.3 paint_start=0.0  frame_end=1.3  present=19.0 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:30.668:   381: interval=19.8 (sleep) smoothed=-7.3 / 16.7 paint_start=0.0  frame_end=1.1  present=19.0 predicted=26.7 refresh_interval=16.7
+Gdk-Message: 06:45:30.689:   382: interval=20.6 (sleep) smoothed= 5.5 / 33.3 paint_start=0.0  frame_end=1.4  present=19.1 predicted=25.5 refresh_interval=16.7
+Gdk-Message: 06:45:30.708:   383: interval=18.6 (sleep) smoothed= 3.5 / 16.7 paint_start=0.0  frame_end=1.4  present=19.2 predicted=26.7 refresh_interval=16.7
+Gdk-Message: 06:45:30.768:   384: interval=60.3 (sleep) smoothed=-6.8 / 50.0 paint_start=0.0  frame_end=1.3  present=18.9 predicted=19.8 refresh_interval=16.7
+Gdk-Message: 06:45:30.789:   385: interval=21.1 (sleep) smoothed= 5.4 / 33.3 paint_start=0.0  frame_end=1.4  present=20.0 predicted=24.2 refresh_interval=16.7
+Gdk-Message: 06:45:30.818:   386: interval=17.5 (sleep) smoothed= 4.6 / 16.7 paint_start=0.0  frame_end=1.4  present=31.8 predicted=19.2 refresh_interval=16.7
+Gdk-Message: 06:45:30.837:   387: interval=25.4 (sleep) smoothed=-4.1 / 16.7 paint_start=0.0  frame_end=1.1  present=24.8 predicted=23.1 refresh_interval=16.7
+Gdk-Message: 06:45:30.905:   388: interval=73.9 (sleep) smoothed= 5.3 / 83.3 paint_start=0.0  frame_end=1.1  present=18.6 predicted=20.0 refresh_interval=16.7
+Gdk-Message: 06:45:30.924:   389: interval=18.4 (sleep) smoothed= 3.6 / 16.7 paint_start=0.0  frame_end=1.2  present=18.8 predicted=27.2 refresh_interval=16.7
+Gdk-Message: 06:45:30.945:   390: interval=21.7 (sleep) smoothed=-1.4 / 16.7 paint_start=0.0  frame_end=1.1  present=18.8 predicted=25.3 refresh_interval=16.7
+Gdk-Message: 06:45:30.965:   391: interval=19.0 (sleep) smoothed=-3.8 / 16.7 paint_start=0.0  frame_end=1.4  present=19.1 predicted=26.3 refresh_interval=16.7
+Gdk-Message: 06:45:31.025:   392: interval=59.9 (sleep) smoothed= 3.0 / 66.7 paint_start=0.0  frame_end=1.2  present=19.1 predicted=19.5 refresh_interval=16.7
+Gdk-Message: 06:45:31.047:   393: interval=22.9 (sleep) smoothed=-3.2 / 16.7 paint_start=0.0  frame_end=1.1  present=19.5 predicted=22.2 refresh_interval=16.7
+Gdk-Message: 06:45:31.074:   394: interval=17.6 (sleep) smoothed=-4.2 / 16.7 paint_start=0.0  frame_end=1.1  present=28.8 predicted=18.6 refresh_interval=16.7
+Gdk-Message: 06:45:31.094:   395: interval=23.2 (sleep) smoothed= 5.9 / 33.3 paint_start=0.0  frame_end=0.9  present=25.3 predicted=22.3 refresh_interval=16.7
+Gdk-Message: 06:45:31.141:   396: interval=53.6 (sleep) smoothed= 2.3 / 50.0 paint_start=0.0  frame_end=1.0  present=18.4 predicted=23.4 refresh_interval=16.7
+Gdk-Message: 06:45:31.162:   397: interval=20.0 (sleep) smoothed=-1.0 / 16.7 paint_start=0.0  frame_end=1.3  present=19.0 predicted=26.4 refresh_interval=16.7
+Gdk-Message: 06:45:31.180:   398: interval=18.9 (sleep) smoothed=-3.3 / 16.7 paint_start=0.0  frame_end=1.3  present=18.6 predicted=27.0 refresh_interval=16.7
+Gdk-Message: 06:45:31.201:   399: interval=20.7 (sleep) smoothed=-7.3 / 16.7 paint_start=0.0  frame_end=1.2  present=19.6 predicted=26.4 refresh_interval=16.7
+Gdk-Message: 06:45:31.281:   400: interval=79.5 (sleep) smoothed=-3.5 / 83.3 paint_start=0.0  frame_end=1.1  present=18.6 predicted=33.3 refresh_interval=16.7
+Gdk-Message: 06:45:31.304:   401: interval=23.2 (sleep) smoothed= 6.7 / 33.3 paint_start=0.0  frame_end=1.2  present=19.7 predicted=22.4 refresh_interval=16.7
+Gdk-Message: 06:45:31.332:   402: interval=16.5 (sleep) smoothed= 6.8 / 16.7 paint_start=0.0  frame_end=1.1  present=29.9 predicted=19.9 refresh_interval=16.7
+Gdk-Message: 06:45:31.351:   403: interval=24.1 (sleep) smoothed=-0.6 / 16.7 paint_start=0.0  frame_end=1.1  present=25.9 predicted=22.5 refresh_interval=16.7
+Gdk-Message: 06:45:31.398:   404: interval=53.3 (sleep) smoothed=-3.8 / 50.0 paint_start=0.0  frame_end=1.9  present=20.1 predicted=23.9 refresh_interval=16.7
+Gdk-Message: 06:45:31.418:   405: interval=20.1 (sleep) smoothed=-7.2 / 16.7 paint_start=0.1  frame_end=1.2  present=19.7 predicted=26.6 refresh_interval=16.7
+Gdk-Message: 06:45:31.439:   406: interval=20.9 (sleep) smoothed= 5.2 / 33.3 paint_start=0.0  frame_end=1.1  present=19.6 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:31.458:   407: interval=18.9 (sleep) smoothed= 3.0 / 16.7 paint_start=0.0  frame_end=1.1  present=18.8 predicted=26.3 refresh_interval=16.7
+Gdk-Message: 06:45:31.516:   408: interval=59.3 (sleep) smoothed=-6.4 / 50.0 paint_start=0.0  frame_end=0.9  present=18.0 predicted=20.1 refresh_interval=16.7
+Gdk-Message: 06:45:31.538:   409: interval=20.5 (sleep) smoothed= 6.5 / 33.3 paint_start=0.0  frame_end=1.3  present=18.9 predicted=25.5 refresh_interval=16.7
+Gdk-Message: 06:45:31.560:   410: interval=22.4 (sleep) smoothed= 0.7 / 16.7 paint_start=0.0  frame_end=1.5  present=19.8 predicted=22.8 refresh_interval=16.7
+Gdk-Message: 06:45:31.588:   411: interval=17.3 (sleep) smoothed= 0.1 / 16.7 paint_start=0.0  frame_end=1.2  present=29.9 predicted=19.2 refresh_interval=16.7
+Gdk-Message: 06:45:31.656:   412: interval=77.9 (sleep) smoothed= 5.6 / 83.3 paint_start=0.0  frame_end=1.6  present=19.3 predicted=20.3 refresh_interval=16.7
+Gdk-Message: 06:45:31.676:   413: interval=20.4 (sleep) smoothed= 1.8 / 16.7 paint_start=0.0  frame_end=1.3  present=19.0 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:31.696:   414: interval=20.0 (sleep) smoothed=-1.6 / 16.7 paint_start=0.0  frame_end=1.5  present=19.2 predicted=25.4 refresh_interval=16.7
+Gdk-Message: 06:45:31.715:   415: interval=19.5 (sleep) smoothed=-4.4 / 16.7 paint_start=0.0  frame_end=1.4  present=19.1 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:31.773:   416: interval=58.4 (sleep) smoothed= 3.9 / 66.7 paint_start=0.0  frame_end=1.1  present=19.4 predicted=20.4 refresh_interval=16.7
+Gdk-Message: 06:45:31.795:   417: interval=20.8 (sleep) smoothed=-0.2 / 16.7 paint_start=0.0  frame_end=1.4  present=19.2 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:31.815:   418: interval=20.3 (sleep) smoothed=-3.9 / 16.7 paint_start=0.0  frame_end=1.1  present=19.0 predicted=25.2 refresh_interval=16.7
+Gdk-Message: 06:45:31.837:   419: interval=21.6 (sleep) smoothed= 7.8 / 33.3 paint_start=0.0  frame_end=1.5  present=19.2 predicted=23.1 refresh_interval=16.7
+Gdk-Message: 06:45:31.892:   420: interval=56.4 (sleep) smoothed= 1.4 / 50.0 paint_start=0.0  frame_end=0.9  present=19.0 predicted=22.9 refresh_interval=16.7
+Gdk-Message: 06:45:31.912:   421: interval=19.1 (sleep) smoothed=-1.0 / 16.7 paint_start=0.0  frame_end=1.1  present=18.5 predicted=26.9 refresh_interval=16.7
+Gdk-Message: 06:45:31.931:   422: interval=19.2 (sleep) smoothed=-3.5 / 16.7 paint_start=0.0  frame_end=1.9  present=20.0 predicted=27.1 refresh_interval=16.7
+Gdk-Message: 06:45:31.953:   423: interval=21.0 (sleep) smoothed=-7.9 / 16.7 paint_start=0.0  frame_end=1.7  present=19.4 predicted=26.1 refresh_interval=16.7
+Gdk-Message: 06:45:32.031:   424: interval=79.2 (sleep) smoothed=-3.8 / 83.3 paint_start=0.0  frame_end=1.0  present=19.3 predicted=16.7 refresh_interval=16.7
+Gdk-Message: 06:45:32.050:   425: interval=19.8 (sleep) smoothed=-6.9 / 16.7 paint_start=0.0  frame_end=1.1  present=18.4 predicted=25.6 refresh_interval=16.7
+Gdk-Message: 06:45:32.068:   426: interval=18.0 (sleep) smoothed=-8.3 / 16.7 paint_start=0.0  frame_end=0.9  present=18.2 predicted=27.3 refresh_interval=16.7
+Gdk-Message: 06:45:32.090:   427: interval=21.3 (sleep) smoothed= 3.8 / 33.3 paint_start=0.0  frame_end=1.1  present=19.4 predicted=26.1 refresh_interval=16.7
+Gdk-Message: 06:45:32.151:   428: interval=61.2 (sleep) smoothed=-7.4 / 50.0 paint_start=0.0  frame_end=1.0  present=19.2 predicted=17.7 refresh_interval=16.7
+Gdk-Message: 06:45:32.169:   429: interval=17.6 (sleep) smoothed=-8.3 / 16.7 paint_start=0.0  frame_end=1.5  present=19.2 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:32.189:   430: interval=20.1 (sleep) smoothed= 4.9 / 33.3 paint_start=0.0  frame_end=1.3  present=19.8 predicted=25.6 refresh_interval=16.7
+Gdk-Message: 06:45:32.209:   431: interval=20.2 (sleep) smoothed= 1.4 / 16.7 paint_start=0.0  frame_end=1.1  present=19.5 predicted=25.5 refresh_interval=16.7
+Gdk-Message: 06:45:32.267:   432: interval=58.6 (sleep) smoothed=-7.2 / 50.0 paint_start=0.0  frame_end=1.0  present=18.4 predicted=19.7 refresh_interval=16.7
+Gdk-Message: 06:45:32.287:   433: interval=19.2 (sleep) smoothed= 7.0 / 33.3 paint_start=0.0  frame_end=1.1  present=18.4 predicted=26.4 refresh_interval=16.7
+Gdk-Message: 06:45:32.307:   434: interval=20.2 (sleep) smoothed= 3.4 / 16.7 paint_start=0.0  frame_end=1.1  present=19.5 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:32.337:   435: interval=25.6 (sleep) smoothed=-5.5 / 16.7 paint_start=0.0  frame_end=4.1  present=23.3 predicted=20.1 refresh_interval=16.7
+Gdk-Message: 06:45:32.357:   436: interval=24.0 (sleep) smoothed= 3.9 / 33.3 paint_start=0.0  frame_end=1.1  present=19.4 predicted=32.7 refresh_interval=16.7
+Gdk-Message: 06:45:32.408:   437: interval=51.8 (sleep) smoothed= 2.1 / 50.0 paint_start=0.0  frame_end=1.4  present=18.7 predicted=20.3 refresh_interval=16.7
+Gdk-Message: 06:45:32.437:   438: interval=17.5 (sleep) smoothed= 1.3 / 16.7 paint_start=0.0  frame_end=1.4  present=30.5 predicted=17.9 refresh_interval=16.7
+Gdk-Message: 06:45:32.457:   439: interval=24.4 (sleep) smoothed=-6.5 / 16.7 paint_start=0.0  frame_end=1.1  present=25.0 predicted=22.7 refresh_interval=16.7
+Gdk-Message: 06:45:32.476:   440: interval=19.2 (sleep) smoothed= 7.7 / 33.3 paint_start=0.0  frame_end=1.1  present=26.1 predicted=22.5 refresh_interval=16.7
+Gdk-Message: 06:45:32.523:   441: interval=53.6 (sleep) smoothed= 4.1 / 50.0 paint_start=0.0  frame_end=1.3  present=18.9 predicted=24.1 refresh_interval=16.7
+Gdk-Message: 06:45:32.545:   442: interval=21.8 (sleep) smoothed=-1.0 / 16.7 paint_start=0.0  frame_end=1.1  present=19.8 predicted=25.2 refresh_interval=16.7
+Gdk-Message: 06:45:32.564:   443: interval=19.1 (sleep) smoothed=-3.4 / 16.7 paint_start=0.0  frame_end=1.5  present=19.2 predicted=26.1 refresh_interval=16.7
+Gdk-Message: 06:45:32.584:   444: interval=19.7 (sleep) smoothed=-6.5 / 16.7 paint_start=0.0  frame_end=1.3  present=19.6 predicted=26.2 refresh_interval=16.7
+Gdk-Message: 06:45:32.643:   445: interval=59.3 (sleep) smoothed= 0.9 / 66.7 paint_start=0.0  frame_end=1.4  present=19.9 predicted=19.7 refresh_interval=16.7
+Gdk-Message: 06:45:32.665:   446: interval=21.8 (sleep) smoothed=-4.2 / 16.7 paint_start=0.0  frame_end=1.7  present=19.2 predicted=23.8 refresh_interval=16.7
+Gdk-Message: 06:45:32.694:   447: interval=18.4 (sleep) smoothed=-6.0 / 16.7 paint_start=0.0  frame_end=1.5  present=29.7 predicted=17.4 refresh_interval=16.7
+Gdk-Message: 06:45:32.713:   448: interval=24.0 (sleep) smoothed= 3.3 / 33.3 paint_start=0.0  frame_end=1.5  present=25.6 predicted=22.4 refresh_interval=16.7
+Gdk-Message: 06:45:32.782:   449: interval=74.2 (sleep) smoothed=-4.2 / 66.7 paint_start=0.0  frame_end=1.6  present=20.3 predicted=19.8 refresh_interval=16.7
+Gdk-Message: 06:45:32.802:   450: interval=20.3 (sleep) smoothed=-7.8 / 16.7 paint_start=0.0  frame_end=1.4  present=19.9 predicted=25.1 refresh_interval=16.7
+Gdk-Message: 06:45:32.821:   451: interval=18.8 (sleep) smoothed= 6.7 / 33.3 paint_start=0.0  frame_end=1.2  present=18.8 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:32.840:   452: interval=19.9 (sleep) smoothed= 3.5 / 16.7 paint_start=0.0  frame_end=1.1  present=18.8 predicted=26.2 refresh_interval=16.7
+Gdk-Message: 06:45:32.898:   453: interval=58.3 (sleep) smoothed=-4.8 / 50.0 paint_start=0.0  frame_end=1.1  present=18.5 predicted=21.0 refresh_interval=16.7
+Gdk-Message: 06:45:32.921:   454: interval=22.9 (sleep) smoothed= 5.6 / 33.3 paint_start=0.0  frame_end=1.1  present=18.4 predicted=24.0 refresh_interval=16.7
+Gdk-Message: 06:45:32.940:   455: interval=17.8 (sleep) smoothed= 4.5 / 16.7 paint_start=0.0  frame_end=1.4  present=18.9 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:32.959:   456: interval=19.7 (sleep) smoothed= 1.5 / 16.7 paint_start=0.0  frame_end=1.2  present=19.6 predicted=25.7 refresh_interval=16.7
+Gdk-Message: 06:45:33.018:   457: interval=58.2 (sleep) smoothed=-6.7 / 50.0 paint_start=0.0  frame_end=1.8  present=20.2 predicted=20.9 refresh_interval=16.7
+Gdk-Message: 06:45:33.037:   458: interval=19.7 (sleep) smoothed= 6.9 / 33.3 paint_start=0.0  frame_end=1.4  present=19.0 predicted=26.8 refresh_interval=16.7
+Gdk-Message: 06:45:33.059:   459: interval=21.9 (sleep) smoothed= 1.7 / 16.7 paint_start=0.0  frame_end=1.2  present=19.8 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:33.076:   460: interval=17.5 (sleep) smoothed= 0.9 / 16.7 paint_start=0.0  frame_end=0.9  present=19.1 predicted=27.0 refresh_interval=16.7
+Gdk-Message: 06:45:33.097:   461: interval=20.6 (sleep) smoothed=-3.1 / 16.7 paint_start=0.0  frame_end=1.5  present=19.7 predicted=26.1 refresh_interval=16.7
+Gdk-Message: 06:45:33.157:   462: interval=60.0 (sleep) smoothed= 3.6 / 66.7 paint_start=0.0  frame_end=1.1  present=19.6 predicted=19.2 refresh_interval=16.7
+Gdk-Message: 06:45:33.179:   463: interval=22.5 (sleep) smoothed=-2.2 / 16.7 paint_start=0.0  frame_end=1.1  present=18.6 predicted=22.9 refresh_interval=16.7
+Gdk-Message: 06:45:33.207:   464: interval=17.3 (sleep) smoothed=-2.9 / 16.7 paint_start=0.0  frame_end=0.9  present=29.2 predicted=17.9 refresh_interval=16.7
+Gdk-Message: 06:45:33.227:   465: interval=23.9 (sleep) smoothed= 6.5 / 33.3 paint_start=0.0  frame_end=1.0  present=24.8 predicted=22.0 refresh_interval=16.7
+Gdk-Message: 06:45:33.274:   466: interval=54.1 (sleep) smoothed= 2.4 / 50.0 paint_start=0.0  frame_end=0.9  present=18.2 predicted=23.2 refresh_interval=16.7
+Gdk-Message: 06:45:33.295:   467: interval=20.3 (sleep) smoothed=-1.3 / 16.7 paint_start=0.0  frame_end=1.1  present=18.8 predicted=25.4 refresh_interval=16.7
+Gdk-Message: 06:45:33.315:   468: interval=19.4 (sleep) smoothed=-4.0 / 16.7 paint_start=0.0  frame_end=1.4  present=19.1 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:33.335:   469: interval=20.1 (sleep) smoothed=-7.4 / 16.7 paint_start=0.0  frame_end=1.7  present=19.6 predicted=25.5 refresh_interval=16.7
+Gdk-Message: 06:45:33.392:   470: interval=57.5 (sleep) smoothed= 1.7 / 66.7 paint_start=0.0  frame_end=1.0  present=19.1 predicted=21.0 refresh_interval=16.7
+Gdk-Message: 06:45:33.413:   471: interval=21.3 (sleep) smoothed=-2.9 / 16.7 paint_start=0.0  frame_end=1.3  present=18.5 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:33.435:   472: interval=22.2 (sleep) smoothed= 8.2 / 33.3 paint_start=0.0  frame_end=1.1  present=18.5 predicted=23.5 refresh_interval=16.7
+Gdk-Message: 06:45:33.464:   473: interval=16.6 (sleep) smoothed= 8.3 / 16.7 paint_start=0.0  frame_end=1.0  present=30.7 predicted=18.6 refresh_interval=16.7
+Gdk-Message: 06:45:33.513:   474: interval=61.1 (sleep) smoothed=-2.8 / 50.0 paint_start=0.0  frame_end=1.0  present=19.5 predicted=21.8 refresh_interval=16.7
+Gdk-Message: 06:45:33.531:   475: interval=17.8 (sleep) smoothed=-4.0 / 16.7 paint_start=0.0  frame_end=1.3  present=19.0 predicted=26.7 refresh_interval=16.7
+Gdk-Message: 06:45:33.551:   476: interval=19.6 (sleep) smoothed=-6.9 / 16.7 paint_start=0.0  frame_end=1.6  present=19.3 predicted=26.7 refresh_interval=16.7
+Gdk-Message: 06:45:33.572:   477: interval=20.7 (sleep) smoothed= 5.7 / 33.3 paint_start=0.0  frame_end=1.3  present=19.0 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:33.591:   478: interval=19.8 (sleep) smoothed= 2.6 / 16.7 paint_start=0.0  frame_end=1.2  present=18.9 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:33.650:   479: interval=58.6 (sleep) smoothed=-6.0 / 50.0 paint_start=0.0  frame_end=1.1  present=18.6 predicted=20.1 refresh_interval=16.7
+Gdk-Message: 06:45:33.670:   480: interval=19.4 (sleep) smoothed= 7.9 / 33.3 paint_start=0.0  frame_end=1.4  present=19.1 predicted=26.7 refresh_interval=16.7
+Gdk-Message: 06:45:33.693:   481: interval=23.7 (sleep) smoothed= 0.9 / 16.7 paint_start=0.0  frame_end=1.1  present=19.7 predicted=23.0 refresh_interval=16.7
+Gdk-Message: 06:45:33.721:   482: interval=16.5 (sleep) smoothed= 1.1 / 16.7 paint_start=0.0  frame_end=1.1  present=31.3 predicted=19.8 refresh_interval=16.7
+Gdk-Message: 06:45:33.767:   483: interval=58.4 (sleep) smoothed=-7.4 / 50.0 paint_start=0.0  frame_end=1.0  present=18.2 predicted=23.7 refresh_interval=16.7
+Gdk-Message: 06:45:33.789:   484: interval=21.3 (sleep) smoothed= 4.7 / 33.3 paint_start=0.0  frame_end=1.0  present=19.3 predicted=25.6 refresh_interval=16.7
+Gdk-Message: 06:45:33.809:   485: interval=19.4 (sleep) smoothed= 1.9 / 16.7 paint_start=0.0  frame_end=1.4  present=19.7 predicted=25.6 refresh_interval=16.7
+Gdk-Message: 06:45:33.828:   486: interval=19.5 (sleep) smoothed=-0.9 / 16.7 paint_start=0.0  frame_end=1.4  present=19.8 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:33.887:   487: interval=59.5 (sleep) smoothed= 6.3 / 66.7 paint_start=0.0  frame_end=1.0  present=19.3 predicted=19.8 refresh_interval=16.7
+Gdk-Message: 06:45:33.907:   488: interval=19.1 (sleep) smoothed= 3.9 / 16.7 paint_start=0.0  frame_end=1.3  present=18.8 predicted=26.3 refresh_interval=16.7
+Gdk-Message: 06:45:33.927:   489: interval=20.0 (sleep) smoothed= 0.5 / 16.7 paint_start=0.0  frame_end=1.4  present=20.0 predicted=26.3 refresh_interval=16.7
+Gdk-Message: 06:45:33.946:   490: interval=19.3 (sleep) smoothed=-2.2 / 16.7 paint_start=0.0  frame_end=1.4  present=19.2 predicted=26.5 refresh_interval=16.7
+Gdk-Message: 06:45:33.966:   491: interval=20.2 (sleep) smoothed=-5.7 / 16.7 paint_start=0.0  frame_end=1.1  present=19.5 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:34.028:   492: interval=62.3 (sleep) smoothed=-1.3 / 66.7 paint_start=0.0  frame_end=1.1  present=19.3 predicted=16.8 refresh_interval=16.7
+Gdk-Message: 06:45:34.057:   493: interval=17.9 (sleep) smoothed=-2.6 / 16.7 paint_start=0.0  frame_end=1.1  present=29.1 predicted=18.0 refresh_interval=16.7
+Gdk-Message: 06:45:34.076:   494: interval=24.1 (sleep) smoothed= 6.6 / 33.3 paint_start=0.0  frame_end=1.1  present=25.1 predicted=21.6 refresh_interval=16.7
+Gdk-Message: 06:45:34.095:   495: interval=19.3 (sleep) smoothed= 4.0 / 16.7 paint_start=0.0  frame_end=1.1  present=24.2 predicted=22.5 refresh_interval=16.7
+Gdk-Message: 06:45:34.143:   496: interval=53.3 (sleep) smoothed= 0.7 / 50.0 paint_start=0.0  frame_end=1.3  present=19.5 predicted=24.1 refresh_interval=16.7
+Gdk-Message: 06:45:34.163:   497: interval=20.5 (sleep) smoothed=-3.2 / 16.7 paint_start=0.0  frame_end=1.3  present=18.5 predicted=26.1 refresh_interval=16.7
+Gdk-Message: 06:45:34.184:   498: interval=20.0 (sleep) smoothed=-6.5 / 16.7 paint_start=0.0  frame_end=1.1  present=18.8 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:34.204:   499: interval=20.1 (sleep) smoothed= 6.8 / 33.3 paint_start=0.0  frame_end=1.3  present=20.1 predicted=25.5 refresh_interval=16.7
+Gdk-Message: 06:45:34.261:   500: interval=58.2 (sleep) smoothed=-1.5 / 50.0 paint_start=0.0  frame_end=0.9  present=18.0 predicted=20.4 refresh_interval=16.7
+Gdk-Message: 06:45:34.285:   501: interval=22.9 (sleep) smoothed=-7.7 / 16.7 paint_start=0.0  frame_end=1.0  present=18.6 predicted=23.7 refresh_interval=16.7
+Gdk-Message: 06:45:34.314:   502: interval=18.1 (sleep) smoothed= 7.5 / 33.3 paint_start=0.0  frame_end=1.4  present=29.5 predicted=17.1 refresh_interval=16.7
+Gdk-Message: 06:45:34.333:   503: interval=23.9 (sleep) smoothed= 0.2 / 16.7 paint_start=0.0  frame_end=1.7  present=25.6 predicted=22.3 refresh_interval=16.7
+Gdk-Message: 06:45:34.402:   504: interval=75.4 (sleep) smoothed= 8.2 / 83.3 paint_start=0.0  frame_end=1.1  present=19.5 predicted=18.7 refresh_interval=16.7
+Gdk-Message: 06:45:34.443:   505: interval=40.3 (sleep) smoothed= 1.2 / 33.3 paint_start=0.0  frame_end=1.1  present=18.8 predicted=24.0 refresh_interval=16.7
+Gdk-Message: 06:45:34.471:   506: interval=18.3 (sleep) smoothed=-0.4 / 16.7 paint_start=0.0  frame_end=1.1  present=29.2 predicted=17.2 refresh_interval=16.7
+Gdk-Message: 06:45:34.522:   507: interval=61.2 (sleep) smoothed= 5.0 / 66.7 paint_start=0.0  frame_end=1.3  present=19.0 predicted=20.1 refresh_interval=16.7
+Gdk-Message: 06:45:34.550:   508: interval=16.7 (sleep) smoothed= 5.0 / 16.7 paint_start=0.0  frame_end=1.5  present=30.4 predicted=18.9 refresh_interval=16.7
+Gdk-Message: 06:45:34.571:   509: interval=25.2 (sleep) smoothed=-3.5 / 16.7 paint_start=0.0  frame_end=1.0  present=25.3 predicted=21.8 refresh_interval=16.7
+Gdk-Message: 06:45:34.590:   510: interval=19.4 (sleep) smoothed=-6.3 / 16.7 paint_start=0.0  frame_end=1.3  present=24.9 predicted=22.5 refresh_interval=16.7
+Gdk-Message: 06:45:34.637:   511: interval=53.6 (sleep) smoothed= 6.8 / 66.7 paint_start=0.0  frame_end=1.1  present=19.6 predicted=23.8 refresh_interval=16.7
+Gdk-Message: 06:45:34.659:   512: interval=21.7 (sleep) smoothed= 1.8 / 16.7 paint_start=0.0  frame_end=1.8  present=19.5 predicted=25.2 refresh_interval=16.7
+Gdk-Message: 06:45:34.678:   513: interval=19.1 (sleep) smoothed=-0.7 / 16.7 paint_start=0.0  frame_end=1.1  present=19.8 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:34.698:   514: interval=19.8 (sleep) smoothed=-3.8 / 16.7 paint_start=0.0  frame_end=1.8  present=19.4 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:34.758:   515: interval=59.8 (sleep) smoothed= 3.1 / 66.7 paint_start=0.0  frame_end=1.3  present=18.9 predicted=18.8 refresh_interval=16.7
+Gdk-Message: 06:45:34.778:   516: interval=20.7 (sleep) smoothed=-1.0 / 16.7 paint_start=0.0  frame_end=1.1  present=19.5 predicted=24.0 refresh_interval=16.7
+Gdk-Message: 06:45:34.796:   517: interval=17.8 (sleep) smoothed=-2.1 / 16.7 paint_start=0.0  frame_end=1.1  present=19.6 predicted=25.9 refresh_interval=16.7
+Gdk-Message: 06:45:34.817:   518: interval=20.7 (sleep) smoothed=-6.2 / 16.7 paint_start=0.0  frame_end=1.5  present=20.2 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:34.836:   519: interval=19.4 (sleep) smoothed= 7.7 / 33.3 paint_start=0.0  frame_end=1.1  present=19.7 predicted=25.3 refresh_interval=16.7
+Gdk-Message: 06:45:34.893:   520: interval=57.8 (sleep) smoothed=-0.0 / 50.0 paint_start=0.0  frame_end=1.1  present=18.4 predicted=20.6 refresh_interval=16.7
+Gdk-Message: 06:45:34.916:   521: interval=22.1 (sleep) smoothed=-5.5 / 16.7 paint_start=0.0  frame_end=1.5  present=19.1 predicted=24.4 refresh_interval=16.7
+Gdk-Message: 06:45:34.946:   522: interval=18.8 (sleep) smoothed=-7.6 / 16.7 paint_start=0.0  frame_end=1.1  present=29.5 predicted=17.0 refresh_interval=16.7
+Gdk-Message: 06:45:34.965:   523: interval=24.7 (sleep) smoothed= 1.0 / 33.3 paint_start=0.0  frame_end=1.1  present=25.3 predicted=21.5 refresh_interval=16.7
+Gdk-Message: 06:45:35.012:   524: interval=53.1 (sleep) smoothed=-2.0 / 50.0 paint_start=0.0  frame_end=1.1  present=19.3 predicted=23.6 refresh_interval=16.7
+Gdk-Message: 06:45:35.036:   525: interval=23.6 (sleep) smoothed= 7.7 / 33.3 paint_start=0.0  frame_end=1.3  present=19.6 predicted=23.2 refresh_interval=16.7
+Gdk-Message: 06:45:35.065:   526: interval=16.3 (sleep) smoothed= 8.1 / 16.7 paint_start=0.0  frame_end=1.2  present=31.1 predicted=19.9 refresh_interval=16.7
+Gdk-Message: 06:45:35.084:   527: interval=25.3 (sleep) smoothed=-0.5 / 16.7 paint_start=0.0  frame_end=1.9  present=25.7 predicted=22.5 refresh_interval=16.7
+Gdk-Message: 06:45:35.132:   528: interval=53.8 (sleep) smoothed=-4.3 / 50.0 paint_start=0.0  frame_end=1.8  present=20.1 predicted=23.2 refresh_interval=16.7
+Gdk-Message: 06:45:35.153:   529: interval=20.4 (sleep) smoothed=-8.0 / 16.7 paint_start=0.0  frame_end=2.1  present=19.6 predicted=25.6 refresh_interval=16.7
+Gdk-Message: 06:45:35.172:   530: interval=20.0 (sleep) smoothed= 5.3 / 33.3 paint_start=0.0  frame_end=1.2  present=18.7 predicted=25.4 refresh_interval=16.7
+Gdk-Message: 06:45:35.192:   531: interval=19.7 (sleep) smoothed= 2.3 / 16.7 paint_start=0.0  frame_end=1.4  present=19.1 predicted=25.5 refresh_interval=16.7
+Gdk-Message: 06:45:35.271:   532: interval=79.4 (sleep) smoothed= 6.2 / 83.3 paint_start=0.0  frame_end=1.3  present=19.2 predicted=32.5 refresh_interval=16.7
+Gdk-Message: 06:45:35.302:   533: interval=23.8 (sleep) smoothed=-0.9 / 16.7 paint_start=0.0  frame_end=1.3  present=25.5 predicted=28.7 refresh_interval=16.7
+Gdk-Message: 06:45:35.321:   534: interval=22.8 (sleep) smoothed=-7.1 / 16.7 paint_start=0.0  frame_end=1.0  present=21.9 predicted=19.4 refresh_interval=16.7
+Gdk-Message: 06:45:35.340:   535: interval=15.9 (sleep) smoothed=-6.3 / 16.7 paint_start=0.0  frame_end=0.9  present=25.8 predicted=22.7 refresh_interval=16.7
+Gdk-Message: 06:45:35.387:   536: interval=54.6 (sleep) smoothed= 5.8 / 66.7 paint_start=0.0  frame_end=0.9  present=18.2 predicted=23.4 refresh_interval=16.7
+Gdk-Message: 06:45:35.408:   537: interval=20.6 (sleep) smoothed= 1.9 / 16.7 paint_start=0.0  frame_end=1.0  present=19.2 predicted=26.0 refresh_interval=16.7
+Gdk-Message: 06:45:35.429:   538: interval=20.0 (sleep) smoothed=-1.5 / 16.7 paint_start=0.0  frame_end=1.4  present=20.0 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:35.447:   539: interval=18.7 (sleep) smoothed=-3.5 / 16.7 paint_start=0.0  frame_end=1.1  present=19.0 predicted=26.6 refresh_interval=16.7
+Gdk-Message: 06:45:35.507:   540: interval=60.2 (sleep) smoothed= 3.0 / 66.7 paint_start=0.0  frame_end=1.0  present=19.2 predicted=19.4 refresh_interval=16.7
+Gdk-Message: 06:45:35.528:   541: interval=19.6 (sleep) smoothed= 0.0 / 16.7 paint_start=0.0  frame_end=1.8  present=19.3 predicted=25.8 refresh_interval=16.7
+Gdk-Message: 06:45:35.549:   542: interval=22.2 (sleep) smoothed=-5.5 / 16.7 paint_start=0.0  frame_end=1.3  present=19.6 predicted=23.7 refresh_interval=16.7
+Gdk-Message: 06:45:35.578:   543: interval=17.8 (sleep) smoothed=-6.6 / 16.7 paint_start=0.0  frame_end=1.6  present=30.5 predicted=18.5 refresh_interval=16.7
+Gdk-Message: 06:45:35.597:   544: interval=25.1 (sleep) smoothed= 1.7 / 33.3 paint_start=0.0  frame_end=1.5  present=24.7 predicted=22.1 refresh_interval=16.7
+Gdk-Message: 06:45:37.701:   545: interval=2106.9 (sleep) smoothed=-5.3 / 2099.9 paint_start=0.0  frame_end=2.6  present=21.5 predicted=25.0 refresh_interval=16.7
+Gdk-Message: 06:45:37.730:   546: interval=18.7 (sleep) smoothed=-7.4 / 16.7 paint_start=0.0  frame_end=1.8  present=31.7 predicted=19.4 refresh_interval=16.7
+Gdk-Message: 06:45:37.752:   547: interval=33.7 (sleep) smoothed=-7.7 / 33.3 paint_start=0.1  frame_end=1.5  present=20.0 predicted=32.5 refresh_interval=16.7
+Gdk-Message: 06:45:37.769:   548: interval=12.9 (sleep) smoothed=-4.0 / 16.7 paint_start=0.0  frame_end=2.1  present=24.4 predicted=23.8 refresh_interval=16.7
+Gdk-Message: 06:45:37.789:   549: interval=17.1 (sleep) smoothed=-4.4 / 16.7 paint_start=0.0  frame_end=1.0  present=27.3 predicted=24.0 refresh_interval=16.7
+Gdk-Message: 06:45:37.808:   550: interval=20.0 (sleep) smoothed=-7.7 / 16.7 paint_start=0.0  frame_end=1.2  present=25.8 predicted=24.0 refresh_interval=16.7
+Gdk-Message: 06:45:37.828:   551: interval=19.7 (sleep) smoothed= 5.9 / 33.3 paint_start=0.0  frame_end=2.1  present=26.0 predicted=22.8 refresh_interval=16.7
+Gdk-Message: 06:45:37.848:   552: interval=19.6 (sleep) smoothed= 3.0 / 16.7 paint_start=0.0  frame_end=1.3  present=26.3 predicted=23.0 refresh_interval=16.7
+Gdk-Message: 06:45:37.868:   553: interval=19.7 (sleep) smoothed=-0.0 / 16.7 paint_start=0.0  frame_end=1.2  present=26.6 predicted=23.3 refresh_interval=16.7
+Gdk-Message: 06:45:37.888:   554: interval=20.0 (sleep) smoothed=-3.4 / 16.7 paint_start=0.0  frame_end=1.9  present=27.3 predicted=23.3 refresh_interval=16.7
+Gdk-Message: 06:45:37.907:   555: interval=20.1 (sleep) smoothed=-6.8 / 16.7 paint_start=0.0  frame_end=1.0  present=25.7 predicted=23.9 refresh_interval=16.7
+Gdk-Message: 06:45:37.927:   556: interval=19.0 (sleep) smoothed= 7.4 / 33.3 paint_start=0.0  frame_end=1.1  present=27.3 predicted=23.3 refresh_interval=16.7
+Gdk-Message: 06:45:37.947:   557: interval=19.5 (sleep) smoothed= 4.6 / 16.7 paint_start=0.0  frame_end=1.2  present=27.7 predicted=24.4 refresh_interval=16.7
+Gdk-Message: 06:45:37.966:   558: interval=20.8 (sleep) smoothed= 0.4 / 16.7 paint_start=0.0  frame_end=1.1  present=25.3 predicted=23.5 refresh_interval=16.7
+Gdk-Message: 06:45:37.986:   559: interval=19.2 (sleep) smoothed=-2.1 / 16.7 paint_start=0.0  frame_end=1.2  present=26.0 predicted=22.7 refresh_interval=16.7
+Gdk-Message: 06:45:38.006:   560: interval=19.8 (sleep) smoothed=-5.3 / 16.7 paint_start=0.0  frame_end=1.1  present=26.7 predicted=22.9 refresh_interval=16.7
+Gdk-Message: 06:45:38.026:   561: interval=19.4 (sleep) smoothed=-8.0 / 16.7 paint_start=0.0  frame_end=1.0  present=27.3 predicted=24.0 refresh_interval=16.7
+Gdk-Message: 06:45:38.046:   562: interval=19.4 (sleep) smoothed= 6.0 / 33.3 paint_start=0.0  frame_end=1.1  present=28.1 predicted=24.6 refresh_interval=16.7
+Gdk-Message: 06:45:38.065:   563: interval=20.6 (sleep) smoothed= 2.1 / 16.7 paint_start=0.0  frame_end=1.4  present=25.7 predicted=24.2 refresh_interval=16.7
+Gdk-Message: 06:45:38.085:   564: interval=19.1 (sleep) smoothed=-0.3 / 16.7 paint_start=0.0  frame_end=1.0  present=27.5 predicted=23.3 refresh_interval=16.7
+Gdk-Message: 06:45:38.112:   565: interval=23.6 (sleep) smoothed=-7.2 / 16.7 paint_start=0.0  frame_end=1.2  present=23.3 predicted=20.6 refresh_interval=16.7

@@ -1,0 +1,1 @@
+Same video with GDK_DISABLE=dmabuf: renders correctly (see active.png).

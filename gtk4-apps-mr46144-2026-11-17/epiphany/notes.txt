@@ -1,0 +1,1 @@
+800-row plain text page served from a local http server, fresh --profile. Renders and scrolls; RSS peak about 1.3 GB. Local file:// pages did not load in this setup.

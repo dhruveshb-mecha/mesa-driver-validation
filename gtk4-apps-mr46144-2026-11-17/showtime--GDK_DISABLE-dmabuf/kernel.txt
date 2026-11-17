@@ -1,0 +1,3 @@
+# kernel log lines during run
+# coredumps
+No coredumps found.

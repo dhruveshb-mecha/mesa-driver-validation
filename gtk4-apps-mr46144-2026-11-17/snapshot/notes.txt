@@ -1,0 +1,1 @@
+No camera: static 'No Camera Found' page, nothing animates, so fps are not meaningful.

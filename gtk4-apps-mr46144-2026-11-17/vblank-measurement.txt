@@ -1,0 +1,8 @@
+Real vblank rate of the DSI panel (card2, crtc0), measured with scripts/drm_vblank_rate.c (DRM_IOCTL_WAIT_VBLANK x120), mr46144 image, no app running:
+/dev/dri/card2 crtc0: 120 vblanks in 2.361 s = 50.82 Hz (period 19.68 ms)
+/dev/dri/card2 crtc0: 120 vblanks in 2.360 s = 50.84 Hz (period 19.67 ms)
+/dev/dri/card2 crtc0: 120 vblanks in 2.359 s = 50.87 Hz (period 19.66 ms)
+/dev/dri/card2 crtc0: 120 vblanks in 2.359 s = 50.87 Hz (period 19.66 ms)
+period_ms=19.67
+sway/GTK believe the output is 60 Hz (sway get_outputs refresh 60000; GDK frame log refresh_interval=16.7).
+Control: glmark2-es2-wayland (no vsync) on the same board runs light fullscreen 1080x1240 scenes at 295-633 fps, so the GPU is not the limit.

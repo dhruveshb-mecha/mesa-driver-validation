@@ -1,0 +1,13 @@
+# kernel log lines during run
+Nov 17 06:42:03 comet kernel:  filemap_fault+0x3c0/0x920
+Nov 17 06:42:03 comet kernel:  __do_fault+0x44/0x1e0
+Nov 17 06:42:03 comet kernel:  do_read_fault+0x1b0/0x2f0
+Nov 17 06:42:03 comet kernel:  do_fault+0x160/0x3a8
+Nov 17 06:42:03 comet kernel:  handle_pte_fault+0x174/0x250
+Nov 17 06:42:03 comet kernel:  __handle_mm_fault+0x1f8/0x4c8
+Nov 17 06:42:03 comet kernel:  handle_mm_fault+0xc4/0x320
+Nov 17 06:42:03 comet kernel:  do_page_fault+0x44c/0x840
+Nov 17 06:42:03 comet kernel:  do_translation_fault+0x4c/0xa0
+Nov 17 06:42:03 comet kernel: Node 0 active_anon:954156kB inactive_anon:2648284kB active_file:1104kB inactive_file:1272kB unevictable:125328kB isolated(anon):0kB isolated(file):0kB mapped:643536kB dirty:0kB writeback:0kB shmem:2001752kB shmem_thp:0kB shmem_pmdmapped:0kB anon_thp:1034240kB kernel_stack:10192kB pagetables:19700kB sec_pagetables:0kB all_unreclaimable? no Balloon:0kB gpu_active:0kB gpu_reclaim:0kB
+# coredumps
+No coredumps found.

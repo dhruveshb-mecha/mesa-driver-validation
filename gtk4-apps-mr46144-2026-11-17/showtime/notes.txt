@@ -1,0 +1,1 @@
+Video is solid green with GTK's default dmabuf video path while the playback clock advances. The same video renders correctly in showtime--GDK_DISABLE-dmabuf.

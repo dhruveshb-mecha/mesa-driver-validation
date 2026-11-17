@@ -1,0 +1,1 @@
+Static Explore page after a 45 s data refresh. No frames were drawn during the scripted phase, so no fps; the app CPU is background refresh work.

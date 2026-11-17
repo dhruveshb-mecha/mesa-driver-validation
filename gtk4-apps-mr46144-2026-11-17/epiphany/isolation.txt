@@ -1,0 +1,15 @@
+before_launch: screen_cleared=yes windows_left=0 cpu_idle_pct=99
+windows_before_launch:
+top_cpu_before_launch:
+    PID %CPU COMMAND
+ 653421  300 ps
+ 653255  0.8 gtk4_apps_fps.s
+ 653225  0.2 bash
+   1277  0.2 sh
+ 647312  0.1 xdg-desktop-por
+extra_windows_found: none
+after_launch_windows (1):
+653462 org.gnome.Epiphany Blank_page
+cpu_idle_check_note: app is running; see metrics.csv
+final_windows (1):
+653462 org.gnome.Epiphany plain_text
