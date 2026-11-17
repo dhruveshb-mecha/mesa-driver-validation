@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+runs/
+flutter/*/build/
+flutter/*/.dart_tool/
+flutter/*/linux/flutter/ephemeral/
+gtk4-demo/gtk4_demo
