@@ -1,0 +1,2 @@
+mesa-dri-drivers-27.0.0~devel-0.1.20261113git8838d84.mr46144.fc44.aarch64
+7.2.4-0.202610231332.fc44.aarch64

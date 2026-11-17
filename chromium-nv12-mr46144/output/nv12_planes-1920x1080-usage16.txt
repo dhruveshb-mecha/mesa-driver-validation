@@ -1,0 +1,49 @@
+NV12 1920x1080 use=16 planes=2 mod=0x0  stride Y=1920 UV=1920 off Y=0 UV=0
+GL_RENDERER=Vivante GC7000 rev 6204 GL_VERSION=OpenGL ES 3.0 Mesa 27.0.0-devel
+A (CPU write -> GPU read) Y plane: 0/2073600 wrong
+A (CPU write -> GPU read) UV plane: 0/518400 wrong
+B glTexSubImage2D errors: Y=0x0 UV=0x0
+B (GPU write -> CPU read) Y plane: 0/2073600 wrong
+B (GPU write -> CPU read) UV plane: 0/518400 wrong
+  C0 (77,0) got 0,0,0 want 9,9,9
+  C0 (84,0) got 0,0,0 want 10,10,10
+  C0 (91,0) got 0,0,0 want 11,11,11
+C0 external sampler, luma ramp + neutral chroma: 22785/42625 sampled pixels wrong
+  C1 (0,0) got 33,112,22 want 83,161,71
+  C1 (7,0) got 33,112,22 want 83,161,71
+  C1 (14,0) got 33,112,22 want 83,161,71
+C1 external sampler, flat luma + varying chroma: 42625/42625 sampled pixels wrong
+D: external sampler, flat Y, U=V=128, expected gray = 1.164*(Y-16)
+   writer   Y  expected | got r,g,b (centre pixel)
+   CPU     16     0.0   |   0,  0,  0   (diff +0)
+   CPU     32    18.6   |   4,  3,  4   (diff -16)
+   CPU     64    55.9   |  47, 47, 47   (diff -9)
+   CPU     96    93.1   |  90, 90, 90   (diff -3)
+   CPU    126   128.0   | 130,130,130   (diff +2)
+   CPU    160   167.6   | 177,177,177   (diff +9)
+   CPU    200   214.2   | 231,230,231   (diff +16)
+   CPU    235   254.9   | 255,255,255   (diff +0)
+   GPU     16     0.0   |   0,  0,  0   (diff +0)
+   GPU     32    18.6   |   4,  3,  4   (diff -16)
+   GPU     64    55.9   |  47, 47, 47   (diff -9)
+   GPU     96    93.1   |  90, 90, 90   (diff -3)
+   GPU    126   128.0   | 130,130,130   (diff +2)
+   GPU    160   167.6   | 177,177,177   (diff +9)
+   GPU    200   214.2   | 231,230,231   (diff +16)
+   GPU    235   254.9   | 255,255,255   (diff +0)
+E: external sampler, Y=126 flat; expected R=y+1.596V' G=y-0.392U'-0.813V' B=y+2.017U' (U'=U-128,V'=V-128, y=128)
+   which  C   | got r,g,b        | expected r,g,b
+   U= 64     |  28,207,  1      | 128,153,  0
+   U= 96     |  79,169, 66      | 128,141, 63
+   U=112     | 105,150, 98      | 128,134, 96
+   U=128     | 130,130,130      | 128,128,128
+   U=144     | 156,111,163      | 128,122,160
+   U=160     | 182, 92,195      | 128,115,193
+   U=192     | 233, 53,255      | 128,103,255
+   V= 64     |  12, 12, 12      |  26,180,128
+   V= 96     |  71, 71, 71      |  77,154,128
+   V=112     | 100,100,100      | 102,141,128
+   V=128     | 130,130,130      | 128,128,128
+   V=144     | 161,160,161      | 154,115,128
+   V=160     | 190,190,190      | 179,102,128
+   V=192     | 251,250,251      | 230, 76,128

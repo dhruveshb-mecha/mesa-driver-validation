@@ -1,0 +1,7 @@
+  0.3s cpu=309.9 {"t":0.3,"paused":false,"total":10,"dropped":1,"w":1280,"h":720,"ad":false,"res":"hd720","rs":4,"seek":false,"buf":15.7,"hid":false,"rate":1,"vis":"visible"}
+ 13.0s cpu=383.2 {"t":12.5,"paused":false,"total":314,"dropped":105,"w":1280,"h":720,"ad":false,"res":"hd720","rs":4,"seek":false,"buf":30,"hid":false,"rate":1,"vis":"visible"}
+ 18.3s cpu=286 {"t":12.5,"paused":false,"total":442,"dropped":148,"w":1280,"h":720,"ad":false,"res":"hd720","rs":4,"seek":false,"buf":54.7,"hid":false,"rate":1,"vis":"visible"}
+ 23.4s cpu=271.8 {"t":12.5,"paused":false,"total":565,"dropped":193,"w":1280,"h":720,"ad":false,"res":"hd720","rs":4,"seek":false,"buf":54.7,"hid":false,"rate":1,"vis":"visible"}
+ 28.5s cpu=268.4 {"t":12.5,"paused":false,"total":688,"dropped":225,"w":1280,"h":720,"ad":false,"res":"hd720","rs":4,"seek":false,"buf":54.7,"hid":false,"rate":1,"vis":"visible"}
+ 33.6s cpu=262.3 {"t":12.5,"paused":false,"total":811,"dropped":285,"w":1280,"h":720,"ad":false,"res":"hd720","rs":4,"seek":false,"buf":54.7,"hid":false,"rate":1,"vis":"visible"}
+ 38.8s cpu=255.7 {"t":12.5,"paused":false,"total":934,"dropped":342,"w":1280,"h":720,"ad":false,"res":"hd720","rs":4,"seek":false,"buf":54.7,"hid":false,"rate":1,"vis":"visible"}

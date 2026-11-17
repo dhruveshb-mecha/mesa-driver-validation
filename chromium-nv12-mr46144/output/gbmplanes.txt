@@ -1,0 +1,6 @@
+XR24 RENDERING          plane_count=1 modifier=0x600000000000002 stride0=7680 fd_for_plane=[7, -1]
+XR24 LINEAR             plane_count=1 modifier=0x0 stride0=7680 fd_for_plane=[8, -1]
+XR24 SCANOUT|RENDERING  plane_count=1 modifier=0x0 stride0=7680 fd_for_plane=[9, -1]
+NV12 RENDERING          plane_count=2 modifier=0x0 stride0=1920 fd_for_plane=[10, 11]
+NV12 LINEAR             plane_count=2 modifier=0x0 stride0=1920 fd_for_plane=[12, 13]
+NV12 SCANOUT|RENDERING  plane_count=2 modifier=0x0 stride0=1920 fd_for_plane=[14, 15]

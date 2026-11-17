@@ -1,0 +1,13 @@
+<!doctype html><meta charset=utf-8><title>init</title>
+<style>html,body{margin:0;background:#000}video{width:100vw;height:100vh;object-fit:contain}</style>
+<video id=v muted autoplay playsinline></video>
+<script>
+const q=new URLSearchParams(location.search), v=document.getElementById('v');
+v.src=q.get('src'); let n=0,last=0,t0=performance.now(); 
+function cb(now,m){n++;v.requestVideoFrameCallback(cb)} v.requestVideoFrameCallback(cb);
+function pub(state){const p=v.getVideoPlaybackQuality();
+ document.title='STAT '+JSON.stringify({state,t:+v.currentTime.toFixed(1),total:p.totalVideoFrames,dropped:p.droppedVideoFrames,presented:n,w:v.videoWidth,h:v.videoHeight,err:v.error&&v.error.message})}
+setInterval(()=>pub(v.ended?'ended':v.paused?'paused':'playing'),500);
+v.addEventListener('error',()=>pub('error'));v.addEventListener('ended',()=>pub('ended'));
+v.play().catch(e=>{document.title='STAT '+JSON.stringify({state:'playfail',err:String(e)})});
+</script>

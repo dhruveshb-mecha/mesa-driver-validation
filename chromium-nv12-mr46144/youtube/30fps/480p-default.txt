@@ -1,0 +1,9 @@
+  0.2s cpu=308.3 {"t":0,"paused":false,"total":0,"dropped":0,"w":0,"h":0,"ad":false,"res":"hd720","title":"Big Buck Bunny - YouTube"}
+  5.9s cpu=359.7 {"t":5.3,"paused":false,"total":131,"dropped":10,"w":854,"h":480,"ad":false,"res":"large","title":"Big Buck Bunny - YouTube"}
+ 14.3s cpu=272.7 {"t":13.4,"paused":false,"total":326,"dropped":65,"w":854,"h":480,"ad":false,"res":"large","title":"Big Buck Bunny - YouTube"}
+ 19.5s cpu=268.7 {"t":13.4,"paused":false,"total":452,"dropped":101,"w":854,"h":480,"ad":false,"res":"large","title":"Big Buck Bunny - YouTube"}
+ 24.6s cpu=260.6 {"t":13.4,"paused":false,"total":574,"dropped":115,"w":854,"h":480,"ad":false,"res":"large","title":"Big Buck Bunny - YouTube"}
+ 29.7s cpu=258.6 {"t":13.4,"paused":false,"total":693,"dropped":132,"w":854,"h":480,"ad":false,"res":"large","title":"Big Buck Bunny - YouTube"}
+ 34.8s cpu=252.3 {"t":13.4,"paused":false,"total":820,"dropped":143,"w":854,"h":480,"ad":false,"res":"large","title":"Big Buck Bunny - YouTube"}
+ 39.9s cpu=243.9 {"t":13.4,"paused":false,"total":944,"dropped":156,"w":854,"h":480,"ad":false,"res":"large","title":"Big Buck Bunny - YouTube"}
+ 45.2s cpu=238.6 {"t":13.4,"paused":false,"total":1,"dropped":0,"w":854,"h":480,"ad":false,"res":"large","title":"Big Buck Bunny - YouTube"}

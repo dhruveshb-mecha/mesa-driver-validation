@@ -1,0 +1,2 @@
+XR24 640x360 use=16 planes=1 stride=2560 offset=0 modifier=0x0
+XR24 CONTROL RESULT: 0/32 cells wrong

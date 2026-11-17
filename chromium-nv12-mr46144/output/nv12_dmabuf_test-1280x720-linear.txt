@@ -1,0 +1,20 @@
+NV12 1280x720 use=16 plane_count=2 modifier=0x0
+  plane0 fd=6 stride=1280 offset=0
+  plane1 fd=7 stride=1280 offset=0
+  plane0 dmabuf size=1048576 (need >= 921600)
+  plane1 dmabuf size=524288 (need >= 460800)
+GL_RENDERER=Vivante GC7000 rev 6204
+GL_VERSION=OpenGL ES 3.0 Mesa 27.0.0-devel
+  MISMATCH cell(1,0) at(240,90): got 255,255,255 expected 255,255,  0
+  MISMATCH cell(2,0) at(400,90): got   0,116,  0 expected   1,255,255
+  MISMATCH cell(3,0) at(560,90): got   0,116,  0 expected   0,255,  1
+  MISMATCH cell(4,0) at(720,90): got 255,232,255 expected 255,  0,254
+  MISMATCH cell(5,0) at(880,90): got 255,232,255 expected 254,  0,  0
+  MISMATCH cell(6,0) at(1040,90): got   0, 70,  0 expected   0,  0,255
+  MISMATCH cell(7,0) at(1200,90): got   0, 70,  0 expected   0,  0,  0
+  MISMATCH cell(0,1) at(80,270): got 255,255, 52 expected 255,255,  0
+  MISMATCH cell(1,1) at(240,270): got   0, 25,  0 expected   1,255,255
+  MISMATCH cell(2,1) at(400,270): got   0, 57, 58 expected   0,255,  1
+  MISMATCH cell(3,1) at(560,270): got  99,255,255 expected 255,  0,254
+  MISMATCH cell(4,1) at(720,270): got 255,255,129 expected 254,  0,  0
+MODE=single NV12 EGLImage (external sampler) RESULT: 31/32 cells wrong (tolerance ~42 per channel sum)

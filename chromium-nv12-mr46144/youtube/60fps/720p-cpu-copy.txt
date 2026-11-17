@@ -1,0 +1,6 @@
+  0.5s cpu=306.9 {"t":0.8,"paused":false,"total":37,"dropped":22,"w":1280,"h":720,"ad":false,"res":"hd720","title":"Big Buck Bunny 60fps 4K - Official Blend"}
+  8.5s cpu=307.6 {"t":8.4,"paused":false,"total":473,"dropped":278,"w":1280,"h":720,"ad":false,"res":"hd720","title":"Big Buck Bunny 60fps 4K - Official Blend"}
+ 20.8s cpu=309.7 {"t":18.7,"paused":false,"total":1133,"dropped":774,"w":1280,"h":720,"ad":false,"res":"hd720","title":"Big Buck Bunny 60fps 4K - Official Blend"}
+ 25.9s cpu=317.6 {"t":18.7,"paused":false,"total":1425,"dropped":974,"w":1280,"h":720,"ad":false,"res":"hd720","title":"Big Buck Bunny 60fps 4K - Official Blend"}
+ 31.2s cpu=306.7 {"t":18.7,"paused":false,"total":1552,"dropped":1083,"w":1280,"h":720,"ad":false,"res":"hd720","title":"Big Buck Bunny 60fps 4K - Official Blend"}
+ 36.2s cpu=287.8 {"t":18.7,"paused":false,"total":1552,"dropped":1083,"w":1280,"h":720,"ad":false,"res":"hd720","title":"Big Buck Bunny 60fps 4K - Official Blend"}
