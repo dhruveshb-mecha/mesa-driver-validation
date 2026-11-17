@@ -14,7 +14,7 @@ Results come from different Mesa builds and board images, so they are kept in se
 | [`app-benchmarks/`](app-benchmarks/README.md) | Real GTK4 and Flutter apps (10 + 4 apps, several renderer modes, 2 attempts each) | `7b4b394` | 7.1.5 | 2026-11-04 |
 | [`baseline-fedora-mesa-26.2.6/`](baseline-fedora-mesa-26.2.6/README.md) | The same board with stock Fedora Mesa 26.2.6 (exposes only OpenGL ES 2.0) | 26.2.6 | 7.2.4 | 2026-11-07 |
 | [`chromium-nv12-mr46144/`](chromium-nv12-mr46144/README.md) | Chromium and YouTube video playback, and test programs that isolate a wrong-colour NV12 import | 27.0.0~devel `8838d84` (`mr46144`) | 7.2.4 | 2026-11-13 |
-| [`gtk4-apps-mr46144-2026-11-17/`](gtk4-apps-mr46144-2026-11-17/README.md) | 13 stock GTK4 apps: GPU use and frame rate, plus the display's real refresh rate | `8838d84` (`mr46144`) | 7.2.4 | 2026-11-17 |
+| [`gtk4-apps-mr46144-2026-11-17/`](gtk4-apps-mr46144-2026-11-17/README.md) | 13 stock GTK4 apps: GPU use and frame rate | `8838d84` (`mr46144`) | 7.2.4 | 2026-11-17 |
 
 ### Headlines
 
@@ -29,7 +29,7 @@ From the stock-Mesa baseline: on Fedora's Mesa 26.2.6 the GPU exposes only OpenG
 From the `mr46144` build:
 
 - **NV12 allocation is fixed** (two planes), so Chromium plays video with default flags and drops far fewer frames. **The picture is still wrong:** the GPU colour conversion of a single NV12 image returns incorrect colours, while per-plane access is exact ([`chromium-nv12-mr46144/`](chromium-nv12-mr46144/README.md)).
-- All 13 GTK4 apps render on the GPU with no hangs. **The panel's real vblank rate is 50.85 Hz**, not the 60 Hz that sway and GTK assume, so no app can show 60 fps; Showtime's video is solid green with GTK's default dmabuf path; Epiphany is OOM-killed on an animated page ([`gtk4-apps-mr46144-2026-11-17/`](gtk4-apps-mr46144-2026-11-17/README.md)).
+- All 13 GTK4 apps render on the GPU with no hangs. Showtime's video is solid green with GTK's default dmabuf path; Epiphany is OOM-killed on an animated page ([`gtk4-apps-mr46144-2026-11-17/`](gtk4-apps-mr46144-2026-11-17/README.md)).
 
 ## Run the harness
 
