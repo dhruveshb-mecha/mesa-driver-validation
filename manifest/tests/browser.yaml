@@ -1,0 +1,116 @@
+- id: browser.chromium.gpu-validation
+  metrics: {tests_passed: '(\d+) passed, \d+ failed', tests_failed: '\d+ passed, (\d+) failed', verdict: 'Verdict: (\w+)'}
+  phase: 2
+  cmd: ~/bin/validate-chromium-gpu
+  timeout: 900
+  requires: ['~/bin/validate-chromium-gpu']
+  collect: ['~/benchmarks/reports/chromium-gpu-*']
+  tags: [webgl2, transform-feedback, rgba32-targets, msaa]
+  notes: 19 WebGL1/2 correctness tests + chrome://gpu status + GPU-vs-CPU FPS.
+- id: browser.chromium.webgl-load-200
+  phase: 2
+  cmd: ~/bin/bench-webgl 200
+  timeout: 90
+  requires: ['~/bin/bench-webgl']
+  pass_regex: 'BENCH'
+  tags: [webgl2]
+- id: browser.chromium.webgl-load-1000
+  phase: 2
+  cmd: ~/bin/bench-webgl 1000
+  timeout: 90
+  requires: ['~/bin/bench-webgl']
+  pass_regex: 'BENCH'
+  tags: [webgl2]
+- id: browser.chromium.khronos-webgl-conformance-sample
+  metrics: {conf_pass: '\*\*PASS\*\* (\d+)', conf_fail: '\*\*FAIL\*\* (\d+)'}
+  phase: 2
+  cmd: ~/bin/validate-full conformance
+  timeout: 1800
+  requires: ['~/bin/validate-full']
+  collect: ['~/benchmarks/reports/full-validation-*']
+  tags: [webgl2]
+  notes: "Earlier sample: 109/113 pass; read-pixels-from-fbo-test failure flagged as worth reporting to Mesa."
+- id: browser.chromium.webgpu
+  metrics: {adapter: 'arch":"(\w+)"'}
+  phase: 2
+  cmd: ~/bin/validate-full webgpu
+  timeout: 1200
+  requires: ['~/bin/validate-full']
+  collect: ['~/benchmarks/reports/full-validation-*']
+  expected: cpu-only
+  tags: [webgpu]
+  notes: "Expected: Chromium WebGPU (Dawn) needs Vulkan; etnaviv has none, so it falls back to SwiftShader (CPU)."
+- id: browser.chromium.aquarium
+  metrics: {gpu_fps: '\| GPU \| ([\d.]+)', cpu_fps: 'SwiftShader\) \| ([\d.]+)'}
+  phase: 3
+  cmd: ~/bin/validate-full aquarium
+  timeout: 900
+  requires: ['~/bin/validate-full']
+  collect: ['~/benchmarks/reports/full-validation-*']
+- id: browser.firefox.webgl2
+  phase: 2
+  cmd: rm -rf /tmp/ffprof; mkdir -p /tmp/ffprof; MOZ_ENABLE_WAYLAND=1 firefox --new-instance --profile /tmp/ffprof --no-remote file://$HOME/gpu-test/assets/webgl2-probe.html
+  run_for: true
+  timeout: 40
+  requires: [firefox]
+  tags: [webgl2, transform-feedback, rgba32-targets]
+  notes: "Firefox on Wayland loads assets/webgl2-probe.html; the page prints renderer/feature results. Read the screenshot and record with `gpuval.py mark`."
+- id: browser.firefox.about-support
+  phase: 2
+  cmd: python3 ~/gpu-test/scripts/firefox_validate.py /tmp/ff-support support
+  timeout: 120
+  requires: [firefox]
+  collect: ['/tmp/ff-support/*']
+  metrics: {webgl2_renderer: 'webgl2Renderer: (.+)', gl_version: 'webgl2Version: (.+)', compositor: 'windowLayerManagerType: (\w+)', software_gl: 'software_gl: (\w+)'}
+  tags: [webgl2]
+  notes: Firefox GPU info (equivalent of about:support / chrome://gpu), read through Marionette.
+- id: browser.firefox.webgl2-probe
+  phase: 2
+  cmd: python3 ~/gpu-test/scripts/firefox_validate.py /tmp/ff-probe probe
+  timeout: 120
+  requires: [firefox]
+  collect: ['/tmp/ff-probe/*']
+  pass_regex: "'webgl2': 'OK'"
+  metrics: {rgba32f: "'rt_RGBA32F': '(\\w+)'", rgba32ui: "'rt_RGBA32UI': '(\\w+)'", tf200: "'transform_feedback_200': '(\\w+)'", max_samples: "'max_samples': '(\\d+)'"}
+  tags: [webgl2, transform-feedback, rgba32-targets, msaa]
+- id: browser.firefox.khronos-webgl-conformance-sample
+  phase: 2
+  cmd: python3 ~/gpu-test/scripts/firefox_validate.py /tmp/ff-conformance conformance
+  timeout: 2400
+  risk: medium
+  requires: [firefox]
+  collect: ['/tmp/ff-conformance/*']
+  metrics: {conf_pass: 'CONFORMANCE pass=(\d+)', conf_fail: 'CONFORMANCE pass=\d+ fail=(\d+)', conf_timeout: 'timeout=(\d+)'}
+  tags: [webgl2]
+  notes: Same sampled test selection as browser.chromium.khronos-webgl-conformance-sample; compare conf_* metrics.
+- id: browser.firefox.aquarium
+  phase: 3
+  cmd: python3 ~/gpu-test/scripts/firefox_validate.py /tmp/ff-aquarium aquarium
+  timeout: 300
+  requires: [firefox]
+  collect: ['/tmp/ff-aquarium/*']
+  metrics: {gpu_fps: "'avg': ([\\d.]+)"}
+- id: browser.firefox.manual-webglreport-v2
+  type: manual
+  phase: 2
+  steps: "firefox https://webglreport.com/?v=2 ; read the report or run scripts/firefox_validate.py OUT pages."
+  pass_criteria: "WebGL 2 supported, MAX_SAMPLES 4, EXT_color_buffer_float listed, hardware renderer."
+  tags: [webgl2]
+- id: browser.firefox.manual-threejs
+  type: manual
+  phase: 2
+  steps: "scripts/firefox_validate.py OUT pages (shadowmap, instancing, bloom, gpgpu_water, multisampled_renderbuffers, points_sprites)."
+  pass_criteria: "All scenes render correctly; compare with Chromium."
+  tags: [webgl2, transform-feedback, float-depth, rgba32-targets, msaa]
+- id: browser.chromium.manual-webglreport-v2
+  type: manual
+  phase: 2
+  steps: "chromium-browser --ozone-platform=wayland https://webglreport.com/?v=2 ; screenshot the page."
+  pass_criteria: "Renderer shows ANGLE (Mesa, Vivante GC7000 ... OpenGL ES 3.0); WebGL 2 supported; MAX_SAMPLES and float-render-target extensions listed."
+  tags: [webgl2]
+- id: browser.chromium.manual-threejs
+  type: manual
+  phase: 2
+  steps: "Open https://threejs.org/examples/ and try webgl_shadow_*, webgl_instancing_*, webgl_postprocessing_*, webgl_gpgpu_*/webgl_points_* (transform feedback/float RTs)."
+  pass_criteria: "Scenes render correctly (no missing vertices, no black/garbled output, no lost alpha). Note FPS."
+  tags: [webgl2, transform-feedback, float-depth, rgba32-targets, msaa]

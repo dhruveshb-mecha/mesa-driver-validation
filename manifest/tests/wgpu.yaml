@@ -1,0 +1,109 @@
+- id: wgpu.cube-gl
+  phase: 2
+  cmd: WGPU_BACKEND=gl RUST_LOG=info ~/wgpu/target/release/wgpu-examples cube
+  run_for: true
+  timeout: 15
+  requires: ['~/wgpu/target/release/wgpu-examples']
+  metrics: {fps: '\(([\d.]+) FPS\)'}
+  pass_regex: 'FPS'
+  tags: [wgpu-gl]
+- id: wgpu.bunnymark-gl-100
+  phase: 2
+  cmd: BUNNIES=100 WGPU_BACKEND=gl RUST_LOG=info ~/wgpu/target/release/wgpu-examples bunnymark
+  run_for: true
+  timeout: 20
+  requires: ['~/wgpu/target/release/wgpu-examples']
+  metrics: {fps: '\(([\d.]+) FPS\)'}
+  pass_regex: 'FPS'
+  tags: [wgpu-gl]
+- id: wgpu.bunnymark-gl-500
+  phase: 2
+  cmd: BUNNIES=500 WGPU_BACKEND=gl RUST_LOG=info ~/wgpu/target/release/wgpu-examples bunnymark
+  run_for: true
+  timeout: 20
+  requires: ['~/wgpu/target/release/wgpu-examples']
+  metrics: {fps: '\(([\d.]+) FPS\)'}
+  pass_regex: 'FPS'
+  tags: [wgpu-gl]
+- id: wgpu.bunnymark-vulkan-500
+  phase: 2
+  cmd: BUNNIES=500 WGPU_BACKEND=vulkan RUST_LOG=info ~/wgpu/target/release/wgpu-examples bunnymark
+  run_for: true
+  timeout: 20
+  requires: ['~/wgpu/target/release/wgpu-examples']
+  expected: cpu-only
+  metrics: {fps: '\(([\d.]+) FPS\)'}
+  notes: "Expected: Vulkan here is llvmpipe (CPU). Used as the CPU contrast."
+- id: wgpu.bevy-eased-motion-vulkan
+  phase: 3
+  cmd: WGPU_BACKEND=vulkan RUST_LOG=info ~/bin/eased-motion
+  run_for: true
+  timeout: 30
+  requires: ['~/bin/eased-motion']
+  expected: cpu-only
+  notes: "Expected: Bevy 0.20 GL backend cannot start on Wayland here; Vulkan = llvmpipe."
+- id: wgpu.native-examples-sweep
+  metrics: {examples_ran_ok: '— (\d+)/24'}
+  phase: 3
+  risk: high
+  cmd: ~/bin/validate-full native
+  timeout: 1200
+  requires: ['~/bin/validate-full']
+  collect: ['~/benchmarks/reports/full-validation-*']
+  notes: "KNOWN RISK: one hard-reset during a wgpu step in earlier runs. Run last."
+- id: wgpu.iced-manual
+  type: manual
+  phase: 3
+  steps: "assets/iced-gles-test (cargo build --release), run with WGPU_BACKEND=gl RUST_LOG=wgpu_core=info,wgpu_hal=info,iced_wgpu=info. Record adapter, backend, fps."
+  pass_criteria: "Window renders animated canvas; adapter is the Vivante GL (not llvmpipe)."
+  tags: [wgpu-gl]
+- id: wgpu.gpui-manual
+  type: manual
+  phase: 3
+  steps: "Build a minimal gpui app (crates.io gpui) and run on the device; record backend, adapter, whether it renders."
+  pass_criteria: "Window renders; adapter is the Vivante GL (not llvmpipe)."
+  tags: [wgpu-gl]
+
+- id: wgpu.iced-wgpu30-gl
+  phase: 2
+  cmd: WGPU_BACKEND=gl RUST_LOG=iced_wgpu=info,wgpu_hal=info,warn ~/wgpu-apps/iced-wgpu30-test
+  run_for: true
+  timeout: 15
+  requires: ['~/wgpu-apps/iced-wgpu30-test']
+  metrics: {fps: 'ICED_FPS ([\d.]+)'}
+  pass_regex: 'Vivante GC7000'
+  tags: [wgpu-gl, iced]
+  notes: "iced git master (wgpu 30), cross-built on the laptop from assets/iced-wgpu30-test. fps is capped at ~62 by iced's 16 ms timer, so this is a functional check; PASS requires the adapter to be the Vivante GL device (not llvmpipe)."
+- id: wgpu.iced-wgpu30-vulkan
+  phase: 2
+  cmd: WGPU_BACKEND=vulkan RUST_LOG=iced_wgpu=info,warn ~/wgpu-apps/iced-wgpu30-test
+  run_for: true
+  timeout: 15
+  requires: ['~/wgpu-apps/iced-wgpu30-test']
+  expected: cpu-only
+  metrics: {fps: 'ICED_FPS ([\d.]+)'}
+  tags: [wgpu-vulkan, iced]
+  notes: "Contrast: Vulkan here is llvmpipe (CPU)."
+
+- id: wgpu.bevy-main-gl
+  phase: 2
+  cmd: WGPU_BACKEND=gl RUST_LOG=wgpu_hal=debug,bevy_render=info,warn ~/wgpu-apps/bevy-gl-test 20 12
+  run_for: true
+  timeout: 40
+  requires: ['~/wgpu-apps/bevy-gl-test']
+  metrics: {fps: 'BEVY_FPS ([\d.]+)'}
+  pass_regex: 'BEVY_RESULT'
+  tags: [wgpu-gl, bevy]
+  expected: upstream-bevy
+  notes: "Bevy main (0.20-dev, wgpu 30), cross-built from assets/bevy-gl-test (needs an explicit wgpu 'gles' feature or Bevy finds no GPU). Adapter is found (Vivante GC7000, OpenGL ES 3.0 Mesa 27.0.0-devel) but Bevy panics: 'Fallback system failed to choose present mode ... Options: []'. wgpu-hal logs 'No (or unknown) windowing system present. Using surfaceless platform' - Bevy builds its wgpu Instance before the window exists, so the EGL display is surfaceless and the Wayland surface reports no present modes. Not a Mesa/etnaviv problem (wgpu examples and iced on wgpu 30 present fine on GL)."
+- id: wgpu.bevy-main-vulkan
+  phase: 2
+  cmd: WGPU_BACKEND=vulkan RUST_LOG=bevy_render=info,warn ~/wgpu-apps/bevy-gl-test 20 12
+  run_for: true
+  timeout: 40
+  requires: ['~/wgpu-apps/bevy-gl-test']
+  expected: upstream-bevy
+  metrics: {fps: 'BEVY_FPS ([\d.]+)'}
+  pass_regex: 'BEVY_RESULT'
+  tags: [wgpu-vulkan, bevy]
+  notes: "Contrast attempt: Bevy main on Vulkan (llvmpipe, CPU) also fails at startup with a wgpu-hal panic 'Requested feature is not available on this device' (Bevy requests a Vulkan feature llvmpipe lacks), so there is no working Bevy run on this board to compare against."

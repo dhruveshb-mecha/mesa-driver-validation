@@ -1,0 +1,293 @@
+- id: toolkit.gtk4.widget-factory-gl
+  phase: 2
+  risk: medium
+  cmd: GSK_RENDERER=gl GSK_DEBUG=renderer gtk4-widget-factory
+  run_for: true
+  timeout: 15
+  requires: [gtk4-widget-factory]
+  pass_regex: 'Using renderer'
+  tags: [gles3-gtk-renderer]
+- id: toolkit.gtk4.widget-factory-cairo
+  phase: 2
+  cmd: GSK_RENDERER=cairo GSK_DEBUG=renderer gtk4-widget-factory
+  run_for: true
+  timeout: 15
+  requires: [gtk4-widget-factory]
+  notes: CPU renderer, for comparison.
+- id: toolkit.gtk4.node-editor-gl
+  phase: 2
+  risk: medium
+  cmd: GSK_RENDERER=gl GSK_DEBUG=renderer gtk4-node-editor
+  run_for: true
+  timeout: 12
+  requires: [gtk4-node-editor]
+- id: toolkit.gtk4.gnome-text-editor-gl
+  phase: 2
+  risk: medium
+  cmd: GSK_RENDERER=gl GSK_DEBUG=renderer gnome-text-editor
+  run_for: true
+  timeout: 12
+  requires: [gnome-text-editor]
+- id: toolkit.qt.validate-quick2d-3d
+  phase: 2
+  cmd: ~/bin/validate-qt
+  timeout: 1200
+  requires: ['~/bin/validate-qt']
+  collect: ['~/benchmarks/reports/qt-*']
+  notes: "Known: Fedora Qt6 is desktop-GL only (no GLES); Quick 3D needs MESA_GL_VERSION_OVERRIDE."
+- id: toolkit.flutter.mechanix-clock
+  phase: 2
+  cmd: mechanix_clock -b /usr/share/mechanix/mechanix-clock/ -s 1
+  run_for: true
+  timeout: 25
+  requires: [mechanix_clock]
+  tags: [flutter]
+- id: toolkit.flutter.mechanix-notes
+  phase: 2
+  cmd: mechanix_notes -s 1
+  run_for: true
+  timeout: 25
+  requires: [mechanix_notes]
+  tags: [flutter]
+- id: toolkit.flutter.mechanix-files
+  phase: 2
+  cmd: mechanix_files -s 1
+  run_for: true
+  timeout: 25
+  requires: [mechanix_files]
+  tags: [flutter]
+- id: toolkit.flutter.mechanix-calculator
+  phase: 2
+  cmd: mechanix_calculator -s 1
+  run_for: true
+  timeout: 25
+  requires: [mechanix_calculator]
+  tags: [flutter]
+- id: toolkit.flutter.mechanix-settings
+  phase: 2
+  cmd: mechanix_settings -s 1
+  run_for: true
+  timeout: 25
+  requires: [mechanix_settings]
+  tags: [flutter]
+- id: toolkit.gtk4.scene-benchmark
+  phase: 3
+  risk: high
+  cmd: ~/bin/bench-gtk4 20
+  timeout: 600
+  requires: ['~/bin/bench-gtk4']
+  collect: ['~/benchmarks/results/gtk4-*']
+  notes: "KNOWN RISK: board hard-reset here in 3 of 3 earlier attempts on custom Mesa (cause unknown). Run last."
+  metrics: {cairo_fps: 'CairoRenderer widgets=\d+ fps=([\d.]+)', gl_fps: 'GLRenderer widgets=\d+ fps=([\d.]+)', vulkan_llvmpipe_fps: 'VulkanRenderer widgets=\d+ fps=([\d.]+)'}
+- id: toolkit.gtk4.renderer-matrix
+  phase: 2
+  risk: medium
+  cmd: python3 ~/gpu-test/scripts/gtk4_bench_matrix.py /tmp/gtk4-bench
+  timeout: 1500
+  requires: [gtk4-widget-factory]
+  collect: ['/tmp/gtk4-bench/*']
+  metrics: {runs: 'GTK4BENCH runs=(\d+)', gl_faster_in: 'gl_faster_in=(\d+)/', gl_vs_cairo_geomean: 'gl_vs_cairo_geomean=([\d.]+)'}
+  tags: [gles3-gtk-renderer]
+  notes: "7 GSK scenes x counts x {cairo(CPU), gl(GPU)}; see gtk4-bench.md in the run artifacts."
+- id: toolkit.gtk4.gl-segv-repro
+  phase: 2
+  risk: medium
+  cmd: python3 ~/gpu-test/scripts/gtk4_crash_repro.py 6 text 30
+  timeout: 400
+  requires: [gtk4-widget-factory]
+  pass_regex: 'segv=0 '
+  metrics: {runs: 'CRASHREPRO .*? runs=(\d+)', segv: 'segv=(\d+)', ok: ' ok=(\d+)', median_fps: 'median_fps=([\d.]+)'}
+  tags: [gles3-gtk-renderer]
+  notes: "SIGSEGV in Mesa libgallium dri_drawable_bind_images (via glClear from the GSK GL renderer): 100% with the text scene at n>=20 (rarely at n=10). A plain big window or per-frame resizing does NOT reproduce it (scripts/gtk4_size_probe.py). Test FAILS while the bug exists."
+- id: toolkit.flutter-real.renderer-matrix
+  phase: 2
+  risk: medium
+  cmd: python3 ~/gpu-test/scripts/flutter_bench_matrix.py /tmp/flutter-bench
+  timeout: 1500
+  requires: ['~/flutter-apps/gpu_bench/gpu_bench']
+  collect: ['/tmp/flutter-bench/*']
+  metrics: {runs: 'FLUTTERMATRIX runs=(\d+)', ok: ' ok=(\d+)', failed: 'failed=(\d+)', min_fps: 'min_fps=([\d.]+)', max_fps: 'max_fps=([\d.]+)'}
+  tags: [gles3-flutter]
+  notes: "REAL Flutter (stock SDK, GTK embedder, Impeller OpenGLES), cross-built on the laptop (flutter/build-arm64.sh). Needs GDK_GL=gles (set by the script)."
+- id: toolkit.flutter-real.default-gl-context
+  phase: 2
+  cmd: >-
+    out=$(GDK_BACKEND=wayland ~/flutter-apps/gpu_bench/gpu_bench circles 10 4 2>&1);
+    if echo "$out" | grep -q "Failed to create OpenGL context"; then echo "GLCONTEXT=FAIL (GTK3 cannot create a GL context with default settings)"; else echo "GLCONTEXT=OK"; fi
+  timeout: 60
+  requires: ['~/flutter-apps/gpu_bench/gpu_bench']
+  pass_regex: 'GLCONTEXT=OK'
+  tags: [gles3-flutter]
+  notes: "Without GDK_GL=gles GTK3 cannot create a GL context on this driver ('Unable to create a GL context'); the Flutter app then runs headless (reports 60 fps at the full 2560x1440 size, nothing is presented). Test FAILS while that is the default behaviour."
+- id: toolkit.gtk4.manual-visual
+  type: manual
+  phase: 2
+  steps: "Run gtk4-widget-factory and gtk4-demo (GSK_RENDERER=gl) on the device screen. Scroll lists, open dialogs, toggle dark theme, run the fishbowl demo."
+  pass_criteria: "No flicker/corruption, smooth scrolling, no crash for 5 minutes."
+
+- id: toolkit.gtk4.demo-widgets-cairo
+  phase: 2
+  cmd: >-
+    (GSK_RENDERER=cairo ~/gtk4-demo/gtk4_demo widgets 8 2>&1 | grep GTK4DEMO) & sleep 5; grim /tmp/gtk4demo-widgets-cairo.png; wait
+  timeout: 40
+  requires: ['~/gtk4-demo/gtk4_demo']
+  collect: ['/tmp/gtk4demo-widgets-cairo.png']
+  metrics: {fps: 'fps":([\d.]+)'}
+  pass_regex: 'GTK4DEMO'
+  tags: [gtk4, gsk-cairo]
+  notes: "Standard GTK4 C demo built on the laptop (gtk4-demo/demo.c). Header bar + buttons/entry/switch/scale/progress/spinner + auto-scrolling 10000-row GtkListView. Renderer: GSK cairo."
+
+- id: toolkit.gtk4.demo-widgets-gl
+  phase: 2
+  cmd: >-
+    (GSK_RENDERER=gl ~/gtk4-demo/gtk4_demo widgets 8 2>&1 | grep GTK4DEMO) & sleep 5; grim /tmp/gtk4demo-widgets-gl.png; wait
+  timeout: 40
+  requires: ['~/gtk4-demo/gtk4_demo']
+  collect: ['/tmp/gtk4demo-widgets-gl.png']
+  metrics: {fps: 'fps":([\d.]+)'}
+  pass_regex: 'GTK4DEMO'
+  tags: [gtk4, gsk-gl]
+  notes: "Standard GTK4 C demo built on the laptop (gtk4-demo/demo.c). Header bar + buttons/entry/switch/scale/progress/spinner + auto-scrolling 10000-row GtkListView. Renderer: GSK gl."
+
+- id: toolkit.gtk4.demo-glarea-cairo
+  phase: 2
+  cmd: >-
+    (GSK_RENDERER=cairo ~/gtk4-demo/gtk4_demo glarea 8 2>&1 | grep GTK4DEMO) & sleep 5; grim /tmp/gtk4demo-glarea-cairo.png; wait
+  timeout: 40
+  requires: ['~/gtk4-demo/gtk4_demo']
+  collect: ['/tmp/gtk4demo-glarea-cairo.png']
+  metrics: {fps: 'fps":([\d.]+)'}
+  pass_regex: 'GTK4DEMO'
+  tags: [gtk4, gsk-cairo]
+  notes: "Standard GTK4 C demo built on the laptop (gtk4-demo/demo.c). GtkGLArea (GLES 3.0 shaders) drawing 60 rotating lit cubes. Renderer: GSK cairo."
+
+- id: toolkit.gtk4.demo-glarea-gl
+  phase: 2
+  cmd: >-
+    (GSK_RENDERER=gl ~/gtk4-demo/gtk4_demo glarea 8 2>&1 | grep GTK4DEMO) & sleep 5; grim /tmp/gtk4demo-glarea-gl.png; wait
+  timeout: 40
+  requires: ['~/gtk4-demo/gtk4_demo']
+  collect: ['/tmp/gtk4demo-glarea-gl.png']
+  metrics: {fps: 'fps":([\d.]+)'}
+  pass_regex: 'GTK4DEMO'
+  tags: [gtk4, gsk-gl]
+  notes: "Standard GTK4 C demo built on the laptop (gtk4-demo/demo.c). GtkGLArea (GLES 3.0 shaders) drawing 60 rotating lit cubes. Renderer: GSK gl."
+
+- id: toolkit.flutter-demo.counter-gles
+  phase: 2
+  cmd: >-
+    (GDK_GL=gles ~/flutter-apps/demo_counter/flutter_counter_demo 2>&1 | grep -E "Impeller|rror|Failed") & sleep 7; grim /tmp/flutter-counter-gles.png; sleep 1; pkill -x flutter_counter; wait
+  timeout: 30
+  requires: ['~/flutter-apps/demo_counter/flutter_counter_demo']
+  collect: ['/tmp/flutter-counter-gles.png']
+  pass_regex: 'Impeller rendering backend'
+  tags: [flutter, flutter-real]
+  notes: "Stock `flutter create` counter app (flutter/demo_counter), cross-built on the laptop with flutter/build-arm64.sh APP=demo_counter. GDK_GL=gles is required (see toolkit.flutter-real.default-gl-context). Static UI: this is a does-it-render check, not a benchmark; check the screenshot."
+- id: toolkit.flutter-demo.counter-default
+  phase: 2
+  cmd: >-
+    (~/flutter-apps/demo_counter/flutter_counter_demo > /tmp/fc-default.log 2>&1 &) ; sleep 7; grim /tmp/flutter-counter-default.png; pkill -x flutter_counter;
+    if grep -q "Failed to create OpenGL context" /tmp/fc-default.log; then echo "GLCONTEXT=FAIL (GTK3 cannot create a GL context with default settings)"; else echo "GLCONTEXT=OK"; fi
+  timeout: 30
+  requires: ['~/flutter-apps/demo_counter/flutter_counter_demo']
+  collect: ['/tmp/flutter-counter-default.png', '/tmp/fc-default.log']
+  pass_regex: 'GLCONTEXT=OK'
+  tags: [flutter, flutter-real]
+  notes: "Same app WITHOUT GDK_GL=gles (default settings). Expected to fail: GTK3 cannot create a GL context here."
+
+- id: toolkit.gtk4.stock-demo-sweep-gl
+  phase: 3
+  cmd: python3 ~/gpu-test/scripts/gtk4_demo_sweep.py gl /tmp/gtk4-demo-sweep 6
+  timeout: 1800
+  requires: [gtk4-demo]
+  collect: ['/tmp/gtk4-demo-sweep/summary-gl.*', '/tmp/gtk4-demo-sweep/gl/*']
+  pass_regex: 'crashed=0 '
+  tags: [gtk4, gsk-gl]
+  notes: "All 111 examples of the stock Fedora gtk4-demo (gtk4-devel-tools 4.22.5) run one by one with GSK_RENDERER=gl: alive after 6 s? crashed? screenshot per demo. Baseline is 4 GLib warnings per demo (missing xdg-desktop-portal interfaces)."
+
+- id: toolkit.gtk4.stock-demo-sweep-cairo
+  phase: 3
+  cmd: python3 ~/gpu-test/scripts/gtk4_demo_sweep.py cairo /tmp/gtk4-demo-sweep 6
+  timeout: 1800
+  requires: [gtk4-demo]
+  collect: ['/tmp/gtk4-demo-sweep/summary-cairo.*', '/tmp/gtk4-demo-sweep/cairo/*']
+  pass_regex: 'crashed=0 '
+  tags: [gtk4, gsk-cairo]
+  notes: "All 111 examples of the stock Fedora gtk4-demo (gtk4-devel-tools 4.22.5) run one by one with GSK_RENDERER=cairo: alive after 6 s? crashed? screenshot per demo. Baseline is 4 GLib warnings per demo (missing xdg-desktop-portal interfaces)."
+
+- id: toolkit.gtk4.stock-repro-shadertoy-gl
+  phase: 3
+  risk: high
+  cmd: python3 ~/gpu-test/scripts/gtk4_demo_sweep.py gl /tmp/gtk4-demo-repro-shadertoy-gl 7 '^shadertoy$'
+  timeout: 120
+  requires: [gtk4-demo]
+  collect: ['/tmp/gtk4-demo-repro-shadertoy-gl/*/*']
+  pass_regex: 'crashed=0 '
+  tags: [gtk4, gsk-gl, repro]
+  notes: "Stock gtk4-demo 'shadertoy' (gl): GPU hang (4-7 'recover hung GPU' events per run, 3/3 runs). The demo draws a raw GLSL fragment shader in a GtkGLArea. Expected result of a healthy driver: no etnaviv hang, no crash."
+
+- id: toolkit.gtk4.stock-repro-shadertoy-cairo
+  phase: 3
+  risk: high
+  cmd: python3 ~/gpu-test/scripts/gtk4_demo_sweep.py cairo /tmp/gtk4-demo-repro-shadertoy-cairo 7 '^shadertoy$'
+  timeout: 120
+  requires: [gtk4-demo]
+  collect: ['/tmp/gtk4-demo-repro-shadertoy-cairo/*/*']
+  pass_regex: 'crashed=0 '
+  tags: [gtk4, gsk-cairo, repro]
+  notes: "Stock gtk4-demo 'shadertoy' (cairo): SAME GPU hang with GSK_RENDERER=cairo (3/3), so the trigger is the GtkGLArea shader, not GSK's GL renderer. Expected result of a healthy driver: no etnaviv hang, no crash."
+
+- id: toolkit.gtk4.stock-repro-path_text-gl
+  phase: 3
+  risk: high
+  cmd: python3 ~/gpu-test/scripts/gtk4_demo_sweep.py gl /tmp/gtk4-demo-repro-path_text-gl 7 '^path_text$'
+  timeout: 120
+  requires: [gtk4-demo]
+  collect: ['/tmp/gtk4-demo-repro-path_text-gl/*/*']
+  pass_regex: 'crashed=0 '
+  tags: [gtk4, gsk-gl, repro]
+  notes: "Stock gtk4-demo 'path_text' (gl): GPU hang with the GL renderer only (1-2 events per run, 3/3); the Cairo renderer shows none (0/3). Expected result of a healthy driver: no etnaviv hang, no crash."
+
+- id: toolkit.gtk4.stock-repro-layoutmanager2-gl
+  phase: 3
+  risk: high
+  cmd: python3 ~/gpu-test/scripts/gtk4_demo_sweep.py gl /tmp/gtk4-demo-repro-layoutmanager2-gl 7 '^layoutmanager2$'
+  timeout: 120
+  requires: [gtk4-demo]
+  collect: ['/tmp/gtk4-demo-repro-layoutmanager2-gl/*/*']
+  pass_regex: 'crashed=0 '
+  tags: [gtk4, gsk-gl, repro]
+  notes: "Stock gtk4-demo 'layoutmanager2' (gl): SIGABRT with the GL renderer only (3/3): cairo-surface.c cairo_surface_set_device_scale assertion. Not a GPU hang; probably a GTK/cairo issue, listed for completeness. Expected result of a healthy driver: no etnaviv hang, no crash."
+
+- id: toolkit.flutter-demo.animations-drive
+  phase: 3
+  cmd: python3 ~/gpu-test/scripts/flutter_anim_drive.py /tmp/flutter-anim-drive 6
+  timeout: 400
+  requires: ['~/flutter-apps/demo_animations/animations', wlrctl]
+  collect: ['/tmp/flutter-anim-drive/*']
+  metrics: {fps: 'FLUTTERANIM \{"sample": "\w+", "fps": ([\d.]+)', max_fps: 'max_fps=([\d.]+)'}
+  pass_regex: 'app_died=0'
+  tags: [flutter, flutter-real]
+  notes: "Official flutter/samples 'animations' app (18 Material-motion samples), stock, cross-built on the laptop (flutter/demo_animations, flutter/build-arm64.sh APP=demo_animations), GDK_GL=gles. Driven with synthetic pointer input (wlrctl); fps = Wayland GL buffer swaps/s of the app window, so it is only meaningful for continuously animating samples (CardSwipe, FlutterAnimate, RepeatingAnimation, SpringPhysics...); one-shot transitions and static pages read low/0 by design. Checks: no GPU hang, no crash, screenshot per sample."
+
+- id: toolkit.flutter-demo.animations-drive-verbose
+  phase: 3
+  cmd: VERBOSE=1 python3 ~/gpu-test/scripts/flutter_anim_drive.py /tmp/flutter-anim-drive-verbose 6
+  timeout: 500
+  requires: ['~/flutter-apps/demo_animations/animations', wlrctl]
+  collect: ['/tmp/flutter-anim-drive-verbose/*']
+  metrics: {fps: 'FLUTTERANIM \{"sample": "\w+", "fps": ([\d.]+)', max_fps: 'max_fps=([\d.]+)'}
+  pass_regex: 'app_died=0'
+  tags: [flutter, flutter-real, verbose-logs]
+  notes: "Same as toolkit.flutter-demo.animations-drive with every log source enabled: MESA_DEBUG=1, EGL_LOG_LEVEL=debug, LIBGL_DEBUG=verbose, G_MESSAGES_DEBUG=all, GDK_DEBUG=opengl,events,misc,dnd,input,cursor,eventloop, Flutter engine switches verbose-logging/trace-startup (may be ignored by a release engine), WAYLAND_DEBUG=client. Full unfiltered stderr is kept as app-stderr-full.log.gz. Verbose logging costs frame rate, so compare fps with the non-verbose test, not with other runs."
+
+- id: toolkit.flutter-real.renderer-matrix-verbose
+  phase: 3
+  cmd: VERBOSE=1 python3 ~/gpu-test/scripts/flutter_bench_matrix.py /tmp/flutter-bench-verbose
+  timeout: 900
+  requires: ['~/flutter-apps/gpu_bench/gpu_bench']
+  collect: ['/tmp/flutter-bench-verbose/*', '/tmp/flutter-bench-verbose/logs/*']
+  metrics: {fps: '-> ([\d.]+) fps', min_fps: 'min_fps=([\d.]+)', max_fps: 'max_fps=([\d.]+)'}
+  pass_regex: 'failed=0'
+  tags: [flutter, flutter-real, verbose-logs]
+  notes: "The gpu_bench Flutter app (animated circles/gradients/shadows/blur/opacity/clip/text/images/list) with every log source on: MESA_DEBUG=1, EGL_LOG_LEVEL=debug, LIBGL_DEBUG=verbose, G_MESSAGES_DEBUG=all, GDK_DEBUG=opengl,events,misc,..., engine switches verbose-logging/trace-startup (a release engine may ignore them), WAYLAND_DEBUG=client. One gzipped full log per scene run in logs/. Tracing slows the app: use toolkit.flutter-real.renderer-matrix (rerun12) for the real fps numbers."

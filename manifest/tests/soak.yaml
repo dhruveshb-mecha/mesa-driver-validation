@@ -1,0 +1,11 @@
+- id: soak.glmark2-10min-loop
+  phase: 3
+  risk: medium
+  cmd: |
+    end=$((SECONDS+600)); n=0
+    while [ $SECONDS -lt $end ]; do n=$((n+1)); echo "--- iteration $n"; glmark2-es2-wayland --fullscreen || exit 1; done
+  timeout: 1500
+  requires: [glmark2-es2-wayland]
+  metrics: {score: 'glmark2 Score: (\d+)'}
+  tags: [stability]
+  notes: "Score drift across iterations = thermal throttling; GPU_HANG / BOARD_RESET = stability bug. Extend the 600 s for a real soak."

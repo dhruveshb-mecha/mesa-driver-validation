@@ -1,0 +1,66 @@
+# The Comet has TWO GStreamers: system 1.28 (/usr/bin, has videotestsrc, GL, v4l2codecs) and a custom 1.26
+# in /opt/gstreamer (first on PATH, with libcamerasrc). GL/VPU tests pin /usr/bin with a clean env;
+# camera tests use the /opt environment (keep_env). Mixing the two breaks symbol lookups.
+- id: multimedia.gst.gl-roundtrip
+  phase: 2
+  cmd: /usr/bin/gst-launch-1.0 -e videotestsrc num-buffers=300 ! video/x-raw,width=1280,height=720,framerate=30/1 ! glupload ! glcolorconvert ! gldownload ! fakesink sync=false
+  timeout: 60
+  requires: [/usr/bin/gst-launch-1.0]
+  tags: [gstreamer-gl]
+- id: multimedia.gst.gl-throughput
+  phase: 2
+  cmd: /usr/bin/gst-launch-1.0 -v videotestsrc num-buffers=600 ! video/x-raw,width=1280,height=720 ! glupload ! glcolorconvert ! fpsdisplaysink video-sink=fakesink text-overlay=false signal-fps-measurements=true sync=false
+  timeout: 90
+  requires: [/usr/bin/gst-launch-1.0]
+  metrics: {fps: 'average: ([\d.]+)'}
+  tags: [gstreamer-gl]
+- id: multimedia.gst.glimagesink-display
+  phase: 2
+  cmd: /usr/bin/gst-launch-1.0 -e videotestsrc num-buffers=300 pattern=ball ! video/x-raw,width=1280,height=720,framerate=30/1 ! glupload ! glcolorconvert ! glimagesink
+  timeout: 60
+  requires: [/usr/bin/gst-launch-1.0]
+  tags: [gstreamer-gl]
+- id: multimedia.gst.gleffects
+  phase: 2
+  cmd: /usr/bin/gst-launch-1.0 -e videotestsrc num-buffers=150 ! video/x-raw,width=640,height=480 ! glupload ! glcolorconvert ! gleffects effect=sepia ! glimagesink
+  timeout: 60
+  requires: [/usr/bin/gst-launch-1.0]
+  tags: [gstreamer-gl]
+- id: multimedia.camera.libcamera-imx219
+  phase: 2
+  cmd: gst-launch-1.0 -v libcamerasrc ! fakesink
+  run_for: true
+  timeout: 12
+  keep_env: true
+  no_screenshot: true
+  requires: [gst-launch-1.0]
+  pass_regex: 'imx219'
+  tags: [camera]
+  notes: Camera capture only (libcamera + RkISP1 IPA). Not a GPU test, but needed before the GL display variant.
+- id: multimedia.camera.libcamera-gl-display
+  phase: 2
+  cmd: gst-launch-1.0 -v libcamerasrc ! glupload ! glcolorconvert ! glimagesink
+  run_for: true
+  timeout: 15
+  keep_env: true
+  requires: [gst-launch-1.0]
+  pass_regex: 'imx219'
+  tags: [camera, gstreamer-gl]
+  notes: "Live camera frames uploaded to GL and displayed. Check screenshot.png to confirm frames are shown. WARNING: with default caps (GRAY8/bayer) no window ever appears (screenshot shows only the wallpaper) although the test exits 0 - earlier RAN_OK results for this id are false passes; use multimedia.camera.libcamera-nv12-gl-display."
+- id: multimedia.camera.libcamera-nv12-gl-display
+  phase: 2
+  cmd: gst-launch-1.0 -v libcamerasrc ! video/x-raw,format=NV12,width=1280,height=720 ! glupload ! glcolorconvert ! glimagesink
+  run_for: true
+  timeout: 15
+  keep_env: true
+  requires: [gst-launch-1.0]
+  pass_regex: 'GstGLDisplayWayland'
+  tags: [camera, gstreamer-gl]
+  notes: "Explicit NV12 caps (libcamerasrc default is GRAY8). Camera frames are shown in a glimagesink window (dark image: the IPA has no AWB gains in its tuning file). Confirm in screenshot.png that camera content is visible."
+- id: multimedia.vpu.vp8-decode-to-gl
+  phase: 2
+  cmd: /usr/bin/gst-launch-1.0 filesrc location=$HOME/benchmarks/capture/t-libvpx.mkv ! matroskademux ! v4l2slvp8dec ! glupload ! glcolorconvert ! gldownload ! fakesink sync=false
+  timeout: 60
+  requires: [/usr/bin/gst-launch-1.0, '~/benchmarks/capture/t-libvpx.mkv']
+  tags: [vpu-decode, gstreamer-gl]
+  notes: "Hantro stateless VP8 decode feeding GL. VPU is separate from etnaviv. Sample must exist (see REPRODUCE.md); no H.264 encoder (openh264) works on the image."

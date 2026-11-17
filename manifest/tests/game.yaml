@@ -1,0 +1,53 @@
+# Smoke tests are skipped automatically when the app is not installed; gameplay is always manual.
+- id: game.supertuxkart.autoplay
+  phase: 2
+  risk: high
+  cmd: supertuxkart --no-start-screen --track=lighthouse --numkarts=4 --profile-time=40
+  run_for: true
+  timeout: 120
+  requires: [supertuxkart]
+  pass_regex: 'OpenGL ES 3.0 Mesa'
+  tags: [gles3-native, float-depth, msaa]
+  notes: "Native ES 3.0 with no override. First run on 2026-11-03 produced 'recover hung GPU' (offending task supertuxkart)."
+- id: game.luanti.world
+  phase: 2
+  risk: medium
+  cmd: rm -rf /tmp/luanti-world; mkdir -p /tmp/luanti-world; luanti --world /tmp/luanti-world --gameid devtest --go --config /dev/null
+  run_for: true
+  timeout: 60
+  requires: [luanti]
+  tags: [gles3-native]
+  notes: "Auto-creates a devtest world and joins it; screenshot shows rendering. Record with mark."
+- id: game.gamescope.glmark2
+  phase: 3
+  risk: medium
+  cmd: gamescope -W 1280 -H 720 -- glmark2-es2 --fullscreen -b build
+  run_for: true
+  timeout: 40
+  requires: [gamescope, glmark2-es2]
+  notes: "Nested gamescope compositor running glmark2; screenshot shows whether it composes."
+- {id: game.wine.smoke, phase: 3, cmd: wine --version, requires: [wine]}
+- {id: game.fex.smoke, phase: 3, cmd: FEXInterpreter --version, requires: [FEXInterpreter], expected: unsupported, notes: 'Cortex-A53 (i.MX8MP) lacks LSE/ARMv8.2; FEX SIGILLs. Hardware limit, not GPU.'}
+- {id: game.steam.smoke, phase: 3, cmd: steam -version, requires: [steam]}
+- id: game.supertuxkart.autoplay-no-dynamic-lights
+  phase: 2
+  cmd: >-
+    F=$HOME/.config/supertuxkart/config-0.10/config.xml; cp -n $F $F.orig; sed -i 's/enable_dynamic_lights="true"/enable_dynamic_lights="false"/' $F;
+    supertuxkart --no-start-screen --track=lighthouse --numkarts=4 --profile-time=40; cp $F.orig $F
+  run_for: true
+  timeout: 120
+  requires: [supertuxkart]
+  metrics: {avg_fps: 'Average FPS: ([\d.]+)', frames: 'Number of frames: (\d+)'}
+  tags: [gles3-native]
+  notes: "Bisect for game.supertuxkart.autoplay: legacy (non-deferred) pipeline runs 99 fps and never hangs; with enable_dynamic_lights=true (deferred lighting) the GPU hangs 3/3 at track load."
+- id: game.supertuxkart.manual
+  type: manual
+  phase: 2
+  steps: "Play a race at default and high graphics settings for 10 minutes; note min/avg FPS (--profile-laps or in-game FPS counter)."
+  pass_criteria: "No rendering artifacts (shadows, lighting, MSAA), no GPU hang, stable framerate."
+  tags: [float-depth, msaa]
+- id: game.luanti.manual
+  type: manual
+  phase: 2
+  steps: "Create a world, set view range 60/120, fly around 10 minutes."
+  pass_criteria: "Correct textures/lighting/particles; no hang."

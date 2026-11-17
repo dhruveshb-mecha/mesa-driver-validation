@@ -1,0 +1,40 @@
+# Headline checks for the etnaviv ES 3.0 work. Each runs scripts/gles3_probe.py (EGL surfaceless + ctypes).
+- id: core.gles3.context
+  phase: 1
+  cmd: python3 scripts/gles3_probe.py --only 'es3_context|hardware_renderer' | python3 -c "import json,sys; d=json.load(sys.stdin); print(json.dumps(d['info'],indent=1)); [print(c['status'],c['name'],c['detail']) for c in d['checks']]; sys.exit(d['verdict']!='PASS')"
+  pass_regex: 'PASS es3_context'
+  tags: [gles3-context, hardware-renderer]
+- id: core.gles3.rgba32-targets
+  phase: 1
+  cmd: python3 scripts/gles3_probe.py --only 'rt_RGBA32|ext_color' | python3 -c "import json,sys; d=json.load(sys.stdin); [print(c['status'],c['name'],c['detail']) for c in d['checks']]; sys.exit(d['verdict']!='PASS')"
+  tags: [rgba32-targets]
+- id: core.gles3.float-depth
+  phase: 1
+  cmd: python3 scripts/gles3_probe.py --only 'depth_' | python3 -c "import json,sys; d=json.load(sys.stdin); [print(c['status'],c['name'],c['detail']) for c in d['checks']]; sys.exit(d['verdict']!='PASS')"
+  tags: [float-depth]
+- id: core.gles3.transform-feedback
+  phase: 1
+  cmd: python3 scripts/gles3_probe.py --only 'transform_feedback' | python3 -c "import json,sys; d=json.load(sys.stdin); [print(c['status'],c['name'],c['detail']) for c in d['checks']]; sys.exit(d['verdict']!='PASS')"
+  tags: [transform-feedback]
+- id: core.gles3.msaa-srgb-rgba16f
+  phase: 1
+  cmd: python3 scripts/gles3_probe.py --only 'msaa|rt_SRGB|rt_RGBA16F|rt_RGBA8' | python3 -c "import json,sys; d=json.load(sys.stdin); [print(c['status'],c['name'],c['detail']) for c in d['checks']]; sys.exit(d['verdict']!='PASS')"
+  tags: [msaa, srgb]
+- id: core.weston-simple-egl
+  phase: 1
+  cmd: stdbuf -oL weston-simple-egl
+  run_for: true
+  timeout: 12
+  requires: [weston-simple-egl]
+  metrics: {fps: '([\d.]+) fps'}
+  tags: [egl-wayland]
+
+- id: core.display.vblank-rate
+  phase: 1
+  cmd: python3 ~/gpu-test/scripts/vblank_rate.py
+  timeout: 60
+  requires: ['~/gpu-test/scripts/gtk4_bench.py']
+  metrics: {claimed_hz: 'claimed_hz=([\d.]+)', measured_hz: 'measured_hz=([\d.]+)', median_interval_ms: 'interval_ms_median=([\d.]+)'}
+  pass_regex: 'measured_hz=(5[89]|6\d)\.'
+  tags: [display, vsync]
+  notes: "Real vblank rate seen by a Wayland client (wp_presentation feedback). The DSI-1 mode is advertised as 60 Hz but the DRM vblank sequence advances at ~50.8 Hz, so any vsync-locked app is capped at ~50.8 fps here regardless of renderer. FAILS (measured ~50.8 Hz) on the current image: display timing issue, not a GPU one."

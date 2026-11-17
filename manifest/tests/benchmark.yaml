@@ -1,0 +1,14 @@
+- id: benchmark.glmark2-es2-fullscreen
+  phase: 1
+  cmd: glmark2-es2-wayland --fullscreen
+  timeout: 900
+  requires: [glmark2-es2-wayland]
+  pass_regex: 'glmark2 Score'
+  metrics: {score: 'glmark2 Score: (\d+)'}
+- id: benchmark.glmark2-es2-windowed
+  phase: 1
+  cmd: glmark2-es2-wayland
+  timeout: 900
+  requires: [glmark2-es2-wayland]
+  pass_regex: 'glmark2 Score'
+  metrics: {score: 'glmark2 Score: (\d+)'}

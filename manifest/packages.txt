@@ -1,0 +1,7 @@
+# Needed on the Comet (Fedora 44 aarch64). Optional ones are skipped automatically when absent.
+mesa-dri-drivers mesa-libEGL glmark2 weston-demo mesa-demos vulkan-tools
+gtk4 gtk4-devel-tools gnome-text-editor qt6-qtdeclarative qt6-qtquick3d chromium
+gstreamer1-plugins-base gstreamer1-plugins-good gstreamer1-plugins-bad-free gstreamer1-plugin-openh264 libcamera
+python3-pyyaml python3-websockets
+# optional: firefox supertuxkart luanti gamescope wine steam piglit deqp
+# non-rpm: ~/wgpu/target/release/wgpu-examples (wgpu examples), ~/bin/validate-* + ~/benchmarks (existing board scripts, see GPU-TEST-GUIDE.md)
