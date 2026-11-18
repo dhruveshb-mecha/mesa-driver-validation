@@ -1,0 +1,5 @@
+# kernel log lines during run
+Nov 17 17:08:02 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 17 17:08:02 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/home/mecha/qt6-gles-ex/quick3d/reflectionprobes/bin/reflectionprobes)
+# coredumps
+No coredumps found.

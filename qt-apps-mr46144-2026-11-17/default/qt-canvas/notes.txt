@@ -1,0 +1,1 @@
+QML error: module "shared" is not installed (examples import path); no window

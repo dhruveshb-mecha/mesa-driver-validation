@@ -1,0 +1,1 @@
+static scene between key presses; fps not meaningful

@@ -1,0 +1,1 @@
+aborts at start without the GL 3.3 override (core dump); see gl33-override/

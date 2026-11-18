@@ -1,0 +1,15 @@
+before_launch: screen_cleared=yes windows_left=0 cpu_idle_pct=99
+windows_before_launch:
+top_cpu_before_launch:
+    PID %CPU COMMAND
+ 695767  300 ps
+ 695642  0.7 qt_apps_fps.sh
+ 695609  0.3 bash
+   1277  0.2 sh
+   1268  0.1 swaybar
+extra_windows_found: none
+after_launch_windows (1):
+695779 org.qt-project.qmlscene qmlscene
+cpu_idle_check_note: app is running; see metrics.csv
+final_windows (1):
+695779 org.qt-project.qmlscene qmlscene

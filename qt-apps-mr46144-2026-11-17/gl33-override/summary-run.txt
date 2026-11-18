@@ -1,0 +1,7 @@
+qt3d-hellocube: commits_logged=1724
+qt3d-intro: commits_logged=1152
+qt3d-lights: commits_logged=145
+qt3d-principledmaterial: commits_logged=12
+qt3d-reflectionprobes: commits_logged=219
+qt3d-cascadedshadowmaps: commits_logged=11
+qt3d-sceneeffects: commits_logged=10

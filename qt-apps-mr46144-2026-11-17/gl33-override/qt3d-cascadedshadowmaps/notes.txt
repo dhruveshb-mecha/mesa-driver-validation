@@ -1,0 +1,1 @@
+no hang logged but only 11 frames drawn; view static

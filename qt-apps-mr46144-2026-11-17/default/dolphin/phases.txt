@@ -1,0 +1,5 @@
+launch=06:29:45.647
+window=06:29:49.803
+settle_end=06:29:56.568
+active_start=06:29:56.576
+active_end=06:30:12.654

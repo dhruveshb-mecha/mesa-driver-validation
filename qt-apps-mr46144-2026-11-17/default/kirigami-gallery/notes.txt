@@ -1,0 +1,1 @@
+needs QT_QUICK_CONTROLS_STYLE=Basic (default KDE style exits 255, no message); UI idle between key presses

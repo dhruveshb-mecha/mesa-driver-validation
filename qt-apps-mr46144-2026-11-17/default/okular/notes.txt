@@ -1,0 +1,1 @@
+Qt Widgets: painted on the CPU into shared memory, no GPU client

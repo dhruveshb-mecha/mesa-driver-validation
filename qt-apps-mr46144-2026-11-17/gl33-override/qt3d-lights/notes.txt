@@ -1,0 +1,1 @@
+UI nearly idle; thin fps sample

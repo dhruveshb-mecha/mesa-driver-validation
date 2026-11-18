@@ -1,0 +1,6 @@
+# kernel log lines during run
+Nov 17 12:07:25 comet kernel: etnaviv-gpu 38000000.gpu: failed to allocate devcoredump file
+Nov 17 12:07:25 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 17 12:07:25 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/usr/lib64/qt6/examples/quick3d/principledmaterial/bin/principledmaterial)
+# coredumps
+No coredumps found.

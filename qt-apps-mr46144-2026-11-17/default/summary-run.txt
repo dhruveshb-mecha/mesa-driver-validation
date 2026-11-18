@@ -1,0 +1,2 @@
+kirigami-gallery: commits_logged=38
+qt-canvas: NO WINDOW (see raw.log)

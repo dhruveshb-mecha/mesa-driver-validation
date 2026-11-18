@@ -1,0 +1,1 @@
+GPU hang: recover hung GPU! (QSGRenderThread); 3D view stays black
