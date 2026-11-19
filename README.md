@@ -9,13 +9,14 @@ Results come from different Mesa builds and board images, so they are kept in se
 
 | Folder | What it covers | Mesa | Kernel | Date |
 |---|---|---|---|---|
-| [`FEEDBACK.md`](FEEDBACK.md) | Prioritised list of issues to look into, each pointing at a case folder | 27.0.0~devel `7b4b394` | 7.1.5 | 2026-11-02..04 |
+| [`FEEDBACK.md`](FEEDBACK.md) | List of the issues found, each pointing at a case folder | 27.0.0~devel `7b4b394` | 7.1.5 | 2026-11-02..04 |
 | [`cases/`](cases/INDEX.md) | One folder per case: GPU hangs, functional failures, passing controls, performance. Every case has the exact command, stdout/stderr, kernel log and screenshots | `7b4b394` | 7.1.5 | 2026-11-02..03 |
 | [`app-benchmarks/`](app-benchmarks/README.md) | Real GTK4 and Flutter apps (10 + 4 apps, several renderer modes, 2 attempts each) | `7b4b394` | 7.1.5 | 2026-11-04 |
 | [`baseline-fedora-mesa-26.2.6/`](baseline-fedora-mesa-26.2.6/README.md) | The same board with stock Fedora Mesa 26.2.6 (exposes only OpenGL ES 2.0) | 26.2.6 | 7.2.4 | 2026-11-07 |
 | [`chromium-nv12-mr46144/`](chromium-nv12-mr46144/README.md) | Chromium and YouTube video playback, and test programs that isolate a wrong-colour NV12 import | 27.0.0~devel `8838d84` (`mr46144`) | 7.2.4 | 2026-11-13 |
 | [`gtk4-apps-mr46144-2026-11-17/`](gtk4-apps-mr46144-2026-11-17/README.md) | 13 stock GTK4 apps: GPU use and frame rate | `8838d84` (`mr46144`) | 7.2.4 | 2026-11-17 |
 | [`qt-apps-mr46144-2026-11-17/`](qt-apps-mr46144-2026-11-17/README.md) | Qt 6 apps (Qt Quick, Quick 3D, Qt Widgets, Falkon): GPU use, frame rate, Quick 3D GPU hangs | `8838d84` (`mr46144`) | 7.2.4 | 2026-11-17 |
+| [`qt-apps-main-6f23942285e-2026-11-19/`](qt-apps-main-6f23942285e-2026-11-19/README.md) | Qt 6 apps (all harness apps on the Fedora Qt; Quick 3D and Quick 2D examples on the GLES Qt): GPU use, frame rate, Quick 3D GPU hangs | `6f23942285e` (main build) | 7.2.4 | 2026-11-19 |
 
 ### Headlines
 
@@ -65,6 +66,7 @@ baseline-fedora-mesa-26.2.6/
 chromium-nv12-mr46144/
 gtk4-apps-mr46144-2026-11-17/
 qt-apps-mr46144-2026-11-17/
+qt-apps-main-6f23942285e-2026-11-19/
 SHA256SUMS       checksums of all result files
 ```
 
