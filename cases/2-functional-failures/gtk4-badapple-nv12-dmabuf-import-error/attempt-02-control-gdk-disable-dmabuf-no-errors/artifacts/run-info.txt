@@ -1,0 +1,9 @@
+date_start=2026-11-19T17:40:09+05:30
+kernel=7.2.4-0.202610231332.fc44.aarch64
+mesa=mesa-dri-drivers-27.0.0~devel-0.1.20261119git6f23942285e.fc44.aarch64
+pkg=gtk4-4.24.1-1.fc45.aarch64
+pkg=libadwaita-1.10.0-2.fc45.aarch64
+pkg=qt6-qtbase-6.11.2-3.fc45.aarch64
+pkg=qt6-qtdeclarative-6.11.2-3.fc45.aarch64
+pkg=qt6-qtquick3d-6.11.2-1.fc45.aarch64
+pkg=sway-1.12-2.fc45.aarch64

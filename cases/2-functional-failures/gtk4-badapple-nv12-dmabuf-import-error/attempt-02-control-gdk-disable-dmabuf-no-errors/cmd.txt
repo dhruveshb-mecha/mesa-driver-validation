@@ -1,0 +1,1 @@
+GDK_DISABLE=dmabuf python3 ~/gpu-test/scripts/gtk4_demo_sweep.py gl /home/mecha/cases-run/badapple-nodmabuf/artifacts/x 20 "^badapple$"

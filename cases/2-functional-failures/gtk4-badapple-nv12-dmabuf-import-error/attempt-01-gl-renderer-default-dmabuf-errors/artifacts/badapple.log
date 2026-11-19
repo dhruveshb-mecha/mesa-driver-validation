@@ -1,0 +1,64 @@
+
+(gtk4-demo:3341): Gdk-WARNING **: 17:39:38.579: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+Environment variable GSK_RENDERER=gl set, trying GskGLRenderer
+Using renderer 'GskGLRenderer' for surface 'GdkWaylandToplevel'
+** Message: 17:39:39.121: For syntax highlighting, install the “highlight” program
+
+(gtk4-demo:3341): Gdk-WARNING **: 17:39:40.335: Vulkan: ../src/panfrost/vulkan/panvk_physical_device.c:82: failed to open device '' (VK_ERROR_INCOMPATIBLE_DRIVER)
+
+(gtk4-demo:3341): Gdk-WARNING **: 17:39:40.335: Vulkan: ../src/panfrost/vulkan/panvk_physical_device.c:82: failed to open device '' (VK_ERROR_INCOMPATIBLE_DRIVER)
+Using renderer 'GskGLRenderer' for surface 'GdkWaylandToplevel'
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:41.358: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:41.435: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:41.592: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:42.197: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:43.132: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:44.039: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:44.927: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:45.855: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:46.744: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:47.649: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:48.543: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:49.432: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:50.342: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:51.248: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:54.302: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:54.758: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:55.662: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)
+MESA: error: etna_resource_from_handle:1055: BO size 28672 is too small for RS engine height padding (268439552, format PIPE_FORMAT_R8_UNORM)
+
+(gtk4-demo:3341): Gdk-CRITICAL **: 17:39:58.961: Failed to download 128x128 dmabuf texture (format NV12:0x600000000000001)

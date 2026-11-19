@@ -3,11 +3,12 @@
 | case | verdict | attempts |
 |---|---|---|
 | **1. GPU hangs (kernel `recover hung GPU!`)** | | |
-| [`gtk4-path_text-gl-renderer-gpu-hang`](1-gpu-hangs/gtk4-path_text-gl-renderer-gpu-hang/README.md) | GPU HANG | 3 |
+| [`gtk4-path_text-gl-renderer-gpu-hang`](1-gpu-hangs/gtk4-path_text-gl-renderer-gpu-hang/README.md) | GPU HANG | 5 |
 | [`supertuxkart-deferred-lighting-gpu-hang`](1-gpu-hangs/supertuxkart-deferred-lighting-gpu-hang/README.md) | GPU HANG | 2 |
 | [`qt-quick3d-gpu-hang-with-gl33-override`](1-gpu-hangs/qt-quick3d-gpu-hang-with-gl33-override/README.md) | GPU HANG (caveat) | 3 |
 | [`gtk4-shadertoy-gpu-hang-both-renderers`](1-gpu-hangs/gtk4-shadertoy-gpu-hang-both-renderers/README.md) | GPU HANG (needs triage) | 2 |
 | **2. Functional failures and non-Mesa findings** | | |
+| [`gtk4-badapple-nv12-dmabuf-import-error`](2-functional-failures/gtk4-badapple-nv12-dmabuf-import-error/README.md) | FAIL | 2 |
 | [`gles3-msaa-4x-rgba16f-framebuffer-unsupported`](2-functional-failures/gles3-msaa-4x-rgba16f-framebuffer-unsupported/README.md) | FAIL | 2 |
 | [`webgl2-conformance-ext-color-buffer-float-and-sync-timeout`](2-functional-failures/webgl2-conformance-ext-color-buffer-float-and-sync-timeout/README.md) | FAIL | 2 |
 | [`gtk4-gl-renderer-sigsegv-in-dri_drawable_bind_images`](2-functional-failures/gtk4-gl-renderer-sigsegv-in-dri_drawable_bind_images/README.md) | CRASH | 3 |

@@ -8,11 +8,7 @@ Runs the stock `gtk4-demo --run path_text` (Fedora gtk4-devel-tools 4.22.5) with
 ## Result
 `etnaviv-gpu 38000000.gpu: recover hung GPU!` 2 times in the dedicated repro and 2 times in the full GL sweep, offending task `gtk4-demo (gtk4-demo --run path_text)`. The window ends up completely black (screenshot in the artifacts). The board stays up. The project notes record the same result in 3 of 3 repeats; the two harness runs here are the ones that were kept.
 
-## Why it matters
-Best driver-bug candidate from the GTK4 work: a small scene with no heavy shader. In the Cairo sweep (`attempt-03`) `path_text` causes no hang and renders the text on a path correctly. **Note:** both sweeps also contain the `shadertoy` hangs (a separate case), so their kernel sections list shadertoy events too; the `path_text` events are the ones whose offending task names `--run path_text`.
-
-## What to look into
-Reproduce with the command below and identify which GSK GL op (path/text tessellation, stencil, clip) produces the command stream the GPU cannot finish. An etnaviv command stream has not been captured yet.
+With the Cairo renderer (`attempt-03`, `attempt-05`) the same demo does not hang and draws the text along a path. Both sweeps also contain the `shadertoy` hangs (a separate case), so their kernel sections list shadertoy events too; the `path_text` events are the ones whose offending task names `--run path_text`.
 
 ## Command (as run on the Comet)
 ```
@@ -27,8 +23,16 @@ python3 ~/gpu-test/scripts/gtk4_demo_sweep.py gl /tmp/gtk4-demo-repro-path_text-
 | `attempt-01-repro-gl-renderer-hang` | GPU_HANG | 0 | 9.3 | 2 | 75.0 | yes |
 | `attempt-02-sweep-of-111-demos-gl-renderer` | GPU_HANG | 0 | 807.2 | 6 | 74.0 | yes |
 | `attempt-03-control-cairo-renderer-renders-correctly` | GPU_HANG | 0 | 799.0 | 6 | 73.0 | yes |
+| `attempt-04-main-6f23942285e-repro-gl-renderer-hang` | GPU_HANG | 0 | 10 | 1 | 73.0 | no |
+| `attempt-05-main-6f23942285e-control-cairo-renderer-renders-correctly` | RAN_OK | 0 | 9 | 0 | 73.0 | no |
 
 Each attempt folder holds: `cmd.txt`, `stdout.txt`, `stderr.txt`, `kernel.txt` (journal window of that run), `kernel-gpu-events.txt` (etnaviv/DRM lines only), `screenshot.png` where taken, `result.json` (harness record), and `artifacts/` where the test produced extra files. Files over 1 MB are gzipped.
+
+## Later attempts (2026-11-19)
+`attempt-04` and `attempt-05` repeat the single-demo run and the Cairo control on a newer setup: Mesa 27.0.0~devel git `6f23942285e`, GTK 4.24.1, libadwaita 1.10.0, Fedora 45 packages, kernel 7.2.4 (versions in `artifacts/run-info.txt`). The screen was empty before each run, and the command is the same as above with a different output folder.
+
+- GL renderer: one `recover hung GPU!` in the kernel log, offending task `gtk4-demo (gtk4-demo --run path_text)`. At the screenshot (7 seconds in) the window is completely black. The demo is still running.
+- Cairo renderer: no GPU events in the kernel log, and the screenshot shows the text drawn along a curve.
 
 ## Kernel GPU events (etnaviv)
 Lines from the kernel journal window of each attempt, time of day only.
@@ -73,6 +77,17 @@ Lines from the kernel journal window of each attempt, time of day only.
 16:57:35.718354 etnaviv-gpu 38000000.gpu: offending task: gtk4-demo ()
 ```
 
+**attempt-04-main-6f23942285e-repro-gl-renderer-hang**
+```
+17:38:56.249212 etnaviv-gpu 38000000.gpu: recover hung GPU!
+17:38:56.251705 etnaviv-gpu 38000000.gpu: offending task: gtk4-demo (gtk4-demo --run path_text)
+```
+
+**attempt-05-main-6f23942285e-control-cairo-renderer-renders-correctly**
+```
+(no etnaviv or DRM lines)
+```
+
 ## Key lines from the logs
 
 **attempt-01-repro-gl-renderer-hang**
@@ -90,3 +105,12 @@ Lines from the kernel journal window of each attempt, time of day only.
 {"demo": "path_text", "renderer_requested": "cairo", "alive_at_screenshot": true, "early_rc": null, "crashed": false, "warnings": 2, "gtk_renderer": "GskCairoRenderer", "blank": null}
 ```
 
+**attempt-04-main-6f23942285e-repro-gl-renderer-hang**
+```
+{"demo": "path_text", "renderer_requested": "gl", "alive_at_screenshot": true, "early_rc": null, "crashed": false, "warnings": 1, "gtk_renderer": "GskGLRenderer", "blank": null}
+```
+
+**attempt-05-main-6f23942285e-control-cairo-renderer-renders-correctly**
+```
+{"demo": "path_text", "renderer_requested": "cairo", "alive_at_screenshot": true, "early_rc": null, "crashed": false, "warnings": 1, "gtk_renderer": "GskCairoRenderer", "blank": null}
+```

@@ -1,0 +1,1 @@
+python3 ~/gpu-test/scripts/gtk4_demo_sweep.py gl /home/mecha/cases-run/path_text-gl/artifacts/x 7 "^path_text$"

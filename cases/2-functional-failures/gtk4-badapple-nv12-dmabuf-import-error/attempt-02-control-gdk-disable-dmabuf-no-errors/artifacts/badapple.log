@@ -1,0 +1,6 @@
+
+(gtk4-demo:3546): Gdk-WARNING **: 17:40:15.143: Cannot get portal org.freedesktop.portal.Inhibit version: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.Inhibit”
+Environment variable GSK_RENDERER=gl set, trying GskGLRenderer
+Using renderer 'GskGLRenderer' for surface 'GdkWaylandToplevel'
+** Message: 17:40:15.679: For syntax highlighting, install the “highlight” program
+Using renderer 'GskGLRenderer' for surface 'GdkWaylandToplevel'
