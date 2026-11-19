@@ -1,0 +1,8 @@
+app,gpu,uses_gl_libs,isolated,idle_before,surfaces,active_s,active_commits,active_fps,busy_frames,busy_median_ms,busy_p95_ms,busy_fps,pct_le_22,pct_over_25ms,app_cpu_mean,app_cpu_max,sys_busy_mean,foreign_windows_handled,foreign_windows_left,rss_peak_mb,app_killed,drm_clients_max,drm_mem_peak_mib,gpu_hangs,segfault,coredump,gl_errors,notes
+qt3d-cascadedshadowmaps,YES,yes,yes,92,0,25.0,0,0.0,0,,,,,,1.0,26.0,4.0,0,0,164.0,no,1,426.0,1,0,no,2,
+qt3d-hellocube,YES,yes,yes,92,1,25.0,1142,45.7,1141,19.8,39.9,50.4,88.9,11.1,24.0,35.0,15.0,0,0,144.0,no,1,71.0,0,0,no,1,
+qt3d-intro,YES,yes,yes,99,1,25.0,823,32.9,822,38.6,42.0,25.9,46.4,53.5,18.0,33.0,12.0,0,0,129.0,no,1,303.0,0,0,no,2,
+qt3d-lights,YES,yes,yes,92,1,25.0,101,4.0,25,26.0,30.2,38.5,24.0,64.0,4.0,18.0,4.0,0,0,174.0,no,1,282.0,0,0,no,1,
+qt3d-principledmaterial,YES,yes,yes,98,0,25.0,0,0.0,0,,,,,,0.0,0.0,4.0,0,0,242.0,no,1,281.0,1,0,no,1,
+qt3d-reflectionprobes,YES,yes,yes,99,1,25.0,154,6.2,1,45.3,45.3,22.1,0.0,100.0,28.0,33.0,12.0,0,0,183.0,no,1,94.0,1,0,no,1,
+qt3d-sceneeffects,YES,yes,yes,99,0,25.0,0,0.0,0,,,,,,0.0,0.0,3.0,0,0,190.0,no,1,213.0,1,0,no,0,

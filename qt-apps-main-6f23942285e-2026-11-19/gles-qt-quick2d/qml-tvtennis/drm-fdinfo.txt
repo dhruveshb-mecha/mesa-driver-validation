@@ -1,0 +1,32 @@
+== pid 17755 fd 12
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	94
+drm-total-memory:	29832 KiB
+drm-shared-memory:	18 MiB
+drm-resident-memory:	29816 KiB
+== pid 17755 fd 13
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	94
+drm-total-memory:	29832 KiB
+drm-shared-memory:	18 MiB
+drm-active-memory:	12356 KiB
+drm-resident-memory:	29816 KiB
+== pid 17755 fd 14
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	94
+drm-total-memory:	29832 KiB
+drm-shared-memory:	18 MiB
+drm-active-memory:	6 MiB
+drm-resident-memory:	29816 KiB

@@ -1,0 +1,17 @@
+qml-tvtennis: commits_logged=1815
+qml-particles: commits_logged=700
+qml-pathanimation: commits_logged=1211
+qml-sprite: commits_logged=182
+qt-gallery: commits_logged=175
+kirigami-gallery: commits_logged=40
+qt-canvas: NO WINDOW (see raw.log)
+qt-shadereffects: commits_logged=1785
+qt3d-hellocube: NO WINDOW (see raw.log)
+qt3d-intro: NO WINDOW (see raw.log)
+kcalc: commits_logged=513
+konsole: commits_logged=195
+qterminal: commits_logged=138
+kate: commits_logged=163
+okular: commits_logged=742
+dolphin: commits_logged=350
+falkon: commits_logged=693

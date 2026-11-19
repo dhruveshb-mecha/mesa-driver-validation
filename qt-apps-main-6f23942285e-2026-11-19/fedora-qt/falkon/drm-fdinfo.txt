@@ -1,0 +1,99 @@
+== pid 13512 fd 16
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	62
+drm-total-memory:	50008 KiB
+drm-shared-memory:	24 MiB
+drm-resident-memory:	49992 KiB
+== pid 13512 fd 17
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	62
+drm-total-memory:	50008 KiB
+drm-shared-memory:	24 MiB
+drm-resident-memory:	49992 KiB
+== pid 13512 fd 18
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	62
+drm-total-memory:	50008 KiB
+drm-shared-memory:	24 MiB
+drm-resident-memory:	49992 KiB
+== pid 13512 fd 36
+pos:	0
+flags:	0400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	71
+drm-total-memory:	22548 KiB
+drm-shared-memory:	22 MiB
+drm-resident-memory:	22532 KiB
+== pid 13512 fd 37
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	71
+drm-total-memory:	22548 KiB
+drm-shared-memory:	22 MiB
+drm-resident-memory:	22532 KiB
+== pid 13512 fd 38
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	71
+drm-total-memory:	22548 KiB
+drm-shared-memory:	22 MiB
+drm-resident-memory:	22532 KiB
+== pid 13512 fd 49
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	81
+drm-total-memory:	57680 KiB
+drm-shared-memory:	12 MiB
+drm-resident-memory:	57664 KiB
+== pid 13512 fd 50
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	81
+drm-total-memory:	57680 KiB
+drm-shared-memory:	12 MiB
+drm-resident-memory:	57664 KiB
+== pid 13512 fd 53
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	81
+drm-total-memory:	57680 KiB
+drm-shared-memory:	12 MiB
+drm-resident-memory:	57664 KiB
+== pid 13512 fd 57
+pos:	0
+flags:	0400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	82
+drm-total-memory:	0
+drm-shared-memory:	0

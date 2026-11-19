@@ -1,0 +1,18 @@
+app,gpu,uses_gl_libs,isolated,idle_before,surfaces,active_s,active_commits,active_fps,busy_frames,busy_median_ms,busy_p95_ms,busy_fps,pct_le_22,pct_over_25ms,app_cpu_mean,app_cpu_max,sys_busy_mean,foreign_windows_handled,foreign_windows_left,rss_peak_mb,app_killed,drm_clients_max,drm_mem_peak_mib,gpu_hangs,segfault,coredump,gl_errors,notes
+dolphin,NO (CPU raster),yes,yes,99,1,16.1,315,19.5,272,15.6,29.5,64.1,90.8,8.1,57.0,198.0,33.0,0,0,179.0,no,0,0.0,0,0,no,0,
+falkon,YES,yes,yes,99,1,28.1,635,22.6,627,24.6,59.0,40.6,46.6,49.4,43.0,100.0,22.0,0,0,589.0,no,4,184.0,0,0,no,0,
+kate,NO (CPU raster),yes,yes,99,1,35.0,134,3.8,19,53.1,74.5,18.8,26.3,68.4,7.0,18.0,8.0,0,0,161.0,no,0,0.0,0,0,no,0,
+kcalc,NO (CPU raster),yes,yes,99,1,28.8,504,17.5,483,17.8,69.0,56.0,62.7,34.0,7.0,19.0,7.0,0,0,82.0,no,0,0.0,0,0,no,0,
+kirigami-gallery,YES,yes,yes,99,1,18.9,22,1.2,0,,,,,,2.0,12.0,6.0,0,0,186.0,no,1,124.0,0,0,no,0,
+konsole,NO (CPU raster),yes,yes,92,1,22.0,182,8.3,170,56.4,80.3,17.7,18.8,80.6,27.0,112.0,14.0,0,0,113.0,no,0,0.0,0,0,no,0,
+okular,NO (CPU raster),yes,yes,99,1,31.7,715,22.5,689,24.5,79.5,40.8,31.1,46.2,81.0,158.0,34.0,0,0,415.0,no,0,0.0,0,0,no,0,
+qml-particles,YES,yes,yes,99,1,25.0,440,17.6,438,66.3,67.6,15.1,0.0,100.0,22.0,40.0,14.0,0,0,141.0,no,1,39.0,0,0,no,0,
+qml-pathanimation,YES,yes,yes,99,1,25.0,892,35.7,883,19.8,20.8,50.6,99.4,0.6,18.0,31.0,13.0,0,0,135.0,no,1,55.0,0,0,no,0,
+qml-sprite,YES,yes,yes,99,0,25.0,0,0.0,0,,,,,,1.0,19.0,4.0,0,0,148.0,no,1,71.0,0,0,no,0,
+qml-tvtennis,YES,yes,yes,98,1,25.0,1268,50.7,1267,19.7,20.7,50.7,99.8,0.0,23.0,26.0,15.0,0,0,119.0,no,1,37.0,0,0,no,0,
+qt-canvas,n/a (no frames drawn),no,yes,99,,,,,,,,,,,,,,0,0,,no,,,0,0,CHECK,0,no wl_surface.commit logged (no window or app exited)
+qt-gallery,YES,yes,yes,99,1,22.2,165,7.4,144,19.7,24.7,50.7,91.7,4.9,4.0,28.0,7.0,0,0,146.0,no,1,45.0,0,0,no,0,
+qt-shadereffects,YES,yes,yes,99,1,25.2,1278,50.6,1277,19.8,20.7,50.6,99.9,0.0,32.0,39.0,19.0,0,0,149.0,no,1,54.0,0,0,no,0,
+qt3d-hellocube,n/a (no frames drawn),no,yes,99,,,,,,,,,,,,,,0,0,,no,,,0,0,CHECK,0,
+qt3d-intro,n/a (no frames drawn),no,yes,99,,,,,,,,,,,,,,0,0,,no,,,0,0,CHECK,0,
+qterminal,NO (CPU raster),yes,yes,99,1,22.0,120,5.5,114,52.1,57.0,19.2,36.8,62.3,14.0,116.0,9.0,0,0,82.0,no,0,0.0,0,0,no,0,

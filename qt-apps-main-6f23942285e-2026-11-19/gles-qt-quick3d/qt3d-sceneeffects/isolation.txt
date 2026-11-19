@@ -1,0 +1,15 @@
+before_launch: screen_cleared=yes windows_left=0 cpu_idle_pct=99
+windows_before_launch:
+top_cpu_before_launch:
+    PID %CPU COMMAND
+    964  2.3 sway
+  14749  0.3 qt_apps_fps.sh
+   1276  0.2 sh
+    954  0.2 mxsearch
+   1268  0.1 swaybar
+extra_windows_found: none
+after_launch_windows (1):
+17221 io.qt.sceneeffects SceneEffects
+cpu_idle_check_note: app is running; see metrics.csv
+final_windows (1):
+17221 io.qt.sceneeffects SceneEffects

@@ -1,0 +1,2 @@
+cd ~/gtk4-apps   # scripts/qt_apps_fps.sh, qt_apps_analyze.py and gtk4_apps_metrics.py copied here
+QE=$HOME/qt6-gles-ex EXTRA_ENV="QT_QPA_PLATFORM=wayland QT_PLUGIN_PATH=/opt/qt6-gles/plugins QML_IMPORT_PATH=/opt/qt6-gles/qml" ./qt_apps_fps.sh ~/qt-final-gles-3d qt3d-hellocube qt3d-intro qt3d-lights qt3d-principledmaterial qt3d-reflectionprobes qt3d-cascadedshadowmaps qt3d-sceneeffects

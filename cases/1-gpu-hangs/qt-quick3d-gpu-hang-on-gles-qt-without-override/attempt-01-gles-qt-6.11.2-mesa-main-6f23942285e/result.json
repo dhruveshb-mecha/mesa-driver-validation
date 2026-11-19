@@ -1,0 +1,9 @@
+{
+ "id": "toolkit.qt.quick3d-gles-qt-run",
+ "status": "GPU_HANG",
+ "rc": 0,
+ "timed_out": false,
+ "duration_s": 331,
+ "expected": "pass",
+ "metrics": {}
+}

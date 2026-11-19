@@ -1,0 +1,8 @@
+18:00:31 etnaviv-gpu 38000000.gpu: recover hung GPU!
+18:00:31 etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/home/mecha/qt6-gles-ex/quick3d/cascadedshadowmaps/bin/cascadedshadowmaps)
+17:58:52 etnaviv-gpu 38000000.gpu: recover hung GPU!
+17:58:52 etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/home/mecha/qt6-gles-ex/quick3d/principledmaterial/bin/principledmaterial)
+17:59:41 etnaviv-gpu 38000000.gpu: recover hung GPU!
+17:59:41 etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/home/mecha/qt6-gles-ex/quick3d/reflectionprobes/bin/reflectionprobes)
+18:01:20 etnaviv-gpu 38000000.gpu: recover hung GPU!
+18:01:20 etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/home/mecha/qt6-gles-ex/quick3d/sceneeffects/bin/sceneeffects)

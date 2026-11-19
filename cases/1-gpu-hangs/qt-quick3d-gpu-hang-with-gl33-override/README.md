@@ -1,6 +1,6 @@
 # Qt 6.11.2 Quick 3D examples hang the GPU (runs with an unsupported GL 3.3 override)
 
-**Verdict:** GPU HANG (caveat)
+**Verdict:** GPU HANG
 
 ## What was run
 `validate-qt` smoke-runs the stock Qt Quick 2D/3D examples. Fedora's Qt6 has no GLES backend and etnaviv exposes desktop GL 2.1, so the test forces `MESA_GL_VERSION_OVERRIDE=3.3 MESA_GLSL_VERSION_OVERRIDE=330`.
@@ -8,11 +8,7 @@
 ## Result
 4-5 `recover hung GPU!` events per run in 3 independent runs, offending task `QSGRenderThread` of the Quick 3D examples principledmaterial, reflectionprobes, cascadedshadowmaps, sceneeffects. The board stays up. The validator prints PASS/WARN for those examples; only the kernel log shows the hangs.
 
-## Why it matters
-**Caveat to state whenever this is reported:** the override is an unsupported configuration, the hang may be an artifact of it. Not reportable as an ES 3.0 bug until reproduced with a Qt built with `-opengl es2`. For context, with the override Quick 3D is ~4x faster than llvmpipe (24.7 vs 5.9 fps, 16 PBR spheres) and Quick 2D is 24.0 vs 18.7 fps.
-
-## What to look into
-Nothing until retested: rebuild Qt for GLES and rerun without the override. After that, a command-stream capture of the failing frame is the thing to take.
+With the override, Quick 3D ran at 24.7 fps against 5.9 fps on llvmpipe (16 PBR spheres), and Quick 2D at 24.0 against 18.7 fps. The same examples were also run on a Qt built for OpenGL ES without any override: [`qt-quick3d-gpu-hang-on-gles-qt-without-override`](../qt-quick3d-gpu-hang-on-gles-qt-without-override/README.md).
 
 ## Command (as run on the Comet)
 ```

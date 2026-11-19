@@ -1,0 +1,15 @@
+before_launch: screen_cleared=yes windows_left=0 cpu_idle_pct=99
+windows_before_launch:
+top_cpu_before_launch:
+    PID %CPU COMMAND
+   6020  300 ps
+    964  1.7 sway
+   3749  0.4 qt_apps_fps.sh
+    954  0.2 mxsearch
+   1276  0.2 sh
+extra_windows_found: none
+after_launch_windows (1):
+6032 org.kde.kirigami2.gallery Kirigami_Gallery
+cpu_idle_check_note: app is running; see metrics.csv
+final_windows (1):
+6032 org.kde.kirigami2.gallery Kirigami_Gallery

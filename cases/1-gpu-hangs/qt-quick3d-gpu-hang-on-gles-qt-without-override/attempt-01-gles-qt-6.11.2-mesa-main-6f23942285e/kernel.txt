@@ -1,0 +1,42 @@
+## qt3d-cascadedshadowmaps
+# kernel log lines during run
+Nov 19 18:00:31 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 19 18:00:31 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/home/mecha/qt6-gles-ex/quick3d/cascadedshadowmaps/bin/cascadedshadowmaps)
+# coredumps
+No coredumps found.
+
+## qt3d-hellocube
+# kernel log lines during run
+# coredumps
+No coredumps found.
+
+## qt3d-intro
+# kernel log lines during run
+# coredumps
+No coredumps found.
+
+## qt3d-lights
+# kernel log lines during run
+# coredumps
+No coredumps found.
+
+## qt3d-principledmaterial
+# kernel log lines during run
+Nov 19 17:58:52 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 19 17:58:52 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/home/mecha/qt6-gles-ex/quick3d/principledmaterial/bin/principledmaterial)
+# coredumps
+No coredumps found.
+
+## qt3d-reflectionprobes
+# kernel log lines during run
+Nov 19 17:59:41 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 19 17:59:41 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/home/mecha/qt6-gles-ex/quick3d/reflectionprobes/bin/reflectionprobes)
+# coredumps
+No coredumps found.
+
+## qt3d-sceneeffects
+# kernel log lines during run
+Nov 19 18:01:20 comet kernel: etnaviv-gpu 38000000.gpu: recover hung GPU!
+Nov 19 18:01:20 comet kernel: etnaviv-gpu 38000000.gpu: offending task: QSGRenderThread (/home/mecha/qt6-gles-ex/quick3d/sceneeffects/bin/sceneeffects)
+# coredumps
+No coredumps found.

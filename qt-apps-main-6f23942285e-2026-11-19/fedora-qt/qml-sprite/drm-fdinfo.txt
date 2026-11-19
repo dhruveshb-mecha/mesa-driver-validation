@@ -1,0 +1,30 @@
+== pid 5067 fd 20
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	56
+drm-total-memory:	72636 KiB
+drm-shared-memory:	33 MiB
+drm-resident-memory:	72572 KiB
+== pid 5067 fd 21
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	56
+drm-total-memory:	72636 KiB
+drm-shared-memory:	33 MiB
+drm-resident-memory:	72572 KiB
+== pid 5067 fd 22
+pos:	0
+flags:	02400002
+mnt_id:	41
+ino:	272
+drm-driver:	etnaviv
+drm-client-id:	56
+drm-total-memory:	72636 KiB
+drm-shared-memory:	33 MiB
+drm-resident-memory:	72572 KiB

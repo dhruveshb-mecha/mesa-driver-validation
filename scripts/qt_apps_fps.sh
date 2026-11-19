@@ -21,7 +21,7 @@ ACTIVE_SECS=${ACTIVE_SECS:-25}
 SETTLE_SECS=${SETTLE_SECS:-6}
 EXTRA_ENV=${EXTRA_ENV:-}
 QE=${QE:-/usr/lib64/qt6/examples}
-QB=/usr/lib64/qt6/bin
+QB=${QB:-/usr/lib64/qt6/bin}
 
 now() { date -u +%H:%M:%S.%3N; }   # WAYLAND_DEBUG timestamps are UTC
 python3 - "$OUT/assets" <<'PY'

@@ -1,0 +1,6 @@
+      4 /opt/qt6-gles/lib/libQt6Quick.so.6.11.2
+      4 /opt/qt6-gles/lib/libQt6Widgets.so.6.11.2
+      4 /usr/lib64/libEGL.so.1.1.0
+      4 /usr/lib64/libEGL_mesa.so.0.0.0
+      4 /usr/lib64/libGLESv2.so.2.1.0
+      4 /usr/lib64/libgallium-27.0.0-devel.so

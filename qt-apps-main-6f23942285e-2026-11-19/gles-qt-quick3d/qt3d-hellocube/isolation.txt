@@ -1,0 +1,15 @@
+before_launch: screen_cleared=yes windows_left=0 cpu_idle_pct=92
+windows_before_launch:
+top_cpu_before_launch:
+    PID %CPU COMMAND
+  14930  200 ps
+    964  2.4 sway
+  14749  0.8 qt_apps_fps.sh
+  11299  0.3 kwalletd6
+  11307  0.3 ksecretd
+extra_windows_found: none
+after_launch_windows (1):
+14942 hellocube hellocube
+cpu_idle_check_note: app is running; see metrics.csv
+final_windows (1):
+14942 hellocube hellocube
